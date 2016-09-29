@@ -1,0 +1,12 @@
+---
+
+date: 2005-11-28 17:14:45+00:00
+layout: post
+title: The Micro-Brew model
+---
+
+Here's something I was thinking about last night.  Why is it that in Canada we have many industries where consumers are faced with oligopolies?  For example, you can choose Bell or Telus for phones, Bell or Satellite for television, CTV or CBC or Global for content, etc.  Often we as consumers are told, "look at the great products available under our wonderful regulated system!".  Frankly, the reality is very little choice exists.  I can choose Rogers or Bell for my internet high-speed.  I can choose among 4 cellphone providers.  I can't choose who delivers my electricity.  I can choose who provides me auto insurance, but there the so-called free market is in reality an opportunity for profit-driven companies to take advantage of consumers with no information (or too much, as Gladwell has discussed).
+
+What I find interesting is that this oligopolistic system doesn't have to be this way.  I was struck by the fact that the beer market was traditionally dominated by Labatt's and Molson. Yet, in the 1980s or so, a few separate individuals began to make their own beer, using high-quality ingredients, no preservatives, and a lot of skill.  Now we have extremely good local breweries -- Steam Whistle, Granville Island, Vancouver Island -- that compete successfully with the big boys.  Couldn't this type of approach work elsewhere?  I'm thinking of cell phone service.  The main providers all seem to be in bed with one another, matching prices and features almost as if there was a monthly meeting.  It seems to me that the only obstacle to some independent is the need to go through years of painful regulatory approval, time in which your deep-pocketed competitors can bury you with paperwork and steal any innovation you once had.  What about peer-to-peer calling?  Or Mobile base stations?  These are worth experimenting with, but the real cost is the regulatory approval hurdle.
+
+I think the micro-brewery example is interesting in the software space as well.  For example, in search we have 2 or 3 huge companies dominating everything.  But what's to say a better product (not much better, just better for a subset of the market) couldn't take a small share of that pie? To some extent this does happen; I would assume this is due to a relatively low barrier to entry for a software solution -- no regulation, just a bandwidth cost. Anyone can open up a search page, and the users can vote to come with their browsers, or not.

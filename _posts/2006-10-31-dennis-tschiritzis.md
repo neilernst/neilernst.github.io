@@ -1,0 +1,14 @@
+---
+
+date: 2006-10-31 19:34:32+00:00
+layout: post
+title: Dennis Tsichritzis
+---
+
+[Dennis Tsichritzis](http://www.fraunhofer.org/Headquarter%20Staff/Tsichritzis.html), head of [Fraunhofer USA](http://www.fraunhofer.org/), gave a talk on, roughly, directions for CS research programs. GadgetMan [gives a detailed summary](http://www.imedia.mie.utoronto.ca/~achin/blog/2006/10/markets-products-and-us-u-of-t-talk.html). I think Dennis's essential argument was that ivory tower syndrome is bad, and that to stay relevant, CS departments need to seek out collaboration opportunities and focus more on solutions. In discussion after the talk, [Markus](http://www.google.ca/url?sa=t&ct=res&cd=1&url=http%3A%2F%2Fwww.cs.toronto.edu%2F~mstrohm%2F&ei=DaFHRY76CqKepALGpuCFCg&usg=__QWf1hno4O3B58HNJ2I7XDgd0PdU=&sig2=O_sEsXKcxjZUjQXAczkoAA) pointed out that this is the very purpose of Fraunhofer -- to advance research implementations -- solution delivery, in the current phrasing.
+
+I think there's a continuum here, from problem identification to solution delivery. Markus (with an Austrian perspective) believes the big advantage in North American institutions is the very focus on problems, rather than solutions. He argues for a longer time frame for research, than IBM, for one, is willing to extend.
+
+A challenge in collaboration, which I think many CS faculty are wary of, is being seen as purely infrastructure, much like statistical analysis might be -- a tool a biologist can use, rather than a collaborator. There seems to be a distinction that exists between applied research and partnerships. One might apply data mining technology, but partner with data mining researchers to devise new solutions.
+
+Dennis's first few slides considered the scientific method. The first approach he mentioned was opportunistic and problem focused, which, he said, was the basis for the modern structure of universities. I think that's still the way to go for universities. The best of both worlds is a) solution-focused, which takes a problem (an itch if you will) and focuses on solving it, where the problems may be driven by real-world experience; and b) problem-focused, which is more exploratory, looking down the road, posing what-if scenarios, etc.  This last approach annoys a lot of pragmatists, and it definitely has a downside (not least of which is deciding meaningful criteria for progress if nothing that 'works' can be shown). However, I think society often discounts pure research too much. It may be difficult to point to specific results, per se. Nonetheless, some of the hare-brained ideas we discount now might well be quite relevant a few decades on (quantum computing, perhaps?).

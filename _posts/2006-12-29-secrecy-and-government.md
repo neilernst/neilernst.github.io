@@ -1,0 +1,15 @@
+---
+
+date: 2006-12-29 22:20:21+00:00
+layout: post
+title: Secrecy and government
+---
+
+There was a great podcast series from CBC Ideas: ["The Cold War Declassified"](http://www.radio.cbc.ca/programs/ideas/podcast.html). In it, historian [Robert Johnson](http://www.utm.utoronto.ca/~rjohnson/) examines the state of knowledge about government actions during the cold war period. He looks at actions like the Chinese-Soviet-North Korean pact that resulted in the [Korean War](http://en.wikipedia.org/wiki/Korean_War), Russian decisions about Hungary and Yugoslavia, and finally, the state of secrecy in the West, particularly the U.S., the [US-backed coup in Guatemala](http://en.wikipedia.org/wiki/Guatemala#Modern_period), and the Watergate scandal and [Pentagon papers](http://en.wikipedia.org/wiki/Pentagon_Papers).
+
+The question at the heart of this series is what is should governments keep secret. For example, Johnson interviews historians and archivists in the U.S. about the Guatemala affair in 1954. The amazing amount of red tape and nonsense justifications the various agencies have used to justify the continued secrecy is astounding. And this for an event that is 50 years old, in a country that is insignificant politically, and in the U.S.A., possibly the most open country ever. The only reasonable conclusion is that the government keeps it a secret because they are embarrassed by how badly the operation has turned out.
+
+Clearly government should keep certain cards close to its chest, such as military strategy, or diplomatic negotiating leverage. However, the series shows pretty conclusively that a lot of the bad things in the Cold War have occurred because of misinformation and half-truths. For example, the Chinese and Soviets didn't really agree on the North Korean war, but showed a united front to the 'expert' analysis of the CIA and other agencies.
+
+With regard to Canada, it's hard not to conclude, especially after the [Arar affair](http://en.wikipedia.org/wiki/Maher_Arar), that Canadian personnel in Foreign Affairs and CSIS are more concerned about image than truth. I imagine cohorts of senior management meeting just to decide press strategy and [Freedom of Information](http://www.justice.gc.ca/en/ps/atip/index.html) requests.  Certainly their track record is pretty abysmal on stopping terrorists.  And if it isn't, what's the harm in letting the public know? Usually the defence is the old "[you can't handle the truth](http://www.youtube.com/watch?v=ylDkY9RiE30)" line. But militaries and espionage types have been feeding us that one for a long time. I suspect it's more for their own troops than for public consumption.
+At any rate, a great series that really sheds some interesting light on government, the citizenry, and secrecy. Ironically, CBC (a government body) takes the audio files offline  after 4 weeks, so hurry up and download them.
