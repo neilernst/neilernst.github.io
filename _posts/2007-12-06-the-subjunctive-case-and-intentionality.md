@@ -1,7 +1,6 @@
 ---
 
 date: 2007-12-06 15:40:32+00:00
-layout: post
 title: The subjunctive case and intentionality
 tags:
 - french

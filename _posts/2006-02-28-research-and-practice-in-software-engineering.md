@@ -1,7 +1,6 @@
 ---
 
 date: 2006-02-28 23:22:33+00:00
-layout: post
 title: Research and practice in software engineering
 ---
 

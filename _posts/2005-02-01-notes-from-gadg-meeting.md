@@ -1,7 +1,6 @@
 ---
 
 date: 2005-02-01 22:38:45+00:00
-layout: post
 title: Notes from GADG meeting
 ---
 

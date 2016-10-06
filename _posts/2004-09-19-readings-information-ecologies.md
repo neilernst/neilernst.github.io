@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-19 23:16:33+00:00
-layout: post
 title: 'Readings: Information Ecologies'
 ---
 

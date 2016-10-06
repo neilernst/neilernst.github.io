@@ -1,7 +1,6 @@
 ---
 
 date: 2003-04-03 19:43:38+00:00
-layout: post
 title: Up and running at long last..
 ---
 

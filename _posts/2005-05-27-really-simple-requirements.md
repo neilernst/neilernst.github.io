@@ -1,7 +1,6 @@
 ---
 
 date: 2005-05-27 22:17:45+00:00
-layout: post
 title: Really Simple Requirements
 ---
 

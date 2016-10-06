@@ -1,7 +1,6 @@
 ---
 
 date: 2007-06-07 16:56:15+00:00
-layout: post
 title: Experimenting with a Flickr photo browser
 ---
 

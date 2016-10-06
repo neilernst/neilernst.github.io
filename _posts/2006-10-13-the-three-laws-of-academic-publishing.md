@@ -1,7 +1,6 @@
 ---
 
 date: 2006-10-13 18:10:18+00:00
-layout: post
 title: The Three Laws of Academic Publishing
 ---
 

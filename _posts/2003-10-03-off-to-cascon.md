@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-03 20:20:20+00:00
-layout: post
 title: Off to CASCON
 ---
 

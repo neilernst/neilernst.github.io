@@ -1,7 +1,6 @@
 ---
 
 date: 2005-06-14 02:00:49+00:00
-layout: post
 title: Kunstler on Google
 ---
 

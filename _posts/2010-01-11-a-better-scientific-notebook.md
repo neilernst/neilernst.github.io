@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-11 17:00:27+00:00
-layout: post
 title: A better scientific notebook
 tags:
 - msr

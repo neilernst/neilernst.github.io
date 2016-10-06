@@ -1,7 +1,6 @@
 ---
 
 date: 2009-06-18 18:53:10+00:00
-layout: post
 title: Toyota and lean software development
 tags:
 - kanban

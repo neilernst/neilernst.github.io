@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-29 14:43:58+00:00
-layout: post
 title: Adam Bosworth’s thinking on where the innovation is
 ---
 

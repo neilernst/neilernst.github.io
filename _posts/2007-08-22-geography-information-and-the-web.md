@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-22 02:32:23+00:00
-layout: post
 title: Geography, information, and the web
 tags:
 - geospatial_data

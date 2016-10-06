@@ -1,7 +1,6 @@
 ---
 
 date: 2003-01-30 16:31:00+00:00
-layout: post
 title: Shrimp-bib project
 ---
 

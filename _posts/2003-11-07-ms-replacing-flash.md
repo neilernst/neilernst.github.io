@@ -1,7 +1,6 @@
 ---
 
 date: 2003-11-07 19:51:30+00:00
-layout: post
 title: MS replacing Flash?
 ---
 

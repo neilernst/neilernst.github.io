@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-12 14:20:31+00:00
-layout: post
 title: 'Paper: On Visualizing the Semantic Web with MS Office'
 ---
 

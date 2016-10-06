@@ -1,7 +1,6 @@
 ---
 
 date: 2007-12-06 15:33:47+00:00
-layout: post
 title: Corporate kudos
 tags:
 - hp

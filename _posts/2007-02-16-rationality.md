@@ -1,7 +1,6 @@
 ---
 
 date: 2007-02-16 17:06:39+00:00
-layout: post
 title: Rationality
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-02-05 02:48:00+00:00
-layout: post
 title: Keepin’ Up Wit’ Dave
 ---
 

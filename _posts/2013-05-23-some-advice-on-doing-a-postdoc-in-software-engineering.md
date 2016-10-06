@@ -1,7 +1,6 @@
 ---
 
 date: 2013-05-23 16:14:18+00:00
-layout: post
 title: Some Advice on Doing a PostDoc in Software Engineering
 ---
 

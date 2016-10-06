@@ -1,7 +1,6 @@
 ---
 
 date: 2006-11-09 22:20:27+00:00
-layout: post
 title: Multi-Agent systems and service-oriented computing
 ---
 

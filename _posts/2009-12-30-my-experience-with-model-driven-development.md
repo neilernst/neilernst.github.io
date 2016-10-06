@@ -1,7 +1,6 @@
 ---
 
 date: 2009-12-30 19:08:32+00:00
-layout: post
 title: My experience with model-driven development
 tags:
 - eclipse

@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-04 03:47:51+00:00
-layout: post
 title: Clarity of purpose
 tags:
 - rowing

@@ -1,7 +1,6 @@
 ---
 
 date: 2008-12-02 19:38:42+00:00
-layout: post
 title: Alan Kay on computer science
 tags:
 - alan kay

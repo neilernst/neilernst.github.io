@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-14 16:55:36+00:00
-layout: post
 title: 'MSR: non-functional requirements over time'
 tags:
 - iso9126

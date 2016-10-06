@@ -1,7 +1,6 @@
 ---
 
 date: 2005-10-05 21:02:38+00:00
-layout: post
 title: Exploring policies in software
 ---
 

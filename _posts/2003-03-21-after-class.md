@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-21 01:05:36+00:00
-layout: post
 title: After class…
 ---
 

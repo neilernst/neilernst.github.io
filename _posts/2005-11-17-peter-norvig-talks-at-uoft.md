@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-17 03:16:12+00:00
-layout: post
 title: Peter Norvig talks at UofT
 ---
 

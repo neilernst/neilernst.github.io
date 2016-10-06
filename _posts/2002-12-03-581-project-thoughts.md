@@ -1,7 +1,6 @@
 ---
 
 date: 2002-12-03 21:37:00+00:00
-layout: post
 title: 581 Project Thoughts
 ---
 

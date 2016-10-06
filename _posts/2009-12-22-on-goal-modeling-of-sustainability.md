@@ -1,7 +1,6 @@
 ---
 
 date: 2009-12-22 15:35:01+00:00
-layout: post
 title: On goal modeling of sustainability
 tags:
 - goal-modeling

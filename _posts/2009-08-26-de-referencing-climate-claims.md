@@ -1,7 +1,6 @@
 ---
 
 date: 2009-08-26 05:05:55+00:00
-layout: post
 title: De-referencing climate claims
 tags:
 - climate change

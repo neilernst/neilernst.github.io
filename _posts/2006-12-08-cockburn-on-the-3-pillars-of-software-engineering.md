@@ -1,7 +1,6 @@
 ---
 
 date: 2006-12-08 23:32:38+00:00
-layout: post
 title: Cockburn on the 3 pillars of software engineering
 ---
 

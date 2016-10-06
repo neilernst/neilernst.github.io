@@ -1,7 +1,6 @@
 ---
 
 date: 2015-07-27 13:41:35+00:00
-layout: post
 title: A Field Study of Technical Debt
 ---
 

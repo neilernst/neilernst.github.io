@@ -1,7 +1,6 @@
 ---
 
 date: 2012-03-28 20:52:44+00:00
-layout: post
 title: Requirements tools and tasks
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-09-19 16:59:00+00:00
-layout: post
 title: 'Blogging: Fun or Forced?'
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-28 20:23:31+00:00
-layout: post
 title: Freaky Friday
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2011-06-14 10:11:03+00:00
-layout: post
 published: false
 title: On innovation in software development
 ---

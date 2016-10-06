@@ -1,7 +1,6 @@
 ---
 
 date: 2012-12-19 16:40:40+00:00
-layout: post
 title: A stitch in time...
 ---
 

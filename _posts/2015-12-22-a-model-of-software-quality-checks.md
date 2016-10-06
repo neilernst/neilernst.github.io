@@ -1,7 +1,6 @@
 ---
 
 date: 2015-12-22 18:03:55+00:00
-layout: post
 title: A Model of Software Quality Checks
 ---
 

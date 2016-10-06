@@ -1,7 +1,6 @@
 ---
 
 date: 2011-04-11 16:01:28+00:00
-layout: post
 title: Big Requirements Up Front?
 tags:
 - agile

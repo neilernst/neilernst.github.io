@@ -1,7 +1,6 @@
 ---
 
 date: 2009-03-12 18:11:00+00:00
-layout: post
 title: Why a Ph.D. is like ice climbing
 tags:
 - research climbing

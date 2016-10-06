@@ -1,7 +1,6 @@
 ---
 
 date: 2004-02-02 13:40:14+00:00
-layout: post
 title: Searching and Markup
 ---
 

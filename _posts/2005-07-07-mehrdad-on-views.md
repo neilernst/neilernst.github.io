@@ -1,7 +1,6 @@
 ---
 
 date: 2005-07-07 17:18:46+00:00
-layout: post
 title: Mehrdad on Views
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-07 03:58:34+00:00
-layout: post
 title: Supporting student coding
 tags:
 - drproject

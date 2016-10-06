@@ -1,7 +1,6 @@
 ---
 
 date: 2010-06-09 14:44:25+00:00
-layout: post
 title: Climate models and computing talk with Balaji
 tags:
 - climate

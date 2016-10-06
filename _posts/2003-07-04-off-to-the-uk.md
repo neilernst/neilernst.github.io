@@ -1,7 +1,6 @@
 ---
 
 date: 2003-07-04 23:35:12+00:00
-layout: post
 title: Off to the UK
 ---
 

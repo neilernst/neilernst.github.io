@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-23 17:40:52+00:00
-layout: post
 title: 'MSR: external events'
 tags:
 - evolution

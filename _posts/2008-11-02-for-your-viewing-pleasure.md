@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-02 18:08:47+00:00
-layout: post
 title: For your viewing pleasure ...
 tags:
 - hansberry

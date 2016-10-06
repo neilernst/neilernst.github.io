@@ -1,7 +1,6 @@
 ---
 
 date: 2003-09-11 15:51:00+00:00
-layout: post
 title: Combining customization and visualization in Jambalaya
 ---
 

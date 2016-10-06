@@ -1,7 +1,6 @@
 ---
 
 date: 2006-04-02 22:01:16+00:00
-layout: post
 title: Model drift
 ---
 

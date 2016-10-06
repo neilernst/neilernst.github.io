@@ -54,7 +54,6 @@ excerpt: 'There''s an interesting article up from the New Yorker on, among other
   needs to be more adaptive to these cases, more tolerant of the outliers -- because
   while they may indeed be useless anomalies, a misfire of some sensor, they could
   also be important edge cases.'
-layout: post
 title: Better pictures mean more you don't understand
 ---
 

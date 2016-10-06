@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-29 16:29:05+00:00
-layout: post
 title: 'Reading: Adaptation and mobility in wireless information systems'
 ---
 

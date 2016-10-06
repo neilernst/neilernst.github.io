@@ -1,7 +1,6 @@
 ---
 
 date: 2012-06-21 21:01:57+00:00
-layout: post
 title: 'ICSE 2012 Thoughts (1): Saskia Sassen Keynote'
 tags:
 - ICSE2012

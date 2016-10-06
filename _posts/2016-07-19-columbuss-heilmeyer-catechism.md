@@ -1,7 +1,6 @@
 ---
 
 date: 2016-07-19 16:49:13+00:00
-layout: post
 title: Columbus's Heilmeyer Catechism
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-05-28 14:32:03+00:00
-layout: post
 title: Testing out the HTML area support
 ---
 

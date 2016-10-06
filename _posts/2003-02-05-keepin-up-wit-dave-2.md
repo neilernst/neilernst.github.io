@@ -21,7 +21,6 @@ excerpt: 'Today was CD-sales day, sold 75 cds for 150 bucks. The music industry 
   Polly and I continue to meld the framework for Shrimp-bib like two trained blacksmiths
   working iron. We are trying to figure out the best way to build a distributed knowledge
   base. See her page for details.'
-layout: post
 title: Keepin' Up Wit' Dave
 ---
 

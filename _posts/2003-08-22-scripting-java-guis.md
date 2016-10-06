@@ -1,7 +1,6 @@
 ---
 
 date: 2003-08-22 21:20:00+00:00
-layout: post
 title: Scripting Java GUIs
 ---
 

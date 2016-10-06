@@ -1,7 +1,6 @@
 ---
 
 date: 2003-05-22 17:20:03+00:00
-layout: post
 title: Site fixes
 ---
 

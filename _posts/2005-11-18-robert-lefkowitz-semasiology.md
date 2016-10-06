@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-18 22:21:45+00:00
-layout: post
 title: 'Robert Lefkowitz: Semasiology'
 ---
 

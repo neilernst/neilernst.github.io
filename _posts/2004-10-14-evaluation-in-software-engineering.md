@@ -1,7 +1,6 @@
 ---
 
 date: 2004-10-14 12:59:11+00:00
-layout: post
 title: Evaluation in software engineering
 ---
 

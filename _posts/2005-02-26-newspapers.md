@@ -1,7 +1,6 @@
 ---
 
 date: 2005-02-26 17:45:39+00:00
-layout: post
 title: Newspapers
 ---
 

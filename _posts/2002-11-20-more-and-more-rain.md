@@ -1,7 +1,6 @@
 ---
 
 date: 2002-11-20 00:01:00+00:00
-layout: post
 title: More and More Rain
 ---
 

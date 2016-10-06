@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-23 09:19:49+00:00
-layout: post
 title: More thoughts on evaluation
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2016-03-07 20:56:41+00:00
-layout: post
 title: On Using Open Data in Software Engineering
 ---
 

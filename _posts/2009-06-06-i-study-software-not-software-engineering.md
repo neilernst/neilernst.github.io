@@ -1,7 +1,6 @@
 ---
 
 date: 2009-06-06 04:45:04+00:00
-layout: post
 title: I study software, not software engineering
 tags:
 - nasa

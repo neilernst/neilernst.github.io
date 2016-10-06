@@ -1,7 +1,6 @@
 ---
 
 date: 2005-09-21 17:15:14+00:00
-layout: post
 title: 'Colloquium: Pamela Zave'
 ---
 

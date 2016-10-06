@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-24 18:53:48+00:00
-layout: post
 title: An explanation for UML usage statistics?
 tags:
 - complexity

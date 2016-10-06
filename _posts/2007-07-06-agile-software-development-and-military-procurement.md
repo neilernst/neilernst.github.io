@@ -1,7 +1,6 @@
 ---
 
 date: 2007-07-06 20:19:24+00:00
-layout: post
 title: Agile software development and military procurement
 tags:
 - agile

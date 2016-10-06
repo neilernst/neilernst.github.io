@@ -1,7 +1,6 @@
 ---
 
 date: 2003-09-18 17:16:00+00:00
-layout: post
 title: The open university campus bus stop
 ---
 

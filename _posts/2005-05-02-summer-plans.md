@@ -1,7 +1,6 @@
 ---
 
 date: 2005-05-02 21:10:42+00:00
-layout: post
 title: Summer plans
 ---
 

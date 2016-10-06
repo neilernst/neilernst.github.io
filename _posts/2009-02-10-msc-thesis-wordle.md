@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-10 21:49:26+00:00
-layout: post
 title: M.Sc. thesis wordle
 tags:
 - jambalaya

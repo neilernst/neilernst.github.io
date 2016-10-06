@@ -1,7 +1,6 @@
 ---
 
 date: 2003-02-27 19:02:00+00:00
-layout: post
 title: The return
 ---
 

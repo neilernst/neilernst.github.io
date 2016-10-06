@@ -1,7 +1,6 @@
 ---
 
 date: 2012-07-19 17:38:17+00:00
-layout: post
 title: 'The Trouble with Data Mining in Software Engineering  '
 tags:
 - data mining

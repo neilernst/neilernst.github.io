@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-06 16:21:10+00:00
-layout: post
 title: Data and science in enterprise computing
 tags:
 - IT

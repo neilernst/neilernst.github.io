@@ -1,7 +1,6 @@
 ---
 
 date: 2003-02-20 00:08:00+00:00
-layout: post
 title: First Day of Meetings
 ---
 

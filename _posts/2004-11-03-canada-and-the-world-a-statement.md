@@ -1,7 +1,6 @@
 ---
 
 date: 2004-11-03 13:24:11+00:00
-layout: post
 title: 'Canada and the world: a statement'
 ---
 

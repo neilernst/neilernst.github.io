@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-18 00:46:24+00:00
-layout: post
 title: Requirements and agility
 tags:
 - agile

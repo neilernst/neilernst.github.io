@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-14 01:08:16+00:00
-layout: post
 title: Notes on Kingwell's "Better Living"
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-17 13:57:30+00:00
-layout: post
 title: The joys of open-source development
 ---
 

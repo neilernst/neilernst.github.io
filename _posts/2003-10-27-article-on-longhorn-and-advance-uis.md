@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-27 16:55:11+00:00
-layout: post
 title: Article on Longhorn and advance UIs
 ---
 

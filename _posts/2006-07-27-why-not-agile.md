@@ -1,7 +1,6 @@
 ---
 
 date: 2006-07-27 22:07:28+00:00
-layout: post
 title: Why (Not) Agile?
 ---
 

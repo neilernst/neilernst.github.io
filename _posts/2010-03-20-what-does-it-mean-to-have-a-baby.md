@@ -1,7 +1,6 @@
 ---
 
 date: 2010-03-20 03:47:02+00:00
-layout: post
 published: false
 title: What does it mean to have a baby?
 tags:

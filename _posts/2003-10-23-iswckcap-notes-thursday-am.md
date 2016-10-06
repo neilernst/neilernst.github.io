@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-23 09:49:23+00:00
-layout: post
 title: ISWC/KCAP notes - Thursday a.m.
 ---
 

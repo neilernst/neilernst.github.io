@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-14 11:28:42+00:00
-layout: post
 title: Latex Hints, Tips, Links
 ---
 

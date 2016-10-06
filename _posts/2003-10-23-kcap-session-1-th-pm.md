@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-23 13:13:52+00:00
-layout: post
 title: KCAP session 1 - TH pm
 ---
 

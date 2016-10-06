@@ -1,7 +1,6 @@
 ---
 
 date: 2006-01-08 23:01:46+00:00
-layout: post
 title: My dangerous idea
 ---
 

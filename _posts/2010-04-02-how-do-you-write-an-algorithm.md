@@ -1,7 +1,6 @@
 ---
 
 date: 2010-04-02 17:25:11+00:00
-layout: post
 title: How do you write an algorithm?
 tags:
 - fmri

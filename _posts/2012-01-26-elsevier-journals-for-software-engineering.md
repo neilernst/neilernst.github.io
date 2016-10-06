@@ -1,7 +1,6 @@
 ---
 
 date: 2012-01-26 08:17:33+00:00
-layout: post
 title: Elsevier Journals for Software Engineering
 ---
 

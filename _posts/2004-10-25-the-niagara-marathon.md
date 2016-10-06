@@ -1,7 +1,6 @@
 ---
 
 date: 2004-10-25 15:16:23+00:00
-layout: post
 title: The Niagara Marathon
 ---
 

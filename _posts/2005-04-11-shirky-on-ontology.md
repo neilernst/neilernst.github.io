@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-11 15:22:40+00:00
-layout: post
 title: Shirky on ontology
 ---
 

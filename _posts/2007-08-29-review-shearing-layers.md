@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-29 04:59:37+00:00
-layout: post
 title: 'Review: shearing layers'
 tags:
 - CWA

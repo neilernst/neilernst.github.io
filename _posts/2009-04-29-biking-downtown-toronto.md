@@ -1,7 +1,6 @@
 ---
 
 date: 2009-04-29 22:36:20+00:00
-layout: post
 title: Biking downtown Toronto
 tags:
 - cycling

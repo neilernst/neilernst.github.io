@@ -1,7 +1,6 @@
 ---
 
 date: 2007-09-04 03:08:59+00:00
-layout: post
 title: Tracking finances online
 tags:
 - bank_statements

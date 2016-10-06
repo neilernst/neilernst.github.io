@@ -1,7 +1,6 @@
 ---
 
 date: 2007-12-14 04:41:32+00:00
-layout: post
 title: Peggy Nash, M.P., on copyright
 tags:
 - canada

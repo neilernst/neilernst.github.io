@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-16 01:34:51+00:00
-layout: post
 title: Key Stages in a Dissertation - Part 1
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-27 17:25:48+00:00
-layout: post
 title: Follow-up on "Web Services"
 ---
 

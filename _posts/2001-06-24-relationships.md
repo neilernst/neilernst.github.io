@@ -1,7 +1,6 @@
 ---
 
 date: 2001-06-24 18:59:00+00:00
-layout: post
 title: Relationships
 ---
 

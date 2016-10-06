@@ -1,7 +1,6 @@
 ---
 
 date: 2009-07-06 17:37:07+00:00
-layout: post
 title: Some thoughts on lean software development
 tags:
 - kanban

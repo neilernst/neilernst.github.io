@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-27 18:55:35+00:00
-layout: post
 title: KCAP workshop - Visualization in Knowledge Engineering
 ---
 

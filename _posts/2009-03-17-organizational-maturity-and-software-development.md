@@ -1,7 +1,6 @@
 ---
 
 date: 2009-03-17 15:07:03+00:00
-layout: post
 title: Organizational maturity and software development
 tags:
 - cmmi

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-07-28 03:42:56+00:00
-layout: post
 title: the wikipedia
 ---
 

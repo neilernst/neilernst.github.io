@@ -1,7 +1,6 @@
 ---
 
 date: 2009-03-20 19:21:01+00:00
-layout: post
 title: There is no such thing as a non-functional requirement
 tags:
 - nfr

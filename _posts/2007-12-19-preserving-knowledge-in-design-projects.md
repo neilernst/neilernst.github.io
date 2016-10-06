@@ -1,7 +1,6 @@
 ---
 
 date: 2007-12-19 17:21:41+00:00
-layout: post
 title: Preserving knowledge in design projects
 tags:
 - chi

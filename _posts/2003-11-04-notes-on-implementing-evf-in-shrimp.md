@@ -1,7 +1,6 @@
 ---
 
 date: 2003-11-04 23:46:16+00:00
-layout: post
 title: Notes on implementing EVF in Shrimp
 ---
 

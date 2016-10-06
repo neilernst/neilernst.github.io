@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-20 21:36:19+00:00
-layout: post
 title: Good Emerson quote
 ---
 

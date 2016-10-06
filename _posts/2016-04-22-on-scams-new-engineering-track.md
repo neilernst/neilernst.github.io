@@ -1,7 +1,6 @@
 ---
 
 date: 2016-04-22 16:00:45+00:00
-layout: post
 title: On SCAM's new "Engineering Track"
 ---
 

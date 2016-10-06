@@ -1,7 +1,6 @@
 ---
 
 date: 2005-03-17 02:02:47+00:00
-layout: post
 title: CWA and Goal Modeling
 ---
 

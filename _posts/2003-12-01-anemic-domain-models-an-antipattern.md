@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-01 20:53:04+00:00
-layout: post
 title: Anemic Domain Models - An Antipattern
 ---
 

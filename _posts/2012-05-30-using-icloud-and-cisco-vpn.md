@@ -1,7 +1,6 @@
 ---
 
 date: 2012-05-30 20:36:42+00:00
-layout: post
 title: Using iCloud and Cisco VPN
 tags:
 - cisco anyconnect icloud vpn

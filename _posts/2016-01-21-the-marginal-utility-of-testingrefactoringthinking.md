@@ -1,7 +1,6 @@
 ---
 
 date: 2016-01-21 14:12:15+00:00
-layout: post
 title: The Marginal Utility of Testing/Refactoring/Thinking
 ---
 

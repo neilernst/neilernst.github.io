@@ -1,7 +1,6 @@
 ---
 
 date: 2006-07-23 01:01:05+00:00
-layout: post
 title: A new metaphor for software development?
 ---
 

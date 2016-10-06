@@ -1,7 +1,6 @@
 ---
 
 date: 2004-10-21 17:23:44+00:00
-layout: post
 title: Why not to get a collie
 ---
 

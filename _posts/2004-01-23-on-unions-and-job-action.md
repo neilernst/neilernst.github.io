@@ -1,7 +1,6 @@
 ---
 
 date: 2004-01-23 00:33:52+00:00
-layout: post
 title: On Unions and Job Action
 ---
 

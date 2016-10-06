@@ -1,7 +1,6 @@
 ---
 
 date: 2006-07-24 14:58:13+00:00
-layout: post
 title: Stratford — Coriolanus
 ---
 

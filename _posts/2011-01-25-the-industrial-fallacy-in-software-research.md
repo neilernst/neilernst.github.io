@@ -1,7 +1,6 @@
 ---
 
 date: 2011-01-25 15:58:46+00:00
-layout: post
 title: The industrial fallacy in software research
 ---
 

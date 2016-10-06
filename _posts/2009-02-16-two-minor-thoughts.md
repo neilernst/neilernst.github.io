@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-16 20:22:41+00:00
-layout: post
 title: Two minor thoughts
 tags:
 - git

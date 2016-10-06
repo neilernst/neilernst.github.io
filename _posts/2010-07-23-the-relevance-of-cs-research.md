@@ -1,7 +1,6 @@
 ---
 
 date: 2010-07-23 15:52:57+00:00
-layout: post
 title: The relevance of CS research
 tags:
 - academia

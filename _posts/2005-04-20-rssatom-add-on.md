@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-20 01:02:48+00:00
-layout: post
 title: RSS/Atom add-on
 ---
 

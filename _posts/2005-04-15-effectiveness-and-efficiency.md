@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-15 16:48:29+00:00
-layout: post
 title: Effectiveness and efficiency
 ---
 

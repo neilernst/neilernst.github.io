@@ -1,7 +1,6 @@
 ---
 
 date: 2013-09-24 19:13:26+00:00
-layout: post
 title: 13 Great Software Architecture Papers
 ---
 

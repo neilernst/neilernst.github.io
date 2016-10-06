@@ -1,7 +1,6 @@
 ---
 
 date: 2004-04-13 01:34:30+00:00
-layout: post
 title: 'Umberto Eco: Kant and the Platypus'
 ---
 

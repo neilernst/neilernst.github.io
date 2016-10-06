@@ -1,7 +1,6 @@
 ---
 
 date: 2007-03-05 17:44:23+00:00
-layout: post
 title: Movie recommendation
 ---
 

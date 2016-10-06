@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-24 19:59:20+00:00
-layout: post
 title: Blgging fn
 ---
 

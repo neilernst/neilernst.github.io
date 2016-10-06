@@ -1,7 +1,6 @@
 ---
 
 date: 2001-07-05 19:03:00+00:00
-layout: post
 title: Mind over Matter
 ---
 

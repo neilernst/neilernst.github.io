@@ -1,7 +1,6 @@
 ---
 
 date: 2005-05-02 21:00:59+00:00
-layout: post
 title: 'Colloquium: Gail Moore and Software Development Support'
 ---
 

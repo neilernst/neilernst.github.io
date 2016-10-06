@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-12 14:01:16+00:00
-layout: post
 title: 'Paper: Scalable Visualizations of OO Systems with Ownership Tree'
 ---
 

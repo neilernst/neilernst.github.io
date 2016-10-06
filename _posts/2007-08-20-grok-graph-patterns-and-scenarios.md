@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-20 01:28:08+00:00
-layout: post
 title: Grok, graph patterns and scenarios
 tags:
 - grok

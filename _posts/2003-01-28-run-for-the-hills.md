@@ -1,7 +1,6 @@
 ---
 
 date: 2003-01-28 01:11:00+00:00
-layout: post
 title: Run for the hills
 ---
 

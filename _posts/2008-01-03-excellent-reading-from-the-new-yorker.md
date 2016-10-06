@@ -1,7 +1,6 @@
 ---
 
 date: 2008-01-03 16:40:30+00:00
-layout: post
 title: Excellent reading from the New Yorker
 tags:
 - gladwell

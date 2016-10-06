@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-01 01:28:47+00:00
-layout: post
 title: Whither the Semantic Web?
 ---
 

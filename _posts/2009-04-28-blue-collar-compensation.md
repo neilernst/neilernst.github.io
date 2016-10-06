@@ -1,7 +1,6 @@
 ---
 
 date: 2009-04-28 17:38:02+00:00
-layout: post
 title: Blue-collar compensation
 tags:
 - capitalism

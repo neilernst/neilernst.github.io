@@ -1,7 +1,6 @@
 ---
 
 date: 2006-03-09 03:33:25+00:00
-layout: post
 title: Habits of highly effective people… or something
 ---
 

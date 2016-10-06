@@ -1,7 +1,6 @@
 ---
 
 date: 2009-04-17 23:40:24+00:00
-layout: post
 published: false
 title: Why software engineering in science is important
 tags:

@@ -1,7 +1,6 @@
 ---
 
 date: 2010-07-02 17:49:29+00:00
-layout: post
 title: REFSQ summary
 tags:
 - RE

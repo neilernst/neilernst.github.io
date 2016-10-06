@@ -1,7 +1,6 @@
 ---
 
 date: 2005-09-11 01:52:09+00:00
-layout: post
 title: tags useful?
 ---
 

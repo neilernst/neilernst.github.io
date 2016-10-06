@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-28 18:56:23+00:00
-layout: post
 title: Excellent motivating talk on Semantic Web
 ---
 

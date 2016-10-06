@@ -1,7 +1,6 @@
 ---
 
 date: 2005-10-13 14:55:45+00:00
-layout: post
 title: Software research is interesting
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-14 15:03:09+00:00
-layout: post
 title: 'MSR Challenge: large data files'
 tags:
 - bugzilla

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-09-09 17:59:18+00:00
-layout: post
 title: Back to work
 ---
 

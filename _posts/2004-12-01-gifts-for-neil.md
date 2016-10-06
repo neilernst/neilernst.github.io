@@ -1,7 +1,6 @@
 ---
 
 date: 2004-12-01 13:39:01+00:00
-layout: post
 title: Gifts for Neil
 ---
 

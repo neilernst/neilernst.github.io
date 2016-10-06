@@ -1,7 +1,6 @@
 ---
 
 date: 2010-03-21 22:37:47+00:00
-layout: post
 title: Funding disclosures for software researchers?
 tags:
 - autonomic

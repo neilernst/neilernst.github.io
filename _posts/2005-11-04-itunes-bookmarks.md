@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-04 15:09:38+00:00
-layout: post
 title: ITunes bookmarks
 ---
 

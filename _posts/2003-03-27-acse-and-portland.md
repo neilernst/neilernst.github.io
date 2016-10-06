@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-27 23:28:10+00:00
-layout: post
 title: ACSE and Portland
 ---
 

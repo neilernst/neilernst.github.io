@@ -1,7 +1,6 @@
 ---
 
 date: 2013-11-20 19:11:45+00:00
-layout: post
 title: Evidence in Software Engineering
 ---
 

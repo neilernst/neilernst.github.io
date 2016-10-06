@@ -1,7 +1,6 @@
 ---
 
 date: 2012-01-16 19:37:11+00:00
-layout: post
 title: The Research Works Act
 ---
 

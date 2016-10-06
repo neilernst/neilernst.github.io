@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-03 23:02:22+00:00
-layout: post
 title: Graph stylesheets
 ---
 

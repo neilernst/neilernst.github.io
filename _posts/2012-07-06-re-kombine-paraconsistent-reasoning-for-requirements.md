@@ -1,7 +1,6 @@
 ---
 
 date: 2012-07-06 17:23:36+00:00
-layout: post
 title: 'RE-KOMBINE: Paraconsistent Reasoning for Requirements'
 tags:
 - requirements

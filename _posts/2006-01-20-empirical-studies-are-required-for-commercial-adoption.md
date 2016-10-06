@@ -1,7 +1,6 @@
 ---
 
 date: 2006-01-20 01:43:37+00:00
-layout: post
 title: Empirical studies are required for commercial adoption
 ---
 

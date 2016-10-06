@@ -1,7 +1,6 @@
 ---
 
 date: 2013-09-11 20:31:45+00:00
-layout: post
 title: Virtual Conferences
 post_format:
 - Link

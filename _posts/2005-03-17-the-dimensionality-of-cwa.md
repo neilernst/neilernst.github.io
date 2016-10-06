@@ -1,7 +1,6 @@
 ---
 
 date: 2005-03-17 00:04:22+00:00
-layout: post
 title: the Dimensionality of CWA
 ---
 

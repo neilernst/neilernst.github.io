@@ -1,7 +1,6 @@
 ---
 
 date: 2005-02-06 03:30:00+00:00
-layout: post
 title: Aren't Saturdays for fun?
 ---
 

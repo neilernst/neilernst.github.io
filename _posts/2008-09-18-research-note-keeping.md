@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-18 21:57:16+00:00
-layout: post
 title: Research note-keeping
 tags:
 - tiddlywiki notes tomboy

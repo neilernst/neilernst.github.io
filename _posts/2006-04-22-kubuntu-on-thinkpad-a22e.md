@@ -1,7 +1,6 @@
 ---
 
 date: 2006-04-22 14:47:30+00:00
-layout: post
 title: Kubuntu on Thinkpad A22e
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-11-12 14:12:13+00:00
-layout: post
 title: Interview with Gosling on visualizing source code
 ---
 

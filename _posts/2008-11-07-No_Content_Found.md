@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-07 13:33:44+00:00
-layout: post
 published: false
 title: SOA, governance, and policies
 ---

@@ -1,7 +1,6 @@
 ---
 
 date: 2011-09-30 15:11:47+00:00
-layout: post
 published: false
 title: Why didn't a researcher come up with Agile Software Development?
 ---

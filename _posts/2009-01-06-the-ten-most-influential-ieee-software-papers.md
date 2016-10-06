@@ -1,7 +1,6 @@
 ---
 
 date: 2009-01-06 19:42:49+00:00
-layout: post
 title: The ten most influential IEEE Software papers
 tags:
 - citations

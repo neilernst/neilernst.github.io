@@ -1,7 +1,6 @@
 ---
 
 date: 2009-03-19 02:40:45+00:00
-layout: post
 title: 'MSR: Case study variability'
 tags:
 - gnome

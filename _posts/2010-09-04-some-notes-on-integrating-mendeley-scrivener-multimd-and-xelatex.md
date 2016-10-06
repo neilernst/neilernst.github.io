@@ -1,7 +1,6 @@
 ---
 
 date: 2010-09-04 20:01:33+00:00
-layout: post
 title: Some notes on integrating Mendeley, Scrivener, MultiMarkdown and (Xe)Latex
 tags:
 - mendeley

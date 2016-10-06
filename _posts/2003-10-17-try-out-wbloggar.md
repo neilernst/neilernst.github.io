@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-17 13:46:18+00:00
-layout: post
 title: Try out w.bloggar
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2002-12-06 16:15:00+00:00
-layout: post
 title: Project Work
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2006-09-03 15:57:01+00:00
-layout: post
 title: Task management app
 ---
 

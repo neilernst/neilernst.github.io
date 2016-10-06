@@ -1,7 +1,6 @@
 ---
 
 date: 2006-11-16 18:35:20+00:00
-layout: post
 title: The role of arXiv in information science research
 ---
 

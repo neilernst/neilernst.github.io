@@ -1,7 +1,6 @@
 ---
 
 date: 2006-03-09 03:17:10+00:00
-layout: post
 title: Some thoughts on privately-delivered healthcare
 ---
 

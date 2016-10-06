@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-28 17:25:07+00:00
-layout: post
 title: Thoughts on open notebooks for software scientists
 tags:
 - open notebook

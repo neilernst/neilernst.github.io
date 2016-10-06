@@ -1,7 +1,6 @@
 ---
 
 date: 2012-05-16 19:51:45+00:00
-layout: post
 title: Cynefin and MDE
 ---
 

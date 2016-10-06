@@ -1,7 +1,6 @@
 ---
 
 date: 2011-11-15 20:41:17+00:00
-layout: post
 title: My new gig at UBC
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2004-11-08 14:06:48+00:00
-layout: post
 title: Site now running Drupal 4.5
 ---
 

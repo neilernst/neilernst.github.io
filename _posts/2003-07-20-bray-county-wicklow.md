@@ -1,7 +1,6 @@
 ---
 
 date: 2003-07-20 16:05:00+00:00
-layout: post
 title: Bray, County Wicklow
 ---
 

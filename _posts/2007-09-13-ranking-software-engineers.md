@@ -1,7 +1,6 @@
 ---
 
 date: 2007-09-13 01:50:28+00:00
-layout: post
 title: Ranking software engineers
 tags:
 - citations

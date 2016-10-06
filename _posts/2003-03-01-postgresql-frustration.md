@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-01 00:59:00+00:00
-layout: post
 title: PostgresQL frustration
 ---
 

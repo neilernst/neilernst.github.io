@@ -1,7 +1,6 @@
 ---
 
 date: 2005-02-04 16:33:08+00:00
-layout: post
 title: Grand Problems 1
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-05-17 18:58:31+00:00
-layout: post
 title: 'Weekly thoughts: Big things'
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-12 14:44:35+00:00
-layout: post
 title: 'Paper:  Why new software processes are not adopted'
 ---
 

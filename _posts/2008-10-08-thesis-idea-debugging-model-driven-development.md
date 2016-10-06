@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-08 18:57:07+00:00
-layout: post
 title: 'Thesis idea: debugging model-driven development'
 tags:
 - debugging

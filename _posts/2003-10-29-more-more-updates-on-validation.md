@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-29 18:48:07+00:00
-layout: post
 title: More more updates on validation
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2004-10-26 16:40:54+00:00
-layout: post
 title: Kids Help Phone presentation
 ---
 

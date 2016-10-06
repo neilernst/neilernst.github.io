@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-29 16:02:26+00:00
-layout: post
 title: 'Reading: The Challenges of Mobile Computing'
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-15 17:22:35+00:00
-layout: post
 title: Saturday sundance
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2006-01-13 19:22:04+00:00
-layout: post
 title: Requirements and context
 ---
 

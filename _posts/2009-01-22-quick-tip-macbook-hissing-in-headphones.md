@@ -1,7 +1,6 @@
 ---
 
 date: 2009-01-22 14:16:26+00:00
-layout: post
 title: 'Quick Tip: Macbook hissing in headphones'
 tags:
 - macbook

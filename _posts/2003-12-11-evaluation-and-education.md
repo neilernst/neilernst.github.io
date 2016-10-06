@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-11 20:54:30+00:00
-layout: post
 title: Evaluation and education
 ---
 

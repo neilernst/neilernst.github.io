@@ -1,7 +1,6 @@
 ---
 
 date: 2005-06-07 17:01:11+00:00
-layout: post
 published: false
 title: Academic experience
 ---

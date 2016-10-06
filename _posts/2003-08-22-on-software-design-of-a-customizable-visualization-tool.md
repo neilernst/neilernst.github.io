@@ -1,7 +1,6 @@
 ---
 
 date: 2003-08-22 20:09:00+00:00
-layout: post
 title: On Software Design of a Customizable Visualization Tool
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-08 02:24:39+00:00
-layout: post
 title: Return to the blogosphere
 ---
 

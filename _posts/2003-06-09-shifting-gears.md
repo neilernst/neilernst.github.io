@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-09 21:44:25+00:00
-layout: post
 title: Shifting gears
 ---
 

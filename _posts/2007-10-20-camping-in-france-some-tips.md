@@ -1,7 +1,6 @@
 ---
 
 date: 2007-10-20 17:28:03+00:00
-layout: post
 title: 'Camping in France: some tips'
 tags:
 - bordeaux

@@ -1,7 +1,6 @@
 ---
 
 date: 2006-10-31 19:34:32+00:00
-layout: post
 title: Dennis Tsichritzis
 ---
 

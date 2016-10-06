@@ -1,7 +1,6 @@
 ---
 
 date: 2010-02-14 00:31:11+00:00
-layout: post
 title: More on open notebooks
 tags:
 - github

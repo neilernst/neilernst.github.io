@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-22 20:17:39+00:00
-layout: post
 title: The requirements problem defined
 tags:
 - requirements

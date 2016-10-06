@@ -1,7 +1,6 @@
 ---
 
 date: 2004-12-14 16:46:43+00:00
-layout: post
 title: 'Presentation:  a grand challenge for modeling'
 ---
 

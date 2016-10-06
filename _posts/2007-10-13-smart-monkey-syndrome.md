@@ -1,7 +1,6 @@
 ---
 
 date: 2007-10-13 17:57:32+00:00
-layout: post
 title: Smart monkey syndrome
 tags:
 - eckel

@@ -1,7 +1,6 @@
 ---
 
 date: 2010-05-28 10:50:09+00:00
-layout: post
 published: false
 title: Using GridWorks
 tags:

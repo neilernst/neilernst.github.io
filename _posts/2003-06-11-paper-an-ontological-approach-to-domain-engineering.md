@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-11 14:17:06+00:00
-layout: post
 title: 'Paper: An Ontological Approach to Domain Engineering'
 ---
 

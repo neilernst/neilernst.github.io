@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-14 01:00:28+00:00
-layout: post
 title: Wither Syndication
 ---
 

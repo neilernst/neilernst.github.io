@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-07 04:54:21+00:00
-layout: post
 title: Matplotlib and Mac OS 10.5.6 compiler error resolved
 tags:
 - macports

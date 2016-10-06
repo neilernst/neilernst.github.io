@@ -1,7 +1,6 @@
 ---
 
 date: 2004-01-09 14:56:12+00:00
-layout: post
 title: New Year’s Resolutions
 ---
 

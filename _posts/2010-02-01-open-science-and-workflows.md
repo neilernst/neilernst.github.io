@@ -1,7 +1,6 @@
 ---
 
 date: 2010-02-01 16:41:43+00:00
-layout: post
 title: Open science and workflows
 tags:
 - climate change

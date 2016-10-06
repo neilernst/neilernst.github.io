@@ -1,7 +1,6 @@
 ---
 
 date: 2011-07-10 13:04:01+00:00
-layout: post
 published: false
 title: A few of my favorite papers
 ---

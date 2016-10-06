@@ -1,7 +1,6 @@
 ---
 
 date: 2010-04-22 18:42:42+00:00
-layout: post
 title: Should we care about evidence-based software engineering?
 tags:
 - evidence

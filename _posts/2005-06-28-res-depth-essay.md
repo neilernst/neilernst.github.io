@@ -1,7 +1,6 @@
 ---
 
 date: 2005-06-28 20:48:49+00:00
-layout: post
 title: Research depth essay
 ---
 

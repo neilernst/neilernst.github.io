@@ -1,7 +1,6 @@
 ---
 
 date: 2015-01-20 02:28:52+00:00
-layout: post
 title: Frameworks, libraries, and dependencies
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2006-10-24 18:15:46+00:00
-layout: post
 title: When the visual information-seeking mantra fails
 ---
 

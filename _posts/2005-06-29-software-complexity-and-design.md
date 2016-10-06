@@ -1,7 +1,6 @@
 ---
 
 date: 2005-06-29 03:52:29+00:00
-layout: post
 title: Software complexity and design
 ---
 

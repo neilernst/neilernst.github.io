@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-13 16:09:11+00:00
-layout: post
 title: Shrimpbib integration
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2012-04-17 18:50:21+00:00
-layout: post
 title: DeMarco and "Cannot control what you cannot measure"
 ---
 

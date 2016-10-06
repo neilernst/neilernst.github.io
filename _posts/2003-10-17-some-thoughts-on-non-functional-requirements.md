@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-17 14:49:12+00:00
-layout: post
 title: Some thoughts on non-functional requirements
 ---
 

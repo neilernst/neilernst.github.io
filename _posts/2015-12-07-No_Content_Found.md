@@ -1,7 +1,6 @@
 ---
 
 date: 2015-12-07 14:58:12+00:00
-layout: post
 published: false
 title: Requirements, Agile, and Finding Errors
 ---

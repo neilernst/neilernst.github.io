@@ -1,7 +1,6 @@
 ---
 
 date: 2002-11-14 19:41:00+00:00
-layout: post
 title: Today's energy was devoted to...
 ---
 

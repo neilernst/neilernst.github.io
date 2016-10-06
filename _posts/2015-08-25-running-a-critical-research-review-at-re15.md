@@ -1,7 +1,6 @@
 ---
 
 date: 2015-08-25 03:48:38+00:00
-layout: post
 title: 'Running a "Critical Research Review" at #RE15'
 ---
 

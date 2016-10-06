@@ -1,7 +1,6 @@
 ---
 
 date: 2008-01-24 01:49:29+00:00
-layout: post
 title: The intersection of privatization, energy costs, and the internet
 tags:
 - energy uk blogging foi

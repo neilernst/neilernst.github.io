@@ -1,7 +1,6 @@
 ---
 
 date: 2011-06-21 10:38:20+00:00
-layout: post
 published: false
 title: Open problems in requirements engineering
 ---

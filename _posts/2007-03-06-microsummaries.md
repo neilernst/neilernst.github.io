@@ -1,7 +1,6 @@
 ---
 
 date: 2007-03-06 18:14:32+00:00
-layout: post
 title: Microsummaries
 ---
 

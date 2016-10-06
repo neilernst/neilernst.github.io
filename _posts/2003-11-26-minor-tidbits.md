@@ -1,7 +1,6 @@
 ---
 
 date: 2003-11-26 01:05:07+00:00
-layout: post
 title: Minor tidbits
 ---
 

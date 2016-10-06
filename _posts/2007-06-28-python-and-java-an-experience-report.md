@@ -1,7 +1,6 @@
 ---
 
 date: 2007-06-28 01:50:24+00:00
-layout: post
 title: 'Python and Java: an experience report'
 ---
 

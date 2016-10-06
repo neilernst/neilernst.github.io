@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-23 16:51:53+00:00
-layout: post
 title: 'KCAP panel discussion: large knowledge capture projects'
 ---
 

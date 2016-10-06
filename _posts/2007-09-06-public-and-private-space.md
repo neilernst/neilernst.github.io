@@ -1,7 +1,6 @@
 ---
 
 date: 2007-09-06 16:39:05+00:00
-layout: post
 title: Public and private space
 tags:
 - freedom_of_speech

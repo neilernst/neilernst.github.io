@@ -1,7 +1,6 @@
 ---
 
 date: 2009-06-19 18:19:43+00:00
-layout: post
 title: On Kanban, Lean, and 'new' software methodologies
 tags:
 - case study

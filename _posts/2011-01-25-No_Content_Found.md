@@ -1,7 +1,6 @@
 ---
 
 date: 2011-01-25 12:35:32+00:00
-layout: post
 published: false
 title: '10x Productivity: DeMarco and Lister'
 ---

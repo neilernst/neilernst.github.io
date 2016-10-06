@@ -1,7 +1,6 @@
 ---
 
 date: 2002-12-09 14:53:00+00:00
-layout: post
 title: Coming up with new titles is HARD
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-01-27 14:42:30+00:00
-layout: post
 title: Thoughts on Cognitive Work Analysis and Goal Modeling
 ---
 

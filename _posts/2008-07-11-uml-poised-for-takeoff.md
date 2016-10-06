@@ -1,7 +1,6 @@
 ---
 
 date: 2008-07-11 15:32:53+00:00
-layout: post
 title: UML - Poised for takeoff?
 tags:
 - microsoft

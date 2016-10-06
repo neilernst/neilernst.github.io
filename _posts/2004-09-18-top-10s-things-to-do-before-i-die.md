@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-18 14:46:23+00:00
-layout: post
 title: 'Top 10s: things to do before I die'
 ---
 

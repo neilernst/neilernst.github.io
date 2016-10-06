@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-27 22:08:44+00:00
-layout: post
 title: 'Reading: What is Curriculum?'
 ---
 

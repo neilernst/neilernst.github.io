@@ -1,7 +1,6 @@
 ---
 
 date: 2007-03-07 04:40:05+00:00
-layout: post
 title: Repeatability in requirements elicitation
 ---
 

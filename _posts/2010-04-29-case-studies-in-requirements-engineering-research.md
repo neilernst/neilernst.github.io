@@ -1,7 +1,6 @@
 ---
 
 date: 2010-04-29 20:47:37+00:00
-layout: post
 title: Case studies in requirements engineering research
 tags:
 - case study

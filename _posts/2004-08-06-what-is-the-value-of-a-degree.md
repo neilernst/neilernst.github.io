@@ -1,7 +1,6 @@
 ---
 
 date: 2004-08-06 12:27:19+00:00
-layout: post
 title: What is the value of a degree?
 ---
 

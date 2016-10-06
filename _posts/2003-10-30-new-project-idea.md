@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-30 14:49:58+00:00
-layout: post
 title: New project idea
 ---
 

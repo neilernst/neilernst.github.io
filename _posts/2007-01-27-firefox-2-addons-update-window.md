@@ -1,7 +1,6 @@
 ---
 
 date: 2007-01-27 06:08:17+00:00
-layout: post
 title: Firefox 2 addons update window
 ---
 

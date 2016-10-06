@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-08 02:30:18+00:00
-layout: post
 title: the West wants in!
 ---
 

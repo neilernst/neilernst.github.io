@@ -1,7 +1,6 @@
 ---
 
 date: 2005-06-03 18:34:07+00:00
-layout: post
 title: 'RSR: implementing Really Simple Requirements'
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-05 14:59:00+00:00
-layout: post
 title: Presentation and Paper Done
 ---
 

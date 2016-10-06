@@ -1,7 +1,6 @@
 ---
 
 date: 2015-10-27 15:23:06+00:00
-layout: post
 title: How Writing Code is Like Making Steel
 ---
 

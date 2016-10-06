@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-19 18:03:07+00:00
-layout: post
 title: Understanding climate change with anecdote
 tags:
 - agw

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-20 16:17:11+00:00
-layout: post
 title: World of Warcraft
 ---
 

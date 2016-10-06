@@ -1,7 +1,6 @@
 ---
 
 date: 2010-08-10 15:25:34+00:00
-layout: post
 title: IT failure statistics
 tags:
 - IT

@@ -1,7 +1,6 @@
 ---
 
 date: 2004-04-13 01:16:09+00:00
-layout: post
 title: Hidden costs of interfaces
 ---
 

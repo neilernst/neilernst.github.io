@@ -7,7 +7,6 @@ excerpt: <a href="http://www.adambosworth.net/archives/000026.html">Great post</
   stay with something will be in how well it leverages this social aspect to deliver
   meaningful content - think EBay, Amazon, LiveJournal.  Stop thinking Longhorn, .Net,
   Linux.
-layout: post
 title: Adam Bosworth's thinking on where the innovation is
 ---
 

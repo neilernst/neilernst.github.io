@@ -1,7 +1,6 @@
 ---
 
 date: 2014-07-24 13:55:10+00:00
-layout: post
 title: Cults of Personality and Software Process Improvement
 ---
 

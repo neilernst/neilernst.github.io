@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-04 04:38:47+00:00
-layout: post
 title: Computer science is doomed!
 tags:
 - cobol

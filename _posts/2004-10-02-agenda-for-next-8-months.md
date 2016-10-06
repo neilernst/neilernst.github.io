@@ -1,7 +1,6 @@
 ---
 
 date: 2004-10-02 10:02:28+00:00
-layout: post
 title: Agenda for next 8 months
 ---
 

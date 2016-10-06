@@ -1,7 +1,6 @@
 ---
 
 date: 2003-05-26 18:57:00+00:00
-layout: post
 title: Switchover working?
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-18 18:09:23+00:00
-layout: post
 title: Papers and posting articles
 ---
 

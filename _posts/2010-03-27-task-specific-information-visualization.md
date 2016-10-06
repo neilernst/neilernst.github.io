@@ -1,7 +1,6 @@
 ---
 
 date: 2010-03-27 19:06:38+00:00
-layout: post
 title: Task-specific information visualization
 tags:
 - analytics

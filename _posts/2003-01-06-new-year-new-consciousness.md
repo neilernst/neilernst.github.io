@@ -1,7 +1,6 @@
 ---
 
 date: 2003-01-06 17:29:00+00:00
-layout: post
 title: New Year, New Consciousness
 ---
 

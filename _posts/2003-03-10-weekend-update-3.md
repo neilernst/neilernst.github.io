@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-10 01:04:00+00:00
-layout: post
 title: Weekend update
 ---
 

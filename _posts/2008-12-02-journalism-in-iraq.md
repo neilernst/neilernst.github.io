@@ -1,7 +1,6 @@
 ---
 
 date: 2008-12-02 21:29:23+00:00
-layout: post
 title: Journalism in Iraq
 tags:
 - iraq

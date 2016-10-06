@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-22 17:14:37+00:00
-layout: post
 title: Future directions of Agile
 tags:
 - agile

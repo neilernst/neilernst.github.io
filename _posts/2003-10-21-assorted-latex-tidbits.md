@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-21 13:20:48+00:00
-layout: post
 title: Assorted LaTeX tidbits
 ---
 

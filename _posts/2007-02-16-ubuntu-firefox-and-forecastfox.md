@@ -1,7 +1,6 @@
 ---
 
 date: 2007-02-16 17:19:40+00:00
-layout: post
 title: Ubuntu, Firefox, and ForecastFox
 ---
 

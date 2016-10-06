@@ -1,7 +1,6 @@
 ---
 
 date: 2013-03-02 21:58:44+00:00
-layout: post
 title: Obtaining a Pennsylvania Driver's Licence with an H1-B
 ---
 

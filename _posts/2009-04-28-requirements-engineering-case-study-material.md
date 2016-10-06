@@ -1,7 +1,6 @@
 ---
 
 date: 2009-04-28 16:01:57+00:00
-layout: post
 title: Requirements engineering case study material
 tags:
 - Add new tag

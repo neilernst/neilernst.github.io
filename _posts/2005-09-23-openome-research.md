@@ -1,7 +1,6 @@
 ---
 
 date: 2005-09-23 15:32:05+00:00
-layout: post
 title: OpenOME research
 ---
 

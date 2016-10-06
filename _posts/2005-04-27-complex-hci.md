@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-27 17:26:27+00:00
-layout: post
 title: Complex HCI
 ---
 

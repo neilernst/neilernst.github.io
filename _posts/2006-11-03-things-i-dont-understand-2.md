@@ -1,7 +1,6 @@
 ---
 
 date: 2006-11-03 00:42:22+00:00
-layout: post
 title: Things I don't understand
 ---
 

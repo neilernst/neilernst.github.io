@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-28 17:14:45+00:00
-layout: post
 title: The Micro-Brew model
 ---
 

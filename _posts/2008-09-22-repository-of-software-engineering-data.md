@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-22 01:56:50+00:00
-layout: post
 title: Repository of software engineering data
 tags:
 - cancer

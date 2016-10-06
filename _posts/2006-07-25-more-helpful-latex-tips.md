@@ -1,7 +1,6 @@
 ---
 
 date: 2006-07-25 17:18:30+00:00
-layout: post
 title: More helpful LaTeX tips
 ---
 

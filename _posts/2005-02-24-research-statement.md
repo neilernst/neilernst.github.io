@@ -1,7 +1,6 @@
 ---
 
 date: 2005-02-24 05:12:30+00:00
-layout: post
 title: Research statement
 ---
 

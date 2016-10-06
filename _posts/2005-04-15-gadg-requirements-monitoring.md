@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-15 21:01:37+00:00
-layout: post
 title: 'GADG: Requirements monitoring'
 ---
 

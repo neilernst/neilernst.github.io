@@ -1,7 +1,6 @@
 ---
 
 date: 2004-11-16 17:20:28+00:00
-layout: post
 title: Goal models and requirements analysis
 ---
 

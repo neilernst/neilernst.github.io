@@ -1,7 +1,6 @@
 ---
 
 date: 2011-09-30 19:54:01+00:00
-layout: post
 title: 'Ultra-large-scale systems: fundamentally different?'
 tags:
 - lscits

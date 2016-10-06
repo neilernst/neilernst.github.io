@@ -1,7 +1,6 @@
 ---
 
 date: 2007-12-20 02:30:57+00:00
-layout: post
 title: Analogy of the month
 tags:
 - metrics

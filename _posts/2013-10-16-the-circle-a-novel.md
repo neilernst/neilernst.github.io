@@ -1,7 +1,6 @@
 ---
 
 date: 2013-10-16 14:18:30+00:00
-layout: post
 title: The Circle, a novel
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-01-09 19:35:00+00:00
-layout: post
 title: another beautiful day
 ---
 

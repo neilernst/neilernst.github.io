@@ -1,7 +1,6 @@
 ---
 
 date: 2007-01-02 18:54:32+00:00
-layout: post
 title: Spolsky and methodology
 ---
 

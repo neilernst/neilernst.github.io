@@ -1,7 +1,6 @@
 ---
 
 date: 2009-01-21 13:41:12+00:00
-layout: post
 title: Software Engineering announcements in RSS
 tags:
 - mailbucket

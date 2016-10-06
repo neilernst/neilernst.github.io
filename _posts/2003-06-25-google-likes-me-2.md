@@ -27,7 +27,6 @@ excerpt: 'UPDATE: changed the title of this page from "the world is .." as this 
 
 
   Oh yeah, last teaching day today, too.  Nice.'
-layout: post
 title: Google likes me....
 ---
 

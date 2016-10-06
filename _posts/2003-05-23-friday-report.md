@@ -1,7 +1,6 @@
 ---
 
 date: 2003-05-23 20:09:25+00:00
-layout: post
 title: Friday report
 ---
 

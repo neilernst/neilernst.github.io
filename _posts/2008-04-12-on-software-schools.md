@@ -1,7 +1,6 @@
 ---
 
 date: 2008-04-12 15:50:06+00:00
-layout: post
 title: On Software Schools
 tags:
 - fowler

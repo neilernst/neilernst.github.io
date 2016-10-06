@@ -18,7 +18,6 @@ excerpt: '..til I get to DC. I seem to pick the worst times, last time it was th
   Looked at IBM''s babble project today. I like the ideas, but I don''t see chat being
   used this much yet. Perhaps in another few years people will chat and collaborate
   more, and offices will all be paperles.... :)'
-layout: post
 title: Countdown's On
 ---
 

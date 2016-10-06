@@ -1,7 +1,6 @@
 ---
 
 date: 2003-07-12 19:16:00+00:00
-layout: post
 title: On the road in Ireland
 ---
 

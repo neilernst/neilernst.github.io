@@ -1,7 +1,6 @@
 ---
 
 date: 2007-06-28 02:20:43+00:00
-layout: post
 title: What are they hiding?
 ---
 

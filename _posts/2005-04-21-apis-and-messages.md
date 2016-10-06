@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-21 20:06:25+00:00
-layout: post
 title: APIs and messages
 ---
 

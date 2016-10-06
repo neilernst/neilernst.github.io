@@ -1,7 +1,6 @@
 ---
 
 date: 2008-11-09 22:31:10+00:00
-layout: post
 title: 'MSR Challenge: data cleaning'
 tags:
 - deskbar

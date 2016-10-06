@@ -1,7 +1,6 @@
 ---
 
 date: 2012-04-26 19:31:37+00:00
-layout: post
 title: 'Using GitHub for 3rd Year Software Engineering  '
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-15 15:51:12+00:00
-layout: post
 title: The Long Tail and expertise
 tags:
 - expertise

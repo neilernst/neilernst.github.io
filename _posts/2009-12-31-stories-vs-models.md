@@ -1,7 +1,6 @@
 ---
 
 date: 2009-12-31 14:52:46+00:00
-layout: post
 title: Stories vs. models
 tags:
 - agile

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-07-23 21:31:29+00:00
-layout: post
 title: How was the trip?
 ---
 

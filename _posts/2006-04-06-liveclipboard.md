@@ -1,7 +1,6 @@
 ---
 
 date: 2006-04-06 00:31:29+00:00
-layout: post
 title: LiveClipboard
 ---
 

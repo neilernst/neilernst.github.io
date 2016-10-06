@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-28 22:50:18+00:00
-layout: post
 title: Research interests
 ---
 

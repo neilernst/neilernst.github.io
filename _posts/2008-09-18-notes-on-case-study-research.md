@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-18 21:38:24+00:00
-layout: post
 title: Notes on case study research
 tags:
 - case study

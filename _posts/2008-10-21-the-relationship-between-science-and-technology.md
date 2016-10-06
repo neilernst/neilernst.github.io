@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-21 16:38:13+00:00
-layout: post
 title: The relationship between science and technology
 tags:
 - aircraft

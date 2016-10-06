@@ -1,7 +1,6 @@
 ---
 
 date: 2009-12-22 15:19:38+00:00
-layout: post
 title: Evolving models is more than model management
 tags:
 - evolution

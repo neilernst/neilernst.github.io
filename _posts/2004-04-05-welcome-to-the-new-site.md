@@ -1,7 +1,6 @@
 ---
 
 date: 2004-04-05 23:50:05+00:00
-layout: post
 title: Welcome to the new site
 ---
 

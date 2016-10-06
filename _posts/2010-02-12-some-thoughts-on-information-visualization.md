@@ -1,7 +1,6 @@
 ---
 
 date: 2010-02-12 15:25:56+00:00
-layout: post
 title: Some thoughts on information visualization
 tags:
 - infoviz

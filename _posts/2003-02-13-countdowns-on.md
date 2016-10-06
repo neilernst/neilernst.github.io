@@ -1,7 +1,6 @@
 ---
 
 date: 2003-02-13 00:29:00+00:00
-layout: post
 title: Countdown’s On
 ---
 

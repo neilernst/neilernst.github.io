@@ -1,7 +1,6 @@
 ---
 
 date: 2006-01-23 23:43:27+00:00
-layout: post
 title: 'Article: “Fixing the Requirements Mess”'
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2005-01-21 14:03:25+00:00
-layout: post
 title: Not the Answer, but the Question
 ---
 

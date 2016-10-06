@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-14 18:38:33+00:00
-layout: post
 title: On "Capabilities Engineering"
 tags:
 - empirical

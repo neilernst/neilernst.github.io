@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-27 23:35:24+00:00
-layout: post
 title: Management and software projects
 tags:
 - failure

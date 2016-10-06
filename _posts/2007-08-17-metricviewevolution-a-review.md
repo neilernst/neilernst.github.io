@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-17 16:53:15+00:00
-layout: post
 title: 'Requirements Evolution using Views: a review'
 tags:
 - lormans

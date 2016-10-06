@@ -1,7 +1,6 @@
 ---
 
 date: 2004-01-18 20:20:32+00:00
-layout: post
 title: Information processing
 ---
 

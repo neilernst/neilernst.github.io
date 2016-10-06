@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-02 18:12:51+00:00
-layout: post
 title: Mik Lamming talks at U Toronto
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-27 15:16:26+00:00
-layout: post
 title: Publishing in Computer Science
 ---
 

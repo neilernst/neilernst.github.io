@@ -35,7 +35,6 @@ excerpt: 'See <a href="http://shrimpbib.chisel.cs.uvic.ca:8081/drupal_viewrefs.j
   goals of the top-down effort were consequently undermined and the outcomes reflect
   the consequences of the lack of cognizance of the features of the situated knowledge
   web."</blockquote> :die:'
-layout: post
 title: 'Paper: Situated Learning...'
 ---
 

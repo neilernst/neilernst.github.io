@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-17 12:57:42+00:00
-layout: post
 title: Another victory for the forces of ignorance
 tags:
 - rifle_club

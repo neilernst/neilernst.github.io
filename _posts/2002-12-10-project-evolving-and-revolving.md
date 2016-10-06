@@ -1,7 +1,6 @@
 ---
 
 date: 2002-12-10 21:32:00+00:00
-layout: post
 title: Project evolving and revolving
 ---
 

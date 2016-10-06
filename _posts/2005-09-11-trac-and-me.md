@@ -1,7 +1,6 @@
 ---
 
 date: 2005-09-11 04:34:24+00:00
-layout: post
 title: Trac and me
 ---
 

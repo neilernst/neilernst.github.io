@@ -1,7 +1,6 @@
 ---
 
 date: 2009-07-01 21:10:40+00:00
-layout: post
 title: Are we missing something?
 tags:
 - agile

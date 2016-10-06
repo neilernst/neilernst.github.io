@@ -1,7 +1,6 @@
 ---
 
 date: 2009-03-22 20:17:07+00:00
-layout: post
 title: Worldwide game day
 tags:
 - d&amp;d

@@ -1,7 +1,6 @@
 ---
 
 date: 2008-12-10 15:36:32+00:00
-layout: post
 title: 'MSR: parsing large XML files'
 tags:
 - python

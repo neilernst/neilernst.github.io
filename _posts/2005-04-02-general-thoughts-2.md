@@ -1,7 +1,6 @@
 ---
 
 date: 2005-04-02 18:45:24+00:00
-layout: post
 title: General thoughts 2
 ---
 

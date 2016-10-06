@@ -1,7 +1,6 @@
 ---
 
 date: 2011-08-17 14:54:42+00:00
-layout: post
 title: Impact factors in SE
 ---
 

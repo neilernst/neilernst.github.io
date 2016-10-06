@@ -1,7 +1,6 @@
 ---
 
 date: 2009-04-29 02:56:53+00:00
-layout: post
 title: 'MSR: final thoughts'
 tags:
 - bugzilla

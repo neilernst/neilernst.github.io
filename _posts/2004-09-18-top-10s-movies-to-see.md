@@ -1,7 +1,6 @@
 ---
 
 date: 2004-09-18 14:56:05+00:00
-layout: post
 title: 'Top 10s: movies to see'
 ---
 

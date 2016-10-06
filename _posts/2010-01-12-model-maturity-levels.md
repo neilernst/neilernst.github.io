@@ -1,7 +1,6 @@
 ---
 
 date: 2010-01-12 15:22:42+00:00
-layout: post
 title: Model maturity levels
 tags:
 - nato

@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-12 18:34:00+00:00
-layout: post
 title: Experimentation
 ---
 

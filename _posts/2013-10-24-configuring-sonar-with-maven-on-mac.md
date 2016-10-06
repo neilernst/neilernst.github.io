@@ -1,7 +1,6 @@
 ---
 
 date: 2013-10-24 15:59:25+00:00
-layout: post
 title: Configuring SONAR with Maven on Mac
 ---
 

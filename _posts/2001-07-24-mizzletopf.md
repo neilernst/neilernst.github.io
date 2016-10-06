@@ -2,7 +2,6 @@
 
 comments: false
 date: 2001-07-24 19:04:00+00:00
-layout: post
 title: mizzletopf
 ---
 

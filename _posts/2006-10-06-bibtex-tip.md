@@ -1,7 +1,6 @@
 ---
 
 date: 2006-10-06 15:38:44+00:00
-layout: post
 title: Bibtex tip
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2006-03-09 03:19:54+00:00
-layout: post
 title: Political blogging is dead
 ---
 

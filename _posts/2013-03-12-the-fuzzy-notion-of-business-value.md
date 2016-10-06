@@ -1,7 +1,6 @@
 ---
 
 date: 2013-03-12 16:47:55+00:00
-layout: post
 title: The fuzzy notion of "business value"
 ---
 

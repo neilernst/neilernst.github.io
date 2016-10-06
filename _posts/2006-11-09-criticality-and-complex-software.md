@@ -1,7 +1,6 @@
 ---
 
 date: 2006-11-09 21:02:40+00:00
-layout: post
 title: Criticality and complex software
 ---
 

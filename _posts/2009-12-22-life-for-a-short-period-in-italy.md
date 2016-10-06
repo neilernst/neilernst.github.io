@@ -1,7 +1,6 @@
 ---
 
 date: 2009-12-22 16:21:19+00:00
-layout: post
 title: Life (for a short period) in Italy
 tags:
 - hiking

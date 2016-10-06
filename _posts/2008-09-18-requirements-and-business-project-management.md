@@ -1,7 +1,6 @@
 ---
 
 date: 2008-09-18 21:34:58+00:00
-layout: post
 title: Requirements and business project management
 tags:
 - chaos

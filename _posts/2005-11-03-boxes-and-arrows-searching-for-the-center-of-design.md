@@ -1,7 +1,6 @@
 ---
 
 date: 2005-11-03 00:38:14+00:00
-layout: post
 title: 'Boxes and Arrows: Searching for the center of design'
 ---
 

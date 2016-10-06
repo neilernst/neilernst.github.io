@@ -1,7 +1,6 @@
 ---
 
 date: 2004-02-13 18:14:14+00:00
-layout: post
 title: Thesis defended!
 ---
 

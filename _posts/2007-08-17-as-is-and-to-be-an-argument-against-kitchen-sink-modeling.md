@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-17 13:47:37+00:00
-layout: post
 title: 'As-is and to-be: an argument against ''kitchen-sink'' modeling'
 tags:
 - istar

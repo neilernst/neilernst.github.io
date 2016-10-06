@@ -1,7 +1,6 @@
 ---
 
 date: 2010-02-01 20:31:50+00:00
-layout: post
 title: iPhone? Am iMissing something?
 tags:
 - iPhone

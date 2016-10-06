@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-17 00:00:00+00:00
-layout: post
 published: false
 title: 'As-is and to-be: an argument against ‘kitchen-sink’ modeling'
 ---

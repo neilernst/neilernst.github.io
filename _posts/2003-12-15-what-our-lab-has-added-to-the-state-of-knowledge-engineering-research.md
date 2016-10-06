@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-15 17:55:35+00:00
-layout: post
 title: What our lab has added to the state of  knowledge engineering research
 ---
 

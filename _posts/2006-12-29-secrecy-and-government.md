@@ -1,7 +1,6 @@
 ---
 
 date: 2006-12-29 22:20:21+00:00
-layout: post
 title: Secrecy and government
 ---
 

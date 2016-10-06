@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-31 19:46:49+00:00
-layout: post
 title: More on software history ...
 tags:
 - history

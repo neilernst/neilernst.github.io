@@ -1,7 +1,6 @@
 ---
 
 date: 2011-05-09 11:11:36+00:00
-layout: post
 published: false
 title: Lean, Agile, and Taylor
 ---

@@ -1,7 +1,6 @@
 ---
 
 date: 2009-11-14 13:38:56+00:00
-layout: post
 title: My sample Google/Microsoft interview question
 tags:
 - combinatorics

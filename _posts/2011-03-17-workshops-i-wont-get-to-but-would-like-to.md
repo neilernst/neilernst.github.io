@@ -1,7 +1,6 @@
 ---
 
 date: 2011-03-17 19:56:15+00:00
-layout: post
 title: Workshops I won't get to ... but would like to
 ---
 

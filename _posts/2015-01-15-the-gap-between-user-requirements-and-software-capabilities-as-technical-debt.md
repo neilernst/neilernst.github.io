@@ -1,7 +1,6 @@
 ---
 
 date: 2015-01-15 20:17:07+00:00
-layout: post
 title: The Gap Between User Requirements and Software Capabilities as Technical Debt
 ---
 

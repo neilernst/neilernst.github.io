@@ -1,7 +1,6 @@
 ---
 
 date: 2005-10-24 19:02:22+00:00
-layout: post
 title: End-user software engineering
 ---
 

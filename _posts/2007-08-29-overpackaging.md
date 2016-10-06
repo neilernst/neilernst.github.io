@@ -1,7 +1,6 @@
 ---
 
 date: 2007-08-29 23:47:01+00:00
-layout: post
 title: Overpackaging
 tags:
 - aldo

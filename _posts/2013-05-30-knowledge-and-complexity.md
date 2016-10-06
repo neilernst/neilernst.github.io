@@ -1,7 +1,6 @@
 ---
 
 date: 2013-05-30 20:13:59+00:00
-layout: post
 title: Knowledge and complexity
 ---
 

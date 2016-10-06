@@ -1,7 +1,6 @@
 ---
 
 date: 2002-11-28 20:37:00+00:00
-layout: post
 title: NoMeansNo - Give Me the Push
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2004-12-09 15:11:58+00:00
-layout: post
 title: Shift happens
 ---
 

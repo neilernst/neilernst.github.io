@@ -1,7 +1,6 @@
 ---
 
 date: 2004-12-09 15:20:19+00:00
-layout: post
 title: How to live life like NoMeansNo
 ---
 

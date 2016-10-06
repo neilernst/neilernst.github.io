@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-12 16:45:02+00:00
-layout: post
 title: 'Paper: Writing Good Software Engineering Papers'
 ---
 

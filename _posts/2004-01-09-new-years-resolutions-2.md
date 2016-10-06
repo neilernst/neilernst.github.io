@@ -18,7 +18,6 @@ excerpt: 'In no particular order<ul>
   </ul>
 
   <p /><div class="media">[Listening to: Quiet - The Beta Band]</div>'
-layout: post
 title: New Year's Resolutions
 ---
 

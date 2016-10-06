@@ -1,7 +1,6 @@
 ---
 
 date: 2007-01-25 22:38:14+00:00
-layout: post
 title: New design
 ---
 

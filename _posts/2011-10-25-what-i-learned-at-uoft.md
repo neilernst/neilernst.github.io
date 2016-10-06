@@ -1,7 +1,6 @@
 ---
 
 date: 2011-10-25 03:56:18+00:00
-layout: post
 title: What I learned at UofT
 ---
 

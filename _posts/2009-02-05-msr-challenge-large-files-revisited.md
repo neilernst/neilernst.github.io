@@ -1,7 +1,6 @@
 ---
 
 date: 2009-02-05 17:08:59+00:00
-layout: post
 title: 'MSR Challenge: large files revisited'
 tags:
 - msr

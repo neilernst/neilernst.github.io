@@ -1,7 +1,6 @@
 ---
 
 date: 2003-06-11 16:49:28+00:00
-layout: post
 title: 'Paper: Situated Learning…'
 ---
 

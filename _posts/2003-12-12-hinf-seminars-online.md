@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-12 18:24:38+00:00
-layout: post
 title: HINF seminars online
 ---
 

@@ -1,7 +1,6 @@
 ---
 
 date: 2011-05-27 10:30:07+00:00
-layout: post
 published: false
 title: Why research shouldn't worry about industry
 ---

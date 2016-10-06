@@ -1,7 +1,6 @@
 ---
 
 date: 2013-01-25 19:52:32+00:00
-layout: post
 title: Teaching Advanced Software Engineering
 ---
 

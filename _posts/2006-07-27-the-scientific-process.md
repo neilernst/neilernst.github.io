@@ -1,7 +1,6 @@
 ---
 
 date: 2006-07-27 22:24:46+00:00
-layout: post
 title: The scientific process
 ---
 

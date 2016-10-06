@@ -1,7 +1,6 @@
 ---
 
 date: 2011-04-21 17:07:52+00:00
-layout: post
 title: Forcing AucTex to properly show error messages
 ---
 

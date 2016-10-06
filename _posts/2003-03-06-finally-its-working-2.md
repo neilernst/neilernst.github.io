@@ -1,7 +1,6 @@
 ---
 
 date: 2003-03-06 18:52:00+00:00
-layout: post
 title: Finally, it's working
 tags:
 - hacking

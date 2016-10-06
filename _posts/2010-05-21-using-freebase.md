@@ -1,7 +1,6 @@
 ---
 
 date: 2010-05-21 17:37:54+00:00
-layout: post
 title: Using Freebase
 tags:
 - climate

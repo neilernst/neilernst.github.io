@@ -1,7 +1,6 @@
 ---
 
 date: 2005-10-24 19:24:14+00:00
-layout: post
 title: 'MASIS: SNAFU'
 ---
 

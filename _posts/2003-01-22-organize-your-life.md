@@ -1,7 +1,6 @@
 ---
 
 date: 2003-01-22 18:49:00+00:00
-layout: post
 title: organize your life
 ---
 

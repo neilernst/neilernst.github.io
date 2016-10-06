@@ -1,7 +1,6 @@
 ---
 
 date: 2008-10-25 02:48:05+00:00
-layout: post
 title: Empiricists vs constructionists?
 ---
 

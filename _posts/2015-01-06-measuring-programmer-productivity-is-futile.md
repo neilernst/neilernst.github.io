@@ -1,7 +1,6 @@
 ---
 
 date: 2015-01-06 14:53:24+00:00
-layout: post
 title: Measuring programmer productivity is futile.
 ---
 

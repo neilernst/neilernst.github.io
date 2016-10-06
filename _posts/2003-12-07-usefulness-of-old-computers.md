@@ -1,7 +1,6 @@
 ---
 
 date: 2003-12-07 14:19:53+00:00
-layout: post
 title: Usefulness of old computers
 ---
 

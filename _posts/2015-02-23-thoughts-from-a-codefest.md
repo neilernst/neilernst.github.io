@@ -1,7 +1,6 @@
 ---
 
 date: 2015-02-23 13:23:40+00:00
-layout: post
 title: Thoughts from a CodeFest
 ---
 

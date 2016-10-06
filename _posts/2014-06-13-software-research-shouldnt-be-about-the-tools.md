@@ -1,7 +1,6 @@
 ---
 
 date: 2014-06-13 13:34:46+00:00
-layout: post
 title: Software research shouldn't be about the tools
 tags:
 - complexity

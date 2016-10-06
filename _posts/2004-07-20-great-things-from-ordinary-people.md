@@ -1,7 +1,6 @@
 ---
 
 date: 2004-07-20 16:58:47+00:00
-layout: post
 title: Great things from ordinary people
 ---
 

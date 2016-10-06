@@ -1,7 +1,6 @@
 ---
 
 date: 2011-07-27 14:48:11+00:00
-layout: post
 title: Writing Complex Latex Documents with Scrivener 2.1 and MultiMarkDown 3
 tags:
 - mmd3

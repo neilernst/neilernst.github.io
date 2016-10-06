@@ -1,7 +1,6 @@
 ---
 
 date: 2003-04-16 02:33:06+00:00
-layout: post
 title: Back to blog
 ---
 

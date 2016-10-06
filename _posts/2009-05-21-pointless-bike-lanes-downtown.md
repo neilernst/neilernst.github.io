@@ -1,7 +1,6 @@
 ---
 
 date: 2009-05-21 14:49:55+00:00
-layout: post
 title: 'Pointless: Bike lanes downtown'
 tags:
 - cycling

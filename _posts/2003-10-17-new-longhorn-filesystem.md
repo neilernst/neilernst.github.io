@@ -1,7 +1,6 @@
 ---
 
 date: 2003-10-17 12:19:46+00:00
-layout: post
 title: New Longhorn filesystem
 ---
 
