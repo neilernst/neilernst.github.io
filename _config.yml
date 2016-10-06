@@ -4,8 +4,8 @@ tagline: Thoughts on research, software and methodology.
 email: neil@neilernst.net
 description: > # this means to ignore newlines until "baseurl"
   Thoughts on research, software and other topics.
-# url: "http://neilernst.net"
-url: "http://localhost:4000"
+url: "http://neilernst.github.io"
+#url: "http://localhost:4000"
 
 defaults:
   # _posts
