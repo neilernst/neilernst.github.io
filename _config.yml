@@ -69,7 +69,7 @@ social:
 analytics:
   provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-3378072-1
+    tracking_id          : UA-86878691-1 # neilersnt.net UA-3378072-1
 
 # Site Author
 author:
