@@ -1,7 +1,8 @@
 ---
-title: Old Comments
 permalink: /old-comments/
+title: Old Comments
 ---
+
 I exported the comments from the Wordpress version of this blog as best I could. Perhaps sometime later I will link back to the original post. 
 
 | Author    | Comment     | In Response To   | Submitted On           |
