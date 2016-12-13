@@ -6,8 +6,8 @@ email: neil@neilernst.net
 description: > # this means to ignore newlines until "baseurl"
   Thoughts on research, software and other topics.
 #url: "http://neilernst.github.io"
-url: "http://www.neilernst.net"
-#url: "http://localhost:4000"
+#url: "http://www.neilernst.net"
+url: "http://localhost:4000"
 
 defaults:
   # _posts
@@ -64,9 +64,9 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : #Person # Person or Organization (defaults to Person)
+  name                   : #Neil Ernst # If the user or organization name differs from the site's name
+  links                  :    # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -128,6 +128,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -211,10 +213,10 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
-# # HTML Compression
-# # - http://jch.penibelst.de/
-# compress_html:
-#   clippings: all
-#   ignore:
-#     envs: development

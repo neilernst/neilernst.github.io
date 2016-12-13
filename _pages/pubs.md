@@ -3,7 +3,7 @@ permalink: /pubs/
 title: Publications
 ---
 
-This is the most recent and/or interesting publications. For a complete list, or mostly complete, see my [full publications]() or one of the following indices.
+This is the most recent and/or interesting publications. For a complete list, or mostly complete, best to look at one of the following indices. 
 
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=) - [Google Scholar](http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en) - [MS Academic Search](http://academic.research.microsoft.com/Author/2155512/neil-a-ernst) - [Slideshare](http://www.slideshare.net/NeilErnst) - [SEI Digital Library](http://resources.sei.cmu.edu/library/author.cfm?authorID=2125)
 
