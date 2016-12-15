@@ -5,7 +5,9 @@ title: Publications
 
 This is the most recent and/or interesting publications. For a complete list, or mostly complete, best to look at one of the following indices. 
 
-[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=) - [Google Scholar](http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en) - [MS Academic Search](http://academic.research.microsoft.com/Author/2155512/neil-a-ernst) - [Slideshare](http://www.slideshare.net/NeilErnst) - [SEI Digital Library](http://resources.sei.cmu.edu/library/author.cfm?authorID=2125)
+[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=) - [Google Scholar](http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en) - [MS Academic Search](http://academic.research.microsoft.com/Author/2155512/neil-a-ernst) - [Slideshare](http://www.slideshare.net/NeilErnst) - [SEI Digital Library](http://resources.sei.cmu.edu/library/author.cfm?authorID=2125) - [SpeakerDeck](https://speakerdeck.com/neilernst/)
+
+Please don't use ResearchGate or other 'aggregators'; email me and I will track down a preprint for you.
 
 ### Conference publications
 1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". Working International Conference on Software Architecture (WICSA), Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
