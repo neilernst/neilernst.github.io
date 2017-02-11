@@ -6,8 +6,8 @@ email: neil@neilernst.net
 description: > # this means to ignore newlines until "baseurl"
   Thoughts on research, software and other topics.
 #url: "http://neilernst.github.io"
-url: "http://www.neilernst.net"
-#url: "http://localhost:4000"
+#url: "http://www.neilernst.net"
+url: "http://localhost:4000"
 
 defaults:
   # _posts
