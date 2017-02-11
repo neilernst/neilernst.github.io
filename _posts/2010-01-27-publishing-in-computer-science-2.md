@@ -1,0 +1,13 @@
+---
+
+date: 2010-01-27 15:16:26+00:00
+title: Publishing in Computer Science
+---
+
+Clearly I'm inexperienced, little published, and have never served on program committees.  However, I find the [issues raised by Moshe Vardie](http://www.sigmod.org/sigmod/record/issues/0603/p56-column-marianne.pdf) in the SIGMOD journal very cogent. He questions the model of publishing currently in use throughout computer science research. Lance Fortnow goes on to raise the same issues in [_Communications of the ACM_](http://cacm.acm.org/magazines/2009/8/34492-viewpoint-time-for-computer-science-to-grow-up/fulltext), and there is [some good discussion](http://blog.computationalcomplexity.org/2009/07/time-for-computer-science-to-grow-up.html) on his blog (emphasis on some - plenty of sidetracking going on there).
+
+The typical argument is that since this is a fast-changing field (a conjecture hitherto unproven by evidence -- is it faster-changing than genetics? Than theoretical physics? Than sociology?), we need to publish at annual conferences, because journal turnaround times are much too slow to keep up. But if it takes 2 years to publish in a journal, I'd argue that's a separate problem.
+
+Vardie's central point is that conferences aren't doing a good job in evaluating important research. At best, he says, the reviews serve to correctly identify less than ¼ of the interesting work. The rest is of dubious quality (relative to that rejected). Furthermore, most reviews are hardly peer-review quality, and there is little opportunity to turn things around if a paper has flaws (I expect the model used is, What a lot of submissions - if it has a single flaw, reject it). One person I read claimed that his conference committee had each reviewed 22 papers. If this was a normal conference, that meant that in 2 months or so these people had gone over 22 papers, which is nearly 2-3 papers a week. Either these papers are not complex, or the reviewers are not spending any reasonable amount of effort on it. And that hurts the scientific quality of the field, it allows cheaters and repeat papers, and wastes everyone's time.
+
+I think the other argument against conferences, though, is more straightforward -- too much travel. In my research area, there are 3 or 4 top conferences, each of which has fewer than 300 attendees, many of whom go to the same 3 or 4 conferences. Why not gather the 500 or so unique attendees in one large venue, like the [AGU meetings](http://www.agu.org/meetings/)? Travel is expensive, requires inordinate organization efforts, and is bad for the environment and work/life balance.

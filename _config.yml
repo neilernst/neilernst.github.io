@@ -98,19 +98,7 @@ author:
   linkedin         : neilernst
   pinterest        :
   soundcloud       :
-<<<<<<< HEAD
   stackoverflow    :  888483/neil #(the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-=======
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
->>>>>>> upstream/master
 
 # Reading Files
 include:
