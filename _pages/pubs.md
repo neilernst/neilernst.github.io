@@ -10,6 +10,8 @@ This is the most recent and/or interesting publications. For a complete list, or
 Please don't use ResearchGate or other 'aggregators'; email me and I will track down a preprint for you.
 
 ### Conference publications
+1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
+2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", International Conference on Software Architecture, Gothenburg, 2017.
 1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". Working International Conference on Software Architecture (WICSA), Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
 2. **Neil A. Ernst**, Stephany Bellomo, Robert Nord, Ipek Ozkaya, Ian Gorton: "Measure It, Manage It, Ignore It: Software Practitioners and Technical Debt". International Conference on Foundations of Software Engineering/European Software Engineering Conference (ESEC/FSE), Bergamo, Italy, 2015. **Distinguished paper award.** (Acceptance rate: 25.4%, 291 submissions). [Data](https://github.com/neilernst/td-survey) • [preprint](/papers/fse15.pdf) • [blog](http://bit.ly/sei-td) • [slides](http://www.slideshare.net/NeilErnst/measure-it-manage-it-ignore-it-software-practitioners-and-technical-debt) 
 3. John Klein, Ian Gorton, **Neil A. Ernst**, Patrick Donohoe, Kim Pham, Christian Matser, "Application-specific evaluation of NoSQL databases", International Big Data Congress, New York, 2015.
