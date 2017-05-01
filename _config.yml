@@ -77,7 +77,7 @@ analytics:
 # Site Author
 author:
   name             : "Neil Ernst"
-  avatar           : "images/neil-ernst-small.jpg"
+  avatar           : "/images/neil-ernst-small.jpg"
   bio              : ""
   location         : 15213
   email            : "neil@neilernst.net"
