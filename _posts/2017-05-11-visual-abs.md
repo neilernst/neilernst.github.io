@@ -5,7 +5,7 @@ title: Visual Abstract attempt
 ---
 In response to [Greg Wilson's challenge](https://twitter.com/gvwilson/status/861305406542446593), I did a quick attempt at a Visual Abstract for [a recent paper](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=495553). 
 
-![Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.](/images/drstudy-visualabs.pdf)
+![Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.](/images/drstudy-visualabs.jpeg)
 
 I think it turned out ok; it captures the core findings and presumably will prompt people to look at the paper. I've attached the Keynote slide I used [in a repo on Github](https://github.com/neilernst/visual-abs).
 
