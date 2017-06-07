@@ -5,14 +5,21 @@ title: Publications
 
 This is the most recent and/or interesting publications. For a complete list, or mostly complete, best to look at one of the following indices. 
 
-[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=) - [Google Scholar](http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en) - [MS Academic Search](http://academic.research.microsoft.com/Author/2155512/neil-a-ernst) - [Slideshare](http://www.slideshare.net/NeilErnst) - [SEI Digital Library](http://resources.sei.cmu.edu/library/author.cfm?authorID=2125) - [SpeakerDeck](https://speakerdeck.com/neilernst/)
+<ul>
+    <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
+    <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
+    <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
+    <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
+    <li><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></li>
+    <li><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fa fa-github fa-fw" aria-hidden="true"></i> SpeakerDeck</a></li>
+</ul>
 
-Please don't use ResearchGate or other 'aggregators'; email me and I will track down a preprint for you.
+Please don't use ResearchGate or other commercial, walled-garden 'aggregators'; email me and I will track down a preprint for you.
 
 ### Conference publications
-1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
-2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", International Conference on Software Architecture, Gothenburg, 2017. [preprint](/papers/icsa17-long.pdf) • [long version](/papers/icsa17-long.pdf) • [blog post](https://insights.sei.cmu.edu/sei_blog/2017/05/automating-design-analysis.html)
-1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". Working International Conference on Software Architecture (WICSA), Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
+1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", *International Requirements Engineering Conference*, Porto, 2017. [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
+2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", *International Conference on Software Architecture*, Gothenburg, 2017. [preprint](/papers/icsa17-long.pdf) • [long version](/papers/icsa17-long.pdf) • [blog post](https://insights.sei.cmu.edu/sei_blog/2017/05/automating-design-analysis.html)
+1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
 2. **Neil A. Ernst**, Stephany Bellomo, Robert Nord, Ipek Ozkaya, Ian Gorton: "Measure It, Manage It, Ignore It: Software Practitioners and Technical Debt". International Conference on Foundations of Software Engineering/European Software Engineering Conference (ESEC/FSE), Bergamo, Italy, 2015. **Distinguished paper award.** (Acceptance rate: 25.4%, 291 submissions). [Data](https://github.com/neilernst/td-survey) • [preprint](/papers/fse15.pdf) • [blog](http://bit.ly/sei-td) • [slides](http://www.slideshare.net/NeilErnst/measure-it-manage-it-ignore-it-software-practitioners-and-technical-debt) 
 3. John Klein, Ian Gorton, **Neil A. Ernst**, Patrick Donohoe, Kim Pham, Christian Matser, "Application-specific evaluation of NoSQL databases", International Big Data Congress, New York, 2015.
 4. Stephany Bellomo, **Neil A. Ernst**, Robert L. Nord, Rick Kazman: "Toward Design Decisions to Enable Deployability: Empirical Study of Three Projects Reaching for the Continuous Delivery Holy Grail''. International Conference on Dependable Systems and Networks, Atlanta, pp. 702-707, 2014.
@@ -43,3 +50,16 @@ Please don't use ResearchGate or other 'aggregators'; email me and I will track 
 ### Theses
 * N. A. Ernst, "Software Evolution: A Requirements Engineering Approach". Ph.D. dissertation, University of Toronto, 2011. [pdf](/papers/ernst_neil_a_201206_phd_thesis.pdf) (224 pages)
 * N. A. Ernst, "Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces", unpublished M.Sc. thesis, University of Victoria, 2004. [pdf](/papers/neil-thesis-final.pdf)
+
+<!-- 
+<table style="text-align: center; width: 50%; border: 0px">
+  <tr>
+    <td><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></td>
+    <td><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></td> </tr>
+    <tr>
+        <td><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></td>
+    <td><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></td></tr>
+  <tr><td><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></td> 
+    <td><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fa fa-github fa-fw" aria-hidden="true"></i> SpeakerDeck</a></td>
+  </tr>
+</table> -->
