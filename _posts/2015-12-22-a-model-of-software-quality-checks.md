@@ -50,6 +50,16 @@ The one I'm most familiar with is from Jean-Louis Letouzey. He proposed the [SQA
 
 EDIT [1/6/16]: somehow I forgot [this CAST diagram](http://www.castsoftware.com/products/architecture-checker) showing different levels of analysis, very similar to mine. They also claim that the 'system level' (my design level) is the place where architecture is checked.
 
+EDIT [9/6/17]: also [this model](http://qaware.blogspot.com/2017/06/i-know-it-when-i-see-it-perceptions-of.html) from [@stoerrle](https://twitter.com/stoerrle). It also has this notion of abstraction and progression, using 
+
+> SYNTAX At the one end of the spectrum, there are syntax level issues, such as confusing the tokens “=” with “==”, and preference of language constructs (e.g., avoiding unsafe constructs, default-switch-cases and so on).
+
+> PRAGMATICS One step further up, small-scale pragmatic issues like identifier naming, indentation, and simple structural metrics like cyclomatic complexity.
+
+> UNITS The next level addresses complete units of code (often a class or module), and considers its overall structure, unit-level metrics 
+(e.g., method/class length) correctness and completeness. 
+
+> ARCHITECTURE Finally, there is a level of architecture that is concerned with the structure and interrelation of units, e.g., it considers depth of inheritance trees, design patterns, architectural compliance, and other system-level properties.
 
 [^1]: I'm not sure how to 'noun' this adjective ...
 
