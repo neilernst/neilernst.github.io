@@ -3,11 +3,14 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Archive"
+  - title: "Blog"
     url: /year-archive/
 
-  - title: "Publications"
-    url: /pubs/
+  - title: "Research"
+    url: /research/
+
+  - title: "Prospective Students"
+    url: /prospective/
 
   - title: "Older Comments"
     url: /old-comments/

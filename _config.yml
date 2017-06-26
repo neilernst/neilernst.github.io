@@ -79,7 +79,7 @@ author:
   name             : "Neil Ernst"
   avatar           : "/images/neil-ernst-small.jpg"
   bio              : ""
-  location         : 15213
+  location         : V8P 5C2
   email            : "neil@neilernst.net"
   uri              :
   bitbucket        :
@@ -164,8 +164,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate_path: /blog/page:num/
+#timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

@@ -1,4 +1,32 @@
 ---
-layout: home
-author_profile: true
+title: "Neil Ernst"
+layout: splash
+permalink: /
+date: 2017-06-25
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /images/saturna-sunset.jpg
+excerpt: "Assistant Professor of Computer Science<br/>University of Victoria"
+intro:
+  - excerpt: 'I work on software engineering problems in the <a href="https://doi.org/10.1109/MS.2016.149">intelligent, distributed</a> era.'
+feature_row:
+  - image_path: /images/old-letters.jpg
+    alt: "old letters image"
+    btn_label: "Blog"
+    url: "/year-archive/"
+    btn_class: "btn--inverse"
+  - image_path: /images/head-software.jpg
+    alt: "code head"
+    btn_label: "Research"
+    btn_class: "btn--inverse"
+    url: "/research/"
+  - image_path: /images/daddy-elliott-blog.jpg
+    btn_label: "About"
+    btn_class: "btn--inverse"
+    url: "/about/"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
