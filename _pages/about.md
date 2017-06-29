@@ -5,7 +5,7 @@ permalink: /about/
 
 <!-- <img src="/images/neil-ernst-small.jpg" alt="My profile pic" class="l-img">
  -->
-I'm an assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca).
+As of August 1, I am assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca).
 
 You can learn more [about my research](/research).
 
