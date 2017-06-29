@@ -3,7 +3,7 @@ date: 2017-06-26
 title: Moving to UVic
 ---
 
-I'm excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of Computer Science, at the University of Victoria.
+I'm excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca).
 
 This is a great opportunity to work with some of the top software engineering faculty in the world, in one of the best cities in the world (although I'm biased, as it is my hometown :). Victoria is at the forefront of the startup scene, just a few hours from Vancouver, Seattle, and direct flights to the Valley (not Abbotsford, the other one). 
 
