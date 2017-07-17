@@ -1,0 +1,26 @@
+---
+date: 2017-07-17 
+title: Seven Principles of Effective Documentation
+---
+
+There has recently been more discussion about software documentation (or perhaps that's because I only see what I'm interested in... hard to say). At any rate, it seems a lot of discussion inevitably breaks down to "what tool will solve my documentation problems" (e.g., [this thread](https://dev.to/lennartb/where-do-you-keep-non-code-documentation-such-as-architecture-explanation-or-research)). Others have tried to "fix" UML by proposing new modeling approaches (forgetting, perhaps, that the *unified* modeling language was spurred by exactly this proliferation of diagram notations).
+
+I don't think tools, or formats, or templates, or modeling languages, will ever solve the *problem* you have. But what will help is to put some people in charge of the project who can think clearly and knowledgeably about what exactly is needed. To that end, the most effective advice (yet perhaps least immediately actionable, as compared to "buy X") are the principles of effective documentation, originally from the Parnas and Clements paper "A Rational Design Process: How and Why to Fake It" [^1]. Its more concrete form is published in the SEI text ["Documenting Software Architectures"](https://www.amazon.com/Documenting-Software-Architectures-Views-Beyond/dp/0321552687), and is part of the introduction to [the course](https://www.sei.cmu.edu/training/p33.cfm) we teach. 
+
+1. **Write from the reader's point of view (and know who your readers are)**. Probably also the first rule of good technical writing. You need to understand who will use the documentation: management, downstream developers, other contractors, you (one, five, ten, twenty years from now), government program offices, etc. 
+2. **Avoid unnecessary repetition**. This is easier in the wiki/hyperlink era. Sometimes repeating key figures is helpful, especially if a particular section may be read in isolation.
+3. **Avoid ambiguity** (and explain your notation). This is where most modeling discussions end up for me. Pick whatever language works for you, but explain its syntax (and semantics where necessary). It may be as simple as a key that says "UML 2.0 activity diagram". There's nothing worse, or more common, than a diagram with a mix of colors and shapes that no one understands who was not in the room. And keep in mind Martin Fowler's helpful breakdown of [UML Modes](https://martinfowler.com/bliki/UmlMode.html).
+4. **Use a standard organization**. Templates make it easier to find information.
+5. **Record rationale**. You might be able to recapture the "design" from the code, or tests, but you have little hope of understanding why certain architectural approaches were chosen if no one wrote the reasoning down. Most of the essays in the book ["Architecture of Open Source Applications"](http://aosabook.org/en/index.html) capture rationale, at least in hindsight (which is fine, after all we are "faking" a rational design process).
+6. **Keep docs current, but not too current.** I would interpret this nowadays as "have a release schedule" and make it clear what portions of the docs reflect "as-is" vs "to-be". It's also about which portions of the software you need to document. Low-level implementation decisions are only necessary if they have some impact on the important qualities of the system (otherwise, they aren't architectural, and don't need to be documented!)
+7. **Review the documentation**. Like any software artifact, you can't know how well documentation "works" for your audience until you test it. That means understanding if stakeholder questions can be answered with the documentation (e.g., "can I see how the system handles authentication").
+
+The other "principle" we mention, but is not part of this list, is **"if it isn't needed, don't do it"**. Documentation (good, up to date documentation certainly) has a cost. Only incur that cost if you are going to realize benefit from it (and naturally, the cost is the upfront cost + maintenance cost).
+
+I think most of the tooling discussions fall from these principles/rules. For example, Daniel Procida gave a presentation on "[4 Elements of Successful Docs](https://thenewstack.io/four-elements-successful-documentation/)", recommends docs have how-to guides, tutorials, discussions, and reference content. This maps to writing for the reader, and recording rationale.
+
+In this perspective, a lot of discussions can be better grounded. For example, "avoid ambiguity" motivates the use of something like UML. The UML is useful at least as the "most common" notation people are aware of (and has many many reference books). Using Markdown to keep things current with your build system can help to keep things current. Confluence or other wikis help with organization and avoiding repetition. And so on. 
+
+As a good researcher, I should mention this topic greatly interests me. If you want to collaborate, [get in touch](http://neilernst.net/about/)! I think there's a lot of room for interesting contributions in making documentation better.
+
+[^1]: Parnas and Clements, Trans. Software Eng. 12(2), 1986. http://web.engr.oregonstate.edu/~digd/courses/cs361_W15/docs/IEEE86_Parnas_Clement.pdf
