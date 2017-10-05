@@ -2,8 +2,6 @@ Research blog website for neilernst.net - Jekyll version
 
 Uses [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 
-<<<<<<< HEAD
-=======
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
 See what's new in the [CHANGELOG](CHANGELOG.md).
@@ -134,9 +132,7 @@ To test the theme, run `bundle exec rake preview` and open your browser at `http
 - [FitVids.JS](http://fitvidsjs.com/)
 - Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
 - [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
->>>>>>> upstream/master
 
----
 
 ## License
 Minimal Mistakes
