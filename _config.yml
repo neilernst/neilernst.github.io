@@ -168,13 +168,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-<<<<<<< HEAD
-paginate_path: /blog/page:num/
-#timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-=======
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
->>>>>>> upstream/master
 
 
 # Plugins (previously gems:)
