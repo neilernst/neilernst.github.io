@@ -1,1 +1,49 @@
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+title: Semantic Werks
+locale: "en-CA"
+tagline: Thoughts on research, software and methodology.
+email: neil@neilernst.net
+description: > # this means to ignore newlines until "baseurl"
+  Thoughts on research, software and other topics.
+#url: "http://neilernst.github.io"
+url: "http://www.neilernst.net"
+#url: "http://localhost:4000"
+
+twitter_username: neilernst
+github_username:  neilernst
+
+header_pages:
+  - about.md
+  - research.md
+  - blog.md
+  - prospective.md
+
+# Analytics
+analytics:
+  provider               : false #(default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :  UA-3378072-1 # neilersnt.net UA-3378072-1 neilernst.github UA-86878691-1
+
+ # disqus:
+ #    shortname: my_disqus_shortname
+# Build settings
+markdown: kramdown
+theme: minima
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
