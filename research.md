@@ -20,6 +20,7 @@ These are the most recent and/or interesting publications. For a complete list, 
 <ul>
     <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
     <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
+     <li><a href="https://arxiv.org/search?searchtype=author&query=Ernst%2C+N+A" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> ArXiv</a></li>
     <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
     <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
     <li><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></li>
@@ -30,7 +31,7 @@ I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/)
 
 ### 2018
 1. Neil A. Ernst, Rick Kazman, Philip Bianco, "Towards Rapid Composition with Confidence in Robotics Software", in Int Workshop on Robotics in Software Engineering at ICSE, 2018. [pdf](/papers/rose-main.pdf) • [slides](https://speakerdeck.com/neilernst/towards-rapid-composition-with-confidence-in-robotics-software)
-2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Workking Conference on Mining Software Repositories, 2018. [arxiv]() • [slides]()
+2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Working Conference on Mining Software Repositories, 2018. [arxiv](https://arxiv.org/abs/1804.02443) • [slides]()
 
 ### 2017
 1. (short paper)  M. P. Robillard, A. Marcus, C. Treude, G. Bavota, O. Chaparro, N. Ernst, M. A. Gerosa, M. Godfrey, M. Lanza, M. Linares-Vásquez, G. Murphy, L. Moreno, D. Shepherd, and E. Wong, "On-Demand Developer Documentation", ICSME ’17: 33rd Int’l. Conf. on Software Maintenance and Evolution (AR: 58%) [preprint c/o C. Treude](https://ctreude.files.wordpress.com/2017/08/icsme17b.pdf)
