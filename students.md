@@ -8,6 +8,8 @@ One of the best parts of being a prof is working with talented and passionate gr
 
 Prospective students [see here](/prospective/).
 
+Current students should read through the [onboarding](https://github.com/neilernst/Onboarding) documents. 
+
 ----
 
 ## Graduate students:
@@ -16,6 +18,8 @@ Prospective students [see here](/prospective/).
 
 ----
 ## Undergraduate students:
+
+* Zane Li 
 
 ----
 ## Alumni:
