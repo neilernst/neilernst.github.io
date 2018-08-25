@@ -1,21 +1,50 @@
 ---
 permalink: /research/
-title: Research 
+title: Research & Publications
 ---
 
-My research explains how and why software behaves, based on user intentions. We want to know that our software is doing what we told it. We also want to know the reasons our software does something unexpected. Finally, we want to be able to design software to meet our intentions in the first place.
+My research explains the how and why of software, based on user intentions. We want to know that our software is doing what we told it. We also want to know the reasons our software does something unexpected. Finally, we want to be able to design software to meet our intentions in the first place. Some recent and ongoing projects:
 
+<!-- 
 This is particularly important today:
 
 * extensive use of "other people's code" in the form of libraries and packages; 
 * software running on "other people's computers", i.e., the cloud; 
-* software with a wide latitude to make its own decisions, often relying on opaque machine learning algorithms.
+* software with a wide latitude to make its own decisions, often relying on opaque machine learning algorithms. -->
 
+- TOC
+{:toc}
 
-You can find more from the slides I used for [this recent talk](https://speakerdeck.com/neilernst/why-did-the-system-do-that-explaining-how-software-works-in-terms-of-your-intentions-and-its-design).
+# <img width="40px" src="{{site.baseurl}}/images/noun_Puzzle_1016136_000000.png"/> Software Composition
 
-# Selected Publications
-These are the most recent and/or interesting publications. For a complete list, or mostly complete, best to look at one of the following sites. 
+We are working on assessing the ways in which software composition works. This includes looking at how components are selected, new architecture tactics in assembling them, and analysis of quality attribute satisfaction.
+
+1. Neil A. Ernst, Rick Kazman, Philip Bianco, "Towards Rapid Composition with Confidence in Robotics Software", in Int Workshop on Robotics in Software Engineering at ICSE, 2018. [pdf](/papers/rose-main.pdf) • [slides](https://speakerdeck.com/neilernst/towards-rapid-composition-with-confidence-in-robotics-software)
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_financial debt_1613245_000000.png"/> Technical Debt and Software Documentation 
+Technical debt is a short-term software design choice that incurs long-term costs if not dealt with. We look at technical debt in requirements, in architecture, and for emerging machine learning systems. 
+
+1. (short paper)  M. P. Robillard, A. Marcus, C. Treude, G. Bavota, O. Chaparro, N. Ernst, M. A. Gerosa, M. Godfrey, M. Lanza, M. Linares-Vásquez, G. Murphy, L. Moreno, D. Shepherd, and E. Wong, "On-Demand Developer Documentation", ICSME ’17: 33rd Int’l. Conf. on Software Maintenance and Evolution (AR: 58%) [preprint c/o C. Treude](https://ctreude.files.wordpress.com/2017/08/icsme17b.pdf)
+2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", *International Conference on Software Architecture*, Gothenburg, 2017. [preprint](/papers/icsa17-long.pdf) • [long version](/papers/icsa17-long.pdf) • [blog post](https://insights.sei.cmu.edu/sei_blog/2017/05/automating-design-analysis.html)
+2. **Neil A. Ernst**, Stephany Bellomo, Robert Nord, Ipek Ozkaya, Ian Gorton: "Measure It, Manage It, Ignore It: Software Practitioners and Technical Debt". International Conference on Foundations of Software Engineering/European Software Engineering Conference (ESEC/FSE), Bergamo, Italy, 2015. **Distinguished paper award.** (Acceptance rate: 25.4%, 291 submissions). [Data](https://github.com/neilernst/td-survey) • [preprint](/papers/fse15.pdf) • [blog](http://bit.ly/sei-td) • [slides](http://www.slideshare.net/NeilErnst/measure-it-manage-it-ignore-it-software-practitioners-and-technical-debt) 
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_PhysicalExam_301421_000000.png"/> Qualitative Research and Peer Review
+We are conducting studies into how qualitative research is emerging as a key research strategy for software engineering, which is, after all, highly subjective and contextual. A similar project looks at how we know what we know in software engineering, specifically for reviewing papers.
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_Normal distribution_991167_000000.png"/> Bayesian Statistics
+We are examining ways to improve the state of the art of software research statistical approaches, particularly by eliminating null hypothesis testing. Bayesian statistics works intuitively with our 
+2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Working Conference on Mining Software Repositories, 2018. [arxiv](https://arxiv.org/abs/1804.02443) • [slides](https://speakerdeck.com/neilernst/bayesian-hierarchical-modeling-for-software-metrics?slide=1)
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_statistics_1897888_000000.png"/> Software Engineering for Machine Learning
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_students_21562_000000.png"/> Software Requirements and Analysis
+1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", *International Requirements Engineering Conference*, Porto, 2017. [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
+1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
+1. Ivan J. Jureta, Alexander Borgida, Neil A. Ernst, and John Mylopoulos. "The requirements problem for adaptive systems". ACM Transactions on Management Information Systems, 5(3):17:1–17:33, September 2014. [preprint](/papers/tmis-v43.pdf) [publisher](http://dx.doi.org/10.1145/2629376)
+2. Neil A. Ernst, Alexander Borgida, Ivan J. Jureta, John Mylopoulos, "Agile requirements engineering via paraconsistent reasoning", _Information Systems_, 43: 100–116, July 2014. [preprint](https://dl.dropboxusercontent.com/u/340814/caise-journal.pdf) - [publisher](http://dx.doi.org/10.1016/j.is.2013.05.008) 
+
+# <img width="40px" src="{{site.baseurl}}/images/noun_Mortarboard_1727785_000000.png"/>All Publications
+For a complete list, or mostly complete, best to look at one of the following sites. 
 
 <ul>
     <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
@@ -29,22 +58,6 @@ These are the most recent and/or interesting publications. For a complete list, 
 
 I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/) extension.
 
-### 2018
-1. Neil A. Ernst, Rick Kazman, Philip Bianco, "Towards Rapid Composition with Confidence in Robotics Software", in Int Workshop on Robotics in Software Engineering at ICSE, 2018. [pdf](/papers/rose-main.pdf) • [slides](https://speakerdeck.com/neilernst/towards-rapid-composition-with-confidence-in-robotics-software)
-2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Working Conference on Mining Software Repositories, 2018. [arxiv](https://arxiv.org/abs/1804.02443) • [slides](https://speakerdeck.com/neilernst/bayesian-hierarchical-modeling-for-software-metrics?slide=1)
-
-### 2017
-1. (short paper)  M. P. Robillard, A. Marcus, C. Treude, G. Bavota, O. Chaparro, N. Ernst, M. A. Gerosa, M. Godfrey, M. Lanza, M. Linares-Vásquez, G. Murphy, L. Moreno, D. Shepherd, and E. Wong, "On-Demand Developer Documentation", ICSME ’17: 33rd Int’l. Conf. on Software Maintenance and Evolution (AR: 58%) [preprint c/o C. Treude](https://ctreude.files.wordpress.com/2017/08/icsme17b.pdf)
-1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", *International Requirements Engineering Conference*, Porto, 2017. [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
-2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", *International Conference on Software Architecture*, Gothenburg, 2017. [preprint](/papers/icsa17-long.pdf) • [long version](/papers/icsa17-long.pdf) • [blog post](https://insights.sei.cmu.edu/sei_blog/2017/05/automating-design-analysis.html)
-
-### 2016
-1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
-2. **Neil A. Ernst**, Stephany Bellomo, Robert Nord, Ipek Ozkaya, Ian Gorton: "Measure It, Manage It, Ignore It: Software Practitioners and Technical Debt". International Conference on Foundations of Software Engineering/European Software Engineering Conference (ESEC/FSE), Bergamo, Italy, 2015. **Distinguished paper award.** (Acceptance rate: 25.4%, 291 submissions). [Data](https://github.com/neilernst/td-survey) • [preprint](/papers/fse15.pdf) • [blog](http://bit.ly/sei-td) • [slides](http://www.slideshare.net/NeilErnst/measure-it-manage-it-ignore-it-software-practitioners-and-technical-debt) 
-
-### 2015 and earlier
-1. Ivan J. Jureta, Alexander Borgida, Neil A. Ernst, and John Mylopoulos. "The requirements problem for adaptive systems". ACM Transactions on Management Information Systems, 5(3):17:1–17:33, September 2014. [preprint](/papers/tmis-v43.pdf) [publisher](http://dx.doi.org/10.1145/2629376)
-2. Neil A. Ernst, Alexander Borgida, Ivan J. Jureta, John Mylopoulos, "Agile requirements engineering via paraconsistent reasoning", _Information Systems_, 43: 100–116, July 2014. [preprint](https://dl.dropboxusercontent.com/u/340814/caise-journal.pdf) - [publisher](http://dx.doi.org/10.1016/j.is.2013.05.008) (invited extended version of conference paper 1 below)
 
 <!-- 3. John Klein, Ian Gorton, **Neil A. Ernst**, Patrick Donohoe, Kim Pham, Christian Matser, "Application-specific evaluation of NoSQL databases", International Big Data Congress, New York, 2015.
 4. Stephany Bellomo, **Neil A. Ernst**, Robert L. Nord, Rick Kazman: "Toward Design Decisions to Enable Deployability: Empirical Study of Three Projects Reaching for the Continuous Delivery Holy Grail''. International Conference on Dependable Systems and Networks, Atlanta, pp. 702-707, 2014.
@@ -70,7 +83,7 @@ I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/)
 * Neil Ernst, Stephany Bellomo, Robert L. Nord, and Ipek Ozkaya, "Enabling Incremental Iterative Development at Scale: Quality Attribute Refinement and Allocation in Practice", [SEI/CMU-2015-TR-008](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=439055), 2015.
 * Ivan Jureta, Alexander Borgida, Neil A. Ernst, "Mixed-Variable Requirements Roadmaps and their Role in the Requirements Engineering of Adaptive Systems". [arXiv:1102.4178](http://arxiv.org/abs/1102.4178). -->
 
-### Theses
+# <img width="40px" src="{{site.baseurl}}/images/noun_Man Push The Stone_1441102_000000.png"/> Theses
 * N. A. Ernst, "Software Evolution: A Requirements Engineering Approach". Ph.D. dissertation, University of Toronto, 2011. [pdf](/papers/ernst_neil_a_201206_phd_thesis.pdf) (224 pages)
-* N. A. Ernst, "Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces", unpublished M.Sc. thesis, University of Victoria, 2004. [pdf](/papers/neil-thesis-final.pdf)
+* N. A. Ernst, "Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces", unpublished M.Sc. thesis, University of Victoria, 2004. [pdf](/papers/neil-thesis-final.pdf) (95 pages)
 
