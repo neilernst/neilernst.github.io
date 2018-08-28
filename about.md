@@ -14,13 +14,16 @@ I teach courses in software engineering (mostly) for our Software Engineering an
 
 I serve in various roles as workshop and conference organizer, program committees, student supervision, journal reviews, etc. Among others:
 
-* Track co-chair, Negative results in Software Analysis, Evolution, and Reegineering, [SANER 2018](http://saner.unimol.it/). 
 * Steering committee, International Working Conf. on [Source Code Analysis and Manipulation](http://www.ieee-scam.org) (SCAM). Submit to SCAM in Madrid, 2018!
-* Program co-chair, [International Conf. on Software Architecture](http://icsa-conferences.org), 2018
+* Program co-chair, [Consortium on Software EngineerinR](https://www.cser.ca), 2018
 * Senior Associate editor, [Journal of Systems and Software](https://www.journals.elsevier.com/journal-of-systems-and-software)
 
 ## Previously:
 
+<!--
+    * Track co-chair, Negative results in Software Analysis, Evolution, and Reegineering, [SANER 2018](http://saner.unimol.it/). 
+    * Program co-chair, [International Conf. on Software Architecture](http://icsa-conferences.org), 2018
+    -->
 * senior member of the technical staff at the [Software Engineering Institute](https://www.sei.cmu.edu) at Carnegie Mellon University.
 * postdoc in software engineering at the [University of British Columbia](https://www.cs.ubc.ca).
 * PhD student in Computer Science at the [University of Toronto](http://www.cs.utoronto.ca).
