@@ -32,18 +32,22 @@ Technical debt is a short-term software design choice that incurs long-term cost
 We are conducting studies into how qualitative research is emerging as a key research strategy for software engineering, which is, after all, highly subjective and contextual. A similar project looks at how we know what we know in software engineering, specifically for reviewing papers.
 
 # <img width="40px" src="{{site.baseurl}}/images/noun_Normal distribution_991167_000000.png"/> Bayesian Statistics
-We are examining ways to improve the state of the art of software research statistical approaches, particularly by eliminating null hypothesis testing. Bayesian statistics works intuitively with our 
+We are examining ways to improve the state of the art of software research statistical approaches, particularly by eliminating null hypothesis testing. Bayesian statistics works intuitively with the highly contextual nature of software projects, which tend to vary in size, domain, criticality, and numerous other places. 
+
 2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Working Conference on Mining Software Repositories, 2018. [arxiv](https://arxiv.org/abs/1804.02443) • [slides](https://speakerdeck.com/neilernst/bayesian-hierarchical-modeling-for-software-metrics?slide=1)
 
 # <img width="40px" src="{{site.baseurl}}/images/noun_statistics_1897888_000000.png"/> Software Engineering for Machine Learning
+An emerging research focus is on how machine learning and probability is integrated into more "conventional" software projects. We'll have more to announce here soon, I hope ;) For now you can entertain yourself with Andrej Karpathy's essay [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) and the ["ML is the high interest credit card of TD"](https://ai.google/research/pubs/pub43146) paper.
 
 # <img width="40px" src="{{site.baseurl}}/images/noun_students_21562_000000.png"/> Software Requirements and Analysis
+My background is requirements analysis and modeling, and this continues to be a passion of mine. All the funky stuff we can do with programming languages, testing, design, etc. is irrelevant if we are building the wrong thing. 
+
 1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", *International Requirements Engineering Conference*, Porto, 2017. [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
 1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
 1. Ivan J. Jureta, Alexander Borgida, Neil A. Ernst, and John Mylopoulos. "The requirements problem for adaptive systems". ACM Transactions on Management Information Systems, 5(3):17:1–17:33, September 2014. [preprint](/papers/tmis-v43.pdf) [publisher](http://dx.doi.org/10.1145/2629376)
 2. Neil A. Ernst, Alexander Borgida, Ivan J. Jureta, John Mylopoulos, "Agile requirements engineering via paraconsistent reasoning", _Information Systems_, 43: 100–116, July 2014. [preprint](https://dl.dropboxusercontent.com/u/340814/caise-journal.pdf) - [publisher](http://dx.doi.org/10.1016/j.is.2013.05.008) 
 
-# <img width="40px" src="{{site.baseurl}}/images/noun_Mortarboard_1727785_000000.png"/>All Publications
+# <img width="40px" src="{{site.baseurl}}/images/noun_Mortarboard_1727785_000000.png"/> All Publications
 For a complete list, or mostly complete, best to look at one of the following sites. 
 
 <ul>
@@ -87,3 +91,4 @@ I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/)
 * N. A. Ernst, "Software Evolution: A Requirements Engineering Approach". Ph.D. dissertation, University of Toronto, 2011. [pdf](/papers/ernst_neil_a_201206_phd_thesis.pdf) (224 pages)
 * N. A. Ernst, "Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces", unpublished M.Sc. thesis, University of Victoria, 2004. [pdf](/papers/neil-thesis-final.pdf) (95 pages)
 
+<small>Icons from NounProject</small>
