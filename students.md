@@ -15,11 +15,14 @@ Current students should read through the [onboarding](https://github.com/neilern
 ## Graduate students:
 
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen)
+* Zane Li 
+* Karan Tongay
+* [Alvi Mahadi](https://github.com/alvi2496)
 
 ----
 ## Undergraduate students:
 
-* Zane Li 
+* 
 
 ----
 ## Alumni:
