@@ -16,7 +16,7 @@ Current students should read through the [onboarding](https://github.com/neilern
 
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen)
 * Zane Li 
-* Karan Tongay
+* [Karan Tongay](https://github.com/karantongay)
 * [Alvi Mahadi](https://github.com/alvi2496)
 
 ----
