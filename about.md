@@ -8,7 +8,7 @@ permalink: /about/
  -->
 I am assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca). 
 
-You can learn more [about my research](/research).
+You can learn more [about my research](/research). [Download my short bio](bio-neil-short.txt).
 
 I teach courses in software engineering (mostly) for our Software Engineering and Computer Science programs. 
 
