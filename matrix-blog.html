@@ -1,0 +1,354 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>When Writing it Down is Not Enough: the Era of Computational Notebooks</title>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Semantic Werks" />
+</head>
+<body>
+        <header class="site-header" role="banner">
+
+                <div class="wrapper"><a class="site-title" rel="author" href="/">Semantic Werks</a><nav class="site-nav">
+                      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+                      <label for="nav-trigger">
+                        <span class="menu-icon">
+                          <svg viewBox="0 0 18 15" width="18px" height="15px">
+                            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                          </svg>
+                        </span>
+                      </label>
+              
+                      <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/research/">Research &amp; Publications</a><a class="page-link" href="/present/">Presentations</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/students/">Students</a></div>
+                    </nav></div>
+              </header>
+              <main class="page-content" aria-label="Content">
+<link rel="stylesheet" href="/assets/main.css">
+<h1>When Writing it Down is Not Enough: the Era of Computational Notebooks</h1>
+<table style="width:85%;">
+<colgroup>
+<col width="15%" />
+<col width="45%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.001.jpeg" class="slide" height="300px" /></td>
+<td>This is a talk I gave recently at the UVic Matrix Institute for Data Science. This is about the rise of what I (and others) call computational notebooks. Notebooks are inherent to doing science. They have supported exploration, kept detailed track of what was tried, and archive historical analysis. I want to talk about how these notebooks, and this way of doing science, is shifting to a computational approach. I'll cover the pros and cons, and talk about the engineering concerns computational notebooks introduce.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.003.jpeg" class="slide" height="300px" /></td>
+<td>We'll cover three main topics. One, what makes paper notebooks so effective. Two, I'll introduce computational notebooks. And finally, I'll talk about the tradeoffs inherent in moving to Computational notebooks.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.005.jpeg" class="slide" height="300px" /></td>
+<td>Notebooks support description. They record what has happened in our investigations, like the combinations of reagents we tried, experimental designs that failed, or ideas and thoughts we had.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.006.jpeg" class="slide" height="300px" /></td>
+<td>They help us to explore, recording where the knobs were set on our chromagraph, or the parameters for the learning algorithm. This is important for serendipitous discoveries like post-it notes, vulcanized rubber, or penicillin.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.007.jpeg" class="slide" height="300px" /></td>
+<td>They explain, to others, but also to our future selves, how to replicate the results we obtained.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.008.jpeg" class="slide" height="300px" /></td>
+<td>Notebooks are there when we need them. They are cheap, easy to use, and portable. Notebooks can be used on the moon, or underwater. They can suffer acid burns and food spills.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.009.jpeg" class="slide" height="300px" /></td>
+<td>Now I'd like to walk through some examples of notebooks through the ages. This one is Leonardo. Famously written in mirror script to prevent copying. Demonstrates considerably more artistic skill than most scientific notebooks, I'm guessing.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.010.jpeg" height="300px" /></td>
+<td>A valid question is what distinguishes, say, a chemist's notebook from that of an artist or musician. I guess my answer would be that there is no useful distinction in general. I think the explorations of a good scientist are just as creative, just as abductive, as those of musicians and artists. The notebooks capture the ideas and queries. In a way, the combinations and amounts of chemical reagents are no different than the sketches about light and perspective an artist might use.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.011.jpeg" class="slide" height="300px" /></td>
+<td>Sir Isaac Newton. From the FitzWilliam Museum Cambridge; "this notebook preserves his thoughts on optics together with the sums he spent on laundry and the confession of past sins he could remember in 1662". This may be the first recorded instance of "Too Much Information".</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.012.jpeg" class="slide" height="300px" /></td>
+<td>Darwin---these note say "Case must be that one generation then should be as many living as now. To do this &amp; to have many species in same genus (as is) requires extinction. Thus between A &amp; B immense gap of relation. C &amp; B the finest gradation, B &amp; D rather greater distinction. Thus genera would be formed. ---bearing relation". Recall that Darwin was on a 2 year voyage around the world on the Beagle - with no wifi! And his notes + specimens would have to form the basis for his future work. No going back to the Galapagos to refresh your memory. Here notebook is used as replication. Contrast these type of field notes with the notes taken in the laboratory; in the lab, all the &quot;subjects&quot; are still present, and we need to recapture their proportions. In the field, we are describing what already is, and we need to capture that unchanging state (unchanging in human terms).</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.013.jpeg" class="slide" height="300px" /></td>
+<td>Marie Curie. If you look closely you can see the purple glove of the handler. Apparently her notebooks remain radioactive years later, so when you are knee deep in data and stressing out, remember that at least you are not being irradiated (on the other hand she won 2 Nobel Prizes in 2 different disciplines!)</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.014.jpeg" class="slide" height="300px" /></td>
+<td>Einstein. Math people use notebooks too! Maybe chalkboards. And as we will see, a mathematician/polymath created one of the earliest computational notebooks (Stephen Wolfram). Is there a distinction again with math notebooks, artistic notebooks, and &quot;pure&quot; science notebooks?</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.015.jpeg" class="slide" height="300px" /></td>
+<td>Rosalind Franklin's description of the X-ray crystallography of DNA, doing the important work for Crick and Watson. In the book &quot;Scientific Writing&quot;, the author Schimel makes the case that Franklin was snubbed by the Nobel committee because she created only information, and not knowledge. In other words, perhaps her notes were useful as repository, but without further analysis insufficient for being truly groundbreaking. Or, she was the victim of sexism and her notes were worthy of a Nobel in themselves.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.016.jpeg" class="slide" height="300px" /></td>
+<td>Margaret Mead: She states that she is preserving general ethnological materials carefully so that they can be used by anyone with a knowledge of Polynesia. Her incomplete notes on the problem assigned her by her advisor, Franz Boas would be of no use to anyone else, however, "so I'm being as cryptic and illegible and brief as I like." The materials in the <a href="https://www.loc.gov/exhibits/mead/field-samoa.html">Library of Congress's Mead</a> collection support this distinction. Contrast this with Darwin, also a field scientist, who was more positivist in philosophy.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.017.jpeg" class="slide" height="300px" /></td>
+<td>Let's talk about the constraints notebooks we've seen impose. What do they prevent us from doing?</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.018.jpeg" class="slide" height="300px" /></td>
+<td>They are fragile. Archive and replicability require expertise. For example, there are entire fields dedicated to the archiving and preservation and study of notebooks from famous scientists. The Newton Project is dedicated to assembling all the works of Isaac Newton; an interesting anecdote is that when some of the papers were donated to Cambridge, a well-meaning archivist re-organized them into his own schema; thus destroying the potential 'meta-data' as to how Newton himself stored things. Even how you make notes could be relevant. This is obviously an issue with old, famous notebooks, but think about all the relatively unknown notebooks that will never be studied.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.019.jpeg" class="slide" height="300px" /></td>
+<td>They burn and are necessarily fragile. For example, we no doubt lost many records in the Brazilian museum fire. But are digital notebooks - stored, as of now, in Unicode and JSON, at least for Jupyter, any more permanent?</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.020.jpeg" class="slide" height="300px" /></td>
+<td>They are idiosyncratic and personal.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.021.jpeg" class="slide" height="300px" /></td>
+<td>This is an example of Leonardo's mirror script + shorthand. Besides handwriting, the lack of a standard form means every scientific notebook is highly idiosyncratic, providing employment for handwriting experts and translators, but making easy replication difficult.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.022.jpeg" class="slide" height="300px" /></td>
+<td>Paper notebooks are static and immutable.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.023.jpeg" class="slide" height="300px" /></td>
+<td>Unlike Doctor Who, we cannot travel in time. This is not a problem, always; it means we can see exactly what we wrote, when. But it means re-running an older analysis with new data is impossible.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.024.jpeg" class="slide" height="300px" /></td>
+<td>So if paper notebooks are easily destroyed, highly idiosyncratic, and immutable, how can we improve on this? Let's talk now about computational notebooks.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.025.jpeg" class="slide" height="300px" /></td>
+<td>A computational notebook is exactly a paper notebook stored digitally. It is a combination of text and scientific computer code, often Python, which can generate visualizations. A set of computer readable cells that aims to mimic the experience Mead, Galileo and others might have had.</td>
+</tr>
+<tr class="even">
+<td></td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.026.jpeg" class="slide" height="300px" /></td>
+<td>This is a screenshot of a Jupyter notebook running in a web browser (meaning, on any device with a web browser, so phones, tablets, desktops...).</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.027.jpeg" class="slide" height="300px" /></td>
+<td>Computational notebooks have a dual heritage: these paper notebooks, and software development practices.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.028.jpeg" class="slide" height="300px" /></td>
+<td>There are two parallel streams merging - the need for software programs to be maintainable by others, and therefore documented. Two, the notion of lab notebook as "stream of consciousness + reproducible artifact"</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.029.jpeg" class="slide" height="300px" /></td>
+<td>Let's look at the software lineage.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.030.jpeg" class="slide" height="300px" /></td>
+<td>From the software lineage, computational notebooks get work that has been done on self-descriptive computer code.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.031.jpeg" class="slide" height="300px" /></td>
+<td>This is a screenshot of Donald Knuth's literate programming concept, from 1984. Literate programming mixes documentation and explanation with code, just like we see in modern computational notebooks. The problem Knuth was solving was the challenge of integrating software code with the documentation that described the purpose of that code. Even the earliest programs had a facility for annotating certain lines as comments, but literate programming was more than this. It was to end the (artifical) separation of design from code. This pedigree can be traced to various efforts over the years, mostly all unsuccessful, I would argue because the pudding in which the proof can be found is in fact the working bytecode that a program generates, and not human-readable comments. But you can trace several efforts here, arguably one of the most important being the notion of the "Read-Evaluate-Print" (REPL) paradigm behind interpreted languages like Perl, TCL, and now Python and R.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.032.jpeg" class="slide" height="300px" /></td>
+<td>Similar efforts can be seen in modern languages. Here is an example from Java Docs. Annotations like <code>@param</code> are used to automatically generate documentation. <br/> One of my favourite quotes is &quot;Any fool can write code that a computer can understand. Good programmers write code that humans can understand."" - Martin Fowler</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.033.jpeg" class="slide" height="300px" /></td>
+<td>Software engineering work has also given us the notion of interactivity. Not just run and see results, although we have made huge strides in this area, from the stories of walking your punch cards over to the timeshared "computer", then waiting a day to get the results. Read-Eval-Print loops, and interactive programming in Swift Playgrounds or block languages like Blockly.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.034.jpeg" class="slide" height="300px" /></td>
+<td>Here is an interactive Swift playground allowing novice programmers to get rapid feedback about their program.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.035.jpeg" class="slide" height="300px" /></td>
+<td>Brett Victor is a designer who has done a lot in this space, and I think more is to come. Here he describes a tool for programming that gives instantaneous feedback, with live debugging. As you change the variable on the right, the left side updates immediately.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.036.jpeg" class="slide" height="300px" /></td>
+<td>What has of course really helped software development is the rich interchangeable set of software components we can leverage. The vision of reusable components is finally realized.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.037.jpeg" class="slide" height="300px" /></td>
+<td>This screenshot shows dependencies for 1 of the Electron project's three manifest files. This is all code you do not have to write!</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.038.jpeg" class="slide" height="300px" /></td>
+<td>This applies even more so in scientific software. Here we see the ecosystem of Jupyter notebooks, showing all the components involved.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.039.jpeg" class="slide" height="300px" /></td>
+<td>So from the software lineage notebooks get self-description, interactivity, and connectedness.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.040.jpeg" class="slide" height="300px" /></td>
+<td>While programming software has become more interactive and repeatable, science has become more and more about software and computation, and so too have the tools to support that science. Many field scientists now spend much of their time at the computer, downloading data, processing data, and running analyses.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.041.jpeg" class="slide" height="300px" /></td>
+<td>Recall our gallery of early notebooks. Clearly a main predecessor to computational notebooks is the rich history and lineage of textual notebooks.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.042.jpeg" class="slide" height="300px" /></td>
+<td>The paper notebooks were:
+    <ul><li> temporal records</li><li>support exploration</li><li>shareable</li><li> easy to use</li></ul>
+
+</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.043.jpeg" class="slide" height="300px" /></td>
+<td>Mathematica, for example, has had the ability to inline graphics for decades. And in many ways - with simulations - open source alternatives are only now catching up (e.g, with Shiny from R). This is a screenshot from 2008 (Mathematica 6). Of course, the high cost of the tool and the closed nature of the language limited its popularity.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.044.jpeg" class="slide" height="300px" /></td>
+<td>This is a screenshot of IPython 0.11 in 2010. <a href="http://blog.fperez.org/2012/01/ipython-notebook-historical.html">It was created</a> by Fernando Perez - physicist - and Brian Granger starting in 2001. In 2014 this was spun off into Project Jupyter, for Julia, Python, R, as a way to avoid his thesis.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.045.jpeg" class="slide" height="300px" /></td>
+<td>This raises the question... what is the computational notebook equivalent to Newton's diary? In the actual talk I gave a short demo of the Pacific Institute for Math's http://syzygy.ca Jupyter service.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.046.jpeg" class="slide" height="300px" /></td>
+<td>Similar capabilities exist with R Studio and R Notebooks.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.047.jpeg" class="slide" height="300px" /></td>
+<td>Computational notebooks are descriptive, interactive, and connected. You get narrative (in this case, with Markdown text), you get the results of your typing with rapid feedback on changes (conditional on what you are trying to do, of course), and a huge ecosystem of related libraries.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.048.jpeg" class="slide" height="300px" /></td>
+<td>One exploding area of notebooks is for data analytics in the enterprise. In particular, companies like Microsoft, Amazon Web Services, IBM and Netflix, among others, have talked about making notebooks the front-end to more complex machine learning pipelines, storing parameters, and so on. Tools like NTeract are trying to make the notebook experience more intuitive (e.g. drag and drop). This is actually involving a 3rd role, that of Data Engineer, as several researchers, including Rob Deline at Microsoft have pointed out.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.049.jpeg" class="slide" height="300px" /></td>
+<td>Adam Rule has done some interesting descriptive analysis of notebooks. I encourage you to check his website for the details. My takeaway was that there was a lot of what I would call, for lack of a better term, &quot;uninteresting notebooks&quot;, either cloned, or one-offs.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.050.jpeg" class="slide" height="300px" /></td>
+<td>So I've talked about these different kinds of notebooks, and hopefully by now you see how powerful computational notebooks are. But I think there are some key aspects we really need to keep in mind.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.051.jpeg" class="slide" height="300px" /></td>
+<td>The challenge as notebooks see more and more use is to balance their dual heritage in software and science, and in particular, support exploration without necessarily ignoring engineering concerns.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.052.jpeg" class="slide" height="300px" /></td>
+<td>The worry I have is that notebooks are making replicable software really hard to write - much harder than writing code in Python or Fortran. And we already have enough problems getting people skilled up in these areas! <br/><br/>I think the takeaway message then is this. In the old days Newton, Franklin, and Mead never anticipated their personal notes and diaries would be used for replication, or out of context propaganda campaigns. The trouble is digital notebooks are absolutely going to be used for replication! We have already seen what can happen when software you never thought would be looked at, gets looked at by your well-funded enemies. Notebooks are merging this world of experimentation and prototyping with the world of reproducible, high quality software, and those two worlds have <em>very</em> different aims. The story thus far then is that notebooks like Jupyter have been fantastic for prototyping and self-talk, but hard to use for replication and sharing. The Reinart-Rogoff problem was a bad calculation in an Excel spreadsheet, leading to incorrect conclusions in their paper.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.053.jpeg" class="slide" height="300px" /></td>
+<td>The flip side of the Reinart-Rogoff problem is that Excel is staggeringly popular. For good reason. And yet, research shows that Excel is typically full of errors (e.g., you might overwrite a formula). Dr Felienne Hermans has studied this in detail.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.054.jpeg" class="slide" height="300px" /></td>
+<td>Data scientists have been discussing this tradeoff of engineering and exploration. In <a href="https://twitter.com/evolvable/status/991638175926837250">this Twitter exchange</a>, Graham Lea argues data science--what I call exploration--does not need engineering. Joel Grus, a software developer, strongly disagrees. I think from a software perspective, one extremely common problem is software that was written as a one-off, prototype exploration, that ends up becoming the production backbone of the entire enterprise. It is surprising how often developers don't expect their code to be around 20 or 30 years from now.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.055.jpeg" class="slide" height="300px" /></td>
+<td>We need to understand, within some context of use, where we fit on a continuum. This will change with time, and with importance of the project.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.056.jpeg" class="slide" height="300px" /></td>
+<td>The Square Kilometre Array project (SKA) is an interesting example. Here is the Jodrell Bank radio-telescope, one of the world's first. This telescope was also used to verify the general theory of relativity.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.057.jpeg" class="slide" height="300px" /></td>
+<td>Another paper notebook, this one captures the discovery of pulsars by Jocelyn Bell Burnell.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.058.jpeg" class="slide" height="300px" /></td>
+<td>The SKA will be dramatically different than the one Dame Bell used. This new telescope will connect thousands of antennae to look back to 300k years after the Big Bang. It will be enabled by extremely capable software. It is expected to process more data than entire internet in 2020.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.059.jpeg" class="slide" height="300px" /></td>
+<td>Some of the software capabilities include <ul><li>process data from each telescope and create images and other products</li><li>a computing platform includes hardware, operating system, SKA-originated software, and third party software.</li><li>processing pipelines include all software for ingesting, calibrating, editing, imaging, cataloguing, and searching data to produce science data products.</li></ul</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.060.jpeg" class="slide" height="300px" /></td>
+<td>Currently, SKA is being designed by a few software engineers, like me, but mostly by people who have built this stuff in the past, including physicists and astronomers. But the notebooks---the right side---are not being used for building the telescope. Actually, the learning from the notebooks---the results obtained---will inform many future projects. For example, a PhD student who devises a better data processing pipeline stands a good chance of seeing that code build or be incorporated into later telescopes. In the same way, climate model exploratory code - what does this model of cloud formation do - quickly gets built into the main model product. SKA and similar projects have to balance this dichotomy of scientific inquiry and exploration, with a need for highly capable, engineered software.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.061.jpeg" class="slide" height="300px" /></td>
+<td>Now I'm obviously biased, as a software researcher :) But this is exactly the problem that has bedevilled scientific software since the beginning. The code you write as a grad student is still code! It gets used! It informs policy decisions. The fact Netflix, for example, uses notebooks as a front-end to ML pipelines means major decisions are being made based on notebook results. Sure, experimenting on Kaggle problems is a largely individual and creative art, just like (say) Da Vinci's notebooks. But we rapidly progress from "here's a neat model" to "model now making credit scoring decisions". Data science creates software; software gets used.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.062.jpeg" class="slide" height="300px" /></td>
+<td>This is even more true in organizations and IT projects. Consider a project to improve hiring outcomes. This is a reasonable objective: it could save money and time if the best people were identified earlier in the process. A possible course of action is to form a data science team to examine the data collected on hiring so far. The team might train a classifier on the resumes or applications submitted, and suggest this will pinpoint the best candidates. At this point, we are in the exploratory setting; various algorithms and parameters are tried until the &quot;best&quot; one is found. Now the pendulum swings to software engineering, because the algorithm---the analysis pipeline, really---is put into production. Our organization needs to support both the exploratory phase as well as the production phase, and different tools apply for both. Furthermore, this is clearly not just a technical challenge, but a managerial pone as well. The biggest issue is the need to consider whether your analysis pipeline is truly producing fair and ethical results (which so far, has not been the case).</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.063.jpeg" class="slide" height="300px" /></td>
+<td>The notebook as we know it---I've been using them for about 5 years now---has gotten vastly better. Tools like those from Netflix, IBM, etc will only make things nicer. But for the end user, it's all a bit chaotic. To me it seems like the early days of software development, with a plethora of standards and languages, and no clear consensus. This will of course change. But there seems to be some clear problems that will have to be addressed, and my students and I are actively working on some of these.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.064.jpeg" class="slide" height="300px" /></td>
+<td>The first issue is that of parameters and configuration settings. What are the parameters? Where are they located in the notebook? What libraries and versions are we using? The ongoing challenge of managing environments with tools such as Conda or <code>virtualenv</code> are only magnified when we add another layer on top.</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.065.jpeg" class="slide" height="300px" /></td>
+<td>The second challenge is that of hidden state. When we run a program with the Python interpreter, it runs all the code it needs to. But in a notebook, the approach is more atomic. We run cells in any order we choose, and the dependencies between them, such as loading or cleaning data, are invisible. This has potential to cause errors, but also more subtle problems, such as depending on outdated data sources.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.066.jpeg" class="slide" height="300px" /></td>
+<td>Our third challenge is not unique to notebooks, of course. Who hasn't worked on paper-2-v3-ne-final.docx? But think about this in the context of the beginning of the talk. What is the Marie Curie radioactive version of Jupiter notebooks? What will the Nobel prize winner of 2050 be using? How do we archive and store notebooks? How can our standard version control tools, developed for source code, work with the exploratory paradigms of notebooks?</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.067.jpeg" class="slide" height="300px" /></td>
+<td>Our fourth challenge is about testing and modularity. This is really about moving the science workflow into the software engineering pipeline of continuous integration and testing. Good modularity means parts of our workflow are easy to replace as needed, instead of existing in a single JSON textfile with a bunch of imports. These are lessons the software world has learned --- painfully --- over many years now.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.068.jpeg" class="slide" height="300px" /></td>
+<td>The final problem is about education. Where and when do these practices get disseminated to students? Here in CS we use notebooks in the data mining course, but likely there is little time to explain best practices for notebook management. How do we teach notebooks in the context of software carpentry and reproducible science, if concepts like version control, package management etc are already foreign concepts? The real question is whether (data) science is about creating software?</td>
+</tr>
+<tr class="even">
+<td><img src="matrix-notebooks/matrix-notebooks.069.jpeg" class="slide" height="300px" /></td>
+<td>As we move into the data science age, the software 2.0 age, we need to keep this continuum in mind. This axis runs both ways, in my view. Software engineering gets more to the right, and data science moves more to the left. That is, software will become more data science, and data science more software engineering.</td>
+</tr>
+<tr class="odd">
+<td><img src="matrix-notebooks/matrix-notebooks.070.jpeg" class="slide" height="300px" /></td>
+<td>This is an exciting time. Computational notebooks have become connected, replicable, interactive replacements for paper notebooks, but many open questions remain! If you would like to pursue research in this area, please get in touch: <a href="mailto:neil@neilernst.net">neil@neilernst.net</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="links-and-sources">Links and Sources</h3>
+<ul>
+<li>Kery et al. "The Story in the Notebook: Exploratory Data Science using a Literate Programming Tool", CHI 2017</li>
+<li>Adam Rule, Aurélien Tabard, James Hollan, "Exploration and Explanation in Computational Notebooks", CHI 2018</li>
+<li>Kery and Myers, "<a href="https://hal.archives-ouvertes.fr/hal-01676633/document">Interactions for Untangling Messy History in a Computational Notebook</a>", VLHCC 2018</li>
+<li>Kim et al., "<a href="https://dl.acm.org/citation.cfm?id=2884783">The emerging role of data scientists on software development teams</a>", ICSE 2016</li>
+<li>Kim et al., "Data Scientists in Software Teams: State of the Art and Challenges", TSE 2017</li>
+<li>Begel and Zimmermann, "Analyze this! 145 questions for data scientists in software engineering", ICSE 2014</li>
+<li>Don Knuth, <a href="https://doi.org/10.1093/comjnl/27.2.97">Literate programming</a>. The Computer Journal, 27, 2 (Feb. 1984), 97-111.</li>
+<li>Wilson et al., Good enough practices in scientific computing, PLoS CompBio 2017</li>
+<li>James Somers, "<a href="https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/">The Scientific Paper is Obsolete</a>", Atlantic, 04/18</li>
+<li>Steven Wolfram, "<a href="https://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/">What is a Computational Essay</a>", November 2017</li>
+<li>Netflix, "<a href="https://medium.com/netflix-techblog/notebook-innovation-591ee3221233">Notebook innovation at Netflix</a>", Aug 2018</li>
+<li>Joel Grus, "<a href="theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646">I Don't Like Notebooks</a>", Sept 2018 (JupyterCon)</li>
+<li>Yihui Xie, "<a href="https://yihui.name/en/2018/09/notebook-war/">The First Notebook War</a>", Sept 2018</li>
+</ul>
+</main>
+<footer class="site-footer h-card">  
+    <div class="wrapper">
+  
+      <h2 class="footer-heading">Semantic Werks</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">Semantic Werks</li><li><a class="u-email" href="mailto:neil@neilernst.net">neil@neilernst.net</a></li></ul>
+        </div>
+  
+        <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/neilernst"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">neilernst</span></a></li><li><a href="https://www.twitter.com/neilernst"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">neilernst</span></a></li></ul>
+  </div>
+  
+        <div class="footer-col footer-col-3">
+          <p>Thoughts on research, software and other topics.</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
+  </body>
+  
+  </html>
