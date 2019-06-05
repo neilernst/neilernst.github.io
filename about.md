@@ -4,8 +4,8 @@ layout: page
 permalink: /about/
 ---
 
-<!-- <img src="/images/neil-ernst-small.jpg" alt="My profile pic" class="l-img">
- -->
+ <img src="/images/neil-portrait.png" alt="My profile pic" width="100px" class="l-img">
+
 I am assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca). 
 
 You can learn more [about my research](/research). [Download my short bio](bio-neil-short.txt).
