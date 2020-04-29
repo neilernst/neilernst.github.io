@@ -12,17 +12,24 @@ Current students should read through the [onboarding](https://github.com/neilern
 
 ----
 
-## Graduate students:
+## Phd Students
+
+* [Ze Shi (Zane) Li](http://thesegalgroup.org/people/ze-shi-li/) 
+
+## Master's students:
 
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen)
-* Zane Li 
 * [Karan Tongay](https://github.com/karantongay)
 * [Alvi Mahadi](https://github.com/alvi2496)
+* David Cheng
+* [Roshan Lasrado](https://roshanlas.com)
+* Marvi Jokhio
+* Matthew Ehrler
 
 ----
 ## Undergraduate students:
 
-* 
+* Derek Robinson
 
 ----
 ## Alumni:
