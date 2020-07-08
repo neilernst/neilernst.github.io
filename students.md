@@ -4,7 +4,7 @@ permalink: /students/
 ---
 
 # Students
-One of the best parts of being a prof is working with talented and passionate graduate and undergraduate students.
+One of the best parts of being a prof is working with talented and passionate graduate and undergraduate students. I am the administrative supervisor of the students listed below, but my philosophy is to work less hierarchically (e.g., there is no "Ernst lab") and more in a networked fashion. I therefore collaborate with my own students, but also with other students, with other groups and faculty (like [CHISEL](https://thechiselgroup.org) and [SEGAL](https://http://thesegalgroup.org)), and industry. 
 
 Prospective students [see here](/prospective/).
 
