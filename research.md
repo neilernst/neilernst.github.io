@@ -15,6 +15,21 @@ This is particularly important today:
 - TOC
 {:toc}
 
+# <img width="40px" src="{{site.baseurl}}/images/noun_Mortarboard_1727785_000000.png"/> All Publications
+For a complete list, or mostly complete, best to look at one of the following sites. 
+
+<ul>
+    <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
+    <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
+     <li><a href="https://arxiv.org/search?searchtype=author&query=Ernst%2C+N+A" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> ArXiv</a></li>
+    <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
+    <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
+    <li><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></li>
+    <li><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fa fa-github fa-fw" aria-hidden="true"></i> SpeakerDeck</a></li>
+</ul>
+
+I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/) extension.
+
 # <img width="40px" src="{{site.baseurl}}/images/noun_Puzzle_1016136_000000.png"/> Software Composition
 
 We are working on assessing the ways in which software composition works. This includes looking at how components are selected, new architecture tactics in assembling them, and analysis of quality attribute satisfaction.
@@ -46,21 +61,6 @@ My background is requirements analysis and modeling, and this continues to be a 
 1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
 1. Ivan J. Jureta, Alexander Borgida, Neil A. Ernst, and John Mylopoulos. "The requirements problem for adaptive systems". ACM Transactions on Management Information Systems, 5(3):17:1–17:33, September 2014. [preprint](/papers/tmis-v43.pdf) [publisher](http://dx.doi.org/10.1145/2629376)
 2. Neil A. Ernst, Alexander Borgida, Ivan J. Jureta, John Mylopoulos, "Agile requirements engineering via paraconsistent reasoning", _Information Systems_, 43: 100–116, July 2014. [preprint](https://dl.dropboxusercontent.com/u/340814/caise-journal.pdf) - [publisher](http://dx.doi.org/10.1016/j.is.2013.05.008) 
-
-# <img width="40px" src="{{site.baseurl}}/images/noun_Mortarboard_1727785_000000.png"/> All Publications
-For a complete list, or mostly complete, best to look at one of the following sites. 
-
-<ul>
-    <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
-    <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
-     <li><a href="https://arxiv.org/search?searchtype=author&query=Ernst%2C+N+A" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> ArXiv</a></li>
-    <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
-    <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
-    <li><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></li>
-    <li><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fa fa-github fa-fw" aria-hidden="true"></i> SpeakerDeck</a></li>
-</ul>
-
-I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/) extension.
 
 
 <!-- 3. John Klein, Ian Gorton, **Neil A. Ernst**, Patrick Donohoe, Kim Pham, Christian Matser, "Application-specific evaluation of NoSQL databases", International Big Data Congress, New York, 2015.
