@@ -18,7 +18,6 @@ Current students should read through the [onboarding](https://github.com/neilern
 
 ## Master's students:
 
-* [Karan Tongay](https://github.com/karantongay)
 * [Alvi Mahadi](https://github.com/alvi2496)
 * David Cheng (co-supervised with Daniela Damian)
 * [Roshan Lasrado](https://roshanlas.com)
@@ -34,6 +33,7 @@ Current students should read through the [onboarding](https://github.com/neilern
 ----
 ## Alumni:
 
+* [Karan Tongay](https://github.com/karantongay) (now at ICBC)
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen) (co-supervised with Margaret-Anne Storey)
 
 
