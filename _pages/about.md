@@ -1,7 +1,14 @@
 ---
-title: About
-layout: page
-permalink: /about/
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      permalink: /about/
+      title: About
 ---
 
  <img src="/images/neil-portrait.png" alt="My profile pic" width="100px" class="l-img">

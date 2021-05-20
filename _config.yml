@@ -10,7 +10,7 @@ url: "https://www.neilernst.net"
 
 twitter_username: neilernst
 github_username:  neilernst
-
+include: ["_pages"]
 header_pages:
   - about.md
   - research.md
@@ -28,13 +28,14 @@ analytics:
  #    shortname: my_disqus_shortname
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 exclude:
   - Gemfile
   - Gemfile.lock
