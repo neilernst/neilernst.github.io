@@ -1,16 +1,10 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
       permalink: /blog/
-      title: Blog
+      title: "Posts by Year"
+      layout: posts
+      author_profile: true
 ---
-
+<!-- 
 <div class="blog">
    {%- if site.posts.size > 0 -%}
     <ul class="post-list">
@@ -33,4 +27,4 @@ defaults:
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
-</div>
+</div> -->

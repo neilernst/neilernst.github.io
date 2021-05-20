@@ -1,37 +1,30 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
       permalink: /about/
       title: About
 ---
 
- <img src="/images/neil-portrait.png" alt="My profile pic" width="100px" class="l-img">
+ <!-- <img src="/images/neil-portrait.png" alt="My profile pic" width="100px" class="l-img"> -->
 
 I am assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca). 
 
-You can learn more [about my research](/research). [Download my short bio](bio-neil-short.txt).
+You can learn more [about my research](/research). [Download my short bio](/assets/bio-neil-short.txt).
 
-I teach courses in software engineering (mostly) for our Software Engineering and Computer Science programs. 
+I [teach courses](https://www.uvic.ca/BAN1P/bwckschd.p_disp_dyn_sched) in software engineering (mostly) for our Software Engineering and Computer Science programs. 
 
 I serve in various roles as workshop and conference organizer, program committees, student supervision, journal reviews, etc. Among others:
 
+* General Chair, 2022 [International Conference on Technical Debt](https://conf.researchr.org/home/TechDebt-2022) (May 2022, Pittsburgh)
 * Senior Associate editor, [Journal of Systems and Software](https://www.journals.elsevier.com/journal-of-systems-and-software)
 * [registered](https://icsme2020.github.io/cfp/RegisteredReportsTrackCFP.html) [reports](https://2020.msrconf.org/track/msr-2020-Registered-Reports) and [open science advocate](https://github.com/emsejournal/openscience/)
 * program committees - in the past, ICSE, RE, XP, CAISE, ER, MODELS
-* Editor, [Journal of Empirical Software Engineering](https://www.springer.com/journal/10664)
+* Associate Editor, [Journal of Empirical Software Engineering](https://www.springer.com/journal/10664)
 
 ## Consulting 
 I occasionally act as speaker, consultant and expert for matters relating to software architecture and software requirements, including architecture analysis, modern software development practices, and analytics for software engineering.
 
 Samples:
 * 01/2019 Square Kilometre Array, Manchester, UK, I led a two day architecture review and critical design review for the telescope’s science data processor.
-* 02/2013- Software Engineering Institute, Pittsburgh, USA. I consulted with different government agencies on software design and modernization, and led industry-specific software training courses.
+* 2013-2017 Software Engineering Institute, Pittsburgh, USA. I consulted with different government agencies on software design and modernization, and led industry-specific software training courses.
 
 ## Previously:
 

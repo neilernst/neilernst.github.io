@@ -7,25 +7,47 @@ description: > # this means to ignore newlines until "baseurl"
 #url: "http://neilernst.github.io"
 url: "https://www.neilernst.net"
 #url: "http://localhost:4000"
-
-twitter_username: neilernst
+repository: "neilernst/neilernst.github.io"
+paginate_path: /blog/page:num
+author:
+  name: "Neil Ernst"
+  avatar: "images/neil-portrait.png"
+  bio: "Software researcher and educator"
+  location: "Victoria, Canada"
+twitter:
+  username: "neilernst"
 github_username:  neilernst
 include: ["_pages"]
-header_pages:
-  - about.md
-  - research.md
-  - present.md
-  - blog.md
-  - students.md
-
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      related: true
+   # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 # Analytics
 analytics:
   provider               : false #(default), "google", "google-universal", "custom"
   google:
     tracking_id          :  UA-3378072-1 # neilersnt.net UA-3378072-1 neilernst.github UA-86878691-1
 
- # disqus:
- #    shortname: my_disqus_shortname
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
@@ -49,3 +71,14 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/neilernst"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/neilernst"
+    - label: "Scholar"
+      icon: "ai ai-google-scholar-square ai-3x"
+      url: "https://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en"

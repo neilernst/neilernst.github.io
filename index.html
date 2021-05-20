@@ -1,25 +1,53 @@
 ---
 title: "Neil Ernst"
-layout: home
+layout: splash
 permalink: /
 date: 2018-01-25
-<!--header:
+header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /images/saturna-sunset.jpg -->
-excerpt: "Assistant Professor of Computer Science<br/>University of Victoria"
+  overlay_image: /images/saturna-sunset.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Assistant Professor of Computer Science<br/> University of Victoria"
+intro: 
+  - excerpt: '<p style="font-size: large;">I work on software engineering problems in the <a href="https://doi.org/10.1109/MS.2016.149">intelligent, distributed</a> era.'
+feature_row:
+  - image_path: /images/old-letters.jpg
+    alt: "old letters"
+    url:  "/blog/"
+    title: "Writings and posts"
+    excerpt: "(Mostly) research related writing, paper overviews and the like."
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /images/binare-welt.jpg
+    alt: "placeholder image 2"
+    title: "Research & Pubs"
+    excerpt: "More on the research I do and links to my publications"
+    url: "/research"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: images/kid-pic.jpg
+    title: "About Me"
+    url: /about/
+    excerpt: "My bio and background"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<!-- 
 <hl>
 
-<p style="font-size: large;">Assistant Professor of Computer Science<br/>University of Victoria<br/></p>
-  <p style="font-size: large;">I work on software engineering problems in the <a href="https://doi.org/10.1109/MS.2016.149">intelligent, distributed</a> era.</p>
+<p style="font-size: large;"></p>
 
 <hl>
 
 <table style="text-align: center">
   <tr>
-    <td>  <a href="/blog/"><img width="205px" height="136px" src="/images/old-letters.jpg" alt="old letters image"/></a> </td>
+    <td>  <</td>
     <td><a href="/research/"><img width="205px" height="136px" src="/images/binare-welt.jpg" alt="codehead"/></a> </td>
     <td><a href="/about/"><img width="205px" height=136px" src="/images/kid-pic.jpg" alt="kid pic"/></a></td>
   </tr>
@@ -28,4 +56,4 @@ excerpt: "Assistant Professor of Computer Science<br/>University of Victoria"
       <td><a href="/research/">Research/Publications</a> </td>
       <td><a href="/about/">About</a></td>
   </tr>
-</table>
+</table> -->
