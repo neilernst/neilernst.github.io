@@ -8,7 +8,6 @@ description: > # this means to ignore newlines until "baseurl"
 url: "https://www.neilernst.net"
 #url: "http://localhost:4000"
 repository: "neilernst/neilernst.github.io"
-paginate_path: /blog/page:num
 author:
   name: "Neil Ernst"
   avatar: "images/neil-portrait.png"
@@ -51,13 +50,14 @@ comments:
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
-plugins_dir:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
 exclude:
   - Gemfile
   - Gemfile.lock
