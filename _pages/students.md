@@ -14,16 +14,15 @@ Current students should read through the [onboarding](https://github.com/neilern
 ## Phd Students
 
 * [Ze Shi (Zane) Li](http://thesegalgroup.org/people/ze-shi-li/) (co-supervised with Daniela Damian)
-* Amara Naseer
 
 ## Master's students:
 
 * David Cheng (co-supervised with Daniela Damian)
 * [Roshan Lasrado](https://roshanlas.com)
 * Marvi Jokhio
-* Matthew Ehrler (co-supervised with Yvonne Coady)
 * [Rohith Pudari](https://rohith-hacker.github.io/cv/)
-  
+* Amirreza Ghorbani
+
 ----
 ## Undergraduate students:
 
@@ -34,6 +33,5 @@ Current students should read through the [onboarding](https://github.com/neilern
 * [Alvi Mahadi](https://github.com/alvi2496) (now at [Gist](https://gist-apps.com))
 * [Karan Tongay](https://github.com/karantongay) (now at [ICBC](https://www.icbc.com/))
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen) (co-supervised with Margaret-Anne Storey)
-
-
+* Matthew Ehrler  (co-supervised with Yvonne Coady)
 

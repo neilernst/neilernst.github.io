@@ -15,7 +15,7 @@ author:
   location: "Victoria, Canada"
 twitter:
   username: "neilernst"
-github_username:  neilernst
+# github_username:  neilernst
 include: ["_pages"]
 defaults:
   # _posts
@@ -24,7 +24,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
       read_time: true
       comments: true
       related: true
@@ -34,7 +34,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
 # Analytics
 analytics:
   provider               : false #(default), "google", "google-universal", "custom"
@@ -49,7 +49,7 @@ comments:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
