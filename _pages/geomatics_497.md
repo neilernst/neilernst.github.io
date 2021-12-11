@@ -1,7 +1,14 @@
 ---
-type: page
-author: neil ernst
-date: Dec 2021
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+permalink: /geomatics/
+title: Presentations
 ---
 
 One of the requirements of our [combined program in Geomatics](https://www.uvic.ca/calendar/future/undergrad/index.php#/programs/r1gHEpQAf4?bc=true&bcCurrent=Geography%20and%20Computer%20Science%20(Geomatics)&bcItemType=programs) (of which I am the CS advisor)  is to do a capstone project (directed studies) on a geomatics topic. 
