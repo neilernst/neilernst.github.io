@@ -17,21 +17,21 @@ Current students should read through the [onboarding](https://github.com/neilern
 
 ## Master's students:
 
-* David Cheng (co-supervised with Daniela Damian)
 * [Roshan Lasrado](https://roshanlas.com)
-* Marvi Jokhio
 * [Rohith Pudari](https://rohith-hacker.github.io/cv/)
-* Amirreza Ghorbani
+* [Amirreza Ghorbani](https://github.com/arg1998)
 
 ----
 ## Undergraduate students:
 
-* Derek Robinson
+* 
 
 ----
 ## Alumni:
-* [Alvi Mahadi](https://github.com/alvi2496) (now at [Gist](https://gist-apps.com))
+* [Alvi Mahadi](https://github.com/alvi2496) (now at [Wrapbook](https://thechiselgroup.org/team/))
 * [Karan Tongay](https://github.com/karantongay) (now at [ICBC](https://www.icbc.com/))
 * [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen) (co-supervised with Margaret-Anne Storey)
 * Matthew Ehrler  (co-supervised with Yvonne Coady)
-
+* Marvi Jokhio
+* David Cheng (co-supervised with Daniela Damian)
+* Derek Robinson (now at the [Chisel group](https://thechiselgroup.org/team/))
