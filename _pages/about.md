@@ -5,11 +5,11 @@
 
  <!-- <img src="/images/neil-portrait.png" alt="My profile pic" width="100px" class="l-img"> -->
 
-I am assistant professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca). 
+I am associate professor of [Computer Science](http://www.uvic.ca/engineering/computerscience/index.php) at the [University of Victoria](http://www.uvic.ca). 
 
 You can learn more [about my research](/research). [Download my short bio](/assets/bio-neil-short.txt).
 
-I [teach courses](https://www.uvic.ca/BAN1P/bwckschd.p_disp_dyn_sched) in software engineering (mostly) for our Software Engineering and Computer Science programs. 
+I [teach courses](/teach) in software engineering (mostly) for our Software Engineering and Computer Science programs. 
 
 I serve in various roles as workshop and conference organizer, program committees, student supervision, journal reviews, etc. Among others:
 
@@ -18,6 +18,7 @@ I serve in various roles as workshop and conference organizer, program committee
 * [registered](https://icsme2020.github.io/cfp/RegisteredReportsTrackCFP.html) [reports](https://2020.msrconf.org/track/msr-2020-Registered-Reports) and [open science advocate](https://github.com/emsejournal/openscience/)
 * program committees - in the past, ICSE, RE, XP, CAISE, ER, MODELS
 * Associate Editor, [Journal of Empirical Software Engineering](https://www.springer.com/journal/10664)
+* chief wrangler, [RoPES workshop on recruitment](ropes-workshops.github.io)
 
 ## Consulting 
 I occasionally act as speaker, consultant and expert for matters relating to software architecture and software requirements, including architecture analysis, modern software development practices, and analytics for software engineering.
