@@ -1,5 +1,5 @@
 ---
-date: 2022-06-09
+date: 2022-06-03
 title: The PI as COO
 toc: true
 toc_label: "TOC"
