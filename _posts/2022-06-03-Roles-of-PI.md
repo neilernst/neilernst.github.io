@@ -1,4 +1,10 @@
-# The PI as COO
+---
+date: 2022-06-09
+title: The PI as COO
+toc: true
+toc_label: "TOC"
+toc_icon: "cog"
+---
 
 Faculty at a research university wear many different hats. One analogy might be to the executive roles in a company. Now a company tries to make profit, which is usually not the goal in academia (quite the contrary). But still, one can think of the mapping like 
 
