@@ -9,29 +9,5 @@ Prospective graduate students [see here](/prospective/).
 
 Current students should read through the [onboarding](https://github.com/neilernst/Onboarding) documents. 
 
-----
-
-## Phd Students
-
-* [Ze Shi (Zane) Li](http://thesegalgroup.org/people/ze-shi-li/) (co-supervised with Daniela Damian)
-
-## Master's students:
-
-* [Roshan Lasrado](https://roshanlas.com)
-* [Rohith Pudari](https://rohith-hacker.github.io/cv/)
-* [Amirreza Ghorbani](https://github.com/arg1998)
-
-----
-## Undergraduate students:
-
-* 
-
-----
-## Alumni:
-* [Alvi Mahadi](https://github.com/alvi2496) (now at [Wrapbook](https://thechiselgroup.org/team/))
-* [Karan Tongay](https://github.com/karantongay) (now at [ICBC](https://www.icbc.com/))
-* [Andreas Koentzen](http://www.apkc.net/) • [Github](https://github.com/k-zen) (co-supervised with Margaret-Anne Storey)
-* Matthew Ehrler  (co-supervised with Yvonne Coady)
-* Marvi Jokhio
-* David Cheng (co-supervised with Daniela Damian)
-* Derek Robinson (now at the [Chisel group](https://thechiselgroup.org/team/))
+## Students
+See the up to date [list at Github](https://github.com/OcteraIS#phd-students)

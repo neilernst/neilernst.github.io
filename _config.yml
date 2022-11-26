@@ -73,9 +73,9 @@ kramdown:
   enable_coderay: false
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/neilernst"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodone" 
+      url: "https://mastodon.online/@neilernst"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/neilernst"
