@@ -71,14 +71,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-footer:
-  links:
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodone" 
-      url: "https://mastodon.online/@neilernst"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/neilernst"
-    - label: "Scholar"
-      icon: "ai ai-google-scholar-square ai-3x"
-      url: "https://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en"
+
+atom_feed:
+  hide: true
