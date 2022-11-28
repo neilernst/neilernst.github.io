@@ -23,10 +23,6 @@ I serve in various roles as workshop and conference organizer, program committee
 ## Consulting 
 I occasionally act as speaker, consultant and expert for matters relating to software architecture and software requirements, including architecture analysis, modern software development practices, and analytics for software engineering.
 
-Samples:
-* 01/2019 Square Kilometre Array, Manchester, UK, I led a two day architecture review and critical design review for the telescope’s science data processor.
-* 2013-2017 Software Engineering Institute, Pittsburgh, USA. I consulted with different government agencies on software design and modernization, and led industry-specific software training courses.
-
 ## Previously:
 
 <!--
@@ -42,8 +38,8 @@ Samples:
 * undergraduate research in geography and GIS at the University of Victoria, including work placements with the BC Ministry of the Environment.
 
 ## Contact
-**email**: [neil@neilernst.net](mailto:neil@neilernst.net)<br/>
-**twitter**: [@neilernst](https://twitter.com/neilernst)<br/>
+**Phone**: [c'mon man](https://www.youtube.com/watch?v=1clOdzK07sk)<br />
+**email**: see bottom<br/>
 **Fax**:  250-472-5708<br/>
 **Postal Mail**:<br/>
 Department of Computer Science<br/>

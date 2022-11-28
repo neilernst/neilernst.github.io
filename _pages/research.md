@@ -20,12 +20,14 @@ For a complete list, or mostly complete, best to look at one of the following si
 
 <ul>
     <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/e/Ernst:Neil_A=" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a></li>
-    <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
-     <li><a href="https://arxiv.org/search?searchtype=author&query=Ernst%2C+N+A" itemprop="sameAs"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> ArXiv</a></li>
-    <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fa fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
-    <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fa fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
+    <li><a href="https://orcid.org/0000-0001-5992-2366" itemprop="sameAs"><i class="fab fa-orcid"></i> ORCiD</a></li>
+    <li><a href=" https://www.semanticscholar.org/author/Neil-A.-Ernst/1755165" itemprop="sameAs"><i class="far fa-file-alt" aria-hidden="true"></i> Semantic Scholar</a></li>
+    <li><a href="http://scholar.google.com/citations?user=byBabzAAAAAJ&hl=en" itemprop="sameAs"><i class="fas fa-scroll" aria-hidden="true"></i> Google Scholar</a></li>
+     <li><a href="https://arxiv.org/search?searchtype=author&query=Ernst%2C+N+A" itemprop="sameAs"><i class="fas fa-book-open"></i> ArXiv</a></li>
+    <li><a href="http://academic.research.microsoft.com/Author/2155512/neil-a-ernst" itemprop="sameAs"><i class="fab fa-windows fa-fw" aria-hidden="true"></i> MS Academic Search</a></li>
+    <li><a href="http://www.slideshare.net/NeilErnst" itemprop="sameAs"><i class="fab fa-slideshare fa-fw" aria-hidden="true"></i> Slideshare</a></li>
     <li><a href="http://resources.sei.cmu.edu/library/author.cfm?authorID=2125" itemprop="sameAs"><i class="fa fa-industry fa-fw" aria-hidden="true"></i> SEI Digital Library</a></li>
-    <li><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fa fa-github fa-fw" aria-hidden="true"></i> SpeakerDeck</a></li>
+    <li><a href="https://speakerdeck.com/neilernst/" itemprop="sameAs"><i class="fab fa-speaker-deck" aria-hidden="true"></i> SpeakerDeck</a></li>
 </ul>
 
 I encourage you to check out Impact Story's ["UnPaywall"](http://unpaywall.org/) extension.
