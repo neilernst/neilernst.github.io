@@ -13,12 +13,11 @@ I [teach courses](/teach) in software engineering (mostly) for our Software Engi
 
 I serve in various roles as workshop and conference organizer, program committees, student supervision, journal reviews, etc. Among others:
 
-* General Chair, 2022 [International Conference on Technical Debt](https://conf.researchr.org/home/TechDebt-2022) (May 2022, Pittsburgh)
-* Senior Associate editor, [Journal of Systems and Software](https://www.journals.elsevier.com/journal-of-systems-and-software)
+* Director, UVic's [Matrix Institute](https://onlineacademiccommunity.uvic.ca/matrix/), focusing on data science and computational challenges in a cross-disciplinary way.
+* Senior Associate Editor, [Journal of Systems and Software](https://www.journals.elsevier.com/journal-of-systems-and-software)
 * [registered](https://icsme2020.github.io/cfp/RegisteredReportsTrackCFP.html) [reports](https://2020.msrconf.org/track/msr-2020-Registered-Reports) and [open science advocate](https://github.com/emsejournal/openscience/)
 * program committees - in the past, ICSE, RE, XP, CAISE, ER, MODELS
-* Associate Editor, [Journal of Empirical Software Engineering](https://www.springer.com/journal/10664)
-* chief wrangler, [RoPES workshop on recruitment](ropes-workshops.github.io)
+* Associate Editor for RR, [Journal of Empirical Software Engineering](https://www.springer.com/journal/10664)
 
 ## Consulting 
 I occasionally act as speaker, consultant and expert for matters relating to software architecture and software requirements, including architecture analysis, modern software development practices, and analytics for software engineering.
