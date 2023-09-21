@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Neil Ernst">
+<meta name="dcterms.date" content="2023-09-21">
+
+<title>Semantic Werks - Scientific Software Development</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Semantic Werks</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../present.html" rel="" target="">
+ <span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../students.html" rel="" target="">
+ <span class="menu-text">Students</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching and Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html" rel="" target="">
+ <span class="menu-text">Publications and Research</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://mastodon.acm.org/(neilernst?)" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/octerais">
+            Octera Group Page
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#terms" id="toc-terms" class="nav-link active" data-scroll-target="#terms">Terms</a></li>
+  <li><a href="#surveys-and-opinions" id="toc-surveys-and-opinions" class="nav-link" data-scroll-target="#surveys-and-opinions">Surveys and opinions</a>
+  <ul class="collapse">
+  <li><a href="#early-work" id="toc-early-work" class="nav-link" data-scroll-target="#early-work">Early Work</a></li>
+  <li><a href="#what-makes-scientific-software-developers-different" id="toc-what-makes-scientific-software-developers-different" class="nav-link" data-scroll-target="#what-makes-scientific-software-developers-different">What Makes Scientific Software Developers Different?</a></li>
+  <li><a href="#testing-scientific-software" id="toc-testing-scientific-software" class="nav-link" data-scroll-target="#testing-scientific-software">Testing Scientific Software</a></li>
+  <li><a href="#theories-and-models" id="toc-theories-and-models" class="nav-link" data-scroll-target="#theories-and-models">Theories and Models</a></li>
+  <li><a href="#epistemological-philosophical-focus" id="toc-epistemological-philosophical-focus" class="nav-link" data-scroll-target="#epistemological-philosophical-focus">Epistemological / philosophical focus</a>
+  <ul class="collapse">
+  <li><a href="#types-of-modelstheories" id="toc-types-of-modelstheories" class="nav-link" data-scroll-target="#types-of-modelstheories">Types of models/theories</a></li>
+  </ul></li>
+  <li><a href="#tech-debt-in-scientific-software" id="toc-tech-debt-in-scientific-software" class="nav-link" data-scroll-target="#tech-debt-in-scientific-software">Tech Debt in Scientific Software</a></li>
+  </ul></li>
+  <li><a href="#things-id-like-to-know-more-about" id="toc-things-id-like-to-know-more-about" class="nav-link" data-scroll-target="#things-id-like-to-know-more-about">Things I’d like to know more about</a></li>
+  <li><a href="#initiatives" id="toc-initiatives" class="nav-link" data-scroll-target="#initiatives">Initiatives</a></li>
+  <li><a href="#venues" id="toc-venues" class="nav-link" data-scroll-target="#venues">Venues</a></li>
+  <li><a href="#example-projects" id="toc-example-projects" class="nav-link" data-scroll-target="#example-projects">Example Projects</a>
+  <ul class="collapse">
+  <li><a href="#astronomy" id="toc-astronomy" class="nav-link" data-scroll-target="#astronomy">Astronomy</a></li>
+  <li><a href="#bio" id="toc-bio" class="nav-link" data-scroll-target="#bio">Bio</a></li>
+  </ul></li>
+  <li><a href="#key-researchers" id="toc-key-researchers" class="nav-link" data-scroll-target="#key-researchers">Key Researchers</a>
+  <ul class="collapse">
+  <li><a href="#from-theory-translation-workshop" id="toc-from-theory-translation-workshop" class="nav-link" data-scroll-target="#from-theory-translation-workshop">from theory translation workshop</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Scientific Software Development</h1>
+<p class="subtitle lead">Structured Bibliography</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Neil Ernst <a href="https://orcid.org/0000-0001-5992-2366" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            UVic
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 21, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="terms" class="level1">
+<h1>Terms</h1>
+<ul>
+<li>RSE: Research Software Engineer</li>
+<li>SSI: Software Sustainability Institute</li>
+</ul>
+</section>
+<section id="surveys-and-opinions" class="level1">
+<h1>Surveys and opinions</h1>
+<section id="early-work" class="level2">
+<h2 class="anchored" data-anchor-id="early-work">Early Work</h2>
+<p>Earliest work is basically the field of numerical analysis and HPC. In some sense, the entire discipline of SE is derived from scientific software, using simulations to model nuclear weapons.</p>
+<p>The field of RSE seems to have started in 2005 or so. I think this coincides with general avaiability of software and the internet and web to connect people. There was a lot of focus on e.g.&nbsp;computational workflows at the time from Carole Goble.</p>
+<p>Jeff’s first workshop is around 2008.</p>
+<p><span class="citation" data-cites="Segal2009SoftwareDevelopmentCultures">(<a href="#ref-Segal2009SoftwareDevelopmentCultures" role="doc-biblioref">Segal 2009</a>)</span> is an early paper at CSCW looking at the socio-cultural dimension. A few interesting things. - One, the idea that the main issue is to <strong>support the science</strong>. This is the key requirement. - There is an early focus in some of these papers on the scientist as <em>end-user programmer</em>. This was a popular notion in the 2000s that I think was on the one hand an utter failure (e.g.&nbsp;VBA), but on the other hand, just natural with the right UI (e.g., Excel formulas). And AI will make this much easier. - A really detailed ethnography on a single lab management project. - As with most software projects, this one struggled with team dynamics and power.</p>
+<p>A followup is <span class="citation" data-cites="Segal2012DevelopingSoftwareFor">(<a href="#ref-Segal2012DevelopingSoftwareFor" role="doc-biblioref">Segal and Morris 2012</a>)</span>. This paper is similar to the preceding one, except for a more generic focus on the main differences with conventional development, and the ubiquitous (for the time) focus on Agile.</p>
+<p>James Herbsleb did some work as well e.g. <span class="citation" data-cites="Howison13">(<a href="#ref-Howison13" role="doc-biblioref">Howison and Herbsleb 2013</a>)</span>. They looked at incentives.</p>
+</section>
+<section id="what-makes-scientific-software-developers-different" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-scientific-software-developers-different">What Makes Scientific Software Developers Different?</h2>
+<p>Scientific software has a different context than a lot of other code. For example, it might be continually maintained. It has different testing needs. RSEs therefore have different approaches.</p>
+<p><span class="citation" data-cites="Pinto2018HowDoScientists">(<a href="#ref-Pinto2018HowDoScientists" role="doc-biblioref">Pinto, Wiese, and Dias 2018</a>)</span> and <span class="citation" data-cites="Wiese2020NamingPainDeveloping">(<a href="#ref-Wiese2020NamingPainDeveloping" role="doc-biblioref">Wiese, Polato, and Pinto 2020</a>)</span> both report on a survey replication on scientific software developers. Nothing jumped out at me - the problems seem mostly similar to normal development; library problems, stable requirements, etc. Surprising to me was that only 5% of the issues seem science related. But I wonder if that is because the questions were not clear. If one asked where the major cost and development effort is spent, or talked to end users like Hansi …</p>
+<p><span class="citation" data-cites="Cosden2023ResearchSoftwareEngineers">(<a href="#ref-Cosden2023ResearchSoftwareEngineers" role="doc-biblioref">Cosden, McHenry, and Katz 2023</a>)</span> is a survey of RSEs that looks at how they get into the field. Most are domain experts (75%) and the rest are CS grads. BOth have different education challenges.</p>
+<p><span class="citation" data-cites="Carver2022ASurveyState">(<a href="#ref-Carver2022ASurveyState" role="doc-biblioref">Carver et al. 2022</a>)</span> <span class="citation" data-cites="Heroux2022CollegevilleWorkshop2021">(<a href="#ref-Heroux2022CollegevilleWorkshop2021" role="doc-biblioref">Heroux, Carver, and Knepper 2022</a>)</span></p>
+</section>
+<section id="testing-scientific-software" class="level2">
+<h2 class="anchored" data-anchor-id="testing-scientific-software">Testing Scientific Software</h2>
+<p><span class="citation" data-cites="Carver2007SoftwareDevelopmentEnvironments">(<a href="#ref-Carver2007SoftwareDevelopmentEnvironments" role="doc-biblioref">Carver et al. 2007</a>)</span> did a series of case studies looking at how scientific code was maintained, and why Fortran was so popular. I think this paper may have harmed the field, by downplaying some of the complexity invovled. It comes across as “this is pretty easy stuff”. But some big projects in the DOD space are studied. Around the same time came <span class="citation" data-cites="Basili2008UnderstandingHighPerformance">(<a href="#ref-Basili2008UnderstandingHighPerformance" role="doc-biblioref">Basili et al. 2008</a>)</span>. An observation of that paper is that</p>
+<ul>
+<li>although HPC is focused on “performance” for scientists the performance of the code is less interesitng than “time to result”, i.e., a publishable outcome. That time spans writing the code, testing it, running the simulation, etc.<br>
+</li>
+<li><strong>Validation</strong> is tricky; outputs are non-deterministic and probabilistic, inherent in simulating and modeliong cmplex phenomena.</li>
+<li>Programs are long-lived so there is deep scepticism of new tools as plenty of tools cannot make it 30 years.</li>
+<li>Programmers love being close to the metal, to keep things speedy.</li>
+</ul>
+<p>A related paper is <span class="citation" data-cites="Hook2009MutationSensitivityTesting">(<a href="#ref-Hook2009MutationSensitivityTesting" role="doc-biblioref">Hook and Kelly 2009</a>)</span>, which, while focused on mutation testing, has a nice figure shpwing the ways error can make its way into scientific code.</p>
+<p>TODO: <span class="citation" data-cites="Babuska2004VerificationValidationComputational">(<a href="#ref-Babuska2004VerificationValidationComputational" role="doc-biblioref">Babuska and Oden 2004</a>)</span> TODO: <span class="citation" data-cites="eisty2022">(<a href="#ref-eisty2022" role="doc-biblioref">Eisty and Carver 2022</a>)</span></p>
+</section>
+<section id="theories-and-models" class="level2">
+<h2 class="anchored" data-anchor-id="theories-and-models">Theories and Models</h2>
+<p><span class="citation" data-cites="Jay2020TheChallengesTheory">(<a href="#ref-Jay2020TheChallengesTheory" role="doc-biblioref">Jay et al. 2020</a>)</span> reports on a workshop on translating scientific theories into code. I feel like this is where my interest is most piqued at the moment.</p>
+<blockquote class="blockquote">
+<p>In addition to addressing the general difficulties common to all software development projects, research software must represent, manipulate, and provide data for complex theoretical constructs. Such a construct may take many forms: an equa- tion, a heuristic, a method, a model; here we encapsulate all of these, and others, in the term theory.</p>
+</blockquote>
+<p>They point out the various places things can happen badly - in the sceince, in the code, and in the translation.</p>
+<p>The whole idea of scientific computing is to test an imperfect theory of the (natural) world. As such the code and the theory often tradeoff:</p>
+<blockquote class="blockquote">
+<p>Although it is natural to think (and is most often indeed the case) that one needs to formulate the equations and then apply computational algorithms to obtain the numerical solutions, the formulation of the equations can be affected by the choice of computational method. Cf. the simulations books</p>
+</blockquote>
+</section>
+<section id="epistemological-philosophical-focus" class="level2">
+<h2 class="anchored" data-anchor-id="epistemological-philosophical-focus">Epistemological / philosophical focus</h2>
+<ul>
+<li>the two books I have</li>
+<li>that model checking paper?</li>
+</ul>
+<section id="types-of-modelstheories" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-modelstheories">Types of models/theories</h3>
+<ol type="1">
+<li>Mental model of code: Naur’s idea of theory.</li>
+</ol>
+<ul>
+<li>the code encapsulates a theory, that different people come to different understandings of.</li>
+<li>each developer then adds to that theory his/her understanding</li>
+<li>the code in turn relies on different theories in packages/dependencies</li>
+<li>there might be a model-driven step as well, using Simulink or Matlab code generation.</li>
+<li>there might be a model the software presents for the science it encodes, and anotehr for ancillary functions.</li>
+</ul>
+<ol start="2" type="1">
+<li>the scientist has a theory, which the code should help to test/validate/confirm (choose your epistemological poison).</li>
+<li>The end users have requirements and expectations of the code, as they use it.</li>
+</ol>
+<p>TODO: <span class="citation" data-cites="HuyMenzies2020">(<a href="#ref-HuyMenzies2020" role="doc-biblioref">Tu, Agrawal, and Menzies 2020</a>)</span> did a data mining study on computational science practices in SE.</p>
+</section>
+</section>
+<section id="tech-debt-in-scientific-software" class="level2">
+<h2 class="anchored" data-anchor-id="tech-debt-in-scientific-software">Tech Debt in Scientific Software</h2>
+<p>TODO: <span class="citation" data-cites="Arvanitou2022PractitionersPerspectivePractices">(<a href="#ref-Arvanitou2022PractitionersPerspectivePractices" role="doc-biblioref">Arvanitou et al. 2022</a>)</span> TODO: Melina’s papers on R - <span class="citation" data-cites="Eisty2018ASurveySoftware">(<a href="#ref-Eisty2018ASurveySoftware" role="doc-biblioref">Eisty, Thiruvathukal, and Carver 2018</a>)</span> - a survey on how RSEs use metrics. They found that RSEs have a low knowledge of metrics, but of the ones used, performance and test metrics were most common. In appendix A they report on the types of metrics - only one respondent had heard of TD and none used it. - <span class="citation" data-cites="Connolly2023Software">(<a href="#ref-Connolly2023Software" role="doc-biblioref">Connolly et al. 2023</a>)</span> argues for a focus on the Three Rs - Readablity, Resilience, and Reuse. They detail the ways in which these three things can be accomplished depending on the importance of the project, e.g., individual, group, or community. It is not explicit about technical debt except that it focuses on software ‘resilience’.</p>
+</section>
+</section>
+<section id="things-id-like-to-know-more-about" class="level1">
+<h1>Things I’d like to know more about</h1>
+<ol type="1">
+<li>how much time does a developer spend on the “science” part of the code, and how much on ancillary roles</li>
+<li>Can we separate the science logic from the non-science logic?
+<ol type="1">
+<li>What is the TD inherent/possible in translating from science to software? Pub pressure, student knowledge, legacy code</li>
+<li>“Can we quantify or explain this loss/difference, and articulate the trade-offs resulting from translation?”</li>
+</ol></li>
+<li>how do we compare different scientific approaches simply from software alone?</li>
+<li>how do you retract/code review the scientific code?
+<ol type="1">
+<li>what is the equivalent to peer review of the code?</li>
+<li>what if the code is a complex model that is unexplainable? how do we test it? where is the science?</li>
+</ol></li>
+<li>Can we trace the way in which the design of the code has changed from its initial design to the proper current design?</li>
+<li>Social debt: how do we check what implications are? How does large team science play a role?</li>
+<li>Ciera’s paper <span class="citation" data-cites="Jaspan2023DefiningMeasuringManaging">(<a href="#ref-Jaspan2023DefiningMeasuringManaging" role="doc-biblioref">Jaspan and Green 2023</a>)</span>: tools can tell you the current indicators. But what matters is how context defines this as a problem or not. E.g., migrating to Python 3, undcoumented Navier-Stokes code. How do we extract this contextual knowledge from a project?</li>
+</ol>
+</section>
+<section id="initiatives" class="level1">
+<h1>Initiatives</h1>
+<ul>
+<li><a href="https://bssw.io">Better Scientific Software</a> - training materials for RSEs.</li>
+<li><a href="https://coderefinery.org">Code Refinery</a> - more training</li>
+<li>Software Carpentry</li>
+<li>US-RSI</li>
+<li>NumFocus grants (sustain your project)</li>
+<li>Zuckerberg grants</li>
+<li>NSF large instrument group</li>
+<li>https://www.researchsoft.org RESA</li>
+<li>IRIS-HEP https://iris-hep.org</li>
+<li>https://collegeville.github.io</li>
+</ul>
+<p>Various “scientific software community of practice” as mentioned in the Connoly article, at UW, CMU, etc.</p>
+</section>
+<section id="venues" class="level1">
+<h1>Venues</h1>
+<ul>
+<li><a href="https://se4science.org/workshops/se4rs23/index.htm">SE4Science workshop</a> - July 23 in Portland</li>
+<li><a href="https://us-rse.org">US-RSE conference</a> - October in Chicago</li>
+<li>Alliance Canada Research Software conf.</li>
+<li>JOSS</li>
+<li>SoftwareX</li>
+<li>GMD</li>
+</ul>
+</section>
+<section id="example-projects" class="level1">
+<h1>Example Projects</h1>
+<ul>
+<li>Einstein https://einsteintoolkit.org/contribute.html https://github.com/EinsteinToolkit</li>
+<li>CESM - https://www.cgd.ucar.edu/sections/cseg &amp; https://github.com/ESCOMP/CESM/tree/master/manage_externals<br>
+</li>
+<li>Can CM - https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis/models.html and</li>
+<li>CCMA group at UVic http://terra.seos.uvic.ca/model/</li>
+</ul>
+<section id="astronomy" class="level2">
+<h2 class="anchored" data-anchor-id="astronomy">Astronomy</h2>
+<ul>
+<li>SKAO</li>
+<li>AstroPy</li>
+</ul>
+</section>
+<section id="bio" class="level2">
+<h2 class="anchored" data-anchor-id="bio">Bio</h2>
+<ul>
+<li>Biology: https://www.bioconductor.org/</li>
+<li>rOpenSci https://ropensci.org/ and relevant paper https://arxiv.org/pdf/2103.09340.pdf</li>
+<li>PsychoPy: This project is related to psychology and neuroscience.</li>
+<li>biopython: This project is related to Molecular Biology.</li>
+<li>RDKit: This project is related to Chemistry Informatics</li>
+</ul>
+</section>
+</section>
+<section id="key-researchers" class="level1">
+<h1>Key Researchers</h1>
+<ul>
+<li>Dan Katz</li>
+<li>Greg Wilson</li>
+<li><a href="https://github.com/cosden">Ian Cosden</a> - Princeton, US-RSE guy</li>
+<li>Jeff Carver</li>
+<li><a href="https://alliancecan.ca/en/about/our-team/qian-zhang">QIan Zhang</a> ALliance software person</li>
+<li><a href="https://alliancecan.ca/en/about/our-team/mark-leggott">Mark Leggott</a> Alliance international relations</li>
+<li><a href="https://crd.lbl.gov/divisions/amcr/computer-science-amcr/class/members/group-lead/damian-rouson/">Damien Rouson</a> Fortran, source analysis</li>
+<li><a href="https://science.gsfc.nasa.gov/sed/bio/thomas.l.clune">Tom Clune</a> - Fortran, Goddard, NASA software</li>
+<li>Judith Segal, Open U. Early work on scientific software dev. Now retired?</li>
+</ul>
+<section id="from-theory-translation-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="from-theory-translation-workshop">from theory translation workshop</h2>
+<p>https://se4science.org/workshops/tst-us/talks/ Steve Brandt Anshu Dubey Sandra Gesing Rinku Gupta Dmitry Lyakh Brian O’Shea James Phillips Matthew Turk Hubertus Van Dam Hua Wan</p>
+<hr>
+</section>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Arvanitou2022PractitionersPerspectivePractices" class="csl-entry" role="listitem">
+Arvanitou, Elvira-Maria, Nikolaos Nikolaidis, Apostolos Ampatzoglou, and Alexander Chatzigeorgiou. 2022. <span>“Practitioners’ Perspective on Practices for Preventing Technical Debt Accumulation in Scientific Software Development.”</span> In <em>Proceedings of the 17th International Conference on Evaluation of Novel Approaches to Software Engineering</em>. <span>SCITEPRESS</span> - Science; Technology Publications. <a href="https://doi.org/10.5220/0010995000003176">https://doi.org/10.5220/0010995000003176</a>.
+</div>
+<div id="ref-Babuska2004VerificationValidationComputational" class="csl-entry" role="listitem">
+Babuska, Ivo, and J.Tinsley Oden. 2004. <span>“Verification and Validation in Computational Engineering and Science: Basic Concepts.”</span> <em>Computer Methods in Applied Mechanics and Engineering</em> 193 (36-38): 4057–66. <a href="https://doi.org/10.1016/j.cma.2004.03.002">https://doi.org/10.1016/j.cma.2004.03.002</a>.
+</div>
+<div id="ref-Basili2008UnderstandingHighPerformance" class="csl-entry" role="listitem">
+Basili, Victor R., Jeffrey C. Carver, Daniela Cruzes, Lorin M. Hochstein, Jeffrey K. Hollingsworth, Forrest Shull, and Marvin V. Zelkowitz. 2008. <span>“Understanding the High-Performance-Computing Community: A Software Engineer<span></span>s Perspective.”</span> <em><span>IEEE</span> Software</em> 25 (4): 29–36. <a href="https://doi.org/10.1109/ms.2008.103">https://doi.org/10.1109/ms.2008.103</a>.
+</div>
+<div id="ref-Carver2007SoftwareDevelopmentEnvironments" class="csl-entry" role="listitem">
+Carver, Jeffrey C., Richard P. Kendall, Susan E. Squires, and Douglass E. Post. 2007. <span>“Software Development Environments for Scientific and Engineering Software: A Series of Case Studies.”</span> In <em>29th International Conference on Software Engineering (<span>ICSE</span><span></span>07)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/icse.2007.77">https://doi.org/10.1109/icse.2007.77</a>.
+</div>
+<div id="ref-Carver2022ASurveyState" class="csl-entry" role="listitem">
+Carver, Jeffrey C., Nic Weber, Karthik Ram, Sandra Gesing, and Daniel S. Katz. 2022. <span>“A Survey of the State of the Practice for Research Software in the United States.”</span> <em><span>PeerJ</span> Computer Science</em> 8 (May): e963. <a href="https://doi.org/10.7717/peerj-cs.963">https://doi.org/10.7717/peerj-cs.963</a>.
+</div>
+<div id="ref-Connolly2023Software" class="csl-entry" role="listitem">
+Connolly, Andrew, Joseph Hellerstein, Naomi Alterman, David Beck, Rob Fatland, Ed Lazowska, Vani Mandava, and Sarah Stone. 2023. <span>“<span>Software</span> <span>Engineering</span> <span>Practices</span> in <span>Academia</span>: Promoting the 3Rs—<span>Readability</span>, <span>Resilience</span>, and <span>Reuse</span>.”</span> <em>Harvard Data Science Review</em> 5 (2).
+</div>
+<div id="ref-Cosden2023ResearchSoftwareEngineers" class="csl-entry" role="listitem">
+Cosden, Ian A., Kenton McHenry, and Daniel S. Katz. 2023. <span>“Research Software Engineers: Career Entry Points and Training Gaps.”</span> <em>Computing in Science <span>&amp;</span>Amp<span class="math inline">\(\mathsemicolon\)</span> Engineering</em>, 1–9. <a href="https://doi.org/10.1109/mcse.2023.3258630">https://doi.org/10.1109/mcse.2023.3258630</a>.
+</div>
+<div id="ref-eisty2022" class="csl-entry" role="listitem">
+Eisty, Nasir U., and Jeffrey C. Carver. 2022. <span>“Testing Research Software: A Survey.”</span> Arxiv:2205.15982.
+</div>
+<div id="ref-Eisty2018ASurveySoftware" class="csl-entry" role="listitem">
+Eisty, Nasir U., George K. Thiruvathukal, and Jeffrey C. Carver. 2018. <span>“A Survey of Software Metric Use in Research Software Development.”</span> In <em>2018 <span>IEEE</span> 14th International Conference on e-Science (e-Science)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/escience.2018.00036">https://doi.org/10.1109/escience.2018.00036</a>.
+</div>
+<div id="ref-Heroux2022CollegevilleWorkshop2021" class="csl-entry" role="listitem">
+Heroux, Michael A., Jeffrey C. Carver, and Sarah Knepper. 2022. <span>“Collegeville Workshop 2021: Scientific Software Teams.”</span> <em>Computing in Science <span>&amp;</span>Amp<span class="math inline">\(\mathsemicolon\)</span> Engineering</em> 24 (3): 4–5. <a href="https://doi.org/10.1109/mcse.2022.3180488">https://doi.org/10.1109/mcse.2022.3180488</a>.
+</div>
+<div id="ref-Hook2009MutationSensitivityTesting" class="csl-entry" role="listitem">
+Hook, Daniel, and Diane Kelly. 2009. <span>“Mutation Sensitivity Testing.”</span> <em>Computing in Science <span>&amp;</span>Amp<span class="math inline">\(\mathsemicolon\)</span> Engineering</em> 11 (6): 40–47. <a href="https://doi.org/10.1109/mcse.2009.200">https://doi.org/10.1109/mcse.2009.200</a>.
+</div>
+<div id="ref-Howison13" class="csl-entry" role="listitem">
+Howison, James, and James D. Herbsleb. 2013. <span>“Incentives and Integration in Scientific Software Production.”</span> In <em>Proceedings of the 2013 Conference on Computer Supported Cooperative Work</em>, 459–70. CSCW ’13. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/2441776.2441828">https://doi.org/10.1145/2441776.2441828</a>.
+</div>
+<div id="ref-Jaspan2023DefiningMeasuringManaging" class="csl-entry" role="listitem">
+Jaspan, Ciera, and Collin Green. 2023. <span>“Defining, Measuring, and Managing Technical Debt.”</span> <em><span>IEEE</span> Software</em> 40 (3): 15–19. <a href="https://doi.org/10.1109/ms.2023.3242137">https://doi.org/10.1109/ms.2023.3242137</a>.
+</div>
+<div id="ref-Jay2020TheChallengesTheory" class="csl-entry" role="listitem">
+Jay, Caroline, Robert Haines, Daniel S. Katz, Jeffrey C. Carver, Sandra Gesing, Steven R. Brandt, James Howison, et al. 2020. <span>“The Challenges of Theory-Software Translation.”</span> <em>F1000Research</em> 9 (October): 1192. <a href="https://doi.org/10.12688/f1000research.25561.1">https://doi.org/10.12688/f1000research.25561.1</a>.
+</div>
+<div id="ref-Pinto2018HowDoScientists" class="csl-entry" role="listitem">
+Pinto, Gustavo, Igor Wiese, and Luiz Felipe Dias. 2018. <span>“How Do Scientists Develop Scientific Software? An External Replication.”</span> In <em>2018 <span>IEEE</span> 25th International Conference on Software Analysis, Evolution and Reengineering (<span>SANER</span>)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/saner.2018.8330263">https://doi.org/10.1109/saner.2018.8330263</a>.
+</div>
+<div id="ref-Segal2009SoftwareDevelopmentCultures" class="csl-entry" role="listitem">
+Segal, Judith. 2009. <span>“Software Development Cultures and Cooperation Problems: A Field Study of the Early Stages of Development of Software for a Scientific Community.”</span> <em>Computer Supported Cooperative Work (<span>CSCW</span>)</em> 18 (5-6): 581–606. <a href="https://doi.org/10.1007/s10606-009-9096-9">https://doi.org/10.1007/s10606-009-9096-9</a>.
+</div>
+<div id="ref-Segal2012DevelopingSoftwareFor" class="csl-entry" role="listitem">
+Segal, Judith, and Chris Morris. 2012. <span>“Developing Software for a Scientific Community.”</span> In <em>Handbook of Research on Computational Science and Engineering</em>, 177–96. <span>IGI</span> Global. <a href="https://doi.org/10.4018/978-1-61350-116-0.ch008">https://doi.org/10.4018/978-1-61350-116-0.ch008</a>.
+</div>
+<div id="ref-HuyMenzies2020" class="csl-entry" role="listitem">
+Tu, Huy, Rishabh Agrawal, and Tim Menzies. 2020. <span>“The Changing Nature of Computational Science Software.”</span> arXiv. <a href="https://doi.org/10.48550/ARXIV.2003.05922">https://doi.org/10.48550/ARXIV.2003.05922</a>.
+</div>
+<div id="ref-Wiese2020NamingPainDeveloping" class="csl-entry" role="listitem">
+Wiese, Igor, Ivanilton Polato, and Gustavo Pinto. 2020. <span>“Naming the Pain in Developing Scientific Software.”</span> <em><span>IEEE</span> Software</em> 37 (4): 75–82. <a href="https://doi.org/10.1109/ms.2019.2899838">https://doi.org/10.1109/ms.2019.2899838</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

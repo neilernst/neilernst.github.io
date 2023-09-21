@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2015-12-07">
+
+<title>Semantic Werks - Requirements, Agile, and Finding Errors</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Semantic Werks</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../present.html" rel="" target="">
+ <span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../students.html" rel="" target="">
+ <span class="menu-text">Students</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching and Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html" rel="" target="">
+ <span class="menu-text">Publications and Research</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://mastodon.acm.org/@neilernst" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/octerais">
+            Octera Group Page
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#going-forward" id="toc-going-forward" class="nav-link active" data-scroll-target="#going-forward">Going Forward</a></li>
+  <li><a href="#finding-defect-leakage" id="toc-finding-defect-leakage" class="nav-link" data-scroll-target="#finding-defect-leakage">Finding Defect Leakage</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Requirements, Agile, and Finding Errors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 7, 2015</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>It’s a long held view in the requirements engineering (RE) community that “if only we could do RE better, software development would be cheaper”. Here ‘doing RE better’ means that your requirements document adheres to some quality standard such as <a href="http://www.math.uaa.alaska.edu/~afkjm/cs401/IEEE830.pdf">IEEE 830</a>. For example, none of the requirements are ambiguous.</p>
+<p>One justification is that, based on (very few) studies in the late 80s, requirements errors cost a lot more to fix in test/production than when they are incurred. For instance, if I tell a subcontractor she has a 100 kilobyte message size limit, and I really meant 100 kilobits, fixing that problem after she has delivered the subcomponent will be expensive. This seems obvious. But two problems emerge. 1) Why does she have to wait so long to integrate the subcomponent? 2) how many of these problems are there? Granted it is cheaper to fix <em>that particular error</em> in the requirements/system engineering phase, how much money should we spend to find these errors at that point? <a href="1">[1]</a></p>
+<p>An interesting early experiment on this is described in Davis, 1989, <a href="http://dx.doi.org/10.1016/0950-5849(89)90145-6">“Identification of errors in software requirements through use of automated requirements tools”</a>, Information and Software Technology 31(9) p472–476. In an example of an experiment we see very rarely these days, his team were given sufficient funds to have three automated requirements quality tools applied to a large software requirements specification for the US Army (200,000 pages!). The tools were able to find several hundred errors in the spec, including errors of inconsistency. Yay, the tools worked! But….</p>
+<p>The program had decided to go ahead and build their (Cobol) system before the automated analysis. The developers on the program didn’t care much about the findings. 80 of the 220 modules were not detectable in the final system (meaning, presumably, they were either merged or omitted altogether). Davis did some post-delivery follow-up, showing that the modules with greater numbers of requirements problems had a significantly greater number of post-release defects. But whether the two are causally related is hard to say (those modules may simply be more complex in general, so both requirements and code are harder to get right).</p>
+<p>What I conclude from this is that finding errors of the sort they did, e.g.,</p>
+<blockquote class="blockquote">
+<p>PROBLEM: the referenced table directs that PART_NO be moved from the WORK_ORDER_FILE to the WORK_TASK_FILE. Available fields in the WORK_TASK_FILE include PART_NO_FiELD_PART and PART_NO_FIELD_TASK.</p>
+CHOICE: We assume that PART NO FIELD_TASK is the proper destination.
+</blockquote>
+<p>are ultimately of zero value to document. As a result, finding problems with them, automated or otherwise, is also of no value. Of course we know all this from the past 20 years of the agile movement, but it is interesting to see it in action. I think that (in 1989 certainly) this was excusable, as the program managers had no good sense of what made software special. The level of detail the design describes, down to field names and dependencies, is better suited to the Apollo program, where they prescribe how tightly to turn bolts, label each individual bolt, etc. Which makes sense in a safety critical dynamic environment, but not a lot of sense in an office logistics tool.</p>
+<section id="going-forward" class="level3">
+<h3 class="anchored" data-anchor-id="going-forward">Going Forward</h3>
+<p>A term I loathe but seems better than “Future Work”. I’ve worked a lot on automated requirements tools like PSL/PSA or SREM, so where should we head with automated tooling for requirements?</p>
+<p>There is a lot of empirical evidence that simple, easily integrated process patterns such as requirements goals and scenarios lead to higher quality requirements. Intel, for example, are strong believers in training staff in <a href="http://selab.fbk.eu/re11_download/industry/proceedings-short-papers/RE2011SIP003.pdf">writing good requirements</a> (although notice their domain is also hardware-oriented and mistakes are costly). Even in agile settings I believe there are big improvements to be gained in writing better user stories (e.g., how to create the “Magic Backlog” described in <a href="https://twitter.com/rebeccawb/status/673301475162918912">Rebecca Wirfs-Brock</a>’s EuroPLoP 2015 paper).</p>
+<p>Furthermore, we are seeing more and more use of machine learning to flag requirements problems. For example, at Daimler they have <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7320451">simple detectors for checking requirements</a>. And at Rolls-Royce, based on simple training exercises, they <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6051622">label requirements based on potential risk</a>, combining uncertainty, change impact and cost into an index. All of these types of tools integrate will into a developer analytics approach, able to populate dashboards and flag things unobtrusively (compared with the cost of writing requirements formally).</p>
+<p>Like with any analytics techniques, which ones to apply is situation-specific. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4384165">Small companies doing the same things in well-understood domains</a> won’t need much, if any requirements analysis. I think there is a lot of room for intelligent augmentation of what makes a good requirement, that facilities conversations and discovery of uncertainty, that automates the repeated and boring tasks (if you cannot possibly avoid creating a 2000 page document …). And in specialized domains, we are moving to a world where more and more of the analysis can be done in models, to verify timing requirements, guarantee that software partitions hold, and so on. Here the line between ‘requirement’ and ‘design solution’ is blurry, because requirements at one level become design solutions at the next level. A mature requirements practice would leverage this to enable experimentation and prototyping <em>in silico</em>, as it were, finding design problems before releasing products or fabricating chips.</p>
+</section>
+<section id="finding-defect-leakage" class="level3">
+<h3 class="anchored" data-anchor-id="finding-defect-leakage">Finding Defect Leakage</h3>
+<p>A major goal for large programs is to reduce defect leakage, the number of bugs that make it to production (to put it more precisely, reduce the number of <em>critical</em> bugs that make it to production). It seems to me there are at least four complementary approaches to this issue:</p>
+<ul>
+<li><p>We could do this manually, and insist on writing good requirements using <a href="http://www.sciencedirect.com/science/article/pii/0164121295000771">checklists</a>, training, inspection, etc.</p></li>
+<li><p>We could use formal methods, on well-formed architectural models, looking for very specific rule violations (safety, security, performance);</p></li>
+<li><p>We could apply machine learning tools on past artifacts and try to leverage experience to predict problems. Not every requirement is equally important (obvious but not always followed).</p></li>
+<li><p>We could design a process that accepted the inevitability of change and made it not only possible, but desirable to change design and requirements in response to new knowledge.</p></li>
+</ul>
+<p>For the automated tools, I have this quick list of principles. Much like software analytics in general:</p>
+<ol type="1">
+<li><p><strong>Don’t make life worse.</strong> Developers should not dread having to do this. That said, an ounce of pain is worth a pound of pleasure.</p></li>
+<li><p><strong>Work with existing tools like Doors, Jira and Excel</strong>. Your Eclipse plugin does not count.</p></li>
+<li><p><strong>Don’t mandate new or complex languages or tools for requirements</strong>. We can barely get engineers to write requirements in natural language as it is.</p></li>
+<li><p><strong>Prefer lightweight, high value checks over complex, theoretically appealing ones</strong>. Socialize people to the value of checking <em>anything</em> before insisting on the complex stuff.</p></li>
+<li><p><strong>Integrate with existing dashboards like Shipshape or SonarQube.</strong> These tools have good plugin frameworks and already integrate with many build and CI servers.</p></li>
+<li><p><strong>Facilitate conversations and early delivery of results</strong>. Remember that requirements engineering is the start of a conversation that gets us to a valuable solution. It is never an end in itself. In very few domains does assuming requirements won’t change get you anywhere.</p></li>
+</ol>
+<hr>
+<ol type="1">
+<li>And <a href="http://portal.acm.org/citation.cfm?id=800078.802544">Basili and Weiss’s 1981 study</a> on the A7 program’s change requests and requirements suggest a power-law distribution to the most costly (e.g., &gt; 1 person-month of effort) changes. <a href="1">&nbsp;↩︎</a></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

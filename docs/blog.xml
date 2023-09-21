@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Semantic Werks</title>
+<link>https://neilernst.net/blog.html</link>
+<atom:link href="https://neilernst.net/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.361</generator>
+<lastBuildDate>Fri, 03 Jun 2022 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>The PI as COO</title>
+  <link>https://neilernst.net/posts/2022-06-03-Roles-of-PI.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Faculty at a research university wear many different hats. One analogy might be to the executive roles in a company. Now a company tries to make profit, which is usually not the goal in academia (quite the contrary). But still, one can think of the mapping like</p>
+<table class="table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>Tasks for Faculty Member</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CEO</td>
+<td>Strategy, overall planning, team management</td>
+</tr>
+<tr class="even">
+<td>CFO</td>
+<td>Budgeting, managing funds, making “payroll”</td>
+</tr>
+<tr class="odd">
+<td>CIO</td>
+<td>Figuring out IT equipment, choosing between cloud, govt infrastructure, managing equipment</td>
+</tr>
+<tr class="even">
+<td>CTO</td>
+<td>Looking at trends and new tools (e.g., Google Colab, VS Code, Qualtrics)</td>
+</tr>
+<tr class="odd">
+<td>CMO</td>
+<td>Marketing the team and PI to the world, creating a need for the lab’s products (papers)</td>
+</tr>
+</tbody>
+</table>
+<p>The one role not listed here is the one that I think in many ways is the most important: <strong>COO</strong>. Now, I don’t know much about business roles, but to my mind the Chief Operating Officer is sort of similar to the executive officer of a submarine. They are the person who makes the business work: ensuring inventory is at the right level, planning for new space as the company grows, managing supply chains, etc. Tim Cook, now CEO at Apple, made his name growing Apple’s manufacturing to the vast network it is now. That meant ensuring secrecy, getting supplies to factories, scaling to manage millions of devices being released at the same time, etc. Apple isn’t profitable and gigantic if the day-to-day operations aren’t running efficiently.</p>
+<p>But the same is true in academic life!</p>
+<p>I think of the analogy as requiring thought and attention to the day to day management of productive work in the university. You need to make sure the ‘operations’ are smooth. One small component of this is the paper funnel: we need to ensure we have a lot of ideas in our funnel, that they get turned into data collection and analysis, and that the analysis gets written up and submitted, and eventually published. This is Arvind’s statement below about “getting sh*t done”, because it can be frustrating to think of oneself as moving papers from idea to publication. We want to pretend we are supposed to be thinking about ideas, noodling on the whiteboard, and being inspired by genius. And we are! But that’s not the COO part of the job.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Academics would double our productivity if we learnt some basic project management skills that are bog standard in the industry. We have this myth that scholarly success is all about brilliance and creativity, but in fact 90% of it is getting sh*t done, same as any other job.
+</p>
+— Arvind Narayanan (<span class="citation" data-cites="random_walker">@random_walker</span>) <a href="https://twitter.com/random_walker/status/1532311619316891648?ref_src=twsrc%5Etfw">June 2, 2022</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<section id="metrics" class="level1">
+<h1>Metrics</h1>
+<p>We could look, like I’m sure Apple does, at operational metrics and efficiencies. For example:</p>
+<ul>
+<li>Number of papers in draft/being reviewed/published (WIP)</li>
+<li>Time between idea and paper publication (lead time)</li>
+<li>Students graduated in expected time</li>
+<li>Number of important unanswered emails in Inbox</li>
+<li>To the nearest thousand, how much money is in various accounts, and what the projected “burn rate” is for those accounts.</li>
+<li>How long has each student been in the program, what milestones have they finished, and when they should graduate</li>
+<li>Grant money received</li>
+<li>Grants used efficiently</li>
+<li>Reviews conducted within deadline</li>
+<li>Talks invited/given/follow up</li>
+<li>Size of industry collaboration address book</li>
+<li>Travel reimbursements received within 30 days of trip</li>
+<li>Time between equipment being needed and equipment being purchased and equipment delivered</li>
+</ul>
+<p>Now for some of these you might say “but someone else is blocking that!” Which is of course true of EVERYTHING and also not an excuse Steve Jobs was likely to accept. That’s all part of being efficient and operating smoothly. If you <em>know</em> the university takes forever to process room bookings, you need to factor that in to the operational goals.</p>
+</section>
+<section id="why-care-about-operations" class="level1">
+<h1>Why Care About Operations</h1>
+<p>I think operational efficiency is what separates average researchers from those seen as impactful. Sure, in some cases it might be a brilliant one-off paper, but often we reward output volume: “quantity has its own quality”. Did the project lead to a single paper, or did you harvest 3-4 papers from it? That’s an operational detail that has to do with a PI’s ability to direct students, target appropriate venues, manage meetings to keep the papers on schedule, and so on.</p>
+<p>I think the importance of the COO view of one’s career is that for better or worse these outputs are the easiest to turn into data, and subsequently evaluate you, and your institution. So ignoring number of students graduated, or number of publications, or grant values, will result in poor scores on these data metrics. It doesn’t matter how many brilliant ideas you have if no one gets to read them.</p>
+<p>The question for this COO view of a research career is to figure out which metrics one truly cares about, and when to stop focusing on operations and think more about strategy and trajectory. <strong>Metrics</strong>, because the metrics you choose reflect your priorities (e.g., papers published vs industry collaborations nurtured), and <strong>strategy</strong>, because (hopefully) the research you pursue should reflect some higher level of understanding about what problems are important to be spending time on.</p>
+</section>
+<section id="my-approach" class="level1">
+<h1>My approach</h1>
+<p>For me personally, it can be hard to remember to manage the operational details. The easiest way for me to see this concretely is when papers fail to meet a venue deadline. That’s an operational failure: we didn’t move fast enough on data analysis, the meetings were not productive and the project spun its wheels, I didn’t kill the project or value the cost of delay, I answered emails about committee work rather than spending 2 hrs editing.</p>
+<p>My current management approach is to check in on each project (I have about 9-10 in various stages) weekly, using a dedicated card (using a note in Apple’s Notes tool). A Kanban board with stickies can be really helpful here too, but the important thing is not the particular system but that you use it and check it regularly.</p>
+<p>Another idea I have just started to implement is reflecting on lessons learned from a project (e.g., after a paper is published). Not just the research problems, but the operational challenges. What would I do differently for project management? What worked well in moving the project along? Was this a productive collaboration? Why did it get delayed (it’s always delayed)?</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2022-06-03-Roles-of-PI.html</guid>
+  <pubDate>Fri, 03 Jun 2022 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Scientific Method 2021 edition</title>
+  <link>https://neilernst.net/posts/2021-06-03-The-Scientific-Method-2021-edition.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The typical Science workflow is something like</p>
+<p>A - Related work: build a Prior about a real world problem, like pulsar formation</p>
+<p>B - Fieldwork: Collect data about that problem in the ‘field’</p>
+<p>C - Model: Build a model of the problem</p>
+<p>D - Posterior: Generate a posterior/data output</p>
+<p>E - Analyze: draw inferences about A, updating the prior if necessary.</p>
+<p>We can have several types of problems - “debt” - in this process.</p>
+<ol type="1">
+<li>In A, we could have a misinformed prior. We might not have seen the latest result, we might have a bad mental model of the real world.</li>
+<li>In B, we could take shortcuts in data collection, e.g.&nbsp;a “small telescope”</li>
+</ol>
+<p>Note that in A/B, we are in traditional science. This is the stuff you would learn in Astro 200 - how planets form, how to take readings, etc.</p>
+<ol type="1">
+<li>In C, we traditionally did nothing very special for our ‘model’ to create a posterior. OLS regression is the most likely approach, and we could use tools like Excel or some deeply trivial subset of SPSS. The model might even be implicit in the machine itself, such as a spectrograph. Now, of course, our problems are more noisy, the datasets from B larger, and the ‘equipment’ - the math - more sophisticated. So our models are expressed as Fortran code, as Jupyter code running MCMC, or as deep neural models. Here we enter the world of software and data engineering. We might need code review, as opposed to just peer review.</li>
+<li>In D, we have the problems - and depreciation - of moving data around at volume. This includes network infrastructure, GPU provisioning, HPC problems. There are obviously large set of questions here that I won’t tackle, but you all probably know a lot about!</li>
+<li>In E, our challenges are again scientific: draw supported inference, do classification, prediction, create better explanations and build useful theories. Debt in this context is again about sloppy science: P-Hacking, HARKing, and so on. Personally I think open science policies will go a long way to removing those problems.</li>
+</ol>
+<p>I want to focus on C, as an issue of scientific technical debt. I think a lot of challenges have to do with understanding the tradeoff between the scientific challenges in A/B/E, and the engineering focused challenges in C and D. Ultilatemly to do good science - to design vaccines, to predict climate adaptation approaches, to better understand pulsars - we need to have all of these phases working efficiently. Since I know about C that’s where I’ll focus.</p>
+<section id="making-models-accessible" class="level2">
+<h2 class="anchored" data-anchor-id="making-models-accessible">Making Models Accessible</h2>
+<p>There are two dimensions (or more) to this question. The first is about using models and building them; the second is about querying them.</p>
+</section>
+<section id="model-usability" class="level2">
+<h2 class="anchored" data-anchor-id="model-usability">Model Usability</h2>
+<p>We now see tons of tools that help with modelling. Here are some illustrative examples</p>
+<ul>
+<li>Fortran, in Global Climate models</li>
+<li>Python, in Ralph Evin’s building sims</li>
+<li>Astropy</li>
+<li>Commercial: Tableau, RStudio, Metabase, <a href="https://core.hash.ai/@hash/wildfires-regrowth/9.8.0" class="uri">https://core.hash.ai/@hash/wildfires-regrowth/9.8.0</a> are moving from building dashboards and visualizations into more complex modelling support. But like dashboards, the challenge is less about using bars vs lines, and more about the A/B and E parts: what problems do I need to learn about.</li>
+</ul>
+<p>One challenge in the move to more complex models is of course the inflection points: the places where the models fail to capture the real world. It is trivial to build a predator-prey model; to build one that accurately captures the dynamics of wolf/elk dynamics in the Mackenzie valley is entirely different, and probably the validity of the model is only understandable by maybe 100 people in the world. Increasingly the challenge in peer review is not about (or not just about) the problem’s relevance or significance, but whether the data and model support the claim. Technical debt in science is a massive concern if we are going to rely on large, difficult to verify datasets for our claims.</p>
+<p>How easy it is to build the model:</p>
+<ul>
+<li>Show examples of RStan, Fortran, Hash as dealing with the problem of “building the model”</li>
+<li></li>
+</ul>
+</section>
+<section id="accessing-model-outputs-digital-twins" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-model-outputs-digital-twins">Accessing Model Outputs: Digital Twins</h2>
+<p>Bryan Lawrence blog post</p>
+<p>The idea that in SKA you might not get raw data</p>
+</section>
+<section id="finding-bugs-in-notebooks" class="level1">
+<h1>Finding Bugs in Notebooks</h1>
+<p>Consider our study of how people find notebook problems. Given a notebook on a topic the subject understood well, we asked them to find any problems (0-4) in the notebook. This is essentially peer review of the notebook, except the authors can’t reply or help, like in code review. With “many eyeballs all bugs are shallow” is a flawed truism that seems to hold for science; if we can get lots of people looking we can find some of the flaws.</p>
+<p>Hands up if you’ve had to rewrite analysis or model code because of a flawed assumption, misunderstood stats package, or unreliable initialization?</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2021-06-03-The-Scientific-Method-2021-edition.html</guid>
+  <pubDate>Thu, 03 Jun 2021 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On Bots in Software Engineering</title>
+  <dc:creator>Neil Ernst</dc:creator>
+  <link>https://neilernst.net/posts/2023-05-14-bots-in-SE.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="bots-as-assistants" class="level1">
+<h1>Bots as assistants</h1>
+</section>
+<section id="the-state-of-bots" class="level1">
+<h1>The state of bots</h1>
+<p>There have been a number of categorizations of bots for software development. The main categories seem to be the ones that Erlenhov came up with, which look at bots as either API endpoints (CI tools), developer assistants, or something more sophisticated. I don’t think there is much to say about CI tooling. This is a spectrum in my view; we will likely see CI tasks grow more sophisticated and multistep.</p>
+<p>The paper Peggy and Alexei wrote in 2015 seems to indicate nothing has changed much since that paper. In one sense we are still just doing the same thing; bots as API interaction points, where they automatically or under prompting carry out some well defined and usually pre-existing task like a compiler and compiler flags.</p>
+<p>This is in contrast to the bots that appear on corporate sites to maximize engagement and increase sales. There the bot acts as a query refinement tool, helping you to sort out what you actually are looking for. This type of extensive interaction seems to contradict what developers want.</p>
+<p>So one question is instead of what bots should do, what tasks are we looking to help with. Bots are useful because they encapsulate common tasks that otherwise humans would have to do. For example we once took punch cards to an operator to enter into the computer; now that is done by hitting compile/run. I had a hierarchy of problems we can get help on:</p>
+<ol type="1">
+<li>Syntax problems - compilers, integrated into most IDEs, now flag obvious problems before you need to run the code. IntelliJ for example can automatically detect type problems.</li>
+<li>Warnings and flags - running a compiler with default options just gets the bare minimum. Standards like MISRA-C specify known problems the compiler can find for you.</li>
+<li>Linters - plenty of problems with code are known, so we can find these things that clearly violate best practices, such as equality checks in Javascript. Often these are integrated into tools like SonarQube or CI environments.</li>
+<li>Code smells - the next class of code issues are called smells and have to do with slightly more complex problems, often spanning multiple modules. So for example long methods, long parameter lists, and so on. This is also where we might find violations of language paradigms, such as not using list comprehensions in Python.</li>
+<li>Design problems - the highest level of problems we might ask for help with are design flaws. Here we want to flag issues that we think will impinge on quality attribute satisfaction. We might identify that the code misuses the Obsever pattern.</li>
+</ol>
+<p>There are some others that are a bit tangential to these: flagging security problems; identifying dependency or build issues; UI problems; test coverage issues.</p>
+<p>The fundamental issue in my view for AI assistance is that it is super easy to tell people what they already know. So in self-driving the issue is not to drive from A to B in the sun; I could probably train my son to do that. What we need is meaningful assistance, telling us the things we didn’t know, or couldn’t know, on our own. Thus bug localization that finds bugs we already know about, code smell detectors we don’t care about, and most other data studies published on effort estimation and so on.</p>
+<p>The challenge is that getting tools to the 70% accuracy level is super easy, with today’s tools. But humans are insanely smart, and so that first 70% is not the hard part. It is in the last 30% that we need the help, but also the hardest to decipher; figuring out what the image is really showing in the dark.</p>
+<p>I think bots are similar. Right now they are basically just dumb endpoints to an API with a slightly improved interface. Thus Dependabot telling us that a library is outdated is not particularly interesting, since it is just an interface to a more complex script running in the background. What’s novel in Dependabot is that it is able to interact in a well understood way, not the complexity of what it is trying to do. Similarly the bots one sees on airline sites are not interesting assistants, but only simplistic interaction techniques in a web search world. After all John Mylopoulos was working on natural language interfaces to databases 40 years ago.</p>
+<p>So what does this more interesting bot look like then? Is it more than just an API endpoint or something else? In my view the next step is truly an assistant that is contextualized to the person asking the question, to the project in which it runs, and the particular time it is being run. It is in short a very efficient, Ms Moneypenny like administrative assistant, capable of anticipating the needs of the developer, but unobtrusively.</p>
+<p>How do we get there? There’s a number of pieces for this vision.</p>
+<ul>
+<li><strong>Interface</strong>: how do developers like to get information? Right now that is things like IDEs, compiler warnings, interactions on pull requests: working with the artifacts they already care about</li>
+<li><strong>Persona</strong>: how should an assistant interrupt? Should they be factual and say we detected a problem on line 50? Or should we omit GUilfoyle’s annoying verbal tics?</li>
+<li><strong>Context</strong>: how does the assistant extract the context information it will need to be useful and not annoying?</li>
+<li><strong>Metrics</strong>: what would be a relevant way of assessing success? I don’t think we even have a good idea on this.</li>
+</ul>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
+<ol type="1">
+<li>Detailed tasks: Mylyn style tasks that have to do with a specific problem like finding a bug, refactoring a method</li>
+<li>High level tasks: get an overview of the system in order to see how it is progressing. This bot might send a weekly update on lines of code added. Sort of exists as Github’s various visualizations.</li>
+<li>Design tasks: help me understand how the software will respond to quality attribute requirements.</li>
+</ol>
+</section>
+<section id="tasks-bots-can-help-with" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-bots-can-help-with">Tasks bots can help with</h2>
+<p>Are bots just “API endpoints”?</p>
+<p>Bots are api calls plus “vocal tics” like the fridge in Silicon Valley</p>
+<blockquote class="blockquote">
+<p>“It’s bad enough it has to talk. Does it need fake vocal tics like ‘ah’?</p>
+<p>“The tics make it seem more human,” Dinesh tells Gilfoyle.</p>
+<p>“Humans are shit,” Gilfoyle replies. “This is addressing problems that don’t exist. It’s solutionism at its worst. We are dumbing down machines that are inherently superior.”</p>
+</blockquote>
+<p>The challenge in these systems has always been that entry level knowledge is extremely easy to retrieve, but going deeper is way harder (kind of like self-driving). For perhaps 80% of the interactions online, the bot can manage. But it is in the details that bots get stuck and need to call for the operator to step in. We saw something like this with expert systems. Coding something that can advise people to call their doctor when they report a fever of 102 or higher is pretty simple. But the complex explanations as to what is causing the fever are fairly intractable (explanation is usually thought of as NP hard, after all). Getting the knowledge in to solve the problem (basically, all the heuristics and learning that an experienced GP would have) is very expensive - the KA bottleneck. This is probably less costly now with deep learning. But the other bottleneck is the reasoning. Even if we have that knowledge, inference to multiple competing explanations is very expensive. Recommending the most common explanation—such as viral ear infection in a toddler—is what bots basically do now, but in many cases there isn’t a clear common explanation, or there is no clear set of symptoms to diagnose.</p>
+</section>
+<section id="bots-for-td-reduction" class="level2">
+<h2 class="anchored" data-anchor-id="bots-for-td-reduction">Bots for TD reduction</h2>
+<p>One area we see a lot of activity is in static code analysis to find rule violations. There are more rules than programmers could reasonably want to use; code quality checks, syntax warnings, code smells, etc. The problem in fact is these warnings annoy developers. At Google they had a scheme where the code checks would be rejected if they had more than 10% false positives which developers could vote on. These tools generate multiples more warnings than developers actually take action on.</p>
+<p>How could bots help? Well, the main issue I notice is the need for interactivity. Bots could easily process the boring problems in one shot (fix all trailing commas), but more importantly the bot could be an interface to the tool, instead of the common approach which is either a dashboard with TMI, or some simple weekly report. The bot instead could be a text interface to the tool itself, and run predefined queries or make new queries, adapting on the fly as the situation demands it. So bots are good for <strong>rapid re-contextualization</strong> which you do not see with dashboards, which require sophisticated analysis to configure.</p>
+<p>A bot is also automatable so it could delivery weekly updates to the developer without him or her having to do anything with that info. Again though it seems like we are pushing the complexity - what reports do I really need - into another interface. The tough problem in TD <strong>presentation</strong> is to figure out exactly what context underlies the data and only show that.</p>
+<p>We need to find problems and generate data</p>
+<p>We need to filter and store the data</p>
+<p>We need to query the data</p>
+<p>We need to visualize the data.</p>
+<p>Bots don’t make any of these easier per se….</p>
+<!-- 
+Automa
+
+# Readings (see Derek's lit review)
+
+[@10.1109/BotSE.2019.00019] - principals for APR bots including importance of syntax and semantic correctness. Pretty technical.
+
+[@10.1145/3411764.3445368] -->
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2023-05-14-bots-in-SE.html</guid>
+  <pubDate>Thu, 15 Apr 2021 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>REFSQ Panel session on Open Data and RE Education</title>
+  <link>https://neilernst.net/posts/2021-04-15-Refsq.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Together with <a href="https://alessiofer.wixsite.com/alessioferrari">Alessio Ferrari</a>, I organized a <a href="https://2021.refsq.org/track/refsq-2021-openre">panel</a> at the well-regarded conference on Requirements Engineering: Foundation for System Quality, which is a mouthful but really nice working session on RE that has always nicely blended practice and research. It also was the first place to accept one of my papers so I will always have a soft spot for it, and for <a href="https://wikitravel.org/en/Essen">Essen</a>, industrial city or not.</p>
+<p>The purpose of the session was to encourage open data packages in the context of RE Education (the aim, I think, is to have subsequent OpenRE tracks at REFSQ change theme). We got excellent submissions and accepted three packages, which we have hosted at the existing repository of the <a href="https://github.com/reet-workshop/activities">RE Education and Training (REET) workshop</a>.</p>
+<p>After the short talks on the packages, we turned to a panel with the theme of “RE in the age of COVID”. Our hope was to collect some experiences from the attendees (40 or so) on how they approached RE education, and RE in general, during the COVID induced shift to online learning. We definitely got that and more generally, I think it was a cathartic session to commiserate and share with others the challenges of the past few terms.</p>
+<p>A few lessons I drew from the discussion:</p>
+<p>Participants were a bit torn on the need to completely redesign the curriculum vs sticking with the previous content. “Maybe my course was boring and remained boring!” Of course in some cases just getting online was sufficiently challenging to prevent major redesigns. In general projects worked well in both formats. There was some thought that lab exercises worked better, since it was easier to checkin—students were in a fixed location!</p>
+<p>Learner styles or perhaps preferences (since <a href="https://twitter.com/guzdial/status/1379784291165614082">“styles” are not a thing</a>) was something we didn’t have a good handle on. Some students definitely prefer online. But no one had data on who is doing better, and who is doing worse, online vs offline. For example, students seem to appreciate recorded lectures, but mostly to replay/relisten. The downside is it is harder to get questions in a recorded lecture. Even in more normal settings, students are not always sold on flipped classroom. Then there is the problem of video content: should we re-record videos? In the end it’s about making the content relatable and helping them through the struggle with it. Thus there is no substitute or tech fix for the need to demonstrate empathy, use multiple learning techniques, and I suppose the things we know work well in teaching regardless of venue.</p>
+<p>There was growing recognition that—online and off—bringing some levity and enthusiasm, such as via <a href="https://en.wikipedia.org/wiki/Serious_game">Serious Games</a>, was critical to keep people engaged in the Youtube and Netflix era. Dan Berry, who has a charismatic personality, suggests we think about being a comic. But of course that will not work for everyone. Even during ‘normal’ lectures, it is not uncommon for 60 students to turn into 3-4 actively participating, 15-20 in class, and some coming merely to sleep.</p>
+<p>In other settings, participants acknowledged a need to maybe step away from the computer and do a lecture from outdoors, away from disruptions. The 1 year mark of the pandemic led to a let down in formality, with less emphasis on formal backgrounds and acknowledgement that it was ok for it to be weird.</p>
+<p>There were a few folks who ran hybrid classes, where the university allowed some reduced subset to attend class. The popularity of this depended greatly on the perceived safety level. There were often technical challenges e.g.&nbsp;mic’ing students and sanitizing mic before answering a question, how to get video that made remote participants still feel engaged (e.g., eye contact).</p>
+<p>The final takeaway was about student well-being. <a href="http://birgit.penzenstadler.de">Birgit Penzenstadler</a>, who studies this in her research, emphasized the need to meaningfully check in and get beyond the “how are you doing” question. This is, as she points out, precisely an RE elicitation problem, e.g.&nbsp;“what is the biggest impediment” you are currently facing. We agreed that for most of us, the reality of needing to meaningfully check-in was hitherto unappreciated, and something that is completely independent of learning modality or current global crises. Meaningful checkins are certainly something I will be including in my own teaching practice, online or off (but I hope in person!).</p>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2021-04-15-Refsq.html</guid>
+  <pubDate>Thu, 15 Apr 2021 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Triumvirate of Teaching and Work Life Balance</title>
+  <link>https://neilernst.net/posts/2021-03-03-teaching-factors.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Most courses have a series of learning outcomes for students. Once you have done the course (and, I assume, gotten a B or some reasonably high mark), then you know how to accomplish the learning outcomes.</p>
+<p>Some may break those learning outcomes down to smaller units per module.</p>
+<p>For instructors, it occurs to me there are three objectives to balance (at least):</p>
+<ol type="1">
+<li>How much effort it takes to teach the topic</li>
+<li>How much students appreciate the topic and teaching choices</li>
+<li>How much students learn after being taught</li>
+</ol>
+<p>Number 2 is not ever considered in pedagogy, but is the ONLY thing that matters from a management point of view. It maps directly to the things RateMyProf and course evaluations measure. Therefore from a pragmatic point of view, a prof should only care about 1 and 2.</p>
+<p>Number 3 is what pedagogy is all about: how much are students learning? This is what is referred to when we look at things governments fund us to do. They want more “skilled workers”. Students in the short-term don’t really care much about this stuff. And course evaluations don’t really test for this. Teachers who are really good at 3 often end up getting punished for 2 (learning things is hard and not fun!)</p>
+<p>Number 1 is often ignored, too, but can be the difference between having a good term and a shitty term. For any given topic, there are many ways to think of teaching that topic. Take data flow diagrams:</p>
+<pre><code>- we could lecture off a set of slides showing DFDs
+- We could use a textbook reference and just skim the topic
+- We could create a detailed case study and show DFDs by construction
+- And for each of these, we could come up with different teaching strategies: whiteboard, live coding/drawing, interviewing experts etc.</code></pre>
+<p>As someone with limited time, one goal has to be minimize #1. My contention is that it is easy to go for perfection in 3 and absolutely devastate yourself in #1.</p>
+<p>What I try to do is:</p>
+<ul>
+<li><strong>Destroy with fire</strong> any plan that maximizes 1, but minimizes 2 and 3. If students aren’t learning, aren’t enjoying it, and it is a lot of work, you should NEVER do it. And I bet you would be surprised how often this case happens. For example, in my third year software design course I spent a ton of time (increasing 1) ingesting the Play framework, learning how it worked, so that students could use it in the project. But it was a huge pain for the students to work with (hurting 2), they wanted to use React instead (hurting 2), and most of the learning was about the Play framework itself, rather than software design concepts (hurting 3). I won’t be doing that again.</li>
+<li>Ruthlessly assess how important #3 is for your career. I haven’t seen anyone whose teaching packet evaluates 3. And yet it seems like we all talk about how it is the only goal. I really hope researchers improve on this. For tenure, for example, I seriously doubt anyone is looking at this. The closest we come is peer evaluation, but as <a href="https://cacm.acm.org/blogs/blog-cacm/250527-how-i-evaluate-a-college-computer-science-teaching-record/fulltext">Mark Guzdial wrote</a>, this is often the blind leading the blind.</li>
+<li>Teaching awards seem to be about 2: winners tell jokes, they dress nice, they are male, they seem knowledgeable.</li>
+<li>Given what we think we know about how software is built, I am going to guess that some teachers are really effective (either for 2 or 3) for minimal effort, and others put in orders of magnitude more time on 1, but have little extra to show for 2 or 3. I believe there is a non-linear, diminishing returns model for teaching effort; you might do 10 hours of prep for a lecture and not have much more to show for (3) then if you had done 1-2 hours.</li>
+<li>There is a sunk cost/amortization problem here, too. If you teach a course the first time, you may have a lot of 1 to pay off. Subsequent offerings might greatly reduce 1 and allow you to focus on 3 (or 2) to a greater extent. But I’m not sure how much this is true. Things move fast in software courses, especially in 2nd year and above, some costs simply don’t amortize (marking), and we often try to improve the course year to year. Plus, we might not get to teach that course more than a few times.</li>
+</ul>
+<p>I want to be clear that I am not endorsing a focus on teaching for “show” instead of long-term learning. 3 is clearly the goal. But the reward structure does not reflect this. We should figure out how to ensure that teaching is measured against outcomes on 3, and not on 2 (2 is also horribly biased!).</p>
+<p>More importantly, there seems to be embarrassingly little data on how to minimize 1 and maximize 3. I think this is a problem. We have a lot of info on (for CS1 at least) how to best teach linked lists, such as using Parsons problems. But frankly, my job involves teaching 40% of my time. I may not be able to dedicate the time required to prepare Parsons problems for the course. So a “cost/benefit” (1 vs 3) analysis would be very useful to help me maximize the teaching effectiveness for unit of teaching effort.</p>
+
+
+
+ ]]></description>
+  <category>teaching</category>
+  <guid>https://neilernst.net/posts/2021-03-03-teaching-factors.html</guid>
+  <pubDate>Wed, 03 Mar 2021 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Running a Mining Challenge Using Kaggle</title>
+  <link>https://neilernst.net/posts/2020-09-30-kaggle-mining.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>For the <a href="https://dysdoc.github.io/docgen2/">2nd edition of the Dynamic Software Documentation (DysDoc) workshop</a>, the organizing team wanted to push the boundary on how to engage the community in tool supported demos. Previously, we had asked participants to come to the workshop (co-located with ICSME) with a tool to demo, live, to the other attendees. One of the goals was a tool that worked on unseen data.</p>
+<p>This year, at our organizing meeting, we wanted to try something that went beyond documentation generation, and looked at other issues with dynamic documentation fixes. <a href="https://cado.informatik.uni-hamburg.de/coding-guide/">A study by Walid Maalej and Martin Robillard</a>, which looked at types of API documentation, included an interesting issue with documentation - code comments - that were uninformative.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/**</span> </span>
+<span id="cb1-2"> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>  Clears the log</span>
+<span id="cb1-3"> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*/</span></span>
+<span id="cb1-4"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">public</span> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">void</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">clearLog</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">()</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span></span>
+<span id="cb1-5">  LogMessages<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">getInstance</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">().</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">clear</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">();</span></span>
+<span id="cb1-6"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span></span></code></pre></div>
+<p>This comment is clearly not adding information to the code, and in fact, might even be harmful, if it were to be outdated. Thus our “Declutter” Challenge: figure out a way to identify these type of comments and (eventually) target them for removal. I was co-organizer alongside <a href="http://collab.di.uniba.it/nicole/">Nicole Novielli</a>.</p>
+<p>We were inspired by the success of datasets and benchmarks such as Fei Fei Li’s <a href="http://image-net.org/challenges/LSVRC/2016/index">ImageNet contests</a>, or the <a href="http://www.satcompetition.org">SAT competition</a>. Both of these have been influential in driving innovation in graphics and satisfiability solving. As it turned out, these distributed competitions were also ideally suited to the new remote work paradigm that was required during the COVID pandemic.</p>
+<p>To set up this competition, there was the option to have the competitors take the dataset, work on a solution, then submit their solution to the organizers for evaluation. Of course, this involved a lot of work on the part of the organizers, and being fairly lazy, I looked for an alternative approach. Immediately the Kaggle competition platform seemed the way to go: it has been hosting large-scale data science competitions since before there was data science.</p>
+<p>I therefore investigated how this could work. Normally, <a href="https://www.kaggle.com/c/about/host/">hosting Kaggle competitions</a> require payment (commercial) or prizes (academic). Academic contests are also selected by Kaggle. Fortunately, Kaggle makes the platform available for classroom use, on <a href="https://www.kaggle.com/c/about/inclass">Kaggle InClass</a>. The difference, other than no support, is that competitors do not get Kaggle points for entering. Nicole and I thus decided to use Kaggle to host the Declutter challenge, which you <a href="https://www.kaggle.com/c/declutter20v2/leaderboard">can find here</a>.</p>
+<section id="what-worked" class="level1">
+<h1>What Worked</h1>
+<p>Despite lacking support, getting the contest going on Kaggle was fairly simple. Nicole organized labeling with the rest of DysDoc’s organizers, and hosted a gold <a href="https://github.com/dysdoc/declutter">set on Github</a>. I then used the gold set to generate the inputs Kaggle wanted. This includes the gold set, split into training and test. Test data is further split into “public leaderboard” and “private leaderboard”, since competitors can submit multiple entries, and see where they stand on the leaderboard. Only the organizers get to see the private leaderboard, which is what ultimately ranks the competitors. You can see that <a href="https://www.kaggle.com/c/declutter20v2/leaderboard">in practice here.</a></p>
+<p>I also had to choose between Kaggle’s available validation metrics, in this case choosing F1, and this can be a bit finicky, as you have to map between the columns in the solution CSV file and whatever Kaggle’s automation expects. Clearly at paid support levels they would make this simpler, or just do it for you.</p>
+<p>Despite not having a lot of labeled data, we managed to get a good set of data, and Kaggle’s infrastructure worked - as far as I know, anyway! - with no problems. Competitors download the data, run their model, and then upload a solution file with their predicted labels.</p>
+<p>We managed to get 2 principal competitors, one of whom submitted several distinct entries. Both entrants published their submissions at our workshop, which can be found at the ICSME proceedings site.</p>
+</section>
+<section id="improvements-and-questions" class="level1">
+<h1>Improvements and Questions</h1>
+<p>I was quite happy with how simple Kaggle made the process of evaluating entries. It also scales flawlessly (unlike me), and in theory, could help us dramatically expand our contest. In the COVID era, of course, it also made it pretty easy to host a remote contest, unlike our previous approach, which used in-person demos.</p>
+<p>It would be nice to have more support for notebooks, or perhaps a mandatory notebook submission, so that we can see how each group approaches the problem (after it finishes of course).</p>
+<p>As far as I am aware, this is one of the first challenges to be hosted on Kaggle. To me it seems like an obvious choice for running and hosting automated benchmarks, such as the various effort estimation and defect prediction datasets out there. If we could disambiguate entries, that would help with understanding <em>who</em> is entering.</p>
+<p>Kaggle makes it possible to host an ongoing, never-ending contest, which is also appealing. The obvious bottleneck, unsurprisingly, is data annotation, and at this point I would say that is the main obstacle to running more such contests. However, we have tentative plans to continue the approach in future workshops.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2020-09-30-kaggle-mining.html</guid>
+  <pubDate>Wed, 30 Sep 2020 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Academic Job Searches—A Canadian Perspective</title>
+  <link>https://neilernst.net/posts/2019-05-17-job-search-canada.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Academic job interview season is wrapping up, so I thought I’d capture the process from the Canada point of view.</p>
+<p>Academic CS jobs in Canada follow mostly the same pattern and process as the US (here I am talking about research-focused, tenure-track roles). Hence I think most of the advice from <a href="http://pgbovine.net/faculty-job-applications-summary.htm">Philip Guo</a>, and <a href="https://web.eecs.umich.edu/~weimerw/grad-job-guide/guide/index.html">Wes Weimer and his academic offspring</a>, are totally applicable (and indeed, were what I relied on in my search). There are a few subtleties I think are useful for applicants to know. Disclaimer: I am relatively junior, and only have limited experience applying in Canada, so these insights are based on my limited sample and from talking to colleagues here. I am also not a legal or immigration expert, so I make no warranty about this advice.</p>
+<section id="understand-why-you-are-interested-in-canada" class="level1">
+<h1>Understand why you are interested in Canada</h1>
+<p>In the Weimer/Le Goues job seeker’s guide, they make the point that US candidates tend not to move to Canada. I think it is safe to say that if you have spent your entire master’s/PhD in the States, you have worked in the NSF/DARPA/DOD model of funding, and have family ties there, then the switch to Canada would be a big change. I think this is especially true for smaller schools like ours. We’re a small place but proud (both Canada and Victoria!). So make it clear in your cover letter or interview why you would come. Hopefully reading this guide will help!</p>
+</section>
+<section id="explaincommunicate-the-proposed-discovery-grant-you-would-win" class="level1">
+<h1>Explain/communicate the proposed Discovery grant you would win</h1>
+<p>In Canada funding is fairly different than the US. For one thing, Canadian schools have substantially lower tuition for grad students (although that is changing). Faculty research budgets have much lower student stipends as a result, and the grant sizes reflect that. A moderate US grant might be 100k/year; in Canada that would be equivalent to 20k, but support the same research program.</p>
+<p>Your application and interviews should demonstrate you understand this. I suggest reading up at the <a href="http://www.nserc-crsng.gc.ca/index_eng.asp">NSERC page</a>, and also <a href="https://www.uvic.ca/research/conduct/index.php">the research services page</a> for the university you apply to.</p>
+<p>The main grant for new faculty is the <a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/Grants-Subs/DGIGP-PSIGP_eng.asp">Discovery grant</a>. It is a five year grant worth from $20k-50k a year. You are evaluated equally on your ability/experience with highly qualified personnel; your personal ability as a researcher (i.e.&nbsp;CV); and the research proposal. Not holding a Discovery grant is a problem because getting other federal funding depends on this, to some extent. The good news, especially for ECR, is that success rates are relatively high (60-75%). You can expect to prepare this the summer you get hired, for submission by Nov 1.</p>
+<p>Your job talk and your research statement should outline some elements of the five page grant proposal you would write. Departments want to see what you would propose, and how able you are to communicate your vision to external readers. It is a 5 year program, so scope your “future work” to that time frame.</p>
+<p>I think this is broader advice than Canada-only, but one thing I’ve noticed is that applicants who are just finishing a PhD give more narrowly focused talks. Two things to keep in mind if this describes you. 1. You will be competing with people who have 2-4 years of post-doctoral training, and a corresponding breadth of research, more experience training students. Stretch your talk to show how you have the potential to succeed like that. Conversely, one question about post-docs is often “how independent can they be”. This is particularly true if you come from a big lab with a famous PI. 2. Think like a professor. What grant areas will you target? How would you manage 5 masters/phd students? How will you balance teaching load with research? I don’t think you need to feel uncompetitive: we invited you for a reason. But the onsite interview is when we want to see if you are ready for what <strike>can be</strike> is a very demanding job.</p>
+</section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<p><strong>Engagement with industry</strong> The federal government has been a big supporter of industry partnerships recently, although <a href="http://www.nserc-crsng.gc.ca/Innovate-Innover/alliance-alliance/index_eng.asp">the programs were recently overhauled</a>. This typically means that if you have an industry partner with skin in the game, i.e.&nbsp;financial assistance, you have an excellent chance of obtaining government matching funds. Conversely, if you prefer pure research with no immediate outcomes, finding funds might be more difficult. There are very few large granting agencies. There is no equivalent to DARPA/IARPA, DHS, DOD, DOE funding in Canada; those projects would work with specific people at specific agencies to secure one-off funding. In BC, nearly all grants would come via NSERC programs, or MITACS matching. There are also <a href="http://nce-rce.gc.ca/index_eng.asp">Networks Centres of Excellence</a> such as <a href="http://meopar.ca">MEOPAR</a> that allocate funds in targeted areas (these are being phased out). There is also a recent Defence initiative, <a href="https://www.canada.ca/en/department-national-defence/programs/defence-ideas.html">IDEaS</a>, to increase Canadian funding for research with defence applications. Finally, there were industry-led <a href="https://www.digitalsupercluster.ca">superclusters</a> announced, but who/what gets funding is still very unclear. It seems to focus mostly on subsidies for industry-led research.</p>
+<p>In general, I would say finding funding is much more individualized and distributed than in the States. There are plenty of places to find adequate funding (again, a student probably only costs 20-25k a year), but how to get it is much less clear than a DARPA BAA program. A cynic might say this is because funding announcements are more closely tied to electioneering.</p>
+<p><strong>Summer students and internships</strong>. We have a similar program to the REU approach, called <a href="http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp">USRAs</a>. These are government matching for student research semesters. Again, these are allocated on a per-institution basis (bigger places get more).</p>
+<p>We have an excellent grid/HPC/cloud computing infrastructure, <a href="https://www.computecanada.ca/research-portal/">ComputeCanada</a>. They conduct yearly resource allocation competitions. I don’t know what the success rates are.</p>
+<p>For large infrastructure, e.g., robots, 3d printers, tabletop displays, quantum computers, the <a href="https://twitter.com/innovationca">Canadian Foundation for Innovation</a> holds annual competitions for this, but success rates are fairly low.</p>
+</section>
+<section id="tenure" class="level1">
+<h1>Tenure</h1>
+<p>Well, more to come from me on this one, but my general sense is that tenure is more collaborative and mentoring than many US places. I don’t think there is the equivalent of “didn’t get the NSF grant, didn’t get tenure”, or “didn’t get 1 million in funding, didn’t get tenure”. That said, standards are just as high as US Tier 1 schools; we just want to help you achieve them. We’re friendly, eh?</p>
+</section>
+<section id="specialty-hiring" class="level1">
+<h1>Specialty hiring</h1>
+<p><a href="http://www.chairs-chaires.gc.ca/program-programme/index-eng.aspx">CRCs</a>. You may be in the enviable position of applying for a Canada Research Chair. These are a nationwide funding mechanism for research positions. We have Tier 1 (7 years, renewable, senior) and Tier 2 (5 years, renewable, junior/emerging). They typically come with higher salary and teaching relief. Each university gets a quota from the federal government. The approval process is a bit more involved. In addition to approval from (department-faculty/dean-VP academic/provost), you will have your application submitted to the federal government, wherein the case will be made that you are uniquely qualified, amazing, etc. This is almost never turned down, from what I can tell, but could be. In particular, the federal government has a strong desire to see <a href="http://www.chairs-chaires.gc.ca/program-programme/equity-equite/index-eng.aspx">equal allocations of these CRCs</a> to male and female candidates.</p>
+</section>
+<section id="requirement-for-hiring-canadians" class="level1">
+<h1>Requirement for hiring Canadians</h1>
+<p>Departments are usually required to prefer Canadians over non-Canadians, for immigration purposes. This means that of two <em>totally equivalent</em> candidates, the Canadian citizen or permanent resident would be made an offer. If you are a PR/citizen, or applying for PR, that is worth highlighting somewhere.</p>
+</section>
+<section id="immigration-is-easy" class="level1">
+<h1>Immigration is easy</h1>
+<p>I can’t speak from experience, but my understanding is that immigration to Canada as a permanent resident, and eventual citizenship, is much easier than the US process (with which I <em>do</em> have experience). This is also true for immediate family (spouse/children). In some cases, permanent residency is possible in months, not years.</p>
+</section>
+<section id="salary-and-benefits" class="level1">
+<h1>Salary and benefits</h1>
+<p>In general Canada pays less salary. Keep in mind that it is a 1 year salary, not 9 months. Most Canadian schools don’t have the concept of a summer salary. At UVic, we operate on 3 equal semesters, and allocate a research semester where you would like (subject to teaching needs of course).</p>
+<p>The <a href="https://www.cra.org/resources/taulbee-survey">CRA survey</a> has more useful information. Health care is provincially funded from your taxes, so don’t expect to lose 500-600$ a month to health premiums. From working in the US, even being a well-paid employee at a great employer, there was a significant cost (mental and financial) in understanding yearly plan changes—even without chronic conditions.</p>
+<p>In most places, faculty are unionized or quasi-unionized. This means you fall into a grid, and your salary increases will be based on a formula in the collective agreement. You can probably look this up online for each institution you visit. Hint: you want to move up the grid as much as possible <em>before</em> you start the job. So Prof.&nbsp;Le Goues’s advice on startup over salary might change, since your salary will be the baseline for future percentage increases.</p>
+</section>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>I would sum up by saying Canada is an awesome place to do research, and I hope you apply to Canadian universities! Especially mine!</p>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<ul>
+<li><a href="https://www.macleans.ca/education-hub/macleans-university-guide-2019-build-your-own-ranking/">Maclean’s Guide to Canadian Universities</a>: This is the Canadian equivalent (in all respects, good and bad) to US News and World Report. It divides universities into medical/doctoral, comprehensive, and primarily undergrad. Canada does not have the same diversity of higher education as the US—for example, there are few private institutions here. The main division for research is whether the school has a medical school or not, as med schools are tightly controlled (public health care dictates number of seats), and med schools tend to accumulate massive amounts of research funding. My school is categorized as a comprehensive, but I wouldn’t say this equates to “more teaching”.</li>
+<li><a href="http://www.nserc-crsng.gc.ca/index_eng.asp">NSERC</a>: The main engineering funding body, similar to NSF.</li>
+<li><a href="https://www.cra.org/resources/taulbee-survey">Taulbee Survey</a>: Various stats on academic CS jobs, including some from Canada.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2019-05-17-job-search-canada.html</guid>
+  <pubDate>Thu, 16 May 2019 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bayesian Hierarchical Modeling in Software Engineering</title>
+  <link>https://neilernst.net/posts/2018-06-16-satt.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>At MSR18 in Gothenburg, I presented <a href="https://arxiv.org/abs/1804.02443">my work</a> on using Bayesian inference to set software metrics thresholds. We want to set thresholds because for many software metrics, like coupling between objects (CBO), a single, global metric value (“all software objects with this value or below are maintainable”) is nonsensical, if only because programming language choice is important. So we want to tailor threshold values to some contextually relevant value (e.g., perhaps all Java code should be X or less). The question I answered is how we do the tailoring, given some contextual features.</p>
+<p>In this case, the contextual features I was looking at were Java files categorized by architectural role in the Spring framework, derived from <a href="http://www.mauricioaniche.com/scam2016/">a paper by Mauricio Aniche</a> and others.</p>
+<p>The bottom line of this new approach is that we can use Bayesian inference and hierarchical models to perform a simple regression and get a 50% drop in root mean squared error (RMSE).</p>
+<p>The more interesting conclusion from a methodology point of view is that hierarchical modeling with Bayesian inference fit software engineering data very well, and is straightforward to model given modern probabilistic programming languages. I followed a similar approach to the one <a href="https://bit.ly/2G04hN2">detailed in this blog post</a> on hierarchical modelling with PyStan. There are two key ideas.</p>
+<ol type="1">
+<li>Use a combination of global data as regularization over the detailed, local model. In this case, the global data comes from all the different Java projects. The local model is the specific coupling metrics for one particular project. The effect is to allow each individual project’s slope and intercept values to vary by some amount dictated by the global values.</li>
+<li>We model this using a Bayesian approach, which means we will condition our likelihood based on the data we are observing, and use that to estimate a posterior distribution. I really like this approach because it forces you to think about your prior distribution (what <em>should</em> the metrics distribution be?), and also because it produces a posterior <em>distribution</em>, and not a single point estimate. A distribution is much more flexible for making inferences than a point estimate (e.g., we could say “set the threshold where &lt; 75% of the probability mass lies”).</li>
+</ol>
+<p>This was also a fun project to do from an open science approach. I used Jupyter as my notebook throughout the project, and my <a href="https://doi.org/10.6084/m9.figshare.4892852.v1">notebook</a> and the <a href="https://arxiv.org/abs/1804.02443">paper</a>/<a href="https://speakerdeck.com/neilernst/bayesian-hierarchical-modeling-for-software-metrics?slide=1">presentation</a> are both available.</p>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2018-06-16-satt.html</guid>
+  <pubDate>Sat, 16 Jun 2018 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Seven Principles of Effective Documentation</title>
+  <link>https://neilernst.net/posts/2017-07-17-7principles-docs.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>There has recently been more discussion about software documentation (or perhaps that’s because I only see what I’m interested in… hard to say). At any rate, it seems a lot of discussion inevitably breaks down to “what tool will solve my documentation problems” (e.g., <a href="https://dev.to/lennartb/where-do-you-keep-non-code-documentation-such-as-architecture-explanation-or-research">this thread</a>). Others have tried to “fix” UML by proposing new modeling approaches (forgetting, perhaps, that the <em>unified</em> modeling language was spurred by exactly this proliferation of diagram notations).</p>
+<p>I don’t think tools, or formats, or templates, or modeling languages, will ever solve the <em>problem</em> you have. But what will help is to put some people in charge of the project who can think clearly and knowledgeably about what exactly is needed. To that end, the most effective advice (yet perhaps least immediately actionable, as compared to “buy X”) are the principles of effective documentation, originally from the Parnas and Clements paper “A Rational Design Process: How and Why to Fake It” <sup>1</sup>. Its more concrete form is published in the SEI text <a href="https://www.amazon.com/Documenting-Software-Architectures-Views-Beyond/dp/0321552687">“Documenting Software Architectures”</a>, and is part of the introduction to <a href="https://www.sei.cmu.edu/training/p33.cfm">the course</a> we teach.</p>
+<ol type="1">
+<li><strong>Write from the reader’s point of view (and know who your readers are)</strong>. Probably also the first rule of good technical writing. You need to understand who will use the documentation: management, downstream developers, other contractors, you (one, five, ten, twenty years from now), government program offices, etc.</li>
+<li><strong>Avoid unnecessary repetition</strong>. This is easier in the wiki/hyperlink era. Sometimes repeating key figures is helpful, especially if a particular section may be read in isolation.</li>
+<li><strong>Avoid ambiguity</strong> (and explain your notation). This is where most modeling discussions end up for me. Pick whatever language works for you, but explain its syntax (and semantics where necessary). It may be as simple as a key that says “UML 2.0 activity diagram”. There’s nothing worse, or more common, than a diagram with a mix of colors and shapes that no one understands who was not in the room. And keep in mind Martin Fowler’s helpful breakdown of <a href="https://martinfowler.com/bliki/UmlMode.html">UML Modes</a>.</li>
+<li><strong>Use a standard organization</strong>. Templates make it easier to find information.</li>
+<li><strong>Record rationale</strong>. You might be able to recapture the “design” from the code, or tests, but you have little hope of understanding why certain architectural approaches were chosen if no one wrote the reasoning down. Most of the essays in the book <a href="http://aosabook.org/en/index.html">“Architecture of Open Source Applications”</a> capture rationale, at least in hindsight (which is fine, after all we are “faking” a rational design process).</li>
+<li><strong>Keep docs current, but not too current.</strong> I would interpret this nowadays as “have a release schedule” and make it clear what portions of the docs reflect “as-is” vs “to-be”. It’s also about which portions of the software you need to document. Low-level implementation decisions are only necessary if they have some impact on the important qualities of the system (otherwise, they aren’t architectural, and don’t need to be documented!)</li>
+<li><strong>Review the documentation</strong>. Like any software artifact, you can’t know how well documentation “works” for your audience until you test it. That means understanding if stakeholder questions can be answered with the documentation (e.g., “can I see how the system handles authentication”).</li>
+</ol>
+<p>The other “principle” we mention, but is not part of this list, is <strong>“if it isn’t needed, don’t do it”</strong>. Documentation (good, up to date documentation certainly) has a cost. Only incur that cost if you are going to realize benefit from it (and naturally, the cost is the upfront cost + maintenance cost).</p>
+<p>I think most of the tooling discussions fall from these principles/rules. For example, Daniel Procida gave a presentation on “<a href="https://thenewstack.io/four-elements-successful-documentation/">4 Elements of Successful Docs</a>”, recommends docs have how-to guides, tutorials, discussions, and reference content. This maps to writing for the reader, and recording rationale.</p>
+<p>In this perspective, a lot of discussions can be better grounded. For example, “avoid ambiguity” motivates the use of something like UML. The UML is useful at least as the “most common” notation people are aware of (and has many many reference books). Using Markdown to keep things current with your build system can help to keep things current. Confluence or other wikis help with organization and avoiding repetition. And so on.</p>
+<p>As a good researcher, I should mention this topic greatly interests me. If you want to collaborate, <a href="http://neilernst.net/about/">get in touch</a>! I think there’s a lot of room for interesting contributions in making documentation better.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Parnas and Clements, Trans. Software Eng. 12(2), 1986. http://web.engr.oregonstate.edu/~digd/courses/cs361_W15/docs/IEEE86_Parnas_Clement.pdf↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://neilernst.net/posts/2017-07-17-7principles-docs.html</guid>
+  <pubDate>Mon, 17 Jul 2017 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Moving to UVic</title>
+  <link>https://neilernst.net/posts/2017-06-25-Moving-to-UVic.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I’m excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of <a href="http://www.uvic.ca/engineering/computerscience/index.php">Computer Science</a> at the <a href="http://www.uvic.ca">University of Victoria</a>.</p>
+<p>This is a great opportunity to work with some of the top software engineering faculty in the world, in one of the best cities in the world (although I’m biased, as it is my hometown :). Victoria is at the forefront of the startup scene, just a few hours from Vancouver, Seattle, and direct flights to the Valley (not Abbotsford, the other one).</p>
+<p>If you are interested in doing research with me please take a look at my <a href="../prospective">‘prospective students’</a> page. Uvic, and Canada, welcome people of all backgrounds. See our <a href="http://www.cic.gc.ca/english/study/index.asp">study permit process</a>, and the federal <a href="http://www.cic.gc.ca/english/study/work-postgrad.asp">Express Entry program</a> for post-graduation immigration opportunities.</p>
+<p>I want to thank my colleagues and co-workers at Carnegie Mellon and the Software Engineering Institute for a great four years. I’ve learned a lot about software architecture, large-scale software projects in government agencies, and more US military acronyms than I care to admit. I’ll also really miss Pittsburgh, which has been wonderfully welcoming and a pleasant surprise. It’s easy to see America through a particular perspective these days, but many—most—Americans are awesome and caring people. <!-- Pittsburgh in particular is a leading indicator of problems and opportunities the whole world will have to deal with, in autonomous vehicles, uninterpretable machine learning algorithms, diversity and inclusiveness in technology, and the very question of what work means in a world where we just need less of it. --></p>
+<p>You can continue to reach me via Twitter, <a href="https://twitter.com/neilernst"><span class="citation" data-cites="neilernst">@neilernst</span></a>, via <a href="contact.html">this web page</a>, or via email, <a href="mailto:neil@neilernst.net">neil@neilernst.net</a>.</p>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2017-06-25-Moving-to-UVic.html</guid>
+  <pubDate>Mon, 26 Jun 2017 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Visual Abstract attempt</title>
+  <link>https://neilernst.net/posts/2017-05-11-visual-abs.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>In response to <a href="https://twitter.com/gvwilson/status/861305406542446593">Greg Wilson’s challenge</a>, I did a quick attempt at a Visual Abstract for <a href="http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=495553">a recent paper</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neilernst.net/images/drstudy-visualabs.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
+</figure>
+</div>
+<p>I think it turned out ok; it captures the core findings and presumably will prompt people to look at the paper. I’ve attached the Keynote slide I used <a href="https://github.com/neilernst/visual-abs">in a repo on Github</a>.</p>
+<p>A few comments:</p>
+<ul>
+<li>Graphic design is a skill you need to work on (duh). Even with this template, I don’t think it is super compelling. I just used out of the box icons.</li>
+<li>The footer kinda loses relevance when you don’t have a big name JOURNAL behind you. Something else can go there. I used the conference logo, but maybe some logo for your lab.</li>
+<li>I wanted a URL to point to the full paper, but a bar code might be better. If anyone uses that anymore.</li>
+<li>For qualitative papers, and maybe software engineering in general, the “outcome data” at the bottom is more difficult to come up with. I don’t know if I can easily pull three nuggets of improvement for each paper (but I hear Greg’s baritone susurration saying “well yes, that’s part of the problem”)</li>
+<li>As someone on Twitter pointed out, these are intrinsically <em>visual</em> and thus not accessible to the visually impaired. I do think they help the “academicese-impaired”, but each time one of these is used, I would hope a non-visual summary is also presented. Pulling the text together shouldn’t be too hard. I’ve had a go in the “alt” text above.</li>
+<li>Doing a whole batch of these (say for an ICSE track) would be a fair bit of work. Presumably you could pick papers you’ve had to read anyway (and cared about). But summarizing the contributions is not so simple (for me, anyway). Again, perhaps that points to a wider problem.</li>
+</ul>
+<p>I’ve noticed more and more papers calling out contributions in special boxes, and bulleted lists in the introduction. I think this is great. One of my pet peeves is a reviewer who points out some trivial English error, but tolerates the total incoherence of the introduction.</p>
+<p>Related to this is a visual portrayal of the methodology. This happens a lot in medicine, where lots of experiments are conducted and explaining complex cross-over designs is important. But you can see a similar example in <a href="https://arxiv.org/pdf/1705.02395.pdf">Borg et al.&nbsp;2017</a>, below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neilernst.net/images/borg-workflow.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Sample workflow cartoon</figcaption>
+</figure>
+</div>
+<p>This explains how the study was conducted. Again, anything that can explain what is going on for a busy reviewer is helpful. Remember, in 2017 FSE reviewers seem to have reviewed 25-28 papers each. Expecting them to spend more than 30-45 minutes on each one is unrealistic. So make your time with them count!</p>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2017-05-11-visual-abs.html</guid>
+  <pubDate>Thu, 11 May 2017 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On Active Learning in Software Engineering</title>
+  <link>https://neilernst.net/posts/2017-05-10-active-learning.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I’ve read 2 papers recently (references) about using active learning to improve classification for software engineering.</p>
+<p>Active Learning is the idea that, if we have a feature space with instances, for the classification task of labeling an instance either “A” or “B”, there are clumps of points that clearly are As, and another clump that are clearly Bs. In between, however, the boundary is unclear. Some instances will be equidistant from both centers of mass, and the classifier will struggle to properly classify it. Active Learning (AL) quite simply picks what are hopefully the “most useful” (for improving the classifier) points for human labeling, which reduces the amount of (possibly) redundant labeling humans have to do (since the labeling time is the most costly part of creating a classifier).</p>
+<p>It turns out that so far this active learning approach for software data is not too successful. I think there are 2 main reasons.</p>
+<p><strong>1)</strong> We don’t have much data. Classifiers do better when they see more instances. In the 2 studies I read, the number of unclassified instances was measured in tens of thousands. Contrast this with most image recognition or information retrieval applications, which have orders of magnitude more training data. In the case of the <a href="http://image-net.org/challenges/LSVRC/2016/">ImageNet</a> context, they also label substantially more instances (e.g.&nbsp;150,000 labeled with 10 labels).</p>
+<p><strong>2)</strong> More importantly, I think the task is fundamentally difficult. The Borg paper makes this clear; when human raters themselves cannot agree on a label, it probably won’t work any better with active learning. I think this is because some problems have fuzzy label boundaries for non-core feature reasons, while many software concepts are innately (ontologically) unclear. Think about labeling photos of house numbers. I’m pretty confident that any two humans would agree that instance X <strong>is</strong> a house number. We have clear and simple criteria for what a “number” is (intensionally and extensionally). The reason the classifier struggles is because of non-intensional properties of the data itself: perhaps a tree obscures the top of the 1, or a shadow is partly on the lower digits. In software data, that problem exists as well (e.g.&nbsp;someone talking about an old version of Rails). But for labeling an utterance as technical debt, or a performance bug, or a usability concern, there seem to be broad disagreements on the core discriminating features. If we talk about paradigms like distributed computing, is that an “architectural” discussion? What about a bug that results from not understanding an RPC service?</p>
+<p>We’ve looked at some of this in <a href="https://insights.sei.cmu.edu/blog/automating-design-analysis/">our latest research on design rules</a>. We found that while a majority of static analysis/code checker rules can be clearly distinguished as either design or not, there remains this stubborn middle tier that resist easy categorization. We think you can still make progress (after all, these rules may not even fire on your project). But it would be satisfying to have a more repeatable analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neilernst.net/posts/https:/insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Categorizing rules</figcaption>
+</figure>
+</div>
+<p>The conclusion of the Borg paper really seems useful for future work here. One, they say that the AL approach helps to pull out controversial instances, that then help build rater consensus. Two, using bootstrapping with more positive examples helps the AL improve its accuracy (in other words, there is still benefit to grinding out the labels manually – no free lunch, sorry!).</p>
+<section id="references" class="level1">
+<h1><a name="refs"></a>References</h1>
+<ol type="1">
+<li>N. Van Houdnos, S. Moon, D. French, Brian Lindauer, P. Jansen, J. Carbonell, C. Hines, W. Casey. “Human-Computer Decision Systems for Cybersecurity”, Presentation. <a href="https://resources.sei.cmu.edu/asset_files/Presentation/2016_017_001_474277.pdf">https://resources.sei.cmu.edu/asset_files/Presentation/2016_017_001_474277.pdf</a></li>
+<li>Borg, M., Lennerstad, I., Ros, R., Bjarnasson, E. “On Using Active Learning and Self-Training When Mining Performance Discussions on Stack Overflow”, <a href="https://arxiv.org/abs/1705.02395">arXiv:1705.02395v1</a>. Preprint of paper accepted for the Proc. of the 21st International Conference on Evaluation and Assessment in Software Engineering, 2017.</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2017-05-10-active-learning.html</guid>
+  <pubDate>Wed, 10 May 2017 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Thoughts on Amy Ko’s “PL as …” keynote</title>
+  <link>https://neilernst.net/posts/2016-11-04-ko-splash.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://faculty.washington.edu/ajko/">Amy Ko</a> had a great <a href="http://faculty.washington.edu/ajko/talks/SPLASH2016Keynote.pdf">presentation</a> at a conference on programming languages (PL), that <a href="https://www.youtube.com/watch?v=TjkzAls5fsI&amp;feature=youtu.be">he also video taped</a> for a wider audience.</p>
+<p>I’d always thought of PL as “things”, or material. The program was the interesting bit; the PL was the material that constructed it. But I guess as I extend that metaphor, it seems clear that it falls short. Cedar, for instance, is a material, and the building is the interesting thing. But cedar has intrinsic properties as well. You can bend it without cutting it to make a box.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://neilernst.net/images/bentwood.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">bentwood box</figcaption>
+</figure>
+</div>
+<p>It weathers beautifully due to the oils it contains, so you can make shingles and siding out of it. It burns very easily. If we extend the definition of cedar to include the tree itself, we can make canoes, rope, hats, spears, and so on. Cedar was a <a href="https://www.amazon.com/Cedar-Tree-Northwest-Coast-Indians/dp/0295974486">crucial part</a> of Northwest aboriginal culture.</p>
+<p>And so in translating that thought back to the PL world, it seems clear that PL also has this. The syntax of Java vs C in ease of learning the language. The ecosystem of Javascript vs Clojure in building apps. The culture of web programming languages vs scientific programming languages. And so on.</p>
+<p>The one quibble I have—clarification, to be more accurate—is the slide on definitions, values and community weighting toward the end. The implication → goes one way for a reason. That is, because we chose to focus on PL as math, we have, as a result, a lot of focus on the value of certainty. But that isn’t to say because we value certainty, we focus on PL as math. In fact the reason for ‘valuing’ this value are complex and systemic: most CS departments started with math graduates, most CS departments still contain math-heavy disciplines like theory and machine learning, we want to show correctness and soundness, and math is the way to do it. So it isn’t to say that PL community does not value equity, or the others, but rather that equity is hard to prove, and PL academics function in a math world.</p>
+<p>Finally, Amy had this great list of what form PL takes, and associated research questions, which I’ve shamelessly duplicated here so people can more easily copy it.</p>
+<p>Programming languages as ….</p>
+<ul>
+<li>power
+<ul>
+<li>what responsibilities does knowing PL come with?</li>
+<li>how does PL corrupt?</li>
+<li>should democracies distribute it?</li>
+</ul></li>
+<li>design
+<ul>
+<li>what tradeoffs are made?</li>
+<li>what is a “good” PL design process?</li>
+<li>how can we rapidly prototype PL?</li>
+<li>what are PL aesthetics?</li>
+</ul></li>
+<li>media
+<ul>
+<li>what message is enabled by PL?</li>
+<li>how does PL facilitate expression?</li>
+</ul></li>
+<li>notation
+<ul>
+<li>what can PL not model?</li>
+<li>what info can PL not share?</li>
+<li>what makes a PL learnable?</li>
+</ul></li>
+<li>interfaces
+<ul>
+<li>how can PL convey what is possible?</li>
+<li>how do we make PL usable?</li>
+<li>what feedback must a PL provide?</li>
+</ul></li>
+<li>math
+<ul>
+<li>what does PL correctness mean</li>
+<li>how to prove PL correct?</li>
+<li>what in PL is equivalent?</li>
+</ul></li>
+<li>language
+<ul>
+<li>do PL have ambiguities?</li>
+<li>do PL shape how we computationally think?</li>
+</ul></li>
+<li>communication
+<ul>
+<li>Should PL model developer intent?</li>
+<li>should PL express intent to developers?</li>
+</ul></li>
+<li>glue
+<ul>
+<li>what makes a PL a good adhesive?</li>
+<li>what materials do PL adhere to?</li>
+</ul></li>
+<li>legalese
+<ul>
+<li>who should interpret code legally?
+<ul>
+<li>are programmers lawyers?</li>
+</ul></li>
+</ul></li>
+<li>infrastructure
+<ul>
+<li>how do PL decay?</li>
+<li>how should we maintain PL?</li>
+<li>is PL a public good?</li>
+</ul></li>
+<li>path
+<ul>
+<li>should gov’t create the path?</li>
+<li>how do we make PL equitable?</li>
+<li>who should go down this path?</li>
+</ul></li>
+</ul>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2016-11-04-ko-splash.html</guid>
+  <pubDate>Fri, 04 Nov 2016 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Day Hikes</title>
+  <link>https://neilernst.net/posts/2016-09-08-day-hikes.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>A list of long, high vertical day hikes I have done and wish to do. I think looking back the most common theme to all of them was “bring more water”.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Hike Name</th>
+<th>Length</th>
+<th>Elevation Gain</th>
+<th>Elevation</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Black Tusk</td>
+<td>29km/18mi</td>
+<td>1740 m/5700’</td>
+<td>7600’</td>
+<td>Highly exposed last section up remaining volcanic core. See <a href="https://www.vancouvertrails.com/trails/black-tusk/">details</a></td>
+</tr>
+<tr class="even">
+<td>Lions</td>
+<td>16km/10mi</td>
+<td>1280m/4200’</td>
+<td>5427’</td>
+<td>I remember when we did it in 2001 or so there being little to no trail markers. <a href="https://www.vancouvertrails.com/trails/the-lions-binkert-trail/">Trail page</a></td>
+</tr>
+<tr class="odd">
+<td>Triple Crown (Finlayson, Work, Gowlland Range )</td>
+<td>? Maybe 10mi/16km</td>
+<td>? Probably around 1000m/3200’</td>
+<td>1375’</td>
+<td>I couldn’t find details on this, but the gist is to hike up <a href="http://victoriabcca.com/blog/mount-finlayson-hike-victoria-bc/">Finlayson</a>, go down the backside, then back up along the Gowlland Tod ridge above the inlet, then up Mt Work at the end.</td>
+</tr>
+<tr class="even">
+<td>Half Dome</td>
+<td>26km/16mi</td>
+<td>1450m/4800’</td>
+<td>8839’</td>
+<td>Cables! Now need permits to go. <a href="https://www.nps.gov/yose/planyourvisit/halfdome.htm">Trail page</a></td>
+</tr>
+<tr class="odd">
+<td>Mt St Helens</td>
+<td>16km/10mi</td>
+<td>1370m/4500’</td>
+<td>8366’</td>
+<td>Permit needed. Painful boulder climbing and loose scree from middle to end. Insanely exposed rim of crater. <a href="https://www.wta.org/go-hiking/seasonal-hikes/go-hiking/hikes/mount-saint-helens">Trail page</a></td>
+</tr>
+<tr class="even">
+<td>Golden Ears</td>
+<td>24km/15mi</td>
+<td>1500m/4900’</td>
+<td>5630’</td>
+<td>Some freaking jackrabbit passed us going up and was heading back down before we summited. Even in June had plenty of snow that made the top risky without ice axes and/or crampons. <a href="https://www.vancouvertrails.com/trails/golden-ears/">Trail page</a></td>
+</tr>
+<tr class="odd">
+<td>Mt Thar</td>
+<td>No idea. Took about 6 hrs.</td>
+<td>Yak Mtn is listed as 1640’ for prominence, so I’d guess no more than 1200’ for Thar.</td>
+<td>Yak: 6693’</td>
+<td><a href="http://forums.clubtread.com/27-british-columbia/21043-mount-thar-03-june-2007-a.html">Trip report</a> This one is in <a href="https://www.amazon.ca/103-Hikes-Southwestern-British-Columbia/dp/1553653742">103 Hikes in the SW BC</a>, highly recommended.</td>
+</tr>
+<tr class="even">
+<td>Monte Bondone, Trentino, IT</td>
+<td>About 12 hours.</td>
+<td>Trento centro is 636’, so nearly 6500’ of elevation gain (seems high to me)…</td>
+<td>7150’</td>
+<td>I started in Vela where my flat was. The Italian Alpine club chapter - S.A.T. - has a <a href="http://trentino.webmapp.it/#/app/map?c=13%2F46.0491%2F11.1142">good trails site</a> and maintains the helpful markers. You can take a cable car back to the river from Sopramonte to shave a few minutes off.</td>
+</tr>
+<tr class="odd">
+<td>Mt San Jacinto</td>
+<td>30km/19mi</td>
+<td>1700m/5600’</td>
+<td>10,833’</td>
+<td><strong>TBD!</strong> <a href="http://www.modernhiker.com/2014/06/05/hike-mount-san-jacinto-from-idyllwild/">Trail page</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2016-09-08-day-hikes.html</guid>
+  <pubDate>Thu, 08 Sep 2016 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Columbus’s Heilmeyer Catechism</title>
+  <link>https://neilernst.net/posts/2016-07-19-columbuss-heilmeyer-catechism.html</link>
+  <description><![CDATA[ 
+
+
+
+<blockquote class="blockquote">
+<p>I have no idea if Columbus had to have his “India Expedition” proposal peer-reviewed, but here is my interpretation of it according to the ever-popular <a href="http://cseweb.ucsd.edu/~ddahlstr/misc/heilmeier.html">Heilmeyer catechism</a>.</p>
+</blockquote>
+<section id="what-are-you-trying-to-do" class="level1">
+<h1>What are you trying to do</h1>
+<p>I would like to sail to India and bring back gold and spices for the Crown of Spain.</p>
+</section>
+<section id="how-is-it-done-today" class="level1">
+<h1>How is it done today</h1>
+<p>Currently no one has sailed west. Everyone takes the trip east, around the Cape of Good Hope. Most of these people think the world is flat and that heading west would cause us to fall into space.</p>
+</section>
+<section id="whats-new-in-your-approach" class="level1">
+<h1>What’s new in your approach</h1>
+<p>I will head west. I’m pretty sure the Earth is round, and we can reach India from the west in less time</p>
+</section>
+<section id="who-cares" class="level1">
+<h1>Who cares?</h1>
+<p>A faster trading route to India, monopolized by our mapping skills, would generate 1 million Real a month for the royal treasury.</p>
+</section>
+<section id="risks" class="level1">
+<h1>Risks</h1>
+<p>There is a lot unknown about the middle of the Atlantic, including rumors from the Vikings that some colder land is in between. My math may be off in calculating the circumference of the Earth. I am not a great sailor. We may encounter fierce alien tribes.</p>
+</section>
+<section id="cost-and-schedule" class="level1">
+<h1>Cost and schedule</h1>
+<p>For 1000 Real we can outfit four boats with sailors, supplies, and weapons (note: of course Columbus would never get all he requested, either!). We plan on a quick 1 year voyage to India, and one more year back.</p>
+</section>
+<section id="checkpoints-for-success" class="level1">
+<h1>Checkpoints for success</h1>
+<p>We plan to see India after 2000 nautical miles of sailing. While measuring distance at sea is currently impossible, after 3 months we expect to sight land. If not, we will head back.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2016-07-19-columbuss-heilmeyer-catechism.html</guid>
+  <pubDate>Tue, 19 Jul 2016 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On SCAM’s new “Engineering Track”</title>
+  <link>https://neilernst.net/posts/2016-04-22-on-scams-new-engineering-track.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>This year SCAM, the <a href="http://www.ieee-scam.org/2016/">Working Conference on Source Code Analysis and Manipulation</a> (located in Raleigh, NC, Oct 2–3 2016) includes an engineering track, <a href="http://davidshepherd.weebly.com/blog/scam-16-in-the-land-of-bbq-beer-bluegrass">as described here</a>. The CFP is <a href="http://www.ieee-scam.org/2016/">available here</a>. This track will be co-chaired by myself and <a href="http://homepages.cwi.nl/~jurgenv/">Jurgen Vinju</a>. In this post I want to briefly explain what an engineering track is and why you should submit to it! <sup>1</sup></p>
+<section id="purpose" class="level3">
+<h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
+<p>Software is an engineering discipline, for most definitions of ‘engineering’. My definition, for what it’s worth, includes the notion that it involves working on real systems that do things, and to that end research in software engineering can be seen as a design science, where the chief task is to “design and investigate artifacts in context”.<sup>2</sup> This implies that for the most part researchers in this space need to concern themselves with pragmatics: how will this work at scale? How do people do this now? What data can we use that has practical relevance?</p>
+<p>However, traditional conference submissions (the dominant form of scholarly dissemination in Computer Science) tend to follow the 10page, aim/motivation/observations/conclusions framework, often full of Greek letters and references to obscure papers. Whether this is a good way to advance the engineering discipline is debatable, but in any event, such a submission tends to ignore two things: one, how people dealing with problems in practice can use the work; two, the artefacts related to the scientific endeavor (the ‘treatment’ in Wieringa’s design science parlance). While improving, too many research papers still do not include tool downloads, fail to show practical impact, or fail to provide for data download to replicate the findings.</p>
+<p>Our engineering track is out to improve the practical, engineering-relevant side of source code analysis and manipulation.</p>
+</section>
+<section id="submission-types" class="level3">
+<h3 class="anchored" data-anchor-id="submission-types">Submission types</h3>
+<p>This track has evolved from the tool track of previous SCAMs. As David mentions,</p>
+<blockquote class="blockquote">
+This is not to discourage tool paper submissions–they will now fall into the Engineering Track–but to broaden the scope of the tools track … for those of you that invest blood, sweat, and tears into tooling, infrastructure, or realistic field studies SCAM recognizes the value of this work, which is not always pure research, and we are designing this track to attract that type of work.
+</blockquote>
+<p>What artefacts qualify as “engineering track” material (from CFP)?</p>
+<ul>
+<li><p><strong>tools</strong>: software (or hardware!) programs that facilitate SCAMmy activities.</p></li>
+<li><p><strong>libraries</strong>: reusable API-enabled frameworks for the above.</p></li>
+<li><p><strong>infrastructure</strong>: while libraries are purely software, infrastructure can include projects that provide/facilitate access to data and analysis.</p></li>
+<li><p><strong>data</strong>: reusable datasets for other researchers to replicated and innovate with.</p></li>
+<li><p><strong>real world studies</strong> enabled by these advances. Here the focus is on how the {tool,infrastructure, etc} enabled the study, and not so much the study itself. Novelty of the research question is less important than the engineering challenges faced in the study.</p></li>
+</ul>
+<p>Some of the criteria the PC will look at includes:</p>
+<ul>
+<li>How well motivated are the use cases (and hence the existence) of the engineering work. Here we are asking whether this solves some realistic and ongoing challenge in practice. However, we are open to brilliant new ideas that scratch a previously unknown itch<sup>3</sup>.</li>
+<li>Relate the engineering project to earlier work. All engineering is a product of lessons learned, so including some narrative about how this particular submission has evolved is useful (e.g., what paths turned out to be dead ends).</li>
+</ul>
+<p>Optionally (and encouraged):</p>
+<ul>
+<li>Any empirical results or user feedback is welcome.</li>
+<li>Contain the URL of a website where the tool/library/data etcetera can be downloaded, together with example data and installation guidelines, preferably but not necessarily open source</li>
+<li>Contain the URL to a video demonstrating the usage of the contribution.</li>
+</ul>
+<p>Ideally one would submit and make public the artifacts and required steps to create it. However, realistically people may not be able to (given IP rules, NDAs, etc.).</p>
+</section>
+<section id="program-committee" class="level3">
+<h3 class="anchored" data-anchor-id="program-committee">Program Committee</h3>
+<p>Building on SCAM general chair David Shepherd’s <a href="http://davidshepherd.weebly.com/blog/how-to-double-the-submissions-to-your-industry-track">excellent blog post</a> on industry tracks, both Jurgen and I are committed to a program committee (PC) that has strong industry representation. That doesn’t mean only people who work in industry, but at least means people who have some sense of the engineering challenges of building real-world software. The purpose is to vet submissions against the standards industry holds: not necessarily will work right away at scale in mission critical systems, but that there is some promise of that.</p>
+<p>Incidentally, if you are a former academic now practicing, or just a research-minded practitioner, I would love to <a href="mailto:neil@neilernst.net">hear from you</a> for future PCs. We need more folks straddling the two cultures.</p>
+</section>
+<section id="related-work" class="level3">
+<h3 class="anchored" data-anchor-id="related-work">“Related Work”</h3>
+<p>We are not the only place thinking of how to expand and include more non-traditional research papers. At MSR <a href="http://2016.msrconf.org/#/home">Working Conference on Mining Software Repositories</a> there is a data track, a tools track, and a mining challenge.</p>
+<p>One of my favorite venues, the <a href="http://re16.org">International Conference on Requirements Engineering</a>, has long had what I have found to be the strongest industry focus of any software conference. In part I think this is because RE is implicitly concerned with what business needs, but it also reflects a purposeful ambition to increase relevance of the research results. For example, there is a “Ready-Set-Transfer!” panel in which academics present tools to practitioners to review practical readiness.</p>
+<p>Practitioner conferences are (almost by definition) industry focused<sup>4</sup> and both the Agile series of conferences and the XP conference include mirror-world ‘research’ tracks.</p>
+<hr>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Incidentally, I agree with and support the ICSME co-chairs’ <a href="http://icsme2016.github.io/response.html">statement on the anti-LGBT</a> legislation in North Carolina.↩︎</p></li>
+<li id="fn2"><p>That definition is from Roel Wieringa’s excellent <a href="http://dx.doi.org/10.1007/978-3-662-43839-8">design science book</a>.↩︎</p></li>
+<li id="fn3"><p>can itches be unknown? I may be mixing metaphors.↩︎</p></li>
+<li id="fn4"><p>Incidentally, I am not a big fan of the term “industry” or “industrial”. Maybe it is my location in Pittsburgh, but it conjures up steel mills and heavy machinery. The other problem is the term “industry” is used as a catch-all for a widely different set of folks, from a 2 person startup to a Fortune 500 company or DOD agency. I prefer research vs practice. Not a huge fan of “real-world” either, since we all live in the real world. Presumably.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://neilernst.net/posts/2016-04-22-on-scams-new-engineering-track.html</guid>
+  <pubDate>Fri, 22 Apr 2016 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>On Using Open Data in Software Engineering</title>
+  <link>https://neilernst.net/posts/2016-03-07-on-using-open-data-in-software-engineering.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I recently reviewed <a href="http://2016.msrconf.org/#/data">data showcase papers</a> for the Mining Software Repositories Conference, and I’m co-chair of <a href="http://www.ieee-scam.org/2016/#engcall">the Engineering track</a> (subsumes datasets, tools, approaches) for the SCAM conference<sup>1</sup>. I’ve worked with a number of different datasets (both openly available and closed) for my research efforts. This caused me to do some reflection on the nature of empirical data in SE.</p>
+<p>We’ve had a nice increase in the amount of data available for researchers to explore, and most recently, the amount of well-constructed, easily understandable and accessible datasets – like the <a href="http://ghtorrent.org">GHTorrent tool</a> – is impressive (traditionally it has been difficult to get any credit for creating these resources). I think it is a hugely beneficial effort for our efforts to create a well-grounded, empirical basis for software engineering (as opposed to <a href="http://semat.org">pie in the sky theorizing</a>).</p>
+<p>I have two concerns that threaten this idyll.</p>
+<section id="concern-1-long-term-availability-and-replication" class="level3">
+<h3 class="anchored" data-anchor-id="concern-1-long-term-availability-and-replication">Concern 1: long term availability and replication</h3>
+<p>Other fields, primarily psychology and economics, have begun <a href="http://www.slate.com/articles/health_and_science/cover_story/2016/03/ego_depletion_an_influential_theory_in_psychology_may_have_just_been_debunked.html">painful self-examinations</a> of well-cherished, supposedly well-grounded results. In many cases replication of these findings is very difficult. What worries me most is that in empirical SE, we aren’t even in a position to attempt to replicate key findings, because (among other concerns) the original datasets aren’t accessible. This is most often because studying companies is usually caveated with “but you can’t tell anyone it was us”; other problems include datasets that are ‘live’ and self-modifying (for example, publishing a study on foul language in commit histories might mean those histories are modified), or just out of date entirely.</p>
+<p>I propose two solutions. The first is to use long-term archiving approaches. This means no personal university website, no special database formats, no ‘email me for access’. The open access/open research communities have been tackling this problem for several years, and good solutions exist (like identifiers from <a href="https://www.datacite.org/about-datacite/what-do-we-do">DataCite</a> or hosting like with <a href="http://felienne.com">Felienne</a> Hermans’s <a href="https://figshare.com/authors/Felienne_Hermans/98650">Figshare</a>). We have software specific repositories as well, of which <a href="http://openscience.us/repo/">the Promise repo</a> is the one I know best. <a href="http://www.chaseresearch.org/workshops/chase2016">The 2016 CHASE workshop</a> encouraged authors to stick papers on ArXiv, but the data should be similarly archived. One problem here is how to store data that institutional review boards might insist be destroyed.</p>
+<p>The second is how we cite the data when we publish it in a journal or conference paper. I’ve seen URLs in the body of the paper, standard reference lists at the end of the paper, footnotes, and comments in the author’s notes. We need to standardize this so readers can quickly and easily find the URL to the dataset. My suggestion is to add a separate heading, like the useless ACM keywords, referencing any new datasets used/available, immediately after the abstract.</p>
+</section>
+<section id="concern-2-new-ethical-questions" class="level3">
+<h3 class="anchored" data-anchor-id="concern-2-new-ethical-questions">Concern 2: new ethical questions</h3>
+<p>My second concern is one I only recently realized (somewhat shamefully), and this is the ethics of publishing data. This was prompted by <a href="https://github.com/ghtorrent/ghtorrent.org/issues/32#issuecomment-189552452">the GHtorrent debate</a>. There the central objection from (some) developers was that their email address was accessible, perhaps more easily accessible than on Github. Email is an obvious one, but beyond that I think we need to acknowledge that the mental model of a developer pushing code to Github (or wherever) is not one of public visibility. The silly comments they write (“huge HACK!”) could be career-limiting, and pushing that dataset out into the world is a question we have to tackle. My view would be to explicitly include terms of use in data you make available, and <a href="http://www.gousios.gr">Georgios</a> is obscuring identities (e.g.&nbsp;with a SHA1 hash) when asked.</p>
+<p>More broadly, the world of SE analytics opens up the chance that the data could be used for purposes we might not understand. For instance, one might show that a particular Chromium developer has an unusually high number of bugs. As researchers we might understand the nuances and limitations of how the data was collected<sup>2</sup>. Managers might not understand the limitations, however. Furthermore, any data one collects is subject to subpoena and other legal requests, so in many cases immediate destruction is the best course (see the debate on sociology notes).</p>
+<p>The big risk from NOT considering this is losing the goodwill of a community that only tangentially understands what software engineering research is. I’m not advocating for doing whatever developers tell you to<sup>3</sup>; I am saying that not considering these issues risks antagonizing the people we are trying to help.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Submit early, submit often!↩︎</p></li>
+<li id="fn2"><p><a href="http://cuevano.ca">Jorge Aranda’s</a> <a href="http://www.cs.toronto.edu/~jaranda/pubs/secret.pdf">‘secret life of bugs’</a> paper sheds light on this.↩︎</p></li>
+<li id="fn3"><p>You put your freaking email on Github! What did you expect!? (sigh)↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://neilernst.net/posts/2016-03-07-on-using-open-data-in-software-engineering.html</guid>
+  <pubDate>Mon, 07 Mar 2016 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Marginal Utility of Testing/Refactoring/Thinking</title>
+  <link>https://neilernst.net/posts/2016-01-21-the-marginal-utility-of-testingrefactoringthinking.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Andy Zaidman had an interesting <a href="http://www.slideshare.net/azaidman/software-analytics-the-dark-side-and-the-test-side">presentation about test analytics</a>. The takeaway for me was that a) people overestimate their unit test engineering (estimate: 50%, reality, 25%). But b) the real issue is convincing a developer that <em>this</em> unit test will improve the quality of the code. In other words, like with technical debt, or refactoring, or commenting, the <strong>marginal utility</strong> of adding a test is perceived to be low (and of course the cost is seen as high). Each new individual test adds nothing to the immediate benefit (with some exceptions if one is following strict TDD). And yet each one requires switching from the mental model of the program to the one of Junit frameworks and test harnesses.</p>
+<p>The issue is not whether testing is good or bad, but rather, which testing is most useful. It seems unlikely to me that the value of individual tests is normally distributed but rather power-law form (i.e., that there are a very few extremely high value tests). And this isn’t just about testing; indeed, most activities with delayed payoff—refactoring, documenting, architecting—likely exhibit the same problem. It is hard to convince people to invest in such activities without giving them concrete proof it is valuable. You just have to look at the default examples for Cucumber, for instance, to see that the vast majority are trivial and easily grasped without any of the tests. Similarly, “code smells are bad”, but bad might just mean they look nasty, while having little to do with the underlying effectiveness of the code. It isn’t technical debt if it never causes a problem. It isn’t a bug if it isn’t worth fixing it.</p>
+<p>In new work we are starting with <a href="http://menzies.us">Tim Menzies</a>, we are trying to understand the inflection point beyond which your decisions add little incremental value (i.e., stop adding more tests). The good news is this is easy to spot in hindsight; the challenge is to take those lessons and determine this <em>before</em> doing hours of pointless work. The direction we are taking is to try and capture the common patterns the key decisions share (in the testing example, perhaps this is bounds testing). Ultimately, we hope to provide advice to developers as to when the marginal utility falls below a threshold (i.e., stop testing!)</p>
+<p>The other point is the over-reliance of software engineering on hoary folklore. Things like “some developers are 10x as productive”, or “80% of bugs occur in requirements”, tend to be statements that are derived from a single study, conducted in 1985, on 3 large scale defense projects, but have somehow made their way down the years to become canon. Ours is not the only field to suffer from this, of course. But when capable developers refuse to pay 200$ a year to join the IEEE Digital Library, it seems to demonstrate a firm commitment to ignorance.</p>
+
+
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2016-01-21-the-marginal-utility-of-testingrefactoringthinking.html</guid>
+  <pubDate>Thu, 21 Jan 2016 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Model of Software Quality Checks</title>
+  <link>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Software quality can be automatically checked by tools like SonarQube, CAST, FindBugs, Coverity, etc. But often these tools encompass several different classes of checks on quality. I propose the following hierarchy to organize these rules.</p>
+<section id="level-0-syntax-quality" class="level3">
+<h3 class="anchored" data-anchor-id="level-0-syntax-quality">Level 0: Syntax quality</h3>
+<p><strong>Focus</strong>: code that ‘runs’. Level 0 means a compiler or interpreter’s components (parsers, lexers, intermediate forms) assess syntax correctness. Level 0 because (clearly) without proper syntax nothing is getting done.</p>
+</section>
+<section id="level-1-lint-free" class="level3">
+<h3 class="anchored" data-anchor-id="level-1-lint-free">Level 1: Lint-free</h3>
+<p><strong>Focus</strong>: Code that respects obvious sources of problem.</p>
+<p>No warnings occur if all possible flags are turned on in the compiler. These warnings tend to be close to syntax in their complexity. For example, technically a fall through switch statement is possible in Java, but there is the <code>-Xlint:fallthrough</code> tag to catch this. Often IDEs such as Eclipse will flag these automatically with warning icons.</p>
+</section>
+<section id="level-2-good-code" class="level3">
+<h3 class="anchored" data-anchor-id="level-2-good-code">Level 2: Good code</h3>
+<p><strong>Focus</strong>: Code conforms to commonly accepted best practices for that language.</p>
+<p>E.g., for Java, visibility modifiers are suitable, in C, no buffer overflows, memory is released appropriately. Some cross-language practices apply: documentation, unit tests exist, and so on. Many of the quality analysis tools like FIndBugs operate at this level. CWEs are another example. I also place dependency analysis approaches here (perhaps controversially). It also pops up in the next level (e.g., properly using interfaces in Java).</p>
+</section>
+<section id="level-3-paradigmatic" class="level3">
+<h3 class="anchored" data-anchor-id="level-3-paradigmatic">Level 3: Paradigmatic</h3>
+<p><strong>Focus</strong>: writing code that is maintainable, understandable, and performant with respect to its runtime environment.</p>
+<p>Would someone writing object-oriented, functional, embedded, etc. code consider this reasonable? Includes principles like SOLID, functional side effects, memory management, distributed code demonstrates awareness of fundamentals of distributed computing. Also includes proper use of language idioms e.g.&nbsp;proper use of Javascript callbacks, Ruby blocks, etc. We might also classify new language features here – the use of generics in Java 7 comes to mind. Essentially, if you did a peer review with a language guru (Odersky for Scala, say), would they have a ‘better way’ to do it? (Perl notwithstanding…)</p>
+</section>
+<section id="level-4-well-designed" class="level3">
+<h3 class="anchored" data-anchor-id="level-4-well-designed">Level 4: Well-designed</h3>
+<p><strong>Focus</strong>: building systems that respect appropriate (known at the time) usage scenarios.</p>
+<p>Given the knowledge available, the code is architecturally appropriate for the quality attribute requirement (QAR) applicable. E.g., modular, performant, secure. The key here is understanding the relevant QARs. Examples include reflexion models (like <a href="http://archjava.fluid.cs.cmu.edu">ArchJava</a>), conformance checking (e.g.&nbsp;<a href="http://scg.unibe.ch/dicto/">Dicto</a>), library analysis (e.g., for license issues, for currency).</p>
+</section>
+<section id="outcome" class="level3">
+<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
+<p>A few things become clearer when we view software quality with this approach.</p>
+<p>First, I think that quality checks become <em>more useful</em> as you move ‘up’ (0→4) in the hierarchy. That is, I’d rather know that I have a serious design problem than a code quality problem.</p>
+<p>Second, unfortunately, it seems <em>much harder</em> to design truly automated checks at the higher levels. This is why we have a lot of manual architecture analysis but leave code quality to tools.</p>
+<p>Third, our rules get <em>more context-specific</em> as we move up the hierarchy. I.e., in order to properly check paradigmaticness<sup>1</sup>, I need to know your choice of programming language and possibly your problem domain properties. To properly do design validation, I need to know what qualities are important to you: performance? availability? That, I think, is partly what makes these levels more useful.</p>
+</section>
+<section id="other-hierarchies" class="level3">
+<h3 class="anchored" data-anchor-id="other-hierarchies">Other hierarchies</h3>
+<p>The one I’m most familiar with is from Jean-Louis Letouzey. He proposed the <a href="http://www.sqale.org/download">SQALE quality model</a>, and his central insight is that some qualities precede others: you must have maintainable code before having performant code, or testable code before secure code.</p>
+<p>EDIT [1/6/16]: somehow I forgot <a href="http://www.castsoftware.com/products/architecture-checker">this CAST diagram</a> showing different levels of analysis, very similar to mine. They also claim that the ‘system level’ (my design level) is the place where architecture is checked.</p>
+<p>EDIT [9/6/17]: also <a href="http://qaware.blogspot.com/2017/06/i-know-it-when-i-see-it-perceptions-of.html">this model</a> from <a href="https://twitter.com/stoerrle"><span class="citation" data-cites="stoerrle">@stoerrle</span></a>. It also has this notion of abstraction and progression, using</p>
+<blockquote class="blockquote">
+<p>SYNTAX At the one end of the spectrum, there are syntax level issues, such as confusing the tokens “=” with “==”, and preference of language constructs (e.g., avoiding unsafe constructs, default-switch-cases and so on).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>PRAGMATICS One step further up, small-scale pragmatic issues like identifier naming, indentation, and simple structural metrics like cyclomatic complexity.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>UNITS The next level addresses complete units of code (often a class or module), and considers its overall structure, unit-level metrics (e.g., method/class length) correctness and completeness.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>ARCHITECTURE Finally, there is a level of architecture that is concerned with the structure and interrelation of units, e.g., it considers depth of inheritance trees, design patterns, architectural compliance, and other system-level properties.</p>
+</blockquote>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I’m not sure how to ‘noun’ this adjective …↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</guid>
+  <pubDate>Tue, 22 Dec 2015 08:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Requirements, Agile, and Finding Errors</title>
+  <link>https://neilernst.net/posts/2015-12-07-requirements-agile-and-finding-errors.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>It’s a long held view in the requirements engineering (RE) community that “if only we could do RE better, software development would be cheaper”. Here ‘doing RE better’ means that your requirements document adheres to some quality standard such as <a href="http://www.math.uaa.alaska.edu/~afkjm/cs401/IEEE830.pdf">IEEE 830</a>. For example, none of the requirements are ambiguous.</p>
+<p>One justification is that, based on (very few) studies in the late 80s, requirements errors cost a lot more to fix in test/production than when they are incurred. For instance, if I tell a subcontractor she has a 100 kilobyte message size limit, and I really meant 100 kilobits, fixing that problem after she has delivered the subcomponent will be expensive. This seems obvious. But two problems emerge. 1) Why does she have to wait so long to integrate the subcomponent? 2) how many of these problems are there? Granted it is cheaper to fix <em>that particular error</em> in the requirements/system engineering phase, how much money should we spend to find these errors at that point? <a href="1">[1]</a></p>
+<p>An interesting early experiment on this is described in Davis, 1989, <a href="http://dx.doi.org/10.1016/0950-5849(89)90145-6">“Identification of errors in software requirements through use of automated requirements tools”</a>, Information and Software Technology 31(9) p472–476. In an example of an experiment we see very rarely these days, his team were given sufficient funds to have three automated requirements quality tools applied to a large software requirements specification for the US Army (200,000 pages!). The tools were able to find several hundred errors in the spec, including errors of inconsistency. Yay, the tools worked! But….</p>
+<p>The program had decided to go ahead and build their (Cobol) system before the automated analysis. The developers on the program didn’t care much about the findings. 80 of the 220 modules were not detectable in the final system (meaning, presumably, they were either merged or omitted altogether). Davis did some post-delivery follow-up, showing that the modules with greater numbers of requirements problems had a significantly greater number of post-release defects. But whether the two are causally related is hard to say (those modules may simply be more complex in general, so both requirements and code are harder to get right).</p>
+<p>What I conclude from this is that finding errors of the sort they did, e.g.,</p>
+<blockquote class="blockquote">
+<p>PROBLEM: the referenced table directs that PART_NO be moved from the WORK_ORDER_FILE to the WORK_TASK_FILE. Available fields in the WORK_TASK_FILE include PART_NO_FiELD_PART and PART_NO_FIELD_TASK.</p>
+CHOICE: We assume that PART NO FIELD_TASK is the proper destination.
+</blockquote>
+<p>are ultimately of zero value to document. As a result, finding problems with them, automated or otherwise, is also of no value. Of course we know all this from the past 20 years of the agile movement, but it is interesting to see it in action. I think that (in 1989 certainly) this was excusable, as the program managers had no good sense of what made software special. The level of detail the design describes, down to field names and dependencies, is better suited to the Apollo program, where they prescribe how tightly to turn bolts, label each individual bolt, etc. Which makes sense in a safety critical dynamic environment, but not a lot of sense in an office logistics tool.</p>
+<section id="going-forward" class="level3">
+<h3 class="anchored" data-anchor-id="going-forward">Going Forward</h3>
+<p>A term I loathe but seems better than “Future Work”. I’ve worked a lot on automated requirements tools like PSL/PSA or SREM, so where should we head with automated tooling for requirements?</p>
+<p>There is a lot of empirical evidence that simple, easily integrated process patterns such as requirements goals and scenarios lead to higher quality requirements. Intel, for example, are strong believers in training staff in <a href="http://selab.fbk.eu/re11_download/industry/proceedings-short-papers/RE2011SIP003.pdf">writing good requirements</a> (although notice their domain is also hardware-oriented and mistakes are costly). Even in agile settings I believe there are big improvements to be gained in writing better user stories (e.g., how to create the “Magic Backlog” described in <a href="https://twitter.com/rebeccawb/status/673301475162918912">Rebecca Wirfs-Brock</a>’s EuroPLoP 2015 paper).</p>
+<p>Furthermore, we are seeing more and more use of machine learning to flag requirements problems. For example, at Daimler they have <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7320451">simple detectors for checking requirements</a>. And at Rolls-Royce, based on simple training exercises, they <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6051622">label requirements based on potential risk</a>, combining uncertainty, change impact and cost into an index. All of these types of tools integrate will into a developer analytics approach, able to populate dashboards and flag things unobtrusively (compared with the cost of writing requirements formally).</p>
+<p>Like with any analytics techniques, which ones to apply is situation-specific. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4384165">Small companies doing the same things in well-understood domains</a> won’t need much, if any requirements analysis. I think there is a lot of room for intelligent augmentation of what makes a good requirement, that facilities conversations and discovery of uncertainty, that automates the repeated and boring tasks (if you cannot possibly avoid creating a 2000 page document …). And in specialized domains, we are moving to a world where more and more of the analysis can be done in models, to verify timing requirements, guarantee that software partitions hold, and so on. Here the line between ‘requirement’ and ‘design solution’ is blurry, because requirements at one level become design solutions at the next level. A mature requirements practice would leverage this to enable experimentation and prototyping <em>in silico</em>, as it were, finding design problems before releasing products or fabricating chips.</p>
+</section>
+<section id="finding-defect-leakage" class="level3">
+<h3 class="anchored" data-anchor-id="finding-defect-leakage">Finding Defect Leakage</h3>
+<p>A major goal for large programs is to reduce defect leakage, the number of bugs that make it to production (to put it more precisely, reduce the number of <em>critical</em> bugs that make it to production). It seems to me there are at least four complementary approaches to this issue:</p>
+<ul>
+<li><p>We could do this manually, and insist on writing good requirements using <a href="http://www.sciencedirect.com/science/article/pii/0164121295000771">checklists</a>, training, inspection, etc.</p></li>
+<li><p>We could use formal methods, on well-formed architectural models, looking for very specific rule violations (safety, security, performance);</p></li>
+<li><p>We could apply machine learning tools on past artifacts and try to leverage experience to predict problems. Not every requirement is equally important (obvious but not always followed).</p></li>
+<li><p>We could design a process that accepted the inevitability of change and made it not only possible, but desirable to change design and requirements in response to new knowledge.</p></li>
+</ul>
+<p>For the automated tools, I have this quick list of principles. Much like software analytics in general:</p>
+<ol type="1">
+<li><p><strong>Don’t make life worse.</strong> Developers should not dread having to do this. That said, an ounce of pain is worth a pound of pleasure.</p></li>
+<li><p><strong>Work with existing tools like Doors, Jira and Excel</strong>. Your Eclipse plugin does not count.</p></li>
+<li><p><strong>Don’t mandate new or complex languages or tools for requirements</strong>. We can barely get engineers to write requirements in natural language as it is.</p></li>
+<li><p><strong>Prefer lightweight, high value checks over complex, theoretically appealing ones</strong>. Socialize people to the value of checking <em>anything</em> before insisting on the complex stuff.</p></li>
+<li><p><strong>Integrate with existing dashboards like Shipshape or SonarQube.</strong> These tools have good plugin frameworks and already integrate with many build and CI servers.</p></li>
+<li><p><strong>Facilitate conversations and early delivery of results</strong>. Remember that requirements engineering is the start of a conversation that gets us to a valuable solution. It is never an end in itself. In very few domains does assuming requirements won’t change get you anywhere.</p></li>
+</ol>
+<hr>
+<ol type="1">
+<li>And <a href="http://portal.acm.org/citation.cfm?id=800078.802544">Basili and Weiss’s 1981 study</a> on the A7 program’s change requests and requirements suggest a power-law distribution to the most costly (e.g., &gt; 1 person-month of effort) changes. <a href="1">&nbsp;↩︎</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neilernst.net/posts/2015-12-07-requirements-agile-and-finding-errors.html</guid>
+  <pubDate>Mon, 07 Dec 2015 08:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

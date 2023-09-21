@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Neil Ernst">
+<meta name="dcterms.date" content="2021-04-15">
+
+<title>Semantic Werks - On Bots in Software Engineering</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Semantic Werks</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../present.html" rel="" target="">
+ <span class="menu-text">Presentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../students.html" rel="" target="">
+ <span class="menu-text">Students</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching and Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html" rel="" target="">
+ <span class="menu-text">Publications and Research</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://mastodon.acm.org/(neilernst?)" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/octerais">
+            Octera Group Page
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bots-as-assistants" id="toc-bots-as-assistants" class="nav-link active" data-scroll-target="#bots-as-assistants">Bots as assistants</a></li>
+  <li><a href="#the-state-of-bots" id="toc-the-state-of-bots" class="nav-link" data-scroll-target="#the-state-of-bots">The state of bots</a>
+  <ul class="collapse">
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
+  <li><a href="#tasks-bots-can-help-with" id="toc-tasks-bots-can-help-with" class="nav-link" data-scroll-target="#tasks-bots-can-help-with">Tasks bots can help with</a></li>
+  <li><a href="#bots-for-td-reduction" id="toc-bots-for-td-reduction" class="nav-link" data-scroll-target="#bots-for-td-reduction">Bots for TD reduction</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">On Bots in Software Engineering</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Neil Ernst </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 15, 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="bots-as-assistants" class="level1">
+<h1>Bots as assistants</h1>
+</section>
+<section id="the-state-of-bots" class="level1">
+<h1>The state of bots</h1>
+<p>There have been a number of categorizations of bots for software development. The main categories seem to be the ones that Erlenhov came up with, which look at bots as either API endpoints (CI tools), developer assistants, or something more sophisticated. I don’t think there is much to say about CI tooling. This is a spectrum in my view; we will likely see CI tasks grow more sophisticated and multistep.</p>
+<p>The paper Peggy and Alexei wrote in 2015 seems to indicate nothing has changed much since that paper. In one sense we are still just doing the same thing; bots as API interaction points, where they automatically or under prompting carry out some well defined and usually pre-existing task like a compiler and compiler flags.</p>
+<p>This is in contrast to the bots that appear on corporate sites to maximize engagement and increase sales. There the bot acts as a query refinement tool, helping you to sort out what you actually are looking for. This type of extensive interaction seems to contradict what developers want.</p>
+<p>So one question is instead of what bots should do, what tasks are we looking to help with. Bots are useful because they encapsulate common tasks that otherwise humans would have to do. For example we once took punch cards to an operator to enter into the computer; now that is done by hitting compile/run. I had a hierarchy of problems we can get help on:</p>
+<ol type="1">
+<li>Syntax problems - compilers, integrated into most IDEs, now flag obvious problems before you need to run the code. IntelliJ for example can automatically detect type problems.</li>
+<li>Warnings and flags - running a compiler with default options just gets the bare minimum. Standards like MISRA-C specify known problems the compiler can find for you.</li>
+<li>Linters - plenty of problems with code are known, so we can find these things that clearly violate best practices, such as equality checks in Javascript. Often these are integrated into tools like SonarQube or CI environments.</li>
+<li>Code smells - the next class of code issues are called smells and have to do with slightly more complex problems, often spanning multiple modules. So for example long methods, long parameter lists, and so on. This is also where we might find violations of language paradigms, such as not using list comprehensions in Python.</li>
+<li>Design problems - the highest level of problems we might ask for help with are design flaws. Here we want to flag issues that we think will impinge on quality attribute satisfaction. We might identify that the code misuses the Obsever pattern.</li>
+</ol>
+<p>There are some others that are a bit tangential to these: flagging security problems; identifying dependency or build issues; UI problems; test coverage issues.</p>
+<p>The fundamental issue in my view for AI assistance is that it is super easy to tell people what they already know. So in self-driving the issue is not to drive from A to B in the sun; I could probably train my son to do that. What we need is meaningful assistance, telling us the things we didn’t know, or couldn’t know, on our own. Thus bug localization that finds bugs we already know about, code smell detectors we don’t care about, and most other data studies published on effort estimation and so on.</p>
+<p>The challenge is that getting tools to the 70% accuracy level is super easy, with today’s tools. But humans are insanely smart, and so that first 70% is not the hard part. It is in the last 30% that we need the help, but also the hardest to decipher; figuring out what the image is really showing in the dark.</p>
+<p>I think bots are similar. Right now they are basically just dumb endpoints to an API with a slightly improved interface. Thus Dependabot telling us that a library is outdated is not particularly interesting, since it is just an interface to a more complex script running in the background. What’s novel in Dependabot is that it is able to interact in a well understood way, not the complexity of what it is trying to do. Similarly the bots one sees on airline sites are not interesting assistants, but only simplistic interaction techniques in a web search world. After all John Mylopoulos was working on natural language interfaces to databases 40 years ago.</p>
+<p>So what does this more interesting bot look like then? Is it more than just an API endpoint or something else? In my view the next step is truly an assistant that is contextualized to the person asking the question, to the project in which it runs, and the particular time it is being run. It is in short a very efficient, Ms Moneypenny like administrative assistant, capable of anticipating the needs of the developer, but unobtrusively.</p>
+<p>How do we get there? There’s a number of pieces for this vision.</p>
+<ul>
+<li><strong>Interface</strong>: how do developers like to get information? Right now that is things like IDEs, compiler warnings, interactions on pull requests: working with the artifacts they already care about</li>
+<li><strong>Persona</strong>: how should an assistant interrupt? Should they be factual and say we detected a problem on line 50? Or should we omit GUilfoyle’s annoying verbal tics?</li>
+<li><strong>Context</strong>: how does the assistant extract the context information it will need to be useful and not annoying?</li>
+<li><strong>Metrics</strong>: what would be a relevant way of assessing success? I don’t think we even have a good idea on this.</li>
+</ul>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
+<ol type="1">
+<li>Detailed tasks: Mylyn style tasks that have to do with a specific problem like finding a bug, refactoring a method</li>
+<li>High level tasks: get an overview of the system in order to see how it is progressing. This bot might send a weekly update on lines of code added. Sort of exists as Github’s various visualizations.</li>
+<li>Design tasks: help me understand how the software will respond to quality attribute requirements.</li>
+</ol>
+</section>
+<section id="tasks-bots-can-help-with" class="level2">
+<h2 class="anchored" data-anchor-id="tasks-bots-can-help-with">Tasks bots can help with</h2>
+<p>Are bots just “API endpoints”?</p>
+<p>Bots are api calls plus “vocal tics” like the fridge in Silicon Valley</p>
+<blockquote class="blockquote">
+<p>“It’s bad enough it has to talk. Does it need fake vocal tics like ‘ah’?</p>
+<p>“The tics make it seem more human,” Dinesh tells Gilfoyle.</p>
+<p>“Humans are shit,” Gilfoyle replies. “This is addressing problems that don’t exist. It’s solutionism at its worst. We are dumbing down machines that are inherently superior.”</p>
+</blockquote>
+<p>The challenge in these systems has always been that entry level knowledge is extremely easy to retrieve, but going deeper is way harder (kind of like self-driving). For perhaps 80% of the interactions online, the bot can manage. But it is in the details that bots get stuck and need to call for the operator to step in. We saw something like this with expert systems. Coding something that can advise people to call their doctor when they report a fever of 102 or higher is pretty simple. But the complex explanations as to what is causing the fever are fairly intractable (explanation is usually thought of as NP hard, after all). Getting the knowledge in to solve the problem (basically, all the heuristics and learning that an experienced GP would have) is very expensive - the KA bottleneck. This is probably less costly now with deep learning. But the other bottleneck is the reasoning. Even if we have that knowledge, inference to multiple competing explanations is very expensive. Recommending the most common explanation—such as viral ear infection in a toddler—is what bots basically do now, but in many cases there isn’t a clear common explanation, or there is no clear set of symptoms to diagnose.</p>
+</section>
+<section id="bots-for-td-reduction" class="level2">
+<h2 class="anchored" data-anchor-id="bots-for-td-reduction">Bots for TD reduction</h2>
+<p>One area we see a lot of activity is in static code analysis to find rule violations. There are more rules than programmers could reasonably want to use; code quality checks, syntax warnings, code smells, etc. The problem in fact is these warnings annoy developers. At Google they had a scheme where the code checks would be rejected if they had more than 10% false positives which developers could vote on. These tools generate multiples more warnings than developers actually take action on.</p>
+<p>How could bots help? Well, the main issue I notice is the need for interactivity. Bots could easily process the boring problems in one shot (fix all trailing commas), but more importantly the bot could be an interface to the tool, instead of the common approach which is either a dashboard with TMI, or some simple weekly report. The bot instead could be a text interface to the tool itself, and run predefined queries or make new queries, adapting on the fly as the situation demands it. So bots are good for <strong>rapid re-contextualization</strong> which you do not see with dashboards, which require sophisticated analysis to configure.</p>
+<p>A bot is also automatable so it could delivery weekly updates to the developer without him or her having to do anything with that info. Again though it seems like we are pushing the complexity - what reports do I really need - into another interface. The tough problem in TD <strong>presentation</strong> is to figure out exactly what context underlies the data and only show that.</p>
+<p>We need to find problems and generate data</p>
+<p>We need to filter and store the data</p>
+<p>We need to query the data</p>
+<p>We need to visualize the data.</p>
+<p>Bots don’t make any of these easier per se….</p>
+<!-- 
+Automa
+
+# Readings (see Derek's lit review)
+
+[@10.1109/BotSE.2019.00019] - principals for APR bots including importance of syntax and semantic correctness. Pretty technical.
+
+[@10.1145/3411764.3445368] -->
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
