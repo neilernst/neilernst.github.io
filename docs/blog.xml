@@ -9,12 +9,311 @@
 <link>https://neilernst.net/blog.html</link>
 <atom:link href="https://neilernst.net/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Fri, 03 Jun 2022 07:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.553</generator>
+<lastBuildDate>Wed, 24 Apr 2024 20:51:00 GMT</lastBuildDate>
+<item>
+  <title>Scientific Software Development</title>
+  <dc:creator>Neil Ernst</dc:creator>
+  <link>https://neilernst.net/posts/sse_review.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’ve been doing a lot of research in my group around scientific software and technical debt, funded by the Sloan Foundation. As part of that work, I’ve written a post about the topic, along with some open research questions. While it is mainly for our own use, perhaps others will find this helpful. It is mainly an extended lit review somewhat loosely organized into themes.</p>
+<p><strong>Scientific software, or research software,</strong> is software that is written to support a scientific endeavour, including data collection, modeling and simulation, end user support, and others. Examples include codes for modeling climate changes, calculating shear forces in buildings, managing observation time on telescopes.</p>
+<p>Other definitions: <a href="https://content.iospress.com/articles/data-science/ds190026">FAIR for Research Software</a>, the <a href="https://rse.dlr.de/guidelines/00_dlr-se-guidelines_en.html">DLR categories</a>, <span class="citation" data-cites="hasselbring2024research">(Hasselbring et al. 2024)</span>. The main challenge is that some research software <strong>moves</strong>: it may start as DLR application 0 (personal), but over time ends up in AC2 (long term libraries) or 3 (safety critical). AstroPy is a good example: it consists of common astronomical operations that many astronomers use, but started as core functions in individual projects.</p>
+<section id="early-work" class="level1">
+<h1>Early Work</h1>
+<p>The earliest work in RSE is basically the field of numerical analysis and HPC. In some sense, the entire discipline of software engineering is derived from scientific software, using simulations to model nuclear weapons, do weather forecasting, etc.</p>
+<p>The field of RSE seems to have started between 2000-2005 or so. I think this coincides with general availability of software and the internet and web to connect people. There was a lot of focus on e.g.&nbsp;computational workflows at the time from Carole Goble. People were working on these issues before (e.g., at large US national nuclear labs such as Los Alamos) but there wasn’t a clear definition of the job area.</p>
+<p>Jeff Carver’s first workshop is around 2008.</p>
+<p><span class="citation" data-cites="Segal2009SoftwareDevelopmentCultures">(Segal 2009)</span> is an early paper at CSCW looking at the socio-cultural dimension. A few interesting things:</p>
+<ul>
+<li>One, the idea that the main issue is to <strong>support the science</strong>. This is the key requirement.</li>
+<li>There is an early focus in some of these papers on the scientist as <em>end-user programmer</em>. This was a popular notion in the 2000s that I think was on the one hand an utter failure (e.g.&nbsp;VBA), but on the other hand, just natural with the right UI (e.g., Excel formulas). And AI will make this much easier. Greg Wilson <a href="https://mastodon.social/@gvwilson/112265678834211936">said something about</a> how when he was teaching scientists in the 2000s, he struggled to motivate why they should not use Excel. Diane Kelly pushes back on this - of which more below.</li>
+<li>A really detailed ethnography on a single lab management project.</li>
+<li>As with most software projects, this one struggled with team dynamics and power.</li>
+</ul>
+<p>A followup is <span class="citation" data-cites="Segal2012DevelopingSoftwareFor">(Segal and Morris 2012)</span>. This paper is similar to the preceding one, except for a more generic focus on the main differences with conventional development, and the ubiquitous (for the time) focus on Agile.</p>
+<p>I should digress here for a moment and say I don’t find software process very interesting. The models - Scrum, Lean, Waterfall, etc. are all highly idealized and in my experience rarely followed in practice. Asking if we should be “agile” is answering the wrong question. You want to deliver things faster and with higher quality, so looking at practices to help that is the key. Anyhoo.</p>
+<p>James Herbsleb did some work as well e.g. <span class="citation" data-cites="Howison13">(Howison and Herbsleb 2013)</span>. They looked at incentives.</p>
+</section>
+<section id="what-makes-scientific-software-developers-different" class="level1">
+<h1>What Makes Scientific Software Developers Different?</h1>
+<p>Scientific software <del>has</del> seems to have a different context than a lot of other code. For example, it might be continually maintained. It has different testing needs. RSEs therefore have different approaches. Side note: I am not yet convinced scientific software really <em>is different</em>. A lot of the issues–complex domain requirements, performance intensive problems, team composition–are common in other domains as well.</p>
+<p><span class="citation" data-cites="Pinto2018HowDoScientists">(Pinto, Wiese, and Dias 2018)</span> and <span class="citation" data-cites="Wiese2020NamingPainDeveloping">(Wiese, Polato, and Pinto 2020)</span> both report on a survey replication on scientific software developers. Nothing jumped out at me - the problems seem mostly similar to normal development; library problems, stable requirements, etc. Surprising to me was that only 5% of the issues seem science related. But I wonder if that is because the questions were not clear. If one asked where the major cost and development effort is spent, or talked to end users …</p>
+<p><span class="citation" data-cites="Cosden2023ResearchSoftwareEngineers">(Cosden, McHenry, and Katz 2023)</span> is a survey of RSEs that looks at how they get into the field. Most are domain experts (75%) and the rest are CS grads. Both have different education challenges.</p>
+<p><span class="citation" data-cites="Carver2022ASurveyState">(Carver et al. 2022)</span> continued this; again the findings are mostly interesting as a catalog of the state of things.</p>
+<p>A lot of the differences, from what I can tell, is that for a long time RSE was not a career path, and so those folks were temporary, poorly paid, and not recognized.</p>
+</section>
+<section id="testing-scientific-software" class="level1">
+<h1>Testing Scientific Software</h1>
+<p><span class="citation" data-cites="Carver2007SoftwareDevelopmentEnvironments">(Carver et al. 2007)</span> did a series of case studies looking at how scientific code was maintained, and why Fortran was so popular. I think this paper may have harmed the field, by downplaying some of the complexity involved. It comes across as “this is pretty easy stuff”. But some big projects in the DOD space are studied. Around the same time came <span class="citation" data-cites="Basili2008UnderstandingHighPerformance">(Basili et al. 2008)</span>. An observation of that paper is that</p>
+<ul>
+<li>although HPC is focused on “performance” for scientists the performance of the code is less interesting than “time to result”, i.e., a publishable outcome. That time spans writing the code, testing it, running the simulation, etc.<br>
+</li>
+<li><strong>Validation</strong> is tricky; outputs are often non-deterministic and probabilistic, inherent in simulating and modelling complex phenomena.</li>
+<li>Programs are long-lived so there is deep scepticism of new tools as plenty of tools cannot make it 30 years. Funders authorizing Voyager, SKA, CERN’s LHC expect the billions of dollars to be used for decades. The software should be able to match that.</li>
+<li>Programmers love being close to the metal, to keep things speedy.</li>
+</ul>
+<p>A related paper is <span class="citation" data-cites="Hook2009MutationSensitivityTesting">(Hook and Kelly 2009)</span>, which, while focused on mutation testing, has a nice figure showing the ways error can make its way into scientific code.</p>
+<p>TODO: <span class="citation" data-cites="Babuska2004VerificationValidationComputational">(Babuska and Oden 2004)</span> TODO: <span class="citation" data-cites="eisty2022">(Eisty and Carver 2022)</span></p>
+<section id="theories-and-models" class="level2">
+<h2 class="anchored" data-anchor-id="theories-and-models">Theories and Models</h2>
+<p><span class="citation" data-cites="Jay2020TheChallengesTheory">(Jay et al. 2020)</span> reports on a workshop on translating scientific theories into code. I feel like this is where my interest is most piqued at the moment.</p>
+<blockquote class="blockquote">
+<p>In addition to addressing the general difficulties common to all software development projects, research software must represent, manipulate, and provide data for complex theoretical constructs. Such a construct may take many forms: an equa- tion, a heuristic, a method, a model; here we encapsulate all of these, and others, in the term theory.</p>
+</blockquote>
+<p>They point out the various places things can happen badly - in the sceince, in the code, and in the translation.</p>
+<p>The whole idea of scientific computing is to test an imperfect theory of the (natural) world. As such the code and the theory often tradeoff:</p>
+<blockquote class="blockquote">
+<p>Although it is natural to think (and is most often indeed the case) that one needs to formulate the equations and then apply computational algorithms to obtain the numerical solutions, the formulation of the equations can be affected by the choice of computational method. Cf. the simulations books</p>
+</blockquote>
+<p><a href="https://arbesman.substack.com/p/the-kitchen-sink-conundrum-and-simulations">This blog post</a> covers some of the early papers here in detail, although gets the intuition of chaos theory incorrect. Distinguishes between “error of measurement” and “error of specification”, looking at the tradeoffs between making models more accurate, but also more likely to cause issues with measurement error compounding.</p>
+<section id="types-of-modelstheories" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-modelstheories">Types of models/theories</h3>
+<ol type="1">
+<li><p>Mental model of code: <span class="citation" data-cites="naur1985programming">(Naur 1985)</span>’s idea of theory.</p>
+<ul>
+<li>the code encapsulates a theory, that different people come to different, ideally shared, understandings of.</li>
+<li>each developer then adds to that theory his/her understanding.</li>
+<li>The theory (embedded in the software) is refined and adapted over time, e.g., with refactoring, new features, bugs, etc.</li>
+<li>The code in turn relies on different theories in architecture of the hardware, programming language, and packages/dependencies (e.g., what access control means)</li>
+<li>The theory might be encoded as a conceptual model, using a model-driven step as well, e.g., Simulink or Matlab code generation.</li>
+<li>There might be an explicit model the software presents for the science it encodes (“climate simulation using a 1km grid”), and another for ancillary functions.</li>
+</ul></li>
+<li><p>A scientist has a theory, which the code should help to test/validate/confirm (choose your epistemological poison).</p></li>
+<li><p>The end users have requirements and expectations of the code, as they use it.</p></li>
+</ol>
+<!--<!--TODO [@HuyMenzies2020] did a data mining study on computational science practices in SE.-->
+</section>
+</section>
+<section id="domains-of-knowledge" class="level2">
+<h2 class="anchored" data-anchor-id="domains-of-knowledge">Domains of Knowledge</h2>
+<p>I really liked this insight from an early research in RSE, Diane Kelly. <span class="citation" data-cites="Kelly_2015">(Kelly 2015)</span> summarizes work on nuclear scientists in Canada and identifies <em>knowledge domains.</em> I’ll use climate models as an example:</p>
+<ol type="1">
+<li>Real world - how the carbon cycle works, solar radiation, forcings, etc.</li>
+<li>Theory - the math underlying climate, e.g.&nbsp;differential equations, Navier-Stokes, thermodynamics.</li>
+<li>Software - how to write effective Fortran code</li>
+<li>Execution - how to compile Fortran, and deploy it to a cluster</li>
+<li>Operations - how to use a climate model in production, including running experiments, testing outputs.</li>
+</ol>
+<p>What this paper does is show how building scientific software is about moving between these worlds. I think the contention is that while more conventional software (payroll management) has elements of all 5, the <em>real world</em> is easier to understand, and the theory does not require advanced math. Plus the software is likely written in a more familiar language. But scientists probably don’t have a lot of training in 3, 4, 5, at least in the surveys done so far.</p>
+</section>
+<section id="tech-debt-in-scientific-software" class="level2">
+<h2 class="anchored" data-anchor-id="tech-debt-in-scientific-software">Tech Debt in Scientific Software</h2>
+<p>TODO: <span class="citation" data-cites="Arvanitou2022PractitionersPerspectivePractices">(Arvanitou et al. 2022)</span> - How do SE practices mitigate TD. TODO: Melina Vidoni’s papers on R packages</p>
+<ul>
+<li><span class="citation" data-cites="Eisty2018ASurveySoftware">(Eisty, Thiruvathukal, and Carver 2018)</span> - a survey on how RSEs use metrics. They found that RSEs have a low knowledge of metrics, but of the ones used, performance and test metrics were most common. In appendix A they report on the types of metrics - only one respondent had heard of TD and none used it.</li>
+<li><span class="citation" data-cites="Connolly2023Software">(Connolly et al. 2023)</span> argues for a focus on the Three Rs - Readablity, Resilience, and Reuse. They detail the ways in which these three things can be accomplished depending on the importance of the project, e.g., individual, group, or community. It is not explicit about technical debt except that it focuses on software ‘resilience’.</li>
+</ul>
+</section>
+<section id="tech-debt-and-external-dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="tech-debt-and-external-dependencies">Tech Debt and External Dependencies</h2>
+<ul>
+<li>Konrad Hinsen <span class="citation" data-cites="Hinsen2015">(Hinsen 2015)</span> writes that the main issue is the dependency problem - e.g.&nbsp;in Konrad’s case, changes to Python 3 or new versions of Numpy.</li>
+<li><span class="citation" data-cites="Lawrence2018">(Lawrence et al. 2018)</span> writes about ‘crossing the chasm’. The old free lunch model said new improvements in the same architecture (x86 for example) would improve speed. But now need to take advantage of parallelism and multicore, which require hardware-specific optimizations. There is a very thin abstraction over the underlying hardware in these performance intensive environments, which means even end-users often need to know obscure memory architecture details to squeeze concurrency. # Types of Scientific Software</li>
+</ul>
+<p>Like all software, there is no one size fits all definition of scientific software. It can span many domains, is of varying complexity, written in different languages, etc. However, broadly speaking there are hobby projects and professional projects, characterized mostly by the number of support engineers and budget for operations. A hobby project is something a single PhD student might start and is often open source. She is the only developer and it is part of the PhD research. A professional project is something like the Atlas Athena software, with hundreds of contributors, full time staff, and decades of history. And of course this is a continuum. The <a href="https://rse.dlr.de/guidelines/00_dlr-se-guidelines_en.html">German Aerospace Center (DLR) has similar guidelines.</a>, where level 0 is for personal use, and level 3 is long-lived, safety critical code.</p>
+</section>
+</section>
+<section id="scientific-software-in-canada" class="level1">
+<h1>Scientific Software in Canada</h1>
+<p>The state of the practice for RSEs in Canada is pretty dire. From a government perspective, we spent a lot of time (and $$) on building infrastructure. That was connecting things with high speed networks (CANARIE) and large compute clusters (Compute Canada). Then, for murky political reasons, there was some transition from those orgs to a central one (The Digital Research Alliance). Unfortunately it seems while the tangible cluster and network stuff continues to get buy in from the main funders, Innovation, Science, and Economic Development Canada<sup>1</sup>, the software piece is harder to motivate.</p>
+<p>Canada has no research software engineering alliance, like the UK, Germany and the US do. We have no real research labs, like the US DOE labs, and we don’t really do defence research outside of the DND Research groups. We once had software in the National Research Council, but that was axed, again, for reasons I don’t understand but had something to do with cost cutting.</p>
+<p>Fortunately, there are some excellent folks in the space who are trying to keep things afloat, a few folks at the Alliance, and some (like me) academics. There are also top notch specialists running the clusters and software support teams at the universities, like UVic’s research computing team.</p>
+</section>
+<section id="things-id-like-to-know-more-about" class="level1">
+<h1>Things I’d like to know more about</h1>
+<ol type="1">
+<li>how much time does a developer spend on the “science” part of the code, and how much on ancillary roles</li>
+<li>Can we separate the science logic from the non-science logic?
+<ol type="1">
+<li>What is the TD inherent/possible in translating from science to software? Pub pressure, student knowledge, legacy code</li>
+<li>“Can we quantify or explain this loss/difference, and articulate the trade-offs resulting from translation?”</li>
+</ol></li>
+<li>how do we compare different scientific approaches simply from software alone?</li>
+<li>how do you retract/code review the scientific code?
+<ol type="1">
+<li>what is the equivalent to peer review of the code?</li>
+<li>what if the code is a complex model that is unexplainable? how do we test it? where is the science?</li>
+</ol></li>
+<li>Can we trace the way in which the design of the code has changed from its initial design to the proper current design?</li>
+<li>Social debt: how do we check what implications are? How does large team science play a role?</li>
+<li>Ciera’s paper <span class="citation" data-cites="Jaspan2023DefiningMeasuringManaging">(Jaspan and Green 2023)</span>: tools can tell you the current indicators. But what matters is how context defines this as a problem or not. E.g., migrating to Python 3, undocumented Navier-Stokes code. How do we extract this contextual knowledge from a project?</li>
+</ol>
+</section>
+<section id="to-read" class="level1">
+<h1>To Read</h1>
+<ul>
+<li><a href="https://journals.sagepub.com/doi/full/10.1177/1094342019899451">Understanding the landscape of scientific software used on high-performance computing platforms</a></li>
+<li><a href="https://journals.sagepub.com/doi/10.1177/1094342017747692">The dividends of investing in computational software design: A case study</a></li>
+<li></li>
+</ul>
+</section>
+<section id="initiatives" class="level1">
+<h1>Initiatives</h1>
+<ul>
+<li><a href="https://bssw.io">Better Scientific Software</a> - training materials for RSEs.</li>
+<li><a href="https://coderefinery.org">Code Refinery</a> - more training</li>
+<li>Software Carpentry</li>
+<li>US-RSI</li>
+<li>NumFocus grants (sustain your project)</li>
+<li>Zuckerberg grants</li>
+<li>Exascale Computing - Interoperable Design of Extreme-scale Application Software (IDEAS) DOE 5 year software program</li>
+<li>NSF large instrument group</li>
+<li>https://www.researchsoft.org RESA</li>
+<li>IRIS-HEP https://iris-hep.org</li>
+<li>https://collegeville.github.io</li>
+</ul>
+<p>Various “scientific software community of practice” as mentioned in the Connoly article, at UW, CMU, etc.</p>
+</section>
+<section id="venues" class="level1">
+<h1>Venues</h1>
+<ul>
+<li><a href="https://se4science.org/workshops/se4rs23/index.htm">SE4Science workshop</a> - July 23 in Portland</li>
+<li><a href="https://us-rse.org">US-RSE conference</a> - October</li>
+<li>Alliance Canada Research Software conf. Now discontinued :(</li>
+<li>JOSS</li>
+<li>GMD</li>
+</ul>
+</section>
+<section id="example-projects" class="level1">
+<h1>Example Projects</h1>
+<ul>
+<li><a href="https://einsteintoolkit.org/contribute.html">Einstein</a></li>
+<li><a href="https://www.cgd.ucar.edu/sections/cseg">CESM</a></li>
+<li><a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis/models.html">Can CM</a></li>
+</ul>
+<section id="astronomy" class="level2">
+<h2 class="anchored" data-anchor-id="astronomy">Astronomy</h2>
+<ul>
+<li>SKAO</li>
+<li>AstroPy</li>
+</ul>
+</section>
+<section id="bio" class="level2">
+<h2 class="anchored" data-anchor-id="bio">Bio</h2>
+<ul>
+<li><p><a href="https://www.bioconductor.org/">Biology</a></p></li>
+<li><p><a href="https://ropensci.org/">rOpenSci</a> and relevant paper https://arxiv.org/pdf/2103.09340.pdf</p></li>
+<li><p>PsychoPy: This project is related to psychology and neuroscience.</p></li>
+<li><p>biopython: This project is related to Molecular Biology.</p></li>
+<li><p>RDKit: This project is related to Chemistry Informatics # Glossary</p></li>
+<li><p>RSE: Research Software Engineer</p></li>
+<li><p>SSI: Software Sustainability Institute</p></li>
+<li><p>HPC: high performance computing, e.g., ‘supercomputers’</p></li>
+</ul>
+</section>
+</section>
+<section id="key-se-researchers-and-influencers" class="level1">
+<h1>Key SE Researchers and “Influencers”</h1>
+<ul>
+<li>Dan Katz</li>
+<li>Greg Wilson</li>
+<li><a href="https://github.com/cosden">Ian Cosden</a> - Princeton, US-RSE guy</li>
+<li>Jeff Carver</li>
+<li><a href="https://alliancecan.ca/en/about/our-team/qian-zhang">Qian Zhang</a> Alliance software</li>
+<li><a href="https://alliancecan.ca/en/about/our-team/mark-leggott">Mark Leggott</a> Alliance international relations</li>
+<li><a href="https://crd.lbl.gov/divisions/amcr/computer-science-amcr/class/members/group-lead/damian-rouson/">Damien Rouson</a> Fortran, source analysis</li>
+<li><a href="https://science.gsfc.nasa.gov/sed/bio/thomas.l.clune">Tom Clune</a> - Fortran, Goddard, NASA software</li>
+<li>Judith Segal, Open U. Early work on scientific software dev.</li>
+<li>Neil Chue Hong - UK, early organizer for RSE recognition</li>
+<li><a href="https://www.se.informatik.uni-kiel.de/en/team/prof.-dr.-wilhelm-willi-hasselbring/prof.-dr.-wilhelm-willi-hasselbring">William Hasselbring</a> - DE</li>
+</ul>
+<p><!--from theory translation workshop--> <!--https://se4science.org/workshops/tst-us/talks/--> <!--Steve Brandt--> <!--Anshu Dubey--> <!--Sandra Gesing--> <!--Rinku Gupta--> <!--Dmitry Lyakh--> <!--Brian O’Shea--> <!--James Phillips--> <!--Matthew Turk--> <!--Hubertus Van Dam--> <!--Hua Wan--></p>
+<hr>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-Arvanitou2022PractitionersPerspectivePractices" class="csl-entry">
+Arvanitou, Elvira-Maria, Nikolaos Nikolaidis, Apostolos Ampatzoglou, and Alexander Chatzigeorgiou. 2022. <span>“Practitioners’ Perspective on Practices for Preventing Technical Debt Accumulation in Scientific Software Development.”</span> In <em>Proceedings of the 17th International Conference on Evaluation of Novel Approaches to Software Engineering</em>. <span>SCITEPRESS</span> - Science; Technology Publications. <a href="https://doi.org/10.5220/0010995000003176">https://doi.org/10.5220/0010995000003176</a>.
+</div>
+<div id="ref-Babuska2004VerificationValidationComputational" class="csl-entry">
+Babuska, Ivo, and J.Tinsley Oden. 2004. <span>“Verification and Validation in Computational Engineering and Science: Basic Concepts.”</span> <em>Computer Methods in Applied Mechanics and Engineering</em> 193 (36-38): 4057–66. <a href="https://doi.org/10.1016/j.cma.2004.03.002">https://doi.org/10.1016/j.cma.2004.03.002</a>.
+</div>
+<div id="ref-Basili2008UnderstandingHighPerformance" class="csl-entry">
+Basili, Victor R., Jeffrey C. Carver, Daniela Cruzes, Lorin M. Hochstein, Jeffrey K. Hollingsworth, Forrest Shull, and Marvin V. Zelkowitz. 2008. <span>“Understanding the High-Performance-Computing Community: A Software Engineer<span></span>s Perspective.”</span> <em><span>IEEE</span> Software</em> 25 (4): 29–36. <a href="https://doi.org/10.1109/ms.2008.103">https://doi.org/10.1109/ms.2008.103</a>.
+</div>
+<div id="ref-Carver2007SoftwareDevelopmentEnvironments" class="csl-entry">
+Carver, Jeffrey C., Richard P. Kendall, Susan E. Squires, and Douglass E. Post. 2007. <span>“Software Development Environments for Scientific and Engineering Software: A Series of Case Studies.”</span> In <em>29th International Conference on Software Engineering (<span>ICSE</span><span></span>07)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/icse.2007.77">https://doi.org/10.1109/icse.2007.77</a>.
+</div>
+<div id="ref-Carver2022ASurveyState" class="csl-entry">
+Carver, Jeffrey C., Nic Weber, Karthik Ram, Sandra Gesing, and Daniel S. Katz. 2022. <span>“A Survey of the State of the Practice for Research Software in the United States.”</span> <em><span>PeerJ</span> Computer Science</em> 8 (May): e963. <a href="https://doi.org/10.7717/peerj-cs.963">https://doi.org/10.7717/peerj-cs.963</a>.
+</div>
+<div id="ref-Connolly2023Software" class="csl-entry">
+Connolly, Andrew, Joseph Hellerstein, Naomi Alterman, David Beck, Rob Fatland, Ed Lazowska, Vani Mandava, and Sarah Stone. 2023. <span>“<span>Software</span> <span>Engineering</span> <span>Practices</span> in <span>Academia</span>: Promoting the 3Rs—<span>Readability</span>, <span>Resilience</span>, and <span>Reuse</span>.”</span> <em>Harvard Data Science Review</em> 5 (2).
+</div>
+<div id="ref-Cosden2023ResearchSoftwareEngineers" class="csl-entry">
+Cosden, Ian A., Kenton McHenry, and Daniel S. Katz. 2023. <span>“Research Software Engineers: Career Entry Points and Training Gaps.”</span> <em>Computing in Science &amp; Engineering</em>, 1–9. <a href="https://doi.org/10.1109/mcse.2023.3258630">https://doi.org/10.1109/mcse.2023.3258630</a>.
+</div>
+<div id="ref-eisty2022" class="csl-entry">
+Eisty, Nasir U., and Jeffrey C. Carver. 2022. <span>“Testing Research Software: A Survey.”</span> Arxiv:2205.15982.
+</div>
+<div id="ref-Eisty2018ASurveySoftware" class="csl-entry">
+Eisty, Nasir U., George K. Thiruvathukal, and Jeffrey C. Carver. 2018. <span>“A Survey of Software Metric Use in Research Software Development.”</span> In <em>2018 <span>IEEE</span> 14th International Conference on e-Science (e-Science)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/escience.2018.00036">https://doi.org/10.1109/escience.2018.00036</a>.
+</div>
+<div id="ref-hasselbring2024research" class="csl-entry">
+Hasselbring, Wilhelm, Stephan Druskat, Jan Bernoth, Philine Betker, Michael Felderer, Stephan Ferenz, Anna-Lena Lamprecht, Jan Linxweiler, and Bernhard Rumpe. 2024. <span>“Toward Research Software Categories.”</span> <a href="https://arxiv.org/abs/2404.14364">https://arxiv.org/abs/2404.14364</a>.
+</div>
+<div id="ref-Hinsen2015" class="csl-entry">
+Hinsen, Konrad. 2015. <span>“Technical Debt in Computational Science.”</span> <em>Computing in Science &amp; Engineering</em> 17 (6): 103–7. <a href="https://doi.org/10.1109/mcse.2015.113">https://doi.org/10.1109/mcse.2015.113</a>.
+</div>
+<div id="ref-Hook2009MutationSensitivityTesting" class="csl-entry">
+Hook, Daniel, and Diane Kelly. 2009. <span>“Mutation Sensitivity Testing.”</span> <em>Computing in Science &amp; Engineering</em> 11 (6): 40–47. <a href="https://doi.org/10.1109/mcse.2009.200">https://doi.org/10.1109/mcse.2009.200</a>.
+</div>
+<div id="ref-Howison13" class="csl-entry">
+Howison, James, and James D. Herbsleb. 2013. <span>“Incentives and Integration in Scientific Software Production.”</span> In <em>Proceedings of the 2013 Conference on Computer Supported Cooperative Work</em>, 459–70. CSCW ’13. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/2441776.2441828">https://doi.org/10.1145/2441776.2441828</a>.
+</div>
+<div id="ref-Jaspan2023DefiningMeasuringManaging" class="csl-entry">
+Jaspan, Ciera, and Collin Green. 2023. <span>“Defining, Measuring, and Managing Technical Debt.”</span> <em><span>IEEE</span> Software</em> 40 (3): 15–19. <a href="https://doi.org/10.1109/ms.2023.3242137">https://doi.org/10.1109/ms.2023.3242137</a>.
+</div>
+<div id="ref-Jay2020TheChallengesTheory" class="csl-entry">
+Jay, Caroline, Robert Haines, Daniel S. Katz, Jeffrey C. Carver, Sandra Gesing, Steven R. Brandt, James Howison, et al. 2020. <span>“The Challenges of Theory-Software Translation.”</span> <em>F1000Research</em> 9 (October): 1192. <a href="https://doi.org/10.12688/f1000research.25561.1">https://doi.org/10.12688/f1000research.25561.1</a>.
+</div>
+<div id="ref-Kelly_2015" class="csl-entry">
+Kelly, Diane. 2015. <span>“Scientific Software Development Viewed as Knowledge Acquisition: Towards Understanding the Development of Risk-Averse Scientific Software.”</span> <em>Journal of Systems and Software</em> 109 (November): 50–61. <a href="https://doi.org/10.1016/j.jss.2015.07.027">https://doi.org/10.1016/j.jss.2015.07.027</a>.
+</div>
+<div id="ref-Lawrence2018" class="csl-entry">
+Lawrence, Bryan N., Michael Rezny, Reinhard Budich, Peter Bauer, Jörg Behrens, Mick Carter, Willem Deconinck, et al. 2018. <span>“Crossing the Chasm: How to Develop Weather and Climate Models for Next Generation Computers?”</span> <em>Geoscientific Model Development</em> 11 (5): 1799–1821. <a href="https://doi.org/10.5194/gmd-11-1799-2018">https://doi.org/10.5194/gmd-11-1799-2018</a>.
+</div>
+<div id="ref-naur1985programming" class="csl-entry">
+Naur, Peter. 1985. <span>“Programming as Theory Building.”</span> <em>Microprocessing and Microprogramming</em> 15 (5): 253–61.
+</div>
+<div id="ref-Pinto2018HowDoScientists" class="csl-entry">
+Pinto, Gustavo, Igor Wiese, and Luiz Felipe Dias. 2018. <span>“How Do Scientists Develop Scientific Software? An External Replication.”</span> In <em>2018 <span>IEEE</span> 25th International Conference on Software Analysis, Evolution and Reengineering (<span>SANER</span>)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/saner.2018.8330263">https://doi.org/10.1109/saner.2018.8330263</a>.
+</div>
+<div id="ref-Segal2009SoftwareDevelopmentCultures" class="csl-entry">
+Segal, Judith. 2009. <span>“Software Development Cultures and Cooperation Problems: A Field Study of the Early Stages of Development of Software for a Scientific Community.”</span> <em>Computer Supported Cooperative Work (<span>CSCW</span>)</em> 18 (5-6): 581–606. <a href="https://doi.org/10.1007/s10606-009-9096-9">https://doi.org/10.1007/s10606-009-9096-9</a>.
+</div>
+<div id="ref-Segal2012DevelopingSoftwareFor" class="csl-entry">
+Segal, Judith, and Chris Morris. 2012. <span>“Developing Software for a Scientific Community.”</span> In <em>Handbook of Research on Computational Science and Engineering</em>, 177–96. <span>IGI</span> Global. <a href="https://doi.org/10.4018/978-1-61350-116-0.ch008">https://doi.org/10.4018/978-1-61350-116-0.ch008</a>.
+</div>
+<div id="ref-Wiese2020NamingPainDeveloping" class="csl-entry">
+Wiese, Igor, Ivanilton Polato, and Gustavo Pinto. 2020. <span>“Naming the Pain in Developing Scientific Software.”</span> <em><span>IEEE</span> Software</em> 37 (4): 75–82. <a href="https://doi.org/10.1109/ms.2019.2899838">https://doi.org/10.1109/ms.2019.2899838</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I initially wrote this as “industry and economic development” which really gives the game away, as most of the money seems to be used in subsidizing industry in a desperate and futile attempt at improving productivity.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://neilernst.net/posts/sse_review.html</guid>
+  <pubDate>Wed, 24 Apr 2024 20:51:00 GMT</pubDate>
+</item>
 <item>
   <title>The PI as COO</title>
   <link>https://neilernst.net/posts/2022-06-03-Roles-of-PI.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -109,6 +408,7 @@ Academics would double our productivity if we learnt some basic project manageme
 
 
 
+
 <p>The typical Science workflow is something like</p>
 <p>A - Related work: build a Prior about a real world problem, like pulsar formation</p>
 <p>B - Fieldwork: Collect data about that problem in the ‘field’</p>
@@ -169,6 +469,7 @@ Academics would double our productivity if we learnt some basic project manageme
   <dc:creator>Neil Ernst</dc:creator>
   <link>https://neilernst.net/posts/2023-05-14-bots-in-SE.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -253,6 +554,7 @@ Automa
 
 
 
+
 <p>Together with <a href="https://alessiofer.wixsite.com/alessioferrari">Alessio Ferrari</a>, I organized a <a href="https://2021.refsq.org/track/refsq-2021-openre">panel</a> at the well-regarded conference on Requirements Engineering: Foundation for System Quality, which is a mouthful but really nice working session on RE that has always nicely blended practice and research. It also was the first place to accept one of my papers so I will always have a soft spot for it, and for <a href="https://wikitravel.org/en/Essen">Essen</a>, industrial city or not.</p>
 <p>The purpose of the session was to encourage open data packages in the context of RE Education (the aim, I think, is to have subsequent OpenRE tracks at REFSQ change theme). We got excellent submissions and accepted three packages, which we have hosted at the existing repository of the <a href="https://github.com/reet-workshop/activities">RE Education and Training (REET) workshop</a>.</p>
 <p>After the short talks on the packages, we turned to a panel with the theme of “RE in the age of COVID”. Our hope was to collect some experiences from the attendees (40 or so) on how they approached RE education, and RE in general, during the COVID induced shift to online learning. We definitely got that and more generally, I think it was a cathartic session to commiserate and share with others the challenges of the past few terms.</p>
@@ -274,6 +576,7 @@ Automa
   <title>The Triumvirate of Teaching and Work Life Balance</title>
   <link>https://neilernst.net/posts/2021-03-03-teaching-factors.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -315,6 +618,7 @@ Automa
   <title>Running a Mining Challenge Using Kaggle</title>
   <link>https://neilernst.net/posts/2020-09-30-kaggle-mining.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -383,6 +687,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Academic Job Searches—A Canadian Perspective</title>
   <link>https://neilernst.net/posts/2019-05-17-job-search-canada.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -456,6 +761,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>At MSR18 in Gothenburg, I presented <a href="https://arxiv.org/abs/1804.02443">my work</a> on using Bayesian inference to set software metrics thresholds. We want to set thresholds because for many software metrics, like coupling between objects (CBO), a single, global metric value (“all software objects with this value or below are maintainable”) is nonsensical, if only because programming language choice is important. So we want to tailor threshold values to some contextually relevant value (e.g., perhaps all Java code should be X or less). The question I answered is how we do the tailoring, given some contextual features.</p>
 <p>In this case, the contextual features I was looking at were Java files categorized by architectural role in the Spring framework, derived from <a href="http://www.mauricioaniche.com/scam2016/">a paper by Mauricio Aniche</a> and others.</p>
 <p>The bottom line of this new approach is that we can use Bayesian inference and hierarchical models to perform a simple regression and get a 50% drop in root mean squared error (RMSE).</p>
@@ -476,6 +782,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Seven Principles of Effective Documentation</title>
   <link>https://neilernst.net/posts/2017-07-17-7principles-docs.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -514,6 +821,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>I’m excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of <a href="http://www.uvic.ca/engineering/computerscience/index.php">Computer Science</a> at the <a href="http://www.uvic.ca">University of Victoria</a>.</p>
 <p>This is a great opportunity to work with some of the top software engineering faculty in the world, in one of the best cities in the world (although I’m biased, as it is my hometown :). Victoria is at the forefront of the startup scene, just a few hours from Vancouver, Seattle, and direct flights to the Valley (not Abbotsford, the other one).</p>
 <p>If you are interested in doing research with me please take a look at my <a href="../prospective">‘prospective students’</a> page. Uvic, and Canada, welcome people of all backgrounds. See our <a href="http://www.cic.gc.ca/english/study/index.asp">study permit process</a>, and the federal <a href="http://www.cic.gc.ca/english/study/work-postgrad.asp">Express Entry program</a> for post-graduation immigration opportunities.</p>
@@ -533,11 +841,12 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>In response to <a href="https://twitter.com/gvwilson/status/861305406542446593">Greg Wilson’s challenge</a>, I did a quick attempt at a Visual Abstract for <a href="http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=495553">a recent paper</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/drstudy-visualabs.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
+<figcaption>Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
 </figure>
 </div>
 <p>I think it turned out ok; it captures the core findings and presumably will prompt people to look at the paper. I’ve attached the Keynote slide I used <a href="https://github.com/neilernst/visual-abs">in a repo on Github</a>.</p>
@@ -555,7 +864,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/borg-workflow.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Sample workflow cartoon</figcaption>
+<figcaption>Sample workflow cartoon</figcaption>
 </figure>
 </div>
 <p>This explains how the study was conducted. Again, anything that can explain what is going on for a busy reviewer is helpful. Remember, in 2017 FSE reviewers seem to have reviewed 25-28 papers each. Expecting them to spend more than 30-45 minutes on each one is unrealistic. So make your time with them count!</p>
@@ -573,6 +882,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>I’ve read 2 papers recently (references) about using active learning to improve classification for software engineering.</p>
 <p>Active Learning is the idea that, if we have a feature space with instances, for the classification task of labeling an instance either “A” or “B”, there are clumps of points that clearly are As, and another clump that are clearly Bs. In between, however, the boundary is unclear. Some instances will be equidistant from both centers of mass, and the classifier will struggle to properly classify it. Active Learning (AL) quite simply picks what are hopefully the “most useful” (for improving the classifier) points for human labeling, which reduces the amount of (possibly) redundant labeling humans have to do (since the labeling time is the most costly part of creating a classifier).</p>
 <p>It turns out that so far this active learning approach for software data is not too successful. I think there are 2 main reasons.</p>
@@ -581,8 +891,8 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p>We’ve looked at some of this in <a href="https://insights.sei.cmu.edu/blog/automating-design-analysis/">our latest research on design rules</a>. We found that while a majority of static analysis/code checker rules can be clearly distinguished as either design or not, there remains this stubborn middle tier that resist easy categorization. We think you can still make progress (after all, these rules may not even fire on your project). But it would be satisfying to have a more repeatable analysis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://neilernst.net/posts/https:/insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Categorizing rules</figcaption>
+<p><img src="https://insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
+<figcaption>Categorizing rules</figcaption>
 </figure>
 </div>
 <p>The conclusion of the Borg paper really seems useful for future work here. One, they say that the AL approach helps to pull out controversial instances, that then help build rater consensus. Two, using bootstrapping with more positive examples helps the AL improve its accuracy (in other words, there is still benefit to grinding out the labels manually – no free lunch, sorry!).</p>
@@ -607,12 +917,13 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p><a href="https://faculty.washington.edu/ajko/">Amy Ko</a> had a great <a href="http://faculty.washington.edu/ajko/talks/SPLASH2016Keynote.pdf">presentation</a> at a conference on programming languages (PL), that <a href="https://www.youtube.com/watch?v=TjkzAls5fsI&amp;feature=youtu.be">he also video taped</a> for a wider audience.</p>
 <p>I’d always thought of PL as “things”, or material. The program was the interesting bit; the PL was the material that constructed it. But I guess as I extend that metaphor, it seems clear that it falls short. Cedar, for instance, is a material, and the building is the interesting thing. But cedar has intrinsic properties as well. You can bend it without cutting it to make a box.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/bentwood.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">bentwood box</figcaption>
+<figcaption>bentwood box</figcaption>
 </figure>
 </div>
 <p>It weathers beautifully due to the oils it contains, so you can make shingles and siding out of it. It burns very easily. If we extend the definition of cedar to include the tree itself, we can make canoes, rope, hats, spears, and so on. Cedar was a <a href="https://www.amazon.com/Cedar-Tree-Northwest-Coast-Indians/dp/0295974486">crucial part</a> of Northwest aboriginal culture.</p>
@@ -703,6 +1014,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Day Hikes</title>
   <link>https://neilernst.net/posts/2016-09-08-day-hikes.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -797,6 +1109,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <blockquote class="blockquote">
 <p>I have no idea if Columbus had to have his “India Expedition” proposal peer-reviewed, but here is my interpretation of it according to the ever-popular <a href="http://cseweb.ucsd.edu/~ddahlstr/misc/heilmeier.html">Heilmeyer catechism</a>.</p>
 </blockquote>
@@ -839,6 +1152,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>On SCAM’s new “Engineering Track”</title>
   <link>https://neilernst.net/posts/2016-04-22-on-scams-new-engineering-track.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -911,6 +1225,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
+
 <p>I recently reviewed <a href="http://2016.msrconf.org/#/data">data showcase papers</a> for the Mining Software Repositories Conference, and I’m co-chair of <a href="http://www.ieee-scam.org/2016/#engcall">the Engineering track</a> (subsumes datasets, tools, approaches) for the SCAM conference<sup>1</sup>. I’ve worked with a number of different datasets (both openly available and closed) for my research efforts. This caused me to do some reflection on the nature of empirical data in SE.</p>
 <p>We’ve had a nice increase in the amount of data available for researchers to explore, and most recently, the amount of well-constructed, easily understandable and accessible datasets – like the <a href="http://ghtorrent.org">GHTorrent tool</a> – is impressive (traditionally it has been difficult to get any credit for creating these resources). I think it is a hugely beneficial effort for our efforts to create a well-grounded, empirical basis for software engineering (as opposed to <a href="http://semat.org">pie in the sky theorizing</a>).</p>
 <p>I have two concerns that threaten this idyll.</p>
@@ -948,6 +1263,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
+
 <p>Andy Zaidman had an interesting <a href="http://www.slideshare.net/azaidman/software-analytics-the-dark-side-and-the-test-side">presentation about test analytics</a>. The takeaway for me was that a) people overestimate their unit test engineering (estimate: 50%, reality, 25%). But b) the real issue is convincing a developer that <em>this</em> unit test will improve the quality of the code. In other words, like with technical debt, or refactoring, or commenting, the <strong>marginal utility</strong> of adding a test is perceived to be low (and of course the cost is seen as high). Each new individual test adds nothing to the immediate benefit (with some exceptions if one is following strict TDD). And yet each one requires switching from the mental model of the program to the one of Junit frameworks and test harnesses.</p>
 <p>The issue is not whether testing is good or bad, but rather, which testing is most useful. It seems unlikely to me that the value of individual tests is normally distributed but rather power-law form (i.e., that there are a very few extremely high value tests). And this isn’t just about testing; indeed, most activities with delayed payoff—refactoring, documenting, architecting—likely exhibit the same problem. It is hard to convince people to invest in such activities without giving them concrete proof it is valuable. You just have to look at the default examples for Cucumber, for instance, to see that the vast majority are trivial and easily grasped without any of the tests. Similarly, “code smells are bad”, but bad might just mean they look nasty, while having little to do with the underlying effectiveness of the code. It isn’t technical debt if it never causes a problem. It isn’t a bug if it isn’t worth fixing it.</p>
 <p>In new work we are starting with <a href="http://menzies.us">Tim Menzies</a>, we are trying to understand the inflection point beyond which your decisions add little incremental value (i.e., stop adding more tests). The good news is this is easy to spot in hindsight; the challenge is to take those lessons and determine this <em>before</em> doing hours of pointless work. The direction we are taking is to try and capture the common patterns the key decisions share (in the testing example, perhaps this is bounds testing). Ultimately, we hope to provide advice to developers as to when the marginal utility falls below a threshold (i.e., stop testing!)</p>
@@ -963,6 +1279,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
   <title>A Model of Software Quality Checks</title>
   <link>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1028,60 +1345,6 @@ This is not to discourage tool paper submissions–they will now fall into the E
 </section></div> ]]></description>
   <guid>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</guid>
   <pubDate>Tue, 22 Dec 2015 08:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Requirements, Agile, and Finding Errors</title>
-  <link>https://neilernst.net/posts/2015-12-07-requirements-agile-and-finding-errors.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>It’s a long held view in the requirements engineering (RE) community that “if only we could do RE better, software development would be cheaper”. Here ‘doing RE better’ means that your requirements document adheres to some quality standard such as <a href="http://www.math.uaa.alaska.edu/~afkjm/cs401/IEEE830.pdf">IEEE 830</a>. For example, none of the requirements are ambiguous.</p>
-<p>One justification is that, based on (very few) studies in the late 80s, requirements errors cost a lot more to fix in test/production than when they are incurred. For instance, if I tell a subcontractor she has a 100 kilobyte message size limit, and I really meant 100 kilobits, fixing that problem after she has delivered the subcomponent will be expensive. This seems obvious. But two problems emerge. 1) Why does she have to wait so long to integrate the subcomponent? 2) how many of these problems are there? Granted it is cheaper to fix <em>that particular error</em> in the requirements/system engineering phase, how much money should we spend to find these errors at that point? <a href="1">[1]</a></p>
-<p>An interesting early experiment on this is described in Davis, 1989, <a href="http://dx.doi.org/10.1016/0950-5849(89)90145-6">“Identification of errors in software requirements through use of automated requirements tools”</a>, Information and Software Technology 31(9) p472–476. In an example of an experiment we see very rarely these days, his team were given sufficient funds to have three automated requirements quality tools applied to a large software requirements specification for the US Army (200,000 pages!). The tools were able to find several hundred errors in the spec, including errors of inconsistency. Yay, the tools worked! But….</p>
-<p>The program had decided to go ahead and build their (Cobol) system before the automated analysis. The developers on the program didn’t care much about the findings. 80 of the 220 modules were not detectable in the final system (meaning, presumably, they were either merged or omitted altogether). Davis did some post-delivery follow-up, showing that the modules with greater numbers of requirements problems had a significantly greater number of post-release defects. But whether the two are causally related is hard to say (those modules may simply be more complex in general, so both requirements and code are harder to get right).</p>
-<p>What I conclude from this is that finding errors of the sort they did, e.g.,</p>
-<blockquote class="blockquote">
-<p>PROBLEM: the referenced table directs that PART_NO be moved from the WORK_ORDER_FILE to the WORK_TASK_FILE. Available fields in the WORK_TASK_FILE include PART_NO_FiELD_PART and PART_NO_FIELD_TASK.</p>
-CHOICE: We assume that PART NO FIELD_TASK is the proper destination.
-</blockquote>
-<p>are ultimately of zero value to document. As a result, finding problems with them, automated or otherwise, is also of no value. Of course we know all this from the past 20 years of the agile movement, but it is interesting to see it in action. I think that (in 1989 certainly) this was excusable, as the program managers had no good sense of what made software special. The level of detail the design describes, down to field names and dependencies, is better suited to the Apollo program, where they prescribe how tightly to turn bolts, label each individual bolt, etc. Which makes sense in a safety critical dynamic environment, but not a lot of sense in an office logistics tool.</p>
-<section id="going-forward" class="level3">
-<h3 class="anchored" data-anchor-id="going-forward">Going Forward</h3>
-<p>A term I loathe but seems better than “Future Work”. I’ve worked a lot on automated requirements tools like PSL/PSA or SREM, so where should we head with automated tooling for requirements?</p>
-<p>There is a lot of empirical evidence that simple, easily integrated process patterns such as requirements goals and scenarios lead to higher quality requirements. Intel, for example, are strong believers in training staff in <a href="http://selab.fbk.eu/re11_download/industry/proceedings-short-papers/RE2011SIP003.pdf">writing good requirements</a> (although notice their domain is also hardware-oriented and mistakes are costly). Even in agile settings I believe there are big improvements to be gained in writing better user stories (e.g., how to create the “Magic Backlog” described in <a href="https://twitter.com/rebeccawb/status/673301475162918912">Rebecca Wirfs-Brock</a>’s EuroPLoP 2015 paper).</p>
-<p>Furthermore, we are seeing more and more use of machine learning to flag requirements problems. For example, at Daimler they have <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7320451">simple detectors for checking requirements</a>. And at Rolls-Royce, based on simple training exercises, they <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6051622">label requirements based on potential risk</a>, combining uncertainty, change impact and cost into an index. All of these types of tools integrate will into a developer analytics approach, able to populate dashboards and flag things unobtrusively (compared with the cost of writing requirements formally).</p>
-<p>Like with any analytics techniques, which ones to apply is situation-specific. <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4384165">Small companies doing the same things in well-understood domains</a> won’t need much, if any requirements analysis. I think there is a lot of room for intelligent augmentation of what makes a good requirement, that facilities conversations and discovery of uncertainty, that automates the repeated and boring tasks (if you cannot possibly avoid creating a 2000 page document …). And in specialized domains, we are moving to a world where more and more of the analysis can be done in models, to verify timing requirements, guarantee that software partitions hold, and so on. Here the line between ‘requirement’ and ‘design solution’ is blurry, because requirements at one level become design solutions at the next level. A mature requirements practice would leverage this to enable experimentation and prototyping <em>in silico</em>, as it were, finding design problems before releasing products or fabricating chips.</p>
-</section>
-<section id="finding-defect-leakage" class="level3">
-<h3 class="anchored" data-anchor-id="finding-defect-leakage">Finding Defect Leakage</h3>
-<p>A major goal for large programs is to reduce defect leakage, the number of bugs that make it to production (to put it more precisely, reduce the number of <em>critical</em> bugs that make it to production). It seems to me there are at least four complementary approaches to this issue:</p>
-<ul>
-<li><p>We could do this manually, and insist on writing good requirements using <a href="http://www.sciencedirect.com/science/article/pii/0164121295000771">checklists</a>, training, inspection, etc.</p></li>
-<li><p>We could use formal methods, on well-formed architectural models, looking for very specific rule violations (safety, security, performance);</p></li>
-<li><p>We could apply machine learning tools on past artifacts and try to leverage experience to predict problems. Not every requirement is equally important (obvious but not always followed).</p></li>
-<li><p>We could design a process that accepted the inevitability of change and made it not only possible, but desirable to change design and requirements in response to new knowledge.</p></li>
-</ul>
-<p>For the automated tools, I have this quick list of principles. Much like software analytics in general:</p>
-<ol type="1">
-<li><p><strong>Don’t make life worse.</strong> Developers should not dread having to do this. That said, an ounce of pain is worth a pound of pleasure.</p></li>
-<li><p><strong>Work with existing tools like Doors, Jira and Excel</strong>. Your Eclipse plugin does not count.</p></li>
-<li><p><strong>Don’t mandate new or complex languages or tools for requirements</strong>. We can barely get engineers to write requirements in natural language as it is.</p></li>
-<li><p><strong>Prefer lightweight, high value checks over complex, theoretically appealing ones</strong>. Socialize people to the value of checking <em>anything</em> before insisting on the complex stuff.</p></li>
-<li><p><strong>Integrate with existing dashboards like Shipshape or SonarQube.</strong> These tools have good plugin frameworks and already integrate with many build and CI servers.</p></li>
-<li><p><strong>Facilitate conversations and early delivery of results</strong>. Remember that requirements engineering is the start of a conversation that gets us to a valuable solution. It is never an end in itself. In very few domains does assuming requirements won’t change get you anywhere.</p></li>
-</ol>
-<hr>
-<ol type="1">
-<li>And <a href="http://portal.acm.org/citation.cfm?id=800078.802544">Basili and Weiss’s 1981 study</a> on the A7 program’s change requests and requirements suggest a power-law distribution to the most costly (e.g., &gt; 1 person-month of effort) changes. <a href="1">&nbsp;↩︎</a></li>
-</ol>
-
-
-</section>
-
- ]]></description>
-  <guid>https://neilernst.net/posts/2015-12-07-requirements-agile-and-finding-errors.html</guid>
-  <pubDate>Mon, 07 Dec 2015 08:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
