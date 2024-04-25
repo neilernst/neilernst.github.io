@@ -123,7 +123,7 @@
     "href": "posts/sse_review.html",
     "title": "Scientific Software Development",
     "section": "",
-    "text": "We’ve been doing a lot of research in my group around scientific software and technical debt, funded by the Sloan Foundation. As part of that work, I’ve written a post about the topic, along with some open research questions. While it is mainly for our own use, perhaps others will find this helpful. It is mainly an extended lit review somewhat loosely organized into themes.\nScientific software, or research software, is software that is written to support a scientific endeavour, including data collection, modeling and simulation, end user support, and others. Examples include codes for modeling climate changes, calculating shear forces in buildings, managing observation time on telescopes.\nOther definitions: FAIR for Research Software, the DLR categories, (Hasselbring et al. 2024). The main challenge is that some research software moves: it may start as DLR application 0 (personal), but over time ends up in AC2 (long term libraries) or 3 (safety critical). AstroPy is a good example: it consists of common astronomical operations that many astronomers use, but started as core functions in individual projects."
+    "text": "We’ve been doing a lot of research in my group around scientific software and technical debt, funded by the Sloan Foundation. As part of that work, I’ve written a post about the topic, along with some open research questions. While it is mainly for our own use, perhaps others will find this helpful. It is mainly an extended lit review somewhat loosely organized into themes.\nScientific software, or research software, is software that is written to support a scientific endeavour, including data collection, modeling and simulation, end user support, and others. Examples include codes for modeling climate changes, calculating shear forces in buildings, managing observation time on telescopes.\nOther definitions: FAIR for Research Software, the DLR categories, (Hasselbring et al. 2024). The main challenge is that some research software moves: it may start as DLR application 0 (personal), but over time ends up in AC2 (long term libraries) or 3 (safety critical). AstroPy is a good example: it consists of common astronomical operations that many astronomers use, but started as core functions in individual projects.\n\n\nI worked in spatial analysis in undergrad: as an intern, mapping water rights, goat habitat, producing maps for the coast guard. I then worked in my masters with ontologies for cancer biology. In my time at the SEI, I was lucky to work on early planning for the US research software sustainment program from the NSF, which introduced me to the US movement for RSEs, with people like Dan Katz and Jeff Carver.\nSince joining the university as a professor, I have been intrigued by the challenges of devloping complex software, in particular, how design choices influence subsequent problems, i.e., technical debt. This also aligns with a wider sense I have that software for climate modeling is a key capability for our future."
   },
   {
     "objectID": "posts/sse_review.html#theories-and-models",
@@ -642,5 +642,12 @@
     "title": "Scientific Software Development",
     "section": "Climate",
     "text": "Climate\n\nCESM\nCan CM"
+  },
+  {
+    "objectID": "posts/sse_review.html#my-journey",
+    "href": "posts/sse_review.html#my-journey",
+    "title": "Scientific Software Development",
+    "section": "",
+    "text": "I worked in spatial analysis in undergrad: as an intern, mapping water rights, goat habitat, producing maps for the coast guard. I then worked in my masters with ontologies for cancer biology. In my time at the SEI, I was lucky to work on early planning for the US research software sustainment program from the NSF, which introduced me to the US movement for RSEs, with people like Dan Katz and Jeff Carver.\nSince joining the university as a professor, I have been intrigued by the challenges of devloping complex software, in particular, how design choices influence subsequent problems, i.e., technical debt. This also aligns with a wider sense I have that software for climate modeling is a key capability for our future."
   }
 ]

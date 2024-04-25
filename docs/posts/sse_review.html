@@ -174,7 +174,11 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#early-work" id="toc-early-work" class="nav-link active" data-scroll-target="#early-work">Early Work</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#my-journey" id="toc-my-journey" class="nav-link" data-scroll-target="#my-journey">My Journey</a></li>
+  </ul></li>
+  <li><a href="#early-work" id="toc-early-work" class="nav-link" data-scroll-target="#early-work">Early Work</a></li>
   <li><a href="#what-makes-scientific-software-developers-different" id="toc-what-makes-scientific-software-developers-different" class="nav-link" data-scroll-target="#what-makes-scientific-software-developers-different">What Makes Scientific Software Developers Different?</a></li>
   <li><a href="#testing-scientific-software" id="toc-testing-scientific-software" class="nav-link" data-scroll-target="#testing-scientific-software">Testing Scientific Software</a>
   <ul class="collapse">
@@ -244,9 +248,17 @@ div.csl-indent {
 </header>
 
 
+<section id="overview" class="level1">
+<h1>Overview</h1>
 <p>We’ve been doing a lot of research in my group around scientific software and technical debt, funded by the Sloan Foundation. As part of that work, I’ve written a post about the topic, along with some open research questions. While it is mainly for our own use, perhaps others will find this helpful. It is mainly an extended lit review somewhat loosely organized into themes.</p>
 <p><strong>Scientific software, or research software,</strong> is software that is written to support a scientific endeavour, including data collection, modeling and simulation, end user support, and others. Examples include codes for modeling climate changes, calculating shear forces in buildings, managing observation time on telescopes.</p>
 <p>Other definitions: <a href="https://content.iospress.com/articles/data-science/ds190026">FAIR for Research Software</a>, the <a href="https://rse.dlr.de/guidelines/00_dlr-se-guidelines_en.html">DLR categories</a>, <span class="citation" data-cites="hasselbring2024research">(<a href="#ref-hasselbring2024research" role="doc-biblioref">Hasselbring et al. 2024</a>)</span>. The main challenge is that some research software <strong>moves</strong>: it may start as DLR application 0 (personal), but over time ends up in AC2 (long term libraries) or 3 (safety critical). AstroPy is a good example: it consists of common astronomical operations that many astronomers use, but started as core functions in individual projects.</p>
+<section id="my-journey" class="level2">
+<h2 class="anchored" data-anchor-id="my-journey">My Journey</h2>
+<p>I worked in spatial analysis in undergrad: as an intern, mapping water rights, goat habitat, producing maps for the coast guard. I then worked in my masters with ontologies for cancer biology. In my time at the SEI, I was lucky to work on early planning for the US research software sustainment program from the NSF, which introduced me to the US movement for RSEs, with people like Dan Katz and Jeff Carver.</p>
+<p>Since joining the university as a professor, I have been intrigued by the challenges of devloping complex software, in particular, how design choices influence subsequent problems, i.e., technical debt. This also aligns with a wider sense I have that software for climate modeling is a key capability for our future.</p>
+</section>
+</section>
 <section id="early-work" class="level1">
 <h1>Early Work</h1>
 <p>The earliest work in RSE is basically the field of numerical analysis and HPC. In some sense, the entire discipline of software engineering is derived from scientific software, using simulations to model nuclear weapons, do weather forecasting, etc.</p>
@@ -402,6 +414,7 @@ div.csl-indent {
 <li><a href="https://se4science.org/workshops/se4rs23/index.htm">SE4Science workshop</a></li>
 <li>Supercomputing conference workshops</li>
 <li><a href="https://us-rse.org">US-RSE conference</a> - October</li>
+<li><a href="https://rsecon24.society-rse.org/">UK-RSE conference</a> - September. Why these two are so close in time is a puzzle.</li>
 <li>Alliance Canada Research Software conf. Now discontinued :(</li>
 </ul></li>
 <li>Journals
@@ -448,7 +461,7 @@ div.csl-indent {
 <li>HPC: high performance computing, e.g., ‘supercomputers’</li>
 </ul>
 <!-- # Key SE Researchers and "Influencers"
-(note: my list, incomplete and apol)
+(note: my list, incomplete and commented out as unhelpful for others)
 * Dan Katz
 * Greg Wilson
 * [Ian Cosden](https://github.com/cosden) - Princeton, US-RSE guy
