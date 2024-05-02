@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,13 +46,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,7 +55,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -76,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Semantic Werks</span>
     </a>
@@ -90,43 +83,42 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./students.html"> 
-<span class="menu-text">Students</span></a>
+    <a class="nav-link" href="./students.html" rel="" target="">
+ <span class="menu-text">Students</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching and Materials</span></a>
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching and Materials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
-<span class="menu-text">Publications and Research</span></a>
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Publications and Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./present.html"> 
-<span class="menu-text">Presentations</span></a>
+    <a class="nav-link" href="./present.html" rel="" target="">
+ <span class="menu-text">Presentations</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
-    <a href="https://mastodon.acm.org/@neilernst" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+            <div class="quarto-navbar-tools">
+    <a href="https://mastodon.acm.org/@neilernst" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/octerais">
             Octera Group Page
@@ -140,6 +132,7 @@ ul.task-list li input[type="checkbox"] {
       </ul>
     </div>
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -152,11 +145,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#all-publications" id="toc-all-publications" class="nav-link active" data-scroll-target="#all-publications"><img width="40px" src="./images/noun_Mortarboard_1727785_000000.png"> All Publications</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#software-requirements-and-analysis" id="toc-software-requirements-and-analysis" class="nav-link" data-scroll-target="#software-requirements-and-analysis"><img width="40px" src="./images/noun_students_21562_000000.png"> Software Requirements and Analysis</a></li>
+  <li><a href="#broadening-data-and-computing-sciences" id="toc-broadening-data-and-computing-sciences" class="nav-link" data-scroll-target="#broadening-data-and-computing-sciences">Broadening Data and Computing Sciences</a></li>
   <li><a href="#technical-debt-and-software-documentation" id="toc-technical-debt-and-software-documentation" class="nav-link" data-scroll-target="#technical-debt-and-software-documentation"><img width="40px" src="./images/noun_financial debt_1613245_000000.png"> Technical Debt and Software Documentation</a></li>
   <li><a href="#qualitative-research-and-peer-review" id="toc-qualitative-research-and-peer-review" class="nav-link" data-scroll-target="#qualitative-research-and-peer-review"><img width="40px" src="./images/noun_PhysicalExam_301421_000000.png"> Qualitative Research and Peer Review</a></li>
   <li><a href="#bayesian-statistics" id="toc-bayesian-statistics" class="nav-link" data-scroll-target="#bayesian-statistics"><img width="40px" src="./images/noun_Normal distribution_991167_000000.png"> Bayesian Statistics</a></li>
-  <li><a href="#software-requirements-and-analysis" id="toc-software-requirements-and-analysis" class="nav-link" data-scroll-target="#software-requirements-and-analysis"><img width="40px" src="./images/noun_students_21562_000000.png"> Software Requirements and Analysis</a></li>
   <li><a href="#theses" id="toc-theses" class="nav-link" data-scroll-target="#theses"><img width="40px" src="./images/noun_Man Push The Stone_1441102_000000.png"> Theses</a></li>
   </ul>
 </nav>
@@ -179,14 +173,13 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-
 </header>
 
-
-<p>My research explains the how and why of software, based on user intentions. We want to know that our software is doing what we told it. We also want to know the reasons our software does something unexpected. Finally, we want to be able to design software to meet our intentions in the first place. Some recent and ongoing projects:</p>
-<section id="all-publications" class="level1">
-<h1><img width="40px" src="./images/noun_Mortarboard_1727785_000000.png"> All Publications</h1>
-<p>For a complete list, or mostly complete, best to look at one of the following sites.</p>
+<p><abbr title="UN Sustainable Development Goals">SDG</abbr></p>
+<p><a href="https://www.un.org/sustainabledevelopment/education/"><img src="./images/sdg-icons/E Inverted Icons_WEB-04.png" class="img-fluid" style="width:10.0%" alt="icon for UNSDG Goal 4"></a>&nbsp;<a href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/"><img src="./images/sdg-icons/E Inverted Icons_WEB-09.png" class="img-fluid" style="width:10.0%" alt="icon for UNSDG Goal 9"></a>&nbsp;<a href="https://www.un.org/sustainabledevelopment/climate-change/"><img src="./images/sdg-icons/E Inverted Icons_WEB-13.png" class="img-fluid" style="width:10.0%" alt="icon for UNSDG Goal 13"></a>&nbsp;<a href="https://www.un.org/sustainabledevelopment/peace-justice/"><img src="./images/sdg-icons/E Inverted Icons_WEB-16.png" class="img-fluid" style="width:10.0%" alt="icon for UNSDG Goal 16"></a><br>
+</p>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <ul>
 <li>
 <a href="https://dblp.org/pid/68/3691.html" itemprop="sameAs"><i class="ai ai-dblp-square ai-fw" aria-hidden="true"></i> DBLP</a>
@@ -216,53 +209,31 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>I encourage you to check out Impact Story’s <a href="http://unpaywall.org/">“UnPaywall”</a> extension.</p>
 </section>
-<section id="technical-debt-and-software-documentation" class="level1">
-<h1><img width="40px" src="./images/noun_financial debt_1613245_000000.png"> Technical Debt and Software Documentation</h1>
-<p>Technical debt is a short-term software design choice that incurs long-term costs if not dealt with. We look at technical debt in requirements, in architecture, and for emerging machine learning systems.</p>
-<!--1. (short paper)  M. P. Robillard, A. Marcus, C. Treude, G. Bavota, O. Chaparro, N. Ernst, M. A. Gerosa, M. Godfrey, M. Lanza, M. Linares-Vásquez, G. Murphy, L. Moreno, D. Shepherd, and E. Wong, "On-Demand Developer Documentation", ICSME ’17: 33rd Int’l. Conf. on Software Maintenance and Evolution (AR: 58%) [preprint c/o C. Treude](https://ctreude.files.wordpress.com/2017/08/icsme17b.pdf)
-2. Neil A. Ernst, Stephany Bellomo, Ipek Ozkaya, Robert Nord, "What to Fix? Distinguishing between design and non-design rules in automated tools", *International Conference on Software Architecture*, Gothenburg, 2017. [preprint](/papers/icsa17short.pdf) • [long version](/papers/icsa17long.pdf) • [blog post](https://insights.sei.cmu.edu/sei_blog/2017/05/automating-design-analysis.html)
-2. **Neil A. Ernst**, Stephany Bellomo, Robert Nord, Ipek Ozkaya, Ian Gorton: "Measure It, Manage It, Ignore It: Software Practitioners and Technical Debt". International Conference on Foundations of Software Engineering/European Software Engineering Conference (ESEC/FSE), Bergamo, Italy, 2015. **Distinguished paper award.** (Acceptance rate: 25.4%, 291 submissions). [Data](https://github.com/neilernst/td-survey) • [preprint](/papers/fse15.pdf) • [blog](http://bit.ly/sei-td) • [slides](http://www.slideshare.net/NeilErnst/measure-it-manage-it-ignore-it-software-practitioners-and-technical-debt)  -->
+<section id="software-requirements-and-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="software-requirements-and-analysis"><img width="40px" src="./images/noun_students_21562_000000.png"> Software Requirements and Analysis</h2>
+<p>My background is requirements analysis and modeling, and this continues to be a passion of mine. All the funky stuff we can do with programming languages, testing, design, etc. is irrelevant if we are building the wrong thing. This is particularly true in the large language model era; requirements become the prompts we use for these models to build our systems (maybe…!).</p>
 </section>
-<section id="qualitative-research-and-peer-review" class="level1">
-<h1><img width="40px" src="./images/noun_PhysicalExam_301421_000000.png"> Qualitative Research and Peer Review</h1>
+<section id="broadening-data-and-computing-sciences" class="level2">
+<h2 class="anchored" data-anchor-id="broadening-data-and-computing-sciences">Broadening Data and Computing Sciences</h2>
+<p>My group conducts work in trans-disciplinary settings, often harder to publish but more rewarding. We have looked at data processing in remote sensing, buidling analysis pipelines, and expanding the scope of computing to a more inclusive definition.</p>
+</section>
+<section id="technical-debt-and-software-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="technical-debt-and-software-documentation"><img width="40px" src="./images/noun_financial debt_1613245_000000.png"> Technical Debt and Software Documentation</h2>
+<p>Technical debt is a short-term software design choice that incurs long-term costs if not dealt with. We look at technical debt in requirements, in architecture, and for emerging machine learning systems. A recent theme is the nature of technical debt in scientific (research) software.</p>
+</section>
+<section id="qualitative-research-and-peer-review" class="level2">
+<h2 class="anchored" data-anchor-id="qualitative-research-and-peer-review"><img width="40px" src="./images/noun_PhysicalExam_301421_000000.png"> Qualitative Research and Peer Review</h2>
 <p>We are conducting studies into how qualitative research is emerging as a key research strategy for software engineering, which is, after all, highly subjective and contextual. A similar project looks at how we know what we know in software engineering, specifically for reviewing papers.</p>
 </section>
-<section id="bayesian-statistics" class="level1">
-<h1><img width="40px" src="./images/noun_Normal distribution_991167_000000.png"> Bayesian Statistics</h1>
+<section id="bayesian-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-statistics"><img width="40px" src="./images/noun_Normal distribution_991167_000000.png"> Bayesian Statistics</h2>
 <p>We are examining ways to improve the state of the art of software research statistical approaches, particularly by eliminating null hypothesis testing. Bayesian statistics works intuitively with the highly contextual nature of software projects, which tend to vary in size, domain, criticality, and numerous other places.</p>
-<!-- 2. (short paper) Neil A. Ernst, "Bayesian Hierarchical Models for Tailoring Metrics Thresholds", Intl Working Conference on Mining Software Repositories, 2018. [arxiv](https://arxiv.org/abs/1804.02443) • [slides](https://speakerdeck.com/neilernst/bayesian-hierarchical-modeling-for-software-metrics?slide=1) -->
 </section>
-<section id="software-requirements-and-analysis" class="level1">
-<h1><img width="40px" src="./images/noun_students_21562_000000.png"> Software Requirements and Analysis</h1>
-<p>My background is requirements analysis and modeling, and this continues to be a passion of mine. All the funky stuff we can do with programming languages, testing, design, etc. is irrelevant if we are building the wrong thing.</p>
-<!-- 1. George Mathew, Tim Menzies, **Neil A. Ernst**, John Klein, "Shorter Reasoning About Larger Requirements Models", *International Requirements Engineering Conference*, Porto, 2017. [arXiv:1702.05568](https://arxiv.org/abs/1702.05568#)
-1. **Neil A. Ernst**, Mary Popeck, Felix Bachmann, Patrick Donohoe, Creating Software Modernization Roadmaps: The Architecture Options Workshop". *Working International Conference on Software Architecture (WICSA)*, Venice, Italy, 2016. [preprint](/papers/aows-wicsa.pdf)
-1. Ivan J. Jureta, Alexander Borgida, Neil A. Ernst, and John Mylopoulos. "The requirements problem for adaptive systems". ACM Transactions on Management Information Systems, 5(3):17:1–17:33, September 2014. [preprint](/papers/tmis-v43.pdf) [publisher](http://dx.doi.org/10.1145/2629376)
-2. Neil A. Ernst, Alexander Borgida, Ivan J. Jureta, John Mylopoulos, "Agile requirements engineering via paraconsistent reasoning", _Information Systems_, 43: 100–116, July 2014. [preprint](https://dl.dropboxusercontent.com/u/340814/caise-journal.pdf) - [publisher](http://dx.doi.org/10.1016/j.is.2013.05.008)  -->
-<!-- 3. John Klein, Ian Gorton, **Neil A. Ernst**, Patrick Donohoe, Kim Pham, Christian Matser, "Application-specific evaluation of NoSQL databases", International Big Data Congress, New York, 2015.
-4. Stephany Bellomo, **Neil A. Ernst**, Robert L. Nord, Rick Kazman: "Toward Design Decisions to Enable Deployability: Empirical Study of Three Projects Reaching for the Continuous Delivery Holy Grail''. International Conference on Dependable Systems and Networks, Atlanta, pp. 702-707, 2014.
-5. **Neil A. Ernst**, A. Borgida, J. Mylopoulos, I. Jureta, “Agile Requirements Evolution via Paraconsistent Reasoning”, _International Conference on Advanced Information Systems Engineering (CAISE)_, Gdansk, Poland, June 2012. [preprint](/papers/caise-incons.pdf) • [slides](http://www.slideshare.net/NeilErnst/supporting-agile-requirements-evolution-via-paraconsistent-reasoining)
-6. **N. A. Ernst**, A. Borgida, I. Jureta, "Finding Incremental Solutions for Evolving Requirements," _International Conference on Requirements Engineering_, Trento: September, 2011. [pre-print](/papers/ernst-re2011.pdf) • [slides](http://www.slideshare.net/NeilErnst/finding-incremental-solutions-for-evolving-requirements)
-8. **N. A. Ernst**, J. Mylopoulos, A. Borgida, and I. J. Jureta, "Reasoning with Optional and Preferred Requirements," _International Conference on Conceptual Modeling (ER)_, Vancouver: November, 2010. [preprint](/papers/ernst-er2010-merge.pdf) • [slides](http://www.slideshare.net/NeilErnst/er2010-ppt)
-9. Ivan J. Jureta, Alex Borgida, **Neil A. Ernst**, John Mylopoulos, "Techne: Towards a New Generation of Requirements Modeling Languages with Goals, Preferences, and Inconsistency Handling",  _International Conference on Requirements Engineering_ (RE), Sydney: September, 2010. [preprint](/papers/techne-re10-v3_2-10p-camready.pdf) -->
-<!-- 3. A. Hindle, N. A. Ernst, M. Godfrey, J. Mylopoulos, "Automated topic naming to support cross-project analysis of software maintenance activities," _Empirical Software Engineering Journal_, May 2012. (invited extended version of the MSR paper) [preprint](https://dl.dropboxusercontent.com/u/340814/ese.pdf) [publisher](http://dx.doi.org/10.1007/s10664-012-9209-9) [Data/addenda](http://softwareprocess.es/static/What's_in_a_Name.html)
-7. Neil A. Ernst, M.-A. Storey, P. Allen, "Cognitive Support for Ontology Modeling", _Int. J. Human-Computer Studies_, 62 (5), May 2005, Pages 553-577. [pdf](/papers/ijhcs-protege.pdf) -->
-<!-- 5. Neil A. Ernst, A. Borgida, I. Jureta, J. Mylopoulos, "An Overview of Requirements Evolution", in T. Mens, A. Serebrenik, A. Cleve (eds.): _Evolving Software Systems_, pp 3--32, Springer, 2014. [paywall](http://dx.doi.org/10.1007/978-3-642-45398-4_1)
-6. N. Ernst, I. Ozkaya, R. Nord, J. Delange, S. Bellomo, I. Gorton, "Understanding the Role of Constraints on Architecturally Significant Requirements", _International Workshop on the Twin Peaks of Requirements and Architecture (TwinPeaks)_ at RE, Rio de Janeiro, July 2013. [preprint](https://dl.dropboxusercontent.com/u/340814/connect-twin-peaks.pdf) 
-7. Neil A. Ernst, Gail Murphy, "Case Studies in Just-In-Time Requirements Analysis", _International Workshop on Empirical Requirements Engineering_ at RE, Chicago, September 2012. [preprint](/papers/empire12.pdf) - [slides](http://www.slideshare.net/NeilErnst/case-studies-in-justintime-requirements-analysis)
-8. Neil A. Ernst, "On the Role of Requirements in Understanding and Managing Technical Debt", position paper at _International Workshop on Managing Technical Debt _at ICSE, Zurich, June 2012. [preprint](/papers/techdebt.pdf) - [slides](http://www.slideshare.net/NeilErnst/technical-debt-and-requirements#)
-15. Jorge Aranda, Neil A. Ernst, Jennifer Horkoff, S. M. Easterbrook, [A Framework for Empirical Evaluation of Model Comprehensibility](http://www.cs.toronto.edu/%7Ejaranda/pubs/Aranda-MiSE2007.pdf), _International Workshop on Modeling in Software Engineering (MiSE-07)_, at the 29th International Conference on Software Engineering (ICSE'07), Minneapolis, USA, 19-20 May 2007.
-16. Neil A. Ernst, Y. Yu, J. Mylopoulos, "Visualizing non-functional requirements", presented at _Workshop on Requirements Engineering Visualization_ at RE 2006, Minneapolis, September 11, 2006. [slides](http://www.slideshare.net/NeilErnst/rev06)
-17. M. A. Storey, M. A. Musen, J. Silva, C. Best, N. Ernst, R. Fergerson, and N. F. Noy, "Jambalaya: Interactive visualization to enhance ontology authoring and knowledge acquisition in Protege," presented at _Workshop on Interactive Tools for Knowledge Capture_, K-CAP-2001, Victoria, B.C. Canada, 2001. [pdf](/papers/storey-kcap2001.pdf) -->
-<!-- ### Tech reports (aka unaccepted papers)
-* Neil Ernst, Stephany Bellomo, Robert L. Nord, and Ipek Ozkaya, "Enabling Incremental Iterative Development at Scale: Quality Attribute Refinement and Allocation in Practice", [SEI/CMU-2015-TR-008](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=439055), 2015.
-* Ivan Jureta, Alexander Borgida, Neil A. Ernst, "Mixed-Variable Requirements Roadmaps and their Role in the Requirements Engineering of Adaptive Systems". [arXiv:1102.4178](http://arxiv.org/abs/1102.4178). -->
-</section>
-<section id="theses" class="level1">
-<h1><img width="40px" src="./images/noun_Man Push The Stone_1441102_000000.png"> Theses</h1>
+<section id="theses" class="level2">
+<h2 class="anchored" data-anchor-id="theses"><img width="40px" src="./images/noun_Man Push The Stone_1441102_000000.png"> Theses</h2>
 <ul>
-<li>N. A. Ernst, “Software Evolution: A Requirements Engineering Approach”. Ph.D.&nbsp;dissertation, University of Toronto, 2011. <a href="https://tspace.library.utoronto.ca/bitstream/1807/32707/1/Ernst_Neil_A_201206_PhD_thesis.pdf">pdf</a> (224 pages)</li>
-<li>N. A. Ernst, “Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces”, unpublished M.Sc. thesis, University of Victoria, 2004. <a href="./papers/neil-thesis-final.pdf">pdf</a> (95 pages)</li>
+<li>N. A. Ernst, “Software Evolution: A Requirements Engineering Approach”. <a href="https://tspace.library.utoronto.ca/handle/1807/32707">Ph.D.&nbsp;dissertation</a>, University of Toronto, 2011. (224 pages)</li>
+<li>N. A. Ernst, “Towards Cognitive Support in Knowledge Engineering: An Adoption-Centred Customization Framework for Visual Interfaces”, <a href="http://hdl.handle.net/1828/446">M.Sc. thesis</a>, University of Victoria, 2004. (95 pages)</li>
 </ul>
 <p><small>Icons from NounProject</small></p>
 
@@ -349,27 +320,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/neilernst\.net");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -379,17 +333,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -401,130 +346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -568,7 +390,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -594,32 +415,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -680,7 +475,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-
 
 
 
