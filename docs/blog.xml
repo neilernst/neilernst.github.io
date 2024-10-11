@@ -9,14 +9,100 @@
 <link>https://neilernst.net/blog.html</link>
 <atom:link href="https://neilernst.net/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Thu, 25 Apr 2024 18:39:37 GMT</lastBuildDate>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Fri, 11 Oct 2024 18:08:45 GMT</lastBuildDate>
+<item>
+  <title>Indigenous Data Sovereignty – Decolonizing Technical Interventions</title>
+  <dc:creator>Neil Ernst</dc:creator>
+  <link>https://neilernst.net/posts/indig-sovereignty.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Indigenous data sovereignty is a movement to reclaim rights and ownership over the data about, from, and concerning indigenous interests. It arises in response to widespread abuses of indigenous self-determination, including taking data without permission, copyrighting indigenous art forms and stories, doing studies with no feedback to community, etc.</p>
+<p>Key principles include: - OCAP: Ownership, Control, Access, Permission</p>
+<p>The purpose of this annotated bib is to map out a research agenda in the area of decolonized technical interventions. It is partly about putting capabilities in the hands of end users (wrt data analysis and collection) and also to recognize alternative ways of knowing, including place names, oral histories, meaning in telling, etc.</p>
+</section>
+<section id="definitions" class="level1">
+<h1>Definitions</h1>
+<ul>
+<li>Indigenous Digital Sovereignty - Indigenous Digital Sovereignty is both the information and the physical means by which that information transfers, governed by a community’s policies and codes that control the data, infrastructure, and networks. <a href="https://aipi.asu.edu/blog/2023/07/indigenous-digital-sovereignty-defined">source</a></li>
+<li>Indigenous Data Sovereignty - is a subset of Indigenous Digital Sovereignty, and the terms should not be conflated. Data Sovereignty refers to what flows through the network; it is intangible information. Data Sovereignty refers to control over the data transmitted on the network.</li>
+<li>Algorithmic Sovereignty</li>
+<li>Network sovereignty is the physical infrastructure. Network Sovereignty refers to the act of building and deploying networks, which is the process of implementing Tribal self-determination policies.</li>
+<li>OCAP: Ownership, Access, Control, Permission.</li>
+</ul>
+</section>
+<section id="thoughtleaders-and-experts" class="level1">
+<h1>Thoughtleaders and Experts</h1>
+<ul>
+<li><a href="https://www.temanararaunga.maori.nz/resources-copy">Maori Data Sovereignty Network</a></li>
+<li>First Nations</li>
+</ul>
+</section>
+<section id="inboxto-read" class="level1">
+<h1>Inbox/To-Read</h1>
+<ul>
+<li><span class="citation" data-cites="walter2018">(Walter and Suina 2018)</span></li>
+<li><span class="citation" data-cites="idsp2020">(Walter et al. 2020)</span></li>
+<li><span class="citation" data-cites="smith2021">(Smith 2021)</span></li>
+<li>https://arxiv.org/abs/2311.15473 Maori Alg. Sovereignty</li>
+</ul>
+</section>
+<section id="open-questions-i-have" class="level1">
+<h1>Open Questions (i have)</h1>
+<ul>
+<li>how does OCAP manage individual interests vs nation/group interests?</li>
+<li>how does transparency and access work internally?</li>
+<li>what technical support is necessary to make this work? e.g.&nbsp;for tooling, training, storage</li>
+<li>what about moving <em>beyond</em> data, and into decision making?</li>
+</ul>
+</section>
+<section id="intersectional-with" class="level1">
+<h1>Intersectional with:</h1>
+<ul>
+<li>open science and open data principles (generally hostile to this, given past experience and the western perspective of open data advocates)</li>
+<li>indigenous health surveys and research</li>
+<li>indigenous world views and methodologies</li>
+</ul>
+</section>
+<section id="early-studies" class="level1">
+<h1>Early Studies</h1>
+</section>
+<section id="non-academic-sources" class="level1">
+<h1>Non-academic sources</h1>
+<ul>
+<li>the OCAP course, run by the FNIDGC (Indigenous data governance centre)</li>
+</ul>
+</section>
+<section id="references" class="level1">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-smith2021" class="csl-entry">
+Smith, Linda Tuhiwai. 2021. <em>Decolonizing Methodologies: Research and Indigenous Peoples</em>. Bloomsbury.
+</div>
+<div id="ref-idsp2020" class="csl-entry">
+Walter, Maggie, Tahu Kukutai, Stephanie Russo Carroll, and Desi Rodriguez-Lonebear, eds. 2020. <em>Indigenous Data Sovereignty and Policy</em>. Taylor; Francis. <a href="https://www.taylorfrancis.com/books/oa-edit/10.4324/9780429273957/indigenous-data-sovereignty-policy-maggie-walter-tahu-kukutai-stephanie-russo-carroll-desi-rodriguez-lonebear">https://www.taylorfrancis.com/books/oa-edit/10.4324/9780429273957/indigenous-data-sovereignty-policy-maggie-walter-tahu-kukutai-stephanie-russo-carroll-desi-rodriguez-lonebear</a>.
+</div>
+<div id="ref-walter2018" class="csl-entry">
+Walter, Maggie, and Michele Suina. 2018. <span>“Indigenous Data, Indigenous Methodologies and Indigenous Data Sovereignty.”</span> <em>International Journal of Social Research Methodology</em> 22 (3): 233–43. <a href="https://doi.org/10.1080/13645579.2018.1531228">https://doi.org/10.1080/13645579.2018.1531228</a>.
+</div>
+</div></section></div> ]]></description>
+  <guid>https://neilernst.net/posts/indig-sovereignty.html</guid>
+  <pubDate>Fri, 11 Oct 2024 18:08:45 GMT</pubDate>
+</item>
 <item>
   <title>Scientific Software Development</title>
   <dc:creator>Neil Ernst</dc:creator>
   <link>https://neilernst.net/posts/sse_review.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -197,8 +283,23 @@
 </ul></li>
 </ul>
 </section>
+<section id="meta-research" class="level1">
+<h1>Meta-research</h1>
+<p>Here are some papers that have looked at discipline-specific research software:</p>
+<section id="archaeology" class="level2">
+<h2 class="anchored" data-anchor-id="archaeology">Archaeology</h2>
+<p>Zach Batist maintains <a href="">open-archaeo.info</a>, which lists open source archeology packages. In <span class="citation" data-cites="Batist_2024">(Batist and Roe 2024)</span> he and his co-author shows that most of the computational work is data analysis, with some packages in R for doing things like Carbon-14 calibration. There is also little apparent reuse of open source tools.</p>
+</section>
+</section>
 <section id="example-projects" class="level1">
 <h1>Example Projects</h1>
+<section id="meta-listings" class="level2">
+<h2 class="anchored" data-anchor-id="meta-listings">Meta-Listings</h2>
+<ul>
+<li>https://rseng.github.io/software/</li>
+<li>https://open-archaeo.info</li>
+</ul>
+</section>
 <section id="climate" class="level2">
 <h2 class="anchored" data-anchor-id="climate">Climate</h2>
 <ul>
@@ -256,7 +357,7 @@
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Arvanitou2022PractitionersPerspectivePractices" class="csl-entry">
 Arvanitou, Elvira-Maria, Nikolaos Nikolaidis, Apostolos Ampatzoglou, and Alexander Chatzigeorgiou. 2022. <span>“Practitioners’ Perspective on Practices for Preventing Technical Debt Accumulation in Scientific Software Development.”</span> In <em>Proceedings of the 17th International Conference on Evaluation of Novel Approaches to Software Engineering</em>. <span>SCITEPRESS</span> - Science; Technology Publications. <a href="https://doi.org/10.5220/0010995000003176">https://doi.org/10.5220/0010995000003176</a>.
 </div>
@@ -265,6 +366,9 @@ Babuska, Ivo, and J.Tinsley Oden. 2004. <span>“Verification and Validation in 
 </div>
 <div id="ref-Basili2008UnderstandingHighPerformance" class="csl-entry">
 Basili, Victor R., Jeffrey C. Carver, Daniela Cruzes, Lorin M. Hochstein, Jeffrey K. Hollingsworth, Forrest Shull, and Marvin V. Zelkowitz. 2008. <span>“Understanding the High-Performance-Computing Community: A Software Engineer<span></span>s Perspective.”</span> <em><span>IEEE</span> Software</em> 25 (4): 29–36. <a href="https://doi.org/10.1109/ms.2008.103">https://doi.org/10.1109/ms.2008.103</a>.
+</div>
+<div id="ref-Batist_2024" class="csl-entry">
+Batist, Zachary, and Joe Roe. 2024. <span>“Open Archaeology, Open Source? Collaborative Practices in an Emerging Community of Archaeological Software Engineers.”</span> <em>Internet Archaeology</em>, no. 67 (July). <a href="https://doi.org/10.11141/ia.67.13">https://doi.org/10.11141/ia.67.13</a>.
 </div>
 <div id="ref-Carver2007SoftwareDevelopmentEnvironments" class="csl-entry">
 Carver, Jeffrey C., Richard P. Kendall, Susan E. Squires, and Douglass E. Post. 2007. <span>“Software Development Environments for Scientific and Engineering Software: A Series of Case Studies.”</span> In <em>29th International Conference on Software Engineering (<span>ICSE</span><span></span>07)</em>. <span>IEEE</span>. <a href="https://doi.org/10.1109/icse.2007.77">https://doi.org/10.1109/icse.2007.77</a>.
@@ -330,13 +434,12 @@ Wiese, Igor, Ivanilton Polato, and Gustavo Pinto. 2020. <span>“Naming the Pain
 </ol>
 </section></div> ]]></description>
   <guid>https://neilernst.net/posts/sse_review.html</guid>
-  <pubDate>Thu, 25 Apr 2024 18:39:37 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 19:17:12 GMT</pubDate>
 </item>
 <item>
   <title>The PI as COO</title>
   <link>https://neilernst.net/posts/2022-06-03-Roles-of-PI.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -431,7 +534,6 @@ Academics would double our productivity if we learnt some basic project manageme
 
 
 
-
 <p>The typical Science workflow is something like</p>
 <p>A - Related work: build a Prior about a real world problem, like pulsar formation</p>
 <p>B - Fieldwork: Collect data about that problem in the ‘field’</p>
@@ -492,7 +594,6 @@ Academics would double our productivity if we learnt some basic project manageme
   <dc:creator>Neil Ernst</dc:creator>
   <link>https://neilernst.net/posts/2023-05-14-bots-in-SE.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -577,7 +678,6 @@ Automa
 
 
 
-
 <p>Together with <a href="https://alessiofer.wixsite.com/alessioferrari">Alessio Ferrari</a>, I organized a <a href="https://2021.refsq.org/track/refsq-2021-openre">panel</a> at the well-regarded conference on Requirements Engineering: Foundation for System Quality, which is a mouthful but really nice working session on RE that has always nicely blended practice and research. It also was the first place to accept one of my papers so I will always have a soft spot for it, and for <a href="https://wikitravel.org/en/Essen">Essen</a>, industrial city or not.</p>
 <p>The purpose of the session was to encourage open data packages in the context of RE Education (the aim, I think, is to have subsequent OpenRE tracks at REFSQ change theme). We got excellent submissions and accepted three packages, which we have hosted at the existing repository of the <a href="https://github.com/reet-workshop/activities">RE Education and Training (REET) workshop</a>.</p>
 <p>After the short talks on the packages, we turned to a panel with the theme of “RE in the age of COVID”. Our hope was to collect some experiences from the attendees (40 or so) on how they approached RE education, and RE in general, during the COVID induced shift to online learning. We definitely got that and more generally, I think it was a cathartic session to commiserate and share with others the challenges of the past few terms.</p>
@@ -599,7 +699,6 @@ Automa
   <title>The Triumvirate of Teaching and Work Life Balance</title>
   <link>https://neilernst.net/posts/2021-03-03-teaching-factors.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -641,7 +740,6 @@ Automa
   <title>Running a Mining Challenge Using Kaggle</title>
   <link>https://neilernst.net/posts/2020-09-30-kaggle-mining.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -710,7 +808,6 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Academic Job Searches—A Canadian Perspective</title>
   <link>https://neilernst.net/posts/2019-05-17-job-search-canada.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -784,7 +881,6 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <p>At MSR18 in Gothenburg, I presented <a href="https://arxiv.org/abs/1804.02443">my work</a> on using Bayesian inference to set software metrics thresholds. We want to set thresholds because for many software metrics, like coupling between objects (CBO), a single, global metric value (“all software objects with this value or below are maintainable”) is nonsensical, if only because programming language choice is important. So we want to tailor threshold values to some contextually relevant value (e.g., perhaps all Java code should be X or less). The question I answered is how we do the tailoring, given some contextual features.</p>
 <p>In this case, the contextual features I was looking at were Java files categorized by architectural role in the Spring framework, derived from <a href="http://www.mauricioaniche.com/scam2016/">a paper by Mauricio Aniche</a> and others.</p>
 <p>The bottom line of this new approach is that we can use Bayesian inference and hierarchical models to perform a simple regression and get a 50% drop in root mean squared error (RMSE).</p>
@@ -805,7 +901,6 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Seven Principles of Effective Documentation</title>
   <link>https://neilernst.net/posts/2017-07-17-7principles-docs.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -844,7 +939,6 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <p>I’m excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of <a href="http://www.uvic.ca/engineering/computerscience/index.php">Computer Science</a> at the <a href="http://www.uvic.ca">University of Victoria</a>.</p>
 <p>This is a great opportunity to work with some of the top software engineering faculty in the world, in one of the best cities in the world (although I’m biased, as it is my hometown :). Victoria is at the forefront of the startup scene, just a few hours from Vancouver, Seattle, and direct flights to the Valley (not Abbotsford, the other one).</p>
 <p>If you are interested in doing research with me please take a look at my <a href="../prospective">‘prospective students’</a> page. Uvic, and Canada, welcome people of all backgrounds. See our <a href="http://www.cic.gc.ca/english/study/index.asp">study permit process</a>, and the federal <a href="http://www.cic.gc.ca/english/study/work-postgrad.asp">Express Entry program</a> for post-graduation immigration opportunities.</p>
@@ -864,12 +958,11 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <p>In response to <a href="https://twitter.com/gvwilson/status/861305406542446593">Greg Wilson’s challenge</a>, I did a quick attempt at a Visual Abstract for <a href="http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=495553">a recent paper</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/drstudy-visualabs.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
+<figcaption class="figure-caption">Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
 </figure>
 </div>
 <p>I think it turned out ok; it captures the core findings and presumably will prompt people to look at the paper. I’ve attached the Keynote slide I used <a href="https://github.com/neilernst/visual-abs">in a repo on Github</a>.</p>
@@ -887,7 +980,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/borg-workflow.png" class="img-fluid figure-img"></p>
-<figcaption>Sample workflow cartoon</figcaption>
+<figcaption class="figure-caption">Sample workflow cartoon</figcaption>
 </figure>
 </div>
 <p>This explains how the study was conducted. Again, anything that can explain what is going on for a busy reviewer is helpful. Remember, in 2017 FSE reviewers seem to have reviewed 25-28 papers each. Expecting them to spend more than 30-45 minutes on each one is unrealistic. So make your time with them count!</p>
@@ -905,7 +998,6 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <p>I’ve read 2 papers recently (references) about using active learning to improve classification for software engineering.</p>
 <p>Active Learning is the idea that, if we have a feature space with instances, for the classification task of labeling an instance either “A” or “B”, there are clumps of points that clearly are As, and another clump that are clearly Bs. In between, however, the boundary is unclear. Some instances will be equidistant from both centers of mass, and the classifier will struggle to properly classify it. Active Learning (AL) quite simply picks what are hopefully the “most useful” (for improving the classifier) points for human labeling, which reduces the amount of (possibly) redundant labeling humans have to do (since the labeling time is the most costly part of creating a classifier).</p>
 <p>It turns out that so far this active learning approach for software data is not too successful. I think there are 2 main reasons.</p>
@@ -914,8 +1006,8 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p>We’ve looked at some of this in <a href="https://insights.sei.cmu.edu/blog/automating-design-analysis/">our latest research on design rules</a>. We found that while a majority of static analysis/code checker rules can be clearly distinguished as either design or not, there remains this stubborn middle tier that resist easy categorization. We think you can still make progress (after all, these rules may not even fire on your project). But it would be satisfying to have a more repeatable analysis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
-<figcaption>Categorizing rules</figcaption>
+<p><img src="https://neilernst.net/posts/https:/insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Categorizing rules</figcaption>
 </figure>
 </div>
 <p>The conclusion of the Borg paper really seems useful for future work here. One, they say that the AL approach helps to pull out controversial instances, that then help build rater consensus. Two, using bootstrapping with more positive examples helps the AL improve its accuracy (in other words, there is still benefit to grinding out the labels manually – no free lunch, sorry!).</p>
@@ -940,13 +1032,12 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <p><a href="https://faculty.washington.edu/ajko/">Amy Ko</a> had a great <a href="http://faculty.washington.edu/ajko/talks/SPLASH2016Keynote.pdf">presentation</a> at a conference on programming languages (PL), that <a href="https://www.youtube.com/watch?v=TjkzAls5fsI&amp;feature=youtu.be">he also video taped</a> for a wider audience.</p>
 <p>I’d always thought of PL as “things”, or material. The program was the interesting bit; the PL was the material that constructed it. But I guess as I extend that metaphor, it seems clear that it falls short. Cedar, for instance, is a material, and the building is the interesting thing. But cedar has intrinsic properties as well. You can bend it without cutting it to make a box.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/bentwood.jpg" class="img-fluid figure-img"></p>
-<figcaption>bentwood box</figcaption>
+<figcaption class="figure-caption">bentwood box</figcaption>
 </figure>
 </div>
 <p>It weathers beautifully due to the oils it contains, so you can make shingles and siding out of it. It burns very easily. If we extend the definition of cedar to include the tree itself, we can make canoes, rope, hats, spears, and so on. Cedar was a <a href="https://www.amazon.com/Cedar-Tree-Northwest-Coast-Indians/dp/0295974486">crucial part</a> of Northwest aboriginal culture.</p>
@@ -1037,7 +1128,6 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Day Hikes</title>
   <link>https://neilernst.net/posts/2016-09-08-day-hikes.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1132,7 +1222,6 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
-
 <blockquote class="blockquote">
 <p>I have no idea if Columbus had to have his “India Expedition” proposal peer-reviewed, but here is my interpretation of it according to the ever-popular <a href="http://cseweb.ucsd.edu/~ddahlstr/misc/heilmeier.html">Heilmeyer catechism</a>.</p>
 </blockquote>
@@ -1175,7 +1264,6 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>On SCAM’s new “Engineering Track”</title>
   <link>https://neilernst.net/posts/2016-04-22-on-scams-new-engineering-track.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1248,7 +1336,6 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
-
 <p>I recently reviewed <a href="http://2016.msrconf.org/#/data">data showcase papers</a> for the Mining Software Repositories Conference, and I’m co-chair of <a href="http://www.ieee-scam.org/2016/#engcall">the Engineering track</a> (subsumes datasets, tools, approaches) for the SCAM conference<sup>1</sup>. I’ve worked with a number of different datasets (both openly available and closed) for my research efforts. This caused me to do some reflection on the nature of empirical data in SE.</p>
 <p>We’ve had a nice increase in the amount of data available for researchers to explore, and most recently, the amount of well-constructed, easily understandable and accessible datasets – like the <a href="http://ghtorrent.org">GHTorrent tool</a> – is impressive (traditionally it has been difficult to get any credit for creating these resources). I think it is a hugely beneficial effort for our efforts to create a well-grounded, empirical basis for software engineering (as opposed to <a href="http://semat.org">pie in the sky theorizing</a>).</p>
 <p>I have two concerns that threaten this idyll.</p>
@@ -1286,7 +1373,6 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
-
 <p>Andy Zaidman had an interesting <a href="http://www.slideshare.net/azaidman/software-analytics-the-dark-side-and-the-test-side">presentation about test analytics</a>. The takeaway for me was that a) people overestimate their unit test engineering (estimate: 50%, reality, 25%). But b) the real issue is convincing a developer that <em>this</em> unit test will improve the quality of the code. In other words, like with technical debt, or refactoring, or commenting, the <strong>marginal utility</strong> of adding a test is perceived to be low (and of course the cost is seen as high). Each new individual test adds nothing to the immediate benefit (with some exceptions if one is following strict TDD). And yet each one requires switching from the mental model of the program to the one of Junit frameworks and test harnesses.</p>
 <p>The issue is not whether testing is good or bad, but rather, which testing is most useful. It seems unlikely to me that the value of individual tests is normally distributed but rather power-law form (i.e., that there are a very few extremely high value tests). And this isn’t just about testing; indeed, most activities with delayed payoff—refactoring, documenting, architecting—likely exhibit the same problem. It is hard to convince people to invest in such activities without giving them concrete proof it is valuable. You just have to look at the default examples for Cucumber, for instance, to see that the vast majority are trivial and easily grasped without any of the tests. Similarly, “code smells are bad”, but bad might just mean they look nasty, while having little to do with the underlying effectiveness of the code. It isn’t technical debt if it never causes a problem. It isn’t a bug if it isn’t worth fixing it.</p>
 <p>In new work we are starting with <a href="http://menzies.us">Tim Menzies</a>, we are trying to understand the inflection point beyond which your decisions add little incremental value (i.e., stop adding more tests). The good news is this is easy to spot in hindsight; the challenge is to take those lessons and determine this <em>before</em> doing hours of pointless work. The direction we are taking is to try and capture the common patterns the key decisions share (in the testing example, perhaps this is bounds testing). Ultimately, we hope to provide advice to developers as to when the marginal utility falls below a threshold (i.e., stop testing!)</p>
@@ -1297,77 +1383,6 @@ This is not to discourage tool paper submissions–they will now fall into the E
  ]]></description>
   <guid>https://neilernst.net/posts/2016-01-21-the-marginal-utility-of-testingrefactoringthinking.html</guid>
   <pubDate>Thu, 21 Jan 2016 08:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A Model of Software Quality Checks</title>
-  <link>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Software quality can be automatically checked by tools like SonarQube, CAST, FindBugs, Coverity, etc. But often these tools encompass several different classes of checks on quality. I propose the following hierarchy to organize these rules.</p>
-<section id="level-0-syntax-quality" class="level3">
-<h3 class="anchored" data-anchor-id="level-0-syntax-quality">Level 0: Syntax quality</h3>
-<p><strong>Focus</strong>: code that ‘runs’. Level 0 means a compiler or interpreter’s components (parsers, lexers, intermediate forms) assess syntax correctness. Level 0 because (clearly) without proper syntax nothing is getting done.</p>
-</section>
-<section id="level-1-lint-free" class="level3">
-<h3 class="anchored" data-anchor-id="level-1-lint-free">Level 1: Lint-free</h3>
-<p><strong>Focus</strong>: Code that respects obvious sources of problem.</p>
-<p>No warnings occur if all possible flags are turned on in the compiler. These warnings tend to be close to syntax in their complexity. For example, technically a fall through switch statement is possible in Java, but there is the <code>-Xlint:fallthrough</code> tag to catch this. Often IDEs such as Eclipse will flag these automatically with warning icons.</p>
-</section>
-<section id="level-2-good-code" class="level3">
-<h3 class="anchored" data-anchor-id="level-2-good-code">Level 2: Good code</h3>
-<p><strong>Focus</strong>: Code conforms to commonly accepted best practices for that language.</p>
-<p>E.g., for Java, visibility modifiers are suitable, in C, no buffer overflows, memory is released appropriately. Some cross-language practices apply: documentation, unit tests exist, and so on. Many of the quality analysis tools like FIndBugs operate at this level. CWEs are another example. I also place dependency analysis approaches here (perhaps controversially). It also pops up in the next level (e.g., properly using interfaces in Java).</p>
-</section>
-<section id="level-3-paradigmatic" class="level3">
-<h3 class="anchored" data-anchor-id="level-3-paradigmatic">Level 3: Paradigmatic</h3>
-<p><strong>Focus</strong>: writing code that is maintainable, understandable, and performant with respect to its runtime environment.</p>
-<p>Would someone writing object-oriented, functional, embedded, etc. code consider this reasonable? Includes principles like SOLID, functional side effects, memory management, distributed code demonstrates awareness of fundamentals of distributed computing. Also includes proper use of language idioms e.g.&nbsp;proper use of Javascript callbacks, Ruby blocks, etc. We might also classify new language features here – the use of generics in Java 7 comes to mind. Essentially, if you did a peer review with a language guru (Odersky for Scala, say), would they have a ‘better way’ to do it? (Perl notwithstanding…)</p>
-</section>
-<section id="level-4-well-designed" class="level3">
-<h3 class="anchored" data-anchor-id="level-4-well-designed">Level 4: Well-designed</h3>
-<p><strong>Focus</strong>: building systems that respect appropriate (known at the time) usage scenarios.</p>
-<p>Given the knowledge available, the code is architecturally appropriate for the quality attribute requirement (QAR) applicable. E.g., modular, performant, secure. The key here is understanding the relevant QARs. Examples include reflexion models (like <a href="http://archjava.fluid.cs.cmu.edu">ArchJava</a>), conformance checking (e.g.&nbsp;<a href="http://scg.unibe.ch/dicto/">Dicto</a>), library analysis (e.g., for license issues, for currency).</p>
-</section>
-<section id="outcome" class="level3">
-<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
-<p>A few things become clearer when we view software quality with this approach.</p>
-<p>First, I think that quality checks become <em>more useful</em> as you move ‘up’ (0→4) in the hierarchy. That is, I’d rather know that I have a serious design problem than a code quality problem.</p>
-<p>Second, unfortunately, it seems <em>much harder</em> to design truly automated checks at the higher levels. This is why we have a lot of manual architecture analysis but leave code quality to tools.</p>
-<p>Third, our rules get <em>more context-specific</em> as we move up the hierarchy. I.e., in order to properly check paradigmaticness<sup>1</sup>, I need to know your choice of programming language and possibly your problem domain properties. To properly do design validation, I need to know what qualities are important to you: performance? availability? That, I think, is partly what makes these levels more useful.</p>
-</section>
-<section id="other-hierarchies" class="level3">
-<h3 class="anchored" data-anchor-id="other-hierarchies">Other hierarchies</h3>
-<p>The one I’m most familiar with is from Jean-Louis Letouzey. He proposed the <a href="http://www.sqale.org/download">SQALE quality model</a>, and his central insight is that some qualities precede others: you must have maintainable code before having performant code, or testable code before secure code.</p>
-<p>EDIT [1/6/16]: somehow I forgot <a href="http://www.castsoftware.com/products/architecture-checker">this CAST diagram</a> showing different levels of analysis, very similar to mine. They also claim that the ‘system level’ (my design level) is the place where architecture is checked.</p>
-<p>EDIT [9/6/17]: also <a href="http://qaware.blogspot.com/2017/06/i-know-it-when-i-see-it-perceptions-of.html">this model</a> from <a href="https://twitter.com/stoerrle"><span class="citation" data-cites="stoerrle">@stoerrle</span></a>. It also has this notion of abstraction and progression, using</p>
-<blockquote class="blockquote">
-<p>SYNTAX At the one end of the spectrum, there are syntax level issues, such as confusing the tokens “=” with “==”, and preference of language constructs (e.g., avoiding unsafe constructs, default-switch-cases and so on).</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>PRAGMATICS One step further up, small-scale pragmatic issues like identifier naming, indentation, and simple structural metrics like cyclomatic complexity.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>UNITS The next level addresses complete units of code (often a class or module), and considers its overall structure, unit-level metrics (e.g., method/class length) correctness and completeness.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>ARCHITECTURE Finally, there is a level of architecture that is concerned with the structure and interrelation of units, e.g., it considers depth of inheritance trees, design patterns, architectural compliance, and other system-level properties.</p>
-</blockquote>
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>I’m not sure how to ‘noun’ this adjective …↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <guid>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</guid>
-  <pubDate>Tue, 22 Dec 2015 08:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
