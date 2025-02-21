@@ -9,13 +9,14 @@
 <link>https://neilernst.net/blog.html</link>
 <atom:link href="https://neilernst.net/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.6.39</generator>
 <lastBuildDate>Thu, 26 Sep 2024 19:17:12 GMT</lastBuildDate>
 <item>
   <title>Scientific Software Development</title>
   <dc:creator>Neil Ernst</dc:creator>
   <link>https://neilernst.net/posts/sse_review.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -270,7 +271,7 @@
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-Arvanitou2022PractitionersPerspectivePractices" class="csl-entry">
 Arvanitou, Elvira-Maria, Nikolaos Nikolaidis, Apostolos Ampatzoglou, and Alexander Chatzigeorgiou. 2022. <span>“Practitioners’ Perspective on Practices for Preventing Technical Debt Accumulation in Scientific Software Development.”</span> In <em>Proceedings of the 17th International Conference on Evaluation of Novel Approaches to Software Engineering</em>. <span>SCITEPRESS</span> - Science; Technology Publications. <a href="https://doi.org/10.5220/0010995000003176">https://doi.org/10.5220/0010995000003176</a>.
 </div>
@@ -356,8 +357,9 @@ Wiese, Igor, Ivanilton Polato, and Gustavo Pinto. 2020. <span>“Naming the Pain
 
 
 
+
 <p>Faculty at a research university wear many different hats. One analogy might be to the executive roles in a company. Now a company tries to make profit, which is usually not the goal in academia (quite the contrary). But still, one can think of the mapping like</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 7%">
 <col style="width: 92%">
@@ -447,6 +449,7 @@ Academics would double our productivity if we learnt some basic project manageme
 
 
 
+
 <p>The typical Science workflow is something like</p>
 <p>A - Related work: build a Prior about a real world problem, like pulsar formation</p>
 <p>B - Fieldwork: Collect data about that problem in the ‘field’</p>
@@ -507,6 +510,7 @@ Academics would double our productivity if we learnt some basic project manageme
   <dc:creator>Neil Ernst</dc:creator>
   <link>https://neilernst.net/posts/2023-05-14-bots-in-SE.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -591,6 +595,7 @@ Automa
 
 
 
+
 <p>Together with <a href="https://alessiofer.wixsite.com/alessioferrari">Alessio Ferrari</a>, I organized a <a href="https://2021.refsq.org/track/refsq-2021-openre">panel</a> at the well-regarded conference on Requirements Engineering: Foundation for System Quality, which is a mouthful but really nice working session on RE that has always nicely blended practice and research. It also was the first place to accept one of my papers so I will always have a soft spot for it, and for <a href="https://wikitravel.org/en/Essen">Essen</a>, industrial city or not.</p>
 <p>The purpose of the session was to encourage open data packages in the context of RE Education (the aim, I think, is to have subsequent OpenRE tracks at REFSQ change theme). We got excellent submissions and accepted three packages, which we have hosted at the existing repository of the <a href="https://github.com/reet-workshop/activities">RE Education and Training (REET) workshop</a>.</p>
 <p>After the short talks on the packages, we turned to a panel with the theme of “RE in the age of COVID”. Our hope was to collect some experiences from the attendees (40 or so) on how they approached RE education, and RE in general, during the COVID induced shift to online learning. We definitely got that and more generally, I think it was a cathartic session to commiserate and share with others the challenges of the past few terms.</p>
@@ -612,6 +617,7 @@ Automa
   <title>The Triumvirate of Teaching and Work Life Balance</title>
   <link>https://neilernst.net/posts/2021-03-03-teaching-factors.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -656,6 +662,7 @@ Automa
 
 
 
+
 <p>For the <a href="https://dysdoc.github.io/docgen2/">2nd edition of the Dynamic Software Documentation (DysDoc) workshop</a>, the organizing team wanted to push the boundary on how to engage the community in tool supported demos. Previously, we had asked participants to come to the workshop (co-located with ICSME) with a tool to demo, live, to the other attendees. One of the goals was a tool that worked on unseen data.</p>
 <p>This year, at our organizing meeting, we wanted to try something that went beyond documentation generation, and looked at other issues with dynamic documentation fixes. <a href="https://cado.informatik.uni-hamburg.de/coding-guide/">A study by Walid Maalej and Martin Robillard</a>, which looked at types of API documentation, included an interesting issue with documentation - code comments - that were uninformative.</p>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
@@ -669,6 +676,7 @@ background-color: null;
 font-style: inherit;">*/</span></span>
 <span id="cb1-4"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">public</span> <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">void</span> <span class="fu" style="color: #4758AB;
@@ -721,6 +729,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Academic Job Searches—A Canadian Perspective</title>
   <link>https://neilernst.net/posts/2019-05-17-job-search-canada.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -794,6 +803,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>At MSR18 in Gothenburg, I presented <a href="https://arxiv.org/abs/1804.02443">my work</a> on using Bayesian inference to set software metrics thresholds. We want to set thresholds because for many software metrics, like coupling between objects (CBO), a single, global metric value (“all software objects with this value or below are maintainable”) is nonsensical, if only because programming language choice is important. So we want to tailor threshold values to some contextually relevant value (e.g., perhaps all Java code should be X or less). The question I answered is how we do the tailoring, given some contextual features.</p>
 <p>In this case, the contextual features I was looking at were Java files categorized by architectural role in the Spring framework, derived from <a href="http://www.mauricioaniche.com/scam2016/">a paper by Mauricio Aniche</a> and others.</p>
 <p>The bottom line of this new approach is that we can use Bayesian inference and hierarchical models to perform a simple regression and get a 50% drop in root mean squared error (RMSE).</p>
@@ -814,6 +824,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>Seven Principles of Effective Documentation</title>
   <link>https://neilernst.net/posts/2017-07-17-7principles-docs.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -852,6 +863,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>I’m excited to announce I will be taking up a position this fall as a tenure-track faculty member in the Department of <a href="http://www.uvic.ca/engineering/computerscience/index.php">Computer Science</a> at the <a href="http://www.uvic.ca">University of Victoria</a>.</p>
 <p>This is a great opportunity to work with some of the top software engineering faculty in the world, in one of the best cities in the world (although I’m biased, as it is my hometown :). Victoria is at the forefront of the startup scene, just a few hours from Vancouver, Seattle, and direct flights to the Valley (not Abbotsford, the other one).</p>
 <p>If you are interested in doing research with me please take a look at my <a href="../prospective">‘prospective students’</a> page. Uvic, and Canada, welcome people of all backgrounds. See our <a href="http://www.cic.gc.ca/english/study/index.asp">study permit process</a>, and the federal <a href="http://www.cic.gc.ca/english/study/work-postgrad.asp">Express Entry program</a> for post-graduation immigration opportunities.</p>
@@ -871,11 +883,12 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>In response to <a href="https://twitter.com/gvwilson/status/861305406542446593">Greg Wilson’s challenge</a>, I did a quick attempt at a Visual Abstract for <a href="http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=495553">a recent paper</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/drstudy-visualabs.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
+<figcaption>Visual Abstract: Identifying Design Rules in Static Analysis Tools. Evaluated 464 rules, 19% design related, 67% easy to classify.</figcaption>
 </figure>
 </div>
 <p>I think it turned out ok; it captures the core findings and presumably will prompt people to look at the paper. I’ve attached the Keynote slide I used <a href="https://github.com/neilernst/visual-abs">in a repo on Github</a>.</p>
@@ -893,7 +906,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/borg-workflow.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Sample workflow cartoon</figcaption>
+<figcaption>Sample workflow cartoon</figcaption>
 </figure>
 </div>
 <p>This explains how the study was conducted. Again, anything that can explain what is going on for a busy reviewer is helpful. Remember, in 2017 FSE reviewers seem to have reviewed 25-28 papers each. Expecting them to spend more than 30-45 minutes on each one is unrealistic. So make your time with them count!</p>
@@ -911,6 +924,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>I’ve read 2 papers recently (references) about using active learning to improve classification for software engineering.</p>
 <p>Active Learning is the idea that, if we have a feature space with instances, for the classification task of labeling an instance either “A” or “B”, there are clumps of points that clearly are As, and another clump that are clearly Bs. In between, however, the boundary is unclear. Some instances will be equidistant from both centers of mass, and the classifier will struggle to properly classify it. Active Learning (AL) quite simply picks what are hopefully the “most useful” (for improving the classifier) points for human labeling, which reduces the amount of (possibly) redundant labeling humans have to do (since the labeling time is the most costly part of creating a classifier).</p>
 <p>It turns out that so far this active learning approach for software data is not too successful. I think there are 2 main reasons.</p>
@@ -919,8 +933,8 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p>We’ve looked at some of this in <a href="https://insights.sei.cmu.edu/blog/automating-design-analysis/">our latest research on design rules</a>. We found that while a majority of static analysis/code checker rules can be clearly distinguished as either design or not, there remains this stubborn middle tier that resist easy categorization. We think you can still make progress (after all, these rules may not even fire on your project). But it would be satisfying to have a more repeatable analysis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://neilernst.net/posts/https:/insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Categorizing rules</figcaption>
+<p><img src="https://insights.sei.cmu.edu/media/images/rubric_figure1_design_ernst.max-1280x720.format-webp.webp" class="img-fluid figure-img"></p>
+<figcaption>Categorizing rules</figcaption>
 </figure>
 </div>
 <p>The conclusion of the Borg paper really seems useful for future work here. One, they say that the AL approach helps to pull out controversial instances, that then help build rater consensus. Two, using bootstrapping with more positive examples helps the AL improve its accuracy (in other words, there is still benefit to grinding out the labels manually – no free lunch, sorry!).</p>
@@ -945,12 +959,13 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p><a href="https://faculty.washington.edu/ajko/">Amy Ko</a> had a great <a href="http://faculty.washington.edu/ajko/talks/SPLASH2016Keynote.pdf">presentation</a> at a conference on programming languages (PL), that <a href="https://www.youtube.com/watch?v=TjkzAls5fsI&amp;feature=youtu.be">he also video taped</a> for a wider audience.</p>
 <p>I’d always thought of PL as “things”, or material. The program was the interesting bit; the PL was the material that constructed it. But I guess as I extend that metaphor, it seems clear that it falls short. Cedar, for instance, is a material, and the building is the interesting thing. But cedar has intrinsic properties as well. You can bend it without cutting it to make a box.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://neilernst.net/images/bentwood.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">bentwood box</figcaption>
+<figcaption>bentwood box</figcaption>
 </figure>
 </div>
 <p>It weathers beautifully due to the oils it contains, so you can make shingles and siding out of it. It burns very easily. If we extend the definition of cedar to include the tree itself, we can make canoes, rope, hats, spears, and so on. Cedar was a <a href="https://www.amazon.com/Cedar-Tree-Northwest-Coast-Indians/dp/0295974486">crucial part</a> of Northwest aboriginal culture.</p>
@@ -1044,8 +1059,9 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <p>A list of long, high vertical day hikes I have done and wish to do. I think looking back the most common theme to all of them was “bring more water”.</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Hike Name</th>
@@ -1135,6 +1151,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 
 
 
+
 <blockquote class="blockquote">
 <p>I have no idea if Columbus had to have his “India Expedition” proposal peer-reviewed, but here is my interpretation of it according to the ever-popular <a href="http://cseweb.ucsd.edu/~ddahlstr/misc/heilmeier.html">Heilmeyer catechism</a>.</p>
 </blockquote>
@@ -1177,6 +1194,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <title>On SCAM’s new “Engineering Track”</title>
   <link>https://neilernst.net/posts/2016-04-22-on-scams-new-engineering-track.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1249,6 +1267,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
+
 <p>I recently reviewed <a href="http://2016.msrconf.org/#/data">data showcase papers</a> for the Mining Software Repositories Conference, and I’m co-chair of <a href="http://www.ieee-scam.org/2016/#engcall">the Engineering track</a> (subsumes datasets, tools, approaches) for the SCAM conference<sup>1</sup>. I’ve worked with a number of different datasets (both openly available and closed) for my research efforts. This caused me to do some reflection on the nature of empirical data in SE.</p>
 <p>We’ve had a nice increase in the amount of data available for researchers to explore, and most recently, the amount of well-constructed, easily understandable and accessible datasets – like the <a href="http://ghtorrent.org">GHTorrent tool</a> – is impressive (traditionally it has been difficult to get any credit for creating these resources). I think it is a hugely beneficial effort for our efforts to create a well-grounded, empirical basis for software engineering (as opposed to <a href="http://semat.org">pie in the sky theorizing</a>).</p>
 <p>I have two concerns that threaten this idyll.</p>
@@ -1286,6 +1305,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
 
 
 
+
 <p>Andy Zaidman had an interesting <a href="http://www.slideshare.net/azaidman/software-analytics-the-dark-side-and-the-test-side">presentation about test analytics</a>. The takeaway for me was that a) people overestimate their unit test engineering (estimate: 50%, reality, 25%). But b) the real issue is convincing a developer that <em>this</em> unit test will improve the quality of the code. In other words, like with technical debt, or refactoring, or commenting, the <strong>marginal utility</strong> of adding a test is perceived to be low (and of course the cost is seen as high). Each new individual test adds nothing to the immediate benefit (with some exceptions if one is following strict TDD). And yet each one requires switching from the mental model of the program to the one of Junit frameworks and test harnesses.</p>
 <p>The issue is not whether testing is good or bad, but rather, which testing is most useful. It seems unlikely to me that the value of individual tests is normally distributed but rather power-law form (i.e., that there are a very few extremely high value tests). And this isn’t just about testing; indeed, most activities with delayed payoff—refactoring, documenting, architecting—likely exhibit the same problem. It is hard to convince people to invest in such activities without giving them concrete proof it is valuable. You just have to look at the default examples for Cucumber, for instance, to see that the vast majority are trivial and easily grasped without any of the tests. Similarly, “code smells are bad”, but bad might just mean they look nasty, while having little to do with the underlying effectiveness of the code. It isn’t technical debt if it never causes a problem. It isn’t a bug if it isn’t worth fixing it.</p>
 <p>In new work we are starting with <a href="http://menzies.us">Tim Menzies</a>, we are trying to understand the inflection point beyond which your decisions add little incremental value (i.e., stop adding more tests). The good news is this is easy to spot in hindsight; the challenge is to take those lessons and determine this <em>before</em> doing hours of pointless work. The direction we are taking is to try and capture the common patterns the key decisions share (in the testing example, perhaps this is bounds testing). Ultimately, we hope to provide advice to developers as to when the marginal utility falls below a threshold (i.e., stop testing!)</p>
@@ -1301,6 +1321,7 @@ This is not to discourage tool paper submissions–they will now fall into the E
   <title>A Model of Software Quality Checks</title>
   <link>https://neilernst.net/posts/2015-12-22-a-model-of-software-quality-checks.html</link>
   <description><![CDATA[ 
+
 
 
 
