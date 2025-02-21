@@ -1,12 +1,11 @@
-Neil Ernst, PhD, is a tenure-track assistant professor at the University of Victoria. He is a world-leading researcher in software architecture and requirements. His research focuses on building next generation software systems. He leverages past experience consulting with large government stakeholders and empirical datasets on software development and analysis. Current projects include software composition, technical debt in scientific software, and engineering data science systems. 
+Neil Ernst, PhD, is an associate professor at the University of Victoria in the Department of Computer Science and Director, Matrix Institute for Data Science. He is a world-leading researcher in software architecture and requirements. His research focuses on building next generation software systems. He leverages past experience consulting with large government stakeholders and empirical datasets on software development and analysis. Current projects include technical debt in scientific software, climate informatics, and the impacts of AI on human aspects of software development. 
+
+Neil teaches in the software engineering program, covering courses on software architecture, requirements, and data science for software analysis. 
+
+Neil holds a PhD in Computer Science from the University of Toronto, and previously worked at the Software Engineering Institute, Carnegie Mellon University, as a senior researcher.
 
 Currently:
-* Steering committee, International Working Conf. on Source Code Analysis and Manipulation (SCAM). 
-* Program co-chair, Consortium on Software EngineerinR, 2018
-* Senior Associate editor, Journal of Systems and Software
-
-Previously:
-* senior researcher at the Software Engineering Institute, Carnegie Mellon University. 
-* postdoc in software engineering at the University of British Columbia.
-* PhD student in Computer Science at the University of Toronto.
-* Master’s student in Computer Science at the University of Victoria
+* Director, UVic Matrix Institute for Data Science
+* Senior Associate Editor, Journal of Systems and Software
+* Associate Editor, Journal of Empirical Software Engineering, registered reports
+* program committees - among others, at various times, ICSE, RE, XP, CAISE, ER, MODELS
